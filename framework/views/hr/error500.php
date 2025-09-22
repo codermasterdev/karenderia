@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Interna pogreška web poslužitelja</title>
+<title>Interna pogreÅ¡ka web posluÅ¾itelja</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,10 +19,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Interna pogreška web poslužitelja</h1>
+<h1>Interna pogreÅ¡ka web posluÅ¾itelja</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Interne pogreške web poslužitelja prilikom pocesuiranja  vašeg zahtjeva.
+Interne pogreÅ¡ke web posluÅ¾itelja prilikom pocesuiranja  vaÅ¡eg zahtjeva.
 Molimo kontaktirajte <?php echo $data['admin']; ?> o ovom problemu.
 </p>
 <p>

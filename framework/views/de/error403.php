@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Keine Berechtigung</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Sie haben nicht die nötigen Rechte, um diese Seite aufzurufen.
+Sie haben nicht die nÃ¶tigen Rechte, um diese Seite aufzurufen.
 </p>
 <p>
 Wenn Sie der Meinung sind, dass es sich um einen Serverfehler handelt, kontaktieren Sie bitte

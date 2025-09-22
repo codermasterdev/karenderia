@@ -2,19 +2,19 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			Log aplikácie
+			Log aplikÃ¡cie
 			<?php 
 				$t = round(microtime(true) - YII_BEGIN_TIME, 3);
 				$m = function_exists('memory_get_usage') ?  '['.round(memory_get_usage()/1024/1024, 3).' MB]' : '';
-				echo " * Stránka vygenerovaná za {$t} sek ~ ".round(1/$t)." strán/sek. ".$m;
+				echo " * StrÃ¡nka vygenerovanÃ¡ za {$t} sek ~ ".round(1/$t)." strÃ¡n/sek. ".$m;
 			?>
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">Čas</th>
-		<th>Úroveň</th>
-		<th>Kategória</th>
-		<th>Zpráva</th>
+	    <th style="width:120px">Äas</th>
+		<th>ÃroveÅ</th>
+		<th>KategÃ³ria</th>
+		<th>ZprÃ¡va</th>
 	</tr>
 <?php
 $colors=array(

@@ -11,7 +11,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Responses and exceptions returned from parallel request execution.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class BatchResult
 {

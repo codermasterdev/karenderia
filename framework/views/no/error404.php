@@ -21,7 +21,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
 Serveren finner ikke den forespurte siden.
-Hvis du skrev inn URL'en manuelt vennligst sjekk om den er riktig og prøv igjen.
+Hvis du skrev inn URL'en manuelt vennligst sjekk om den er riktig og prÃ¸v igjen.
 </p>
 <p>
 Ved mistanke om at dette er en server-feil, vennligst kontakt <?php echo $data['admin']; ?>.

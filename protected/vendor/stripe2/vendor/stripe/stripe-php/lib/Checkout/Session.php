@@ -74,7 +74,7 @@ namespace Stripe\Checkout;
  * @property null|\Stripe\StripeObject $tax_id_collection
  * @property null|\Stripe\StripeObject $total_details Tax and discount details for the computed total amount.
  * @property null|string $ui_mode The UI mode of the Session. Defaults to <code>hosted</code>.
- * @property null|string $url The URL to the Checkout Session. Redirect customers to this URL to take them to Checkout. If you’re using <a href="https://stripe.com/docs/payments/checkout/custom-domains">Custom Domains</a>, the URL will use your subdomain. Otherwise, it’ll use <code>checkout.stripe.com.</code> This value is only present when the session is active.
+ * @property null|string $url The URL to the Checkout Session. Redirect customers to this URL to take them to Checkout. If youâre using <a href="https://stripe.com/docs/payments/checkout/custom-domains">Custom Domains</a>, the URL will use your subdomain. Otherwise, itâll use <code>checkout.stripe.com.</code> This value is only present when the session is active.
  */
 class Session extends \Stripe\ApiResource
 {

@@ -85,7 +85,7 @@ class CTrackingOrder
 			if($order_info['is_order_late']==1 && $whento_deliver=="now"){				
 				if($order_info['is_order_need_cancellation']==1){
 					$order_status = t("Your Order is Taking Longer Than Expected");	
-					$order_status_details  = t("We’re sorry, the restaurant hasn't accepted your order yet. Would you like to continue waiting, or cancel your order.");
+					$order_status_details  = t("Weâre sorry, the restaurant hasn't accepted your order yet. Would you like to continue waiting, or cancel your order.");
 				} else {
 				    $order_status = t("Order is delayed");	
 				    $order_status_details  = t("The restaurant is taking longer than expected to accept your order.");

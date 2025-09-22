@@ -23,12 +23,12 @@ class SubscriptionService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Cancels a customer’s subscription immediately. The customer will not be charged
+     * Cancels a customerâs subscription immediately. The customer will not be charged
      * again for the subscription.
      *
-     * Note, however, that any pending invoice items that you’ve created will still be
+     * Note, however, that any pending invoice items that youâve created will still be
      * charged for at the end of the period, unless manually <a
-     * href="#delete_invoiceitem">deleted</a>. If you’ve set the subscription to cancel
+     * href="#delete_invoiceitem">deleted</a>. If youâve set the subscription to cancel
      * at the end of the period, any pending prorations will also be left in place and
      * collected at the end of the period. But if the subscription is set to cancel
      * immediately, pending prorations will be removed.

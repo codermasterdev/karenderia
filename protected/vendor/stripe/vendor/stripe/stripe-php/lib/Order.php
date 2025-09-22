@@ -15,10 +15,10 @@ namespace Stripe;
  *
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property int $amount A positive integer in the smallest currency unit (that is, 100 cents for $1.00, or 1 for ¥1, Japanese Yen being a zero-decimal currency) representing the total amount for the order.
+ * @property int $amount A positive integer in the smallest currency unit (that is, 100 cents for $1.00, or 1 for Â¥1, Japanese Yen being a zero-decimal currency) representing the total amount for the order.
  * @property null|int $amount_returned The total amount that was returned to the customer.
  * @property null|string $application ID of the Connect Application that created the order.
- * @property null|int $application_fee A fee in cents that will be applied to the order and transferred to the application owner’s Stripe account. The request must be made with an OAuth key or the Stripe-Account header in order to take an application fee. For more information, see the application fees documentation.
+ * @property null|int $application_fee A fee in cents that will be applied to the order and transferred to the application ownerâs Stripe account. The request must be made with an OAuth key or the Stripe-Account header in order to take an application fee. For more information, see the application fees documentation.
  * @property null|string|\Stripe\Charge $charge The ID of the payment used to pay for the order. Present if the order status is <code>paid</code>, <code>fulfilled</code>, or <code>refunded</code>.
  * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
  * @property string $currency Three-letter <a href="https://www.iso.org/iso-4217-currency-codes.html">ISO currency code</a>, in lowercase. Must be a <a href="https://stripe.com/docs/currencies">supported currency</a>.

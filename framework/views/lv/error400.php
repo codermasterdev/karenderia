@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Slikts pieprasījums</title>
+<title>Slikts pieprasÄ«jums</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Slikts pieprasījums</h1>
+<h1>Slikts pieprasÄ«jums</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Serveris nespēja apstrādāt Jūsu veikto pieprasījumu, jo tas ir sintaktiski nepareizs.
-Lūdzu neveiciet atkārtotu šādu pieprasījumu.
+Serveris nespÄja apstrÄdÄt JÅ«su veikto pieprasÄ«jumu, jo tas ir sintaktiski nepareizs.
+LÅ«dzu neveiciet atkÄrtotu Å¡Ädu pieprasÄ«jumu.
 </p>
 <p>
-Ja Jūs uzskatāt, ka šī ir servera kļūda, lūdzu sazinieties ar <?php echo $data['admin']; ?>.
+Ja JÅ«s uzskatÄt, ka Å¡Ä« ir servera kÄ¼Å«da, lÅ«dzu sazinieties ar <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('d.m.Y H:i:s',$data['time']) .' '. $data['version']; ?>

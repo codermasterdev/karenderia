@@ -31,7 +31,7 @@ class TestController extends CommonController
                 </style>
             </head>
             <body>
-                <div>こんにちは</div>
+                <div>ããã«ã¡ã¯</div>
             </body>
             </html>
             ");

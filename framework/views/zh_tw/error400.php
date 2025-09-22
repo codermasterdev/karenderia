@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>不正確的請求</h1>
+<h1>ä¸æ­£ç¢ºçè«æ±</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-由於語法不正確, 伺服器無法了解請求的正確內容.
-請修改請求後再行重試.
+ç±æ¼èªæ³ä¸æ­£ç¢º, ä¼ºæå¨ç¡æ³äºè§£è«æ±çæ­£ç¢ºå§å®¹.
+è«ä¿®æ¹è«æ±å¾åè¡éè©¦.
 </p>
 <p>
-如果您認為是伺服器錯誤所造成, 請聯絡<?php echo $data[ 'admin']; ?>.
+å¦ææ¨èªçºæ¯ä¼ºæå¨é¯èª¤æé æ, è«è¯çµ¡<?php echo $data[ 'admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

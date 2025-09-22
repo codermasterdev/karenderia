@@ -10,16 +10,16 @@ FullCalendar.globalLocales.push(function () {
     buttonText: {
       prev: 'Edellinen',
       next: 'Seuraava',
-      today: 'Tänään',
+      today: 'TÃ¤nÃ¤Ã¤n',
       month: 'Kuukausi',
       week: 'Viikko',
-      day: 'Päivä',
+      day: 'PÃ¤ivÃ¤',
       list: 'Tapahtumat',
     },
     weekText: 'Vk',
-    allDayText: 'Koko päivä',
-    moreLinkText: 'lisää',
-    noEventsText: 'Ei näytettäviä tapahtumia',
+    allDayText: 'Koko pÃ¤ivÃ¤',
+    moreLinkText: 'lisÃ¤Ã¤',
+    noEventsText: 'Ei nÃ¤ytettÃ¤viÃ¤ tapahtumia',
   };
 
   return fi;

@@ -11,7 +11,7 @@ FullCalendar.globalLocales.push(function () {
       prev: 'Forrige',
       next: 'Neste',
       today: 'I dag',
-      month: 'Måned',
+      month: 'MÃ¥ned',
       week: 'Uke',
       day: 'Dag',
       list: 'Agenda',
@@ -20,14 +20,14 @@ FullCalendar.globalLocales.push(function () {
     weekTextLong: 'Uke',
     allDayText: 'Hele dagen',
     moreLinkText: 'til',
-    noEventsText: 'Ingen hendelser å vise',
+    noEventsText: 'Ingen hendelser Ã¥ vise',
     buttonHints: {
       prev: 'Forrige $0',
       next: 'Neste $0',
-      today: 'Nåværende $0',
+      today: 'NÃ¥vÃ¦rende $0',
     },
     viewHint: '$0 visning',
-    navLinkHint: 'Gå til $0',
+    navLinkHint: 'GÃ¥ til $0',
     moreLinkHint(eventCnt) {
       return `Vis ${eventCnt} flere hendelse${eventCnt === 1 ? '' : 'r'}`
     },

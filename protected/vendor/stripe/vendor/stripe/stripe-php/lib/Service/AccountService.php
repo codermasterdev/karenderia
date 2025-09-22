@@ -8,7 +8,7 @@ class AccountService extends \Stripe\Service\AbstractService
 {
     /**
      * Returns a list of accounts connected to your platform via <a
-     * href="/docs/connect">Connect</a>. If you’re not a platform, the list is empty.
+     * href="/docs/connect">Connect</a>. If youâre not a platform, the list is empty.
      *
      * @param null|array $params
      * @param null|array|\Stripe\Util\RequestOptions $opts
@@ -57,7 +57,7 @@ class AccountService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Returns a list of people associated with the account’s legal entity. The people
+     * Returns a list of people associated with the accountâs legal entity. The people
      * are returned sorted by creation date, with the most recent people appearing
      * first.
      *
@@ -76,7 +76,7 @@ class AccountService extends \Stripe\Service\AbstractService
 
     /**
      * With <a href="/docs/connect">Connect</a>, you can create Stripe accounts for
-     * your users. To do this, you’ll first need to <a
+     * your users. To do this, youâll first need to <a
      * href="https://dashboard.stripe.com/account/applications/settings">register your
      * platform</a>.
      *
@@ -187,7 +187,7 @@ class AccountService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Deletes an existing person’s relationship to the account’s legal entity. Any
+     * Deletes an existing personâs relationship to the accountâs legal entity. Any
      * person with a relationship for an account can be deleted through the API, except
      * if the person is the <code>account_opener</code>. If your integration is using
      * the <code>executive</code> parameter, you cannot delete the only verified

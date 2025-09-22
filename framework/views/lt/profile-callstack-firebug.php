@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profiliavimo kreipinių dėklas");
+	console.group("Profiliavimo kreipiniÅ³ dÄklas");
 <?php
 foreach($data as $index=>$entry)
 {

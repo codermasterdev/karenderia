@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>בקשה לא תקינה</title>
+<title>××§×©× ×× ×ª×§×× ×</title>
 <style type="text/css">
 /*<![CDATA[*/
 html { direction:rtl; text-align:right; }
@@ -18,14 +18,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>בקשה שגויה</h1>
+<h1>××§×©× ×©××××</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-הבקשה לא עובדה על ידי השרת בצורה נכונה כתוצאה מתחביר לא תקין.
-במידה וישנן טעויות תחביר בבקשה יש לתקן אותן לפני טעינת עמוד זה מחדש.
+×××§×©× ×× ×¢×××× ×¢× ××× ××©×¨×ª ××¦××¨× × ××× × ××ª××¦×× ××ª××××¨ ×× ×ª×§××.
+××××× ×××©× × ××¢××××ª ×ª××××¨ ×××§×©× ××© ××ª×§× ×××ª× ××¤× × ××¢×× ×ª ×¢××× ×× ××××©.
 </p>
 <p>
-אם הינך חושב שזוהי שגיאת שרת אנא צור קשר עם, <?php echo $data['admin']; ?>.
+×× ××× × ×××©× ×©×××× ×©××××ª ×©×¨×ª ×× × ×¦××¨ ×§×©×¨ ×¢×, <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

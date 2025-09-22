@@ -5,7 +5,7 @@ namespace Http\Message\Decorator;
 use Psr\Http\Message\ResponseInterface;
 
 /**
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 trait ResponseDecorator
 {

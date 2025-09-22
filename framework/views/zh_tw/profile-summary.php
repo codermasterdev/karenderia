@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			Profiling 摘要報告
+			Profiling æè¦å ±å
 			(Time: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
 			Memory: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>程序</th>
-		<th>計數</th>
-		<th>總計 (秒)</th>
-		<th>平均 (秒)</th>
-		<th>最小 (秒)</th>
-		<th>最大 (秒)</th>
+	    <th>ç¨åº</th>
+		<th>è¨æ¸</th>
+		<th>ç¸½è¨ (ç§)</th>
+		<th>å¹³å (ç§)</th>
+		<th>æå° (ç§)</th>
+		<th>æå¤§ (ç§)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

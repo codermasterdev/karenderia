@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="language" content="fr"/>
-<title>Accès interdit</title>
+<title>AccÃ¨s interdit</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -18,10 +18,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Accès interdit</h1>
+<h1>AccÃ¨s interdit</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Vous n'avez pas les autorisations nécessaires pour accéder à cette page.
+Vous n'avez pas les autorisations nÃ©cessaires pour accÃ©der Ã  cette page.
 </p>
 <p>
 Si vous pensez qu'il s'agit d'une erreur du serveur, veuillez contacter <?php echo $data['admin']; ?>.

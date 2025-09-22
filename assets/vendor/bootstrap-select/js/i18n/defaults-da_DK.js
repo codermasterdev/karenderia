@@ -31,12 +31,12 @@
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
-        (numAll == 1) ? 'Begrænsning nået (max {n} valgt)' : 'Begrænsning nået (max {n} valgte)',
-        (numGroup == 1) ? 'Gruppe-begrænsning nået (max {n} valgt)' : 'Gruppe-begrænsning nået (max {n} valgte)'
+        (numAll == 1) ? 'BegrÃ¦nsning nÃ¥et (max {n} valgt)' : 'BegrÃ¦nsning nÃ¥et (max {n} valgte)',
+        (numGroup == 1) ? 'Gruppe-begrÃ¦nsning nÃ¥et (max {n} valgt)' : 'Gruppe-begrÃ¦nsning nÃ¥et (max {n} valgte)'
       ];
     },
-    selectAllText: 'Markér alle',
-    deselectAllText: 'Afmarkér alle',
+    selectAllText: 'MarkÃ©r alle',
+    deselectAllText: 'AfmarkÃ©r alle',
     multipleSeparator: ', '
   };
 })(jQuery);

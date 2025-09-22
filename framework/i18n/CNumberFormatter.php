@@ -26,9 +26,9 @@
  * <li>comma (,): the grouping separator. It will be replaced with the localized grouping separator.</li>
  * <li>zero (0): required digit. This specifies the places where a digit must appear (will pad 0 if not).</li>
  * <li>hash (#): optional digit. This is mainly used to specify the location of decimal point and grouping separators.</li>
- * <li>currency (¤): the currency placeholder. It will be replaced with the localized currency symbol.</li>
+ * <li>currency (Â¤): the currency placeholder. It will be replaced with the localized currency symbol.</li>
  * <li>percentage (%): the percentage mark. If appearing, the number will be multiplied by 100 before being formatted.</li>
- * <li>permillage (‰): the permillage mark. If appearing, the number will be multiplied by 1000 before being formatted.</li>
+ * <li>permillage (â°): the permillage mark. If appearing, the number will be multiplied by 1000 before being formatted.</li>
  * <li>semicolon (;): the character separating positive and negative number sub-patterns.</li>
  * </ul>
  *
@@ -77,7 +77,7 @@ class CNumberFormatter extends CComponent
 	/**
 	 * Formats a number based on the specified pattern.
 	 * Note, if the format contains '%', the number will be multiplied by 100 first.
-	 * If the format contains '‰', the number will be multiplied by 1000.
+	 * If the format contains 'â°', the number will be multiplied by 1000.
 	 * If the format contains currency placeholder, it will be replaced by
 	 * the specified localized currency symbol.
 	 * @param string $pattern format pattern
@@ -95,7 +95,7 @@ class CNumberFormatter extends CComponent
 			return $result;
 		elseif(($symbol=$this->_locale->getCurrencySymbol($currency))===null)
 			$symbol=$currency;
-		return str_replace('¤',$symbol,$result);
+		return str_replace('Â¤',$symbol,$result);
 	}
 
 	/**
@@ -113,7 +113,7 @@ class CNumberFormatter extends CComponent
 	/**
 	 * Formats a number using the percentage format defined in the locale.
 	 * Note, if the percentage format contains '%', the number will be multiplied by 100 first.
-	 * If the percentage format contains '‰', the number will be multiplied by 1000.
+	 * If the percentage format contains 'â°', the number will be multiplied by 1000.
 	 * @param mixed $value the number to be formatted
 	 * @return string the formatting result.
 	 */
@@ -207,7 +207,7 @@ class CNumberFormatter extends CComponent
 		else
 			$number=$format['positivePrefix'].$integer.$decimal.$format['positiveSuffix'];
 
-		return strtr($number,array('%'=>$this->_locale->getNumberSymbol('percentSign'),'‰'=>$this->_locale->getNumberSymbol('perMille')));
+		return strtr($number,array('%'=>$this->_locale->getNumberSymbol('percentSign'),'â°'=>$this->_locale->getNumberSymbol('perMille')));
 	}
 
 	/**
@@ -247,7 +247,7 @@ class CNumberFormatter extends CComponent
 		// find out multiplier
 		if(strpos($pat,'%')!==false)
 			$format['multiplier']=100;
-		elseif(strpos($pat,'‰')!==false)
+		elseif(strpos($pat,'â°')!==false)
 			$format['multiplier']=1000;
 		else
 			$format['multiplier']=1;

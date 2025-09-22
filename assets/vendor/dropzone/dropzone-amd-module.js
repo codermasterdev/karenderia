@@ -403,7 +403,7 @@ function (_Emitter) {
         addRemoveLinks: false,
 
         /**
-         * Defines where to display the file previews – if `null` the
+         * Defines where to display the file previews â if `null` the
          * Dropzone element itself is used. Can be a plain `HTMLElement` or a CSS
          * selector. The element should have the `dropzone-previews` class so
          * the previews are displayed properly.
@@ -1907,8 +1907,8 @@ function (_Emitter) {
         // It's actual different than the size to be transmitted.
         total: file.size,
         bytesSent: 0,
-        filename: this._renameFile(file) // Not setting chunking information here, because the acutal data — and
-        // thus the chunks — might change if `options.transformFile` is set
+        filename: this._renameFile(file) // Not setting chunking information here, because the acutal data â and
+        // thus the chunks â might change if `options.transformFile` is set
         // and does something to the data.
 
       };
@@ -2201,7 +2201,7 @@ function (_Emitter) {
               break;
 
             case 3:
-              // 180° rotate left
+              // 180Â° rotate left
               ctx.translate(canvas.width, canvas.height);
               ctx.rotate(Math.PI);
               break;
@@ -2219,7 +2219,7 @@ function (_Emitter) {
               break;
 
             case 6:
-              // 90° rotate right
+              // 90Â° rotate right
               ctx.rotate(0.5 * Math.PI);
               ctx.translate(0, -canvas.width);
               break;
@@ -2232,7 +2232,7 @@ function (_Emitter) {
               break;
 
             case 8:
-              // 90° rotate left
+              // 90Â° rotate left
               ctx.rotate(-0.5 * Math.PI);
               ctx.translate(-canvas.height, 0);
               break;

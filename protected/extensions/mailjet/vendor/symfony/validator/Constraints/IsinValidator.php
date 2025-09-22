@@ -17,7 +17,7 @@ use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 use Symfony\Component\Validator\Exception\UnexpectedValueException;
 
 /**
- * @author Laurent Masforné <l.masforne@gmail.com>
+ * @author Laurent MasfornÃ© <l.masforne@gmail.com>
  *
  * @see https://en.wikipedia.org/wiki/International_Securities_Identification_Number
  */

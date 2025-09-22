@@ -1,5 +1,5 @@
 /*! DataTables 1.12.1
- * ©2008-2022 SpryMedia Ltd - datatables.net/license
+ * Â©2008-2022 SpryMedia Ltd - datatables.net/license
  */
 
 /**
@@ -1336,10 +1336,10 @@
 	// - fr - Swiss Franc
 	// - kr - Swedish krona, Norwegian krone and Danish krone
 	// - \u2009 is thin space and \u202F is narrow no-break space, both used in many
-	// - Ƀ - Bitcoin
-	// - Ξ - Ethereum
+	// - É - Bitcoin
+	// - Î - Ethereum
 	//   standards as thousands separators.
-	var _re_formatted_numeric = /['\u00A0,$£€¥%\u2009\u202F\u20BD\u20a9\u20BArfkɃΞ]/gi;
+	var _re_formatted_numeric = /['\u00A0,$Â£â¬Â¥%\u2009\u202F\u20BD\u20a9\u20BArfkÉÎ]/gi;
 	
 	
 	var _empty = function ( d ) {

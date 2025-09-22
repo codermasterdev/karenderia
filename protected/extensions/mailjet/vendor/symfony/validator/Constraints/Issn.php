@@ -18,7 +18,7 @@ use Symfony\Component\Validator\Constraint;
  *
  * @see https://en.wikipedia.org/wiki/ISSN
  *
- * @author Antonio J. García Lagar <aj@garcialagar.es>
+ * @author Antonio J. GarcÃ­a Lagar <aj@garcialagar.es>
  * @author Bernhard Schussek <bschussek@gmail.com>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]

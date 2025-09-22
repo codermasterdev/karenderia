@@ -12,7 +12,7 @@ class ReceivedCreditService extends \Stripe\Service\AbstractService
 {
     /**
      * Use this endpoint to simulate a test mode ReceivedCredit initiated by a third
-     * party. In live mode, you can’t directly create ReceivedCredits initiated by
+     * party. In live mode, you canât directly create ReceivedCredits initiated by
      * third parties.
      *
      * @param null|array $params

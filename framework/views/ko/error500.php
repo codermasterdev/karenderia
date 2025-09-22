@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>내부 서버 에러</title>
+<title>ë´ë¶ ìë² ìë¬</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>내부 서버 에러</h1>
+<h1>ë´ë¶ ìë² ìë¬</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-웹 서버가 요청을 처리하는 동안 내부 서버 에러가 발생했습니다.
-<?php echo $data['admin']; ?>으로 문제점 보고를 부탁드립니다.
+ì¹ ìë²ê° ìì²­ì ì²ë¦¬íë ëì ë´ë¶ ìë² ìë¬ê° ë°ìíìµëë¤.
+<?php echo $data['admin']; ?>ì¼ë¡ ë¬¸ì ì  ë³´ê³ ë¥¼ ë¶íëë¦½ëë¤.
 </p>
 <p>
-고맙습니다.
+ê³ ë§ìµëë¤.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

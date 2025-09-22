@@ -20,8 +20,8 @@
       lang: "en"/*,
       t: {
         "translate": {
-          pt: "tradução",
-          br: "tradução"
+          pt: "traduÃ§Ã£o",
+          br: "traduÃ§Ã£o"
         }
       }*/
     };

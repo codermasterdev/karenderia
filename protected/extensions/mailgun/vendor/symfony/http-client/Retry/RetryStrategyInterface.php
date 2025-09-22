@@ -15,7 +15,7 @@ use Symfony\Component\HttpClient\Response\AsyncContext;
 use Symfony\Contracts\HttpClient\Exception\TransportExceptionInterface;
 
 /**
- * @author Jérémy Derussé <jeremy@derusse.com>
+ * @author JÃ©rÃ©my DerussÃ© <jeremy@derusse.com>
  * @author Nicolas Grekas <p@tchwork.com>
  */
 interface RetryStrategyInterface

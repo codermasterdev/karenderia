@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="uk" lang="uk">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Служба тимчасово недоступна</title>
+<title>Ð¡Ð»ÑÐ¶Ð±Ð° ÑÐ¸Ð¼ÑÐ°ÑÐ¾Ð²Ð¾ Ð½ÐµÐ´Ð¾ÑÑÑÐ¿Ð½Ð°</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Служба тимчасово недоступна</h1>
+<h1>Ð¡Ð»ÑÐ¶Ð±Ð° ÑÐ¸Ð¼ÑÐ°ÑÐ¾Ð²Ð¾ Ð½ÐµÐ´Ð¾ÑÑÑÐ¿Ð½Ð°</h1>
 <p>
-Зараз проводиться технічне обслуговування системи. Будь ласка, зверніться пізніше.
+ÐÐ°ÑÐ°Ð· Ð¿ÑÐ¾Ð²Ð¾Ð´Ð¸ÑÑÑÑ ÑÐµÑÐ½ÑÑÐ½Ðµ Ð¾Ð±ÑÐ»ÑÐ³Ð¾Ð²ÑÐ²Ð°Ð½Ð½Ñ ÑÐ¸ÑÑÐµÐ¼Ð¸. ÐÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð·Ð²ÐµÑÐ½ÑÑÑÑÑ Ð¿ÑÐ·Ð½ÑÑÐµ.
 </p>
 <p>
-Дякуємо.
+ÐÑÐºÑÑÐ¼Ð¾.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -117,36 +117,36 @@ return /******/ (function(modules) { // webpackBootstrap
       font: {
         bold: 'Pogrubienie',
         italic: 'Pochylenie',
-        underline: 'Podkreślenie',
-        clear: 'Usuń formatowanie',
+        underline: 'PodkreÅlenie',
+        clear: 'UsuÅ formatowanie',
         height: 'Interlinia',
         name: 'Czcionka',
-        strikethrough: 'Przekreślenie',
+        strikethrough: 'PrzekreÅlenie',
         subscript: 'Indeks dolny',
-        superscript: 'Indeks górny',
+        superscript: 'Indeks gÃ³rny',
         size: 'Rozmiar'
       },
       image: {
         image: 'Grafika',
-        insert: 'Wstaw grafikę',
-        resizeFull: 'Zmień rozmiar na 100%',
-        resizeHalf: 'Zmień rozmiar na 50%',
-        resizeQuarter: 'Zmień rozmiar na 25%',
+        insert: 'Wstaw grafikÄ',
+        resizeFull: 'ZmieÅ rozmiar na 100%',
+        resizeHalf: 'ZmieÅ rozmiar na 50%',
+        resizeQuarter: 'ZmieÅ rozmiar na 25%',
         floatLeft: 'Po lewej',
         floatRight: 'Po prawej',
-        floatNone: 'Równo z tekstem',
-        shapeRounded: 'Kształt: zaokrąglone',
-        shapeCircle: 'Kształt: okrąg',
-        shapeThumbnail: 'Kształt: miniatura',
-        shapeNone: 'Kształt: brak',
-        dragImageHere: 'Przeciągnij grafikę lub tekst tutaj',
-        dropImage: 'Przeciągnij grafikę lub tekst',
+        floatNone: 'RÃ³wno z tekstem',
+        shapeRounded: 'KsztaÅt: zaokrÄglone',
+        shapeCircle: 'KsztaÅt: okrÄg',
+        shapeThumbnail: 'KsztaÅt: miniatura',
+        shapeNone: 'KsztaÅt: brak',
+        dragImageHere: 'PrzeciÄgnij grafikÄ lub tekst tutaj',
+        dropImage: 'PrzeciÄgnij grafikÄ lub tekst',
         selectFromFiles: 'Wybierz z dysku',
-        maximumFileSize: 'Limit wielkości pliku',
-        maximumFileSizeError: 'Przekroczono limit wielkości pliku.',
+        maximumFileSize: 'Limit wielkoÅci pliku',
+        maximumFileSizeError: 'Przekroczono limit wielkoÅci pliku.',
         url: 'Adres URL grafiki',
-        remove: 'Usuń grafikę',
-        original: 'Oryginał'
+        remove: 'UsuÅ grafikÄ',
+        original: 'OryginaÅ'
       },
       video: {
         video: 'Wideo',
@@ -156,38 +156,38 @@ return /******/ (function(modules) { // webpackBootstrap
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion lub Youku)'
       },
       link: {
-        link: 'Odnośnik',
-        insert: 'Wstaw odnośnik',
-        unlink: 'Usuń odnośnik',
+        link: 'OdnoÅnik',
+        insert: 'Wstaw odnoÅnik',
+        unlink: 'UsuÅ odnoÅnik',
         edit: 'Edytuj',
-        textToDisplay: 'Tekst do wyświetlenia',
-        url: 'Na jaki adres URL powinien przenosić ten odnośnik?',
-        openInNewWindow: 'Otwórz w nowym oknie'
+        textToDisplay: 'Tekst do wyÅwietlenia',
+        url: 'Na jaki adres URL powinien przenosiÄ ten odnoÅnik?',
+        openInNewWindow: 'OtwÃ³rz w nowym oknie'
       },
       table: {
         table: 'Tabela',
-        addRowAbove: 'Dodaj wiersz powyżej',
-        addRowBelow: 'Dodaj wiersz poniżej',
-        addColLeft: 'Dodaj kolumnę po lewej',
-        addColRight: 'Dodaj kolumnę po prawej',
-        delRow: 'Usuń wiersz',
-        delCol: 'Usuń kolumnę',
-        delTable: 'Usuń tabelę'
+        addRowAbove: 'Dodaj wiersz powyÅ¼ej',
+        addRowBelow: 'Dodaj wiersz poniÅ¼ej',
+        addColLeft: 'Dodaj kolumnÄ po lewej',
+        addColRight: 'Dodaj kolumnÄ po prawej',
+        delRow: 'UsuÅ wiersz',
+        delCol: 'UsuÅ kolumnÄ',
+        delTable: 'UsuÅ tabelÄ'
       },
       hr: {
-        insert: 'Wstaw poziomą linię'
+        insert: 'Wstaw poziomÄ liniÄ'
       },
       style: {
         style: 'Styl',
         p: 'pny',
         blockquote: 'Cytat',
         pre: 'Kod',
-        h1: 'Nagłówek 1',
-        h2: 'Nagłówek 2',
-        h3: 'Nagłówek 3',
-        h4: 'Nagłówek 4',
-        h5: 'Nagłówek 5',
-        h6: 'Nagłówek 6'
+        h1: 'NagÅÃ³wek 1',
+        h2: 'NagÅÃ³wek 2',
+        h3: 'NagÅÃ³wek 3',
+        h4: 'NagÅÃ³wek 4',
+        h5: 'NagÅÃ³wek 5',
+        h6: 'NagÅÃ³wek 6'
       },
       lists: {
         unordered: 'Lista wypunktowana',
@@ -195,30 +195,30 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       options: {
         help: 'Pomoc',
-        fullscreen: 'Pełny ekran',
-        codeview: 'Źródło'
+        fullscreen: 'PeÅny ekran',
+        codeview: 'Å¹rÃ³dÅo'
       },
       paragraph: {
         paragraph: 'Akapit',
-        outdent: 'Zmniejsz wcięcie',
-        indent: 'Zwiększ wcięcie',
-        left: 'Wyrównaj do lewej',
-        center: 'Wyrównaj do środka',
-        right: 'Wyrównaj do prawej',
-        justify: 'Wyrównaj do lewej i prawej'
+        outdent: 'Zmniejsz wciÄcie',
+        indent: 'ZwiÄksz wciÄcie',
+        left: 'WyrÃ³wnaj do lewej',
+        center: 'WyrÃ³wnaj do Årodka',
+        right: 'WyrÃ³wnaj do prawej',
+        justify: 'WyrÃ³wnaj do lewej i prawej'
       },
       color: {
         recent: 'Ostani kolor',
-        more: 'Więcej kolorów',
-        background: 'Tło',
+        more: 'WiÄcej kolorÃ³w',
+        background: 'TÅo',
         foreground: 'Czcionka',
-        transparent: 'Przeźroczysty',
-        setTransparent: 'Przeźroczyste',
+        transparent: 'PrzeÅºroczysty',
+        setTransparent: 'PrzeÅºroczyste',
         reset: 'Zresetuj',
-        resetToDefault: 'Domyślne'
+        resetToDefault: 'DomyÅlne'
       },
       shortcut: {
-        shortcuts: 'Skróty klawiaturowe',
+        shortcuts: 'SkrÃ³ty klawiaturowe',
         close: 'Zamknij',
         textFormatting: 'Formatowanie tekstu',
         action: 'Akcja',
@@ -228,36 +228,36 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       help: {
         'insertParagraph': 'Wstaw paragraf',
-        'undo': 'Cofnij poprzednią operację',
-        'redo': 'Przywróć poprzednią operację',
+        'undo': 'Cofnij poprzedniÄ operacjÄ',
+        'redo': 'PrzywrÃ³Ä poprzedniÄ operacjÄ',
         'tab': 'Tabulacja',
-        'untab': 'Usuń tabulację',
+        'untab': 'UsuÅ tabulacjÄ',
         'bold': 'Pogrubienie',
         'italic': 'Kursywa',
-        'underline': 'Podkreślenie',
-        'strikethrough': 'Przekreślenie',
-        'removeFormat': 'Usuń formatowanie',
-        'justifyLeft': 'Wyrównaj do lewej',
-        'justifyCenter': 'Wyrównaj do środka',
-        'justifyRight': 'Wyrównaj do prawej',
+        'underline': 'PodkreÅlenie',
+        'strikethrough': 'PrzekreÅlenie',
+        'removeFormat': 'UsuÅ formatowanie',
+        'justifyLeft': 'WyrÃ³wnaj do lewej',
+        'justifyCenter': 'WyrÃ³wnaj do Årodka',
+        'justifyRight': 'WyrÃ³wnaj do prawej',
         'justifyFull': 'Justyfikacja',
         'insertUnorderedList': 'Nienumerowana lista',
         'insertOrderedList': 'Wypunktowana lista',
-        'outdent': 'Zmniejsz wcięcie paragrafu',
-        'indent': 'Zwiększ wcięcie paragrafu',
-        'formatPara': 'Zamień format bloku na paragraf (tag P)',
-        'formatH1': 'Zamień format bloku na H1',
-        'formatH2': 'Zamień format bloku na H2',
-        'formatH3': 'Zamień format bloku na H3',
-        'formatH4': 'Zamień format bloku na H4',
-        'formatH5': 'Zamień format bloku na H5',
-        'formatH6': 'Zamień format bloku na H6',
-        'insertHorizontalRule': 'Wstaw poziomą linię',
-        'linkDialog.show': 'Pokaż dialog linkowania'
+        'outdent': 'Zmniejsz wciÄcie paragrafu',
+        'indent': 'ZwiÄksz wciÄcie paragrafu',
+        'formatPara': 'ZamieÅ format bloku na paragraf (tag P)',
+        'formatH1': 'ZamieÅ format bloku na H1',
+        'formatH2': 'ZamieÅ format bloku na H2',
+        'formatH3': 'ZamieÅ format bloku na H3',
+        'formatH4': 'ZamieÅ format bloku na H4',
+        'formatH5': 'ZamieÅ format bloku na H5',
+        'formatH6': 'ZamieÅ format bloku na H6',
+        'insertHorizontalRule': 'Wstaw poziomÄ liniÄ',
+        'linkDialog.show': 'PokaÅ¼ dialog linkowania'
       },
       history: {
         undo: 'Cofnij',
-        redo: 'Ponów'
+        redo: 'PonÃ³w'
       },
       specialChar: {
         specialChar: 'ZNAKI SPECJALNE',

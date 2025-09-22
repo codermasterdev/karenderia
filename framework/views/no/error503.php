@@ -19,7 +19,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Tjenesten er utilgjengelig</h1>
 <p>
-Serveren er utilgjengelig for øyeblikket grunnet vedlikehold. Vennligst prøv senere.
+Serveren er utilgjengelig for Ã¸yeblikket grunnet vedlikehold. Vennligst prÃ¸v senere.
 </p>
 <p>
 Takk!

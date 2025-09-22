@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta name="language" content="fr"/>
-<title>Page Non trouvée</title>
+<title>Page Non trouvÃ©e</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -18,11 +18,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Page Non trouvée</h1>
+<h1>Page Non trouvÃ©e</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-L'URL demandée n'existe pas sur ce serveur.
-Si vous avez saisi l'URL manuellement, vérifiez la, et réessayez.
+L'URL demandÃ©e n'existe pas sur ce serveur.
+Si vous avez saisi l'URL manuellement, vÃ©rifiez la, et rÃ©essayez.
 </p>
 <p>
 Si vous pensez qu'il s'agit d'une erreur du serveur, veuillez contacter <?php echo $data['admin']; ?>.

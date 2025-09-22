@@ -24,13 +24,13 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Ничего не выбрано',
-    noneResultsText: 'Совпадений не найдено {0}',
-    countSelectedText: 'Выбрано {0} из {1}',
-    maxOptionsText: ['Достигнут предел ({n} {var} максимум)', 'Достигнут предел в группе ({n} {var} максимум)', ['шт.', 'шт.']],
-    doneButtonText: 'Закрыть',
-    selectAllText: 'Выбрать все',
-    deselectAllText: 'Отменить все',
+    noneSelectedText: 'ÐÐ¸ÑÐµÐ³Ð¾ Ð½Ðµ Ð²ÑÐ±ÑÐ°Ð½Ð¾',
+    noneResultsText: 'Ð¡Ð¾Ð²Ð¿Ð°Ð´ÐµÐ½Ð¸Ð¹ Ð½Ðµ Ð½Ð°Ð¹Ð´ÐµÐ½Ð¾ {0}',
+    countSelectedText: 'ÐÑÐ±ÑÐ°Ð½Ð¾ {0} Ð¸Ð· {1}',
+    maxOptionsText: ['ÐÐ¾ÑÑÐ¸Ð³Ð½ÑÑ Ð¿ÑÐµÐ´ÐµÐ» ({n} {var} Ð¼Ð°ÐºÑÐ¸Ð¼ÑÐ¼)', 'ÐÐ¾ÑÑÐ¸Ð³Ð½ÑÑ Ð¿ÑÐµÐ´ÐµÐ» Ð² Ð³ÑÑÐ¿Ð¿Ðµ ({n} {var} Ð¼Ð°ÐºÑÐ¸Ð¼ÑÐ¼)', ['ÑÑ.', 'ÑÑ.']],
+    doneButtonText: 'ÐÐ°ÐºÑÑÑÑ',
+    selectAllText: 'ÐÑÐ±ÑÐ°ÑÑ Ð²ÑÐµ',
+    deselectAllText: 'ÐÑÐ¼ÐµÐ½Ð¸ÑÑ Ð²ÑÐµ',
     multipleSeparator: ', '
   };
 })(jQuery);

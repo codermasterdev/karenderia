@@ -220,8 +220,8 @@ final class Utils
                 throw new \RuntimeException('Failed to preg_replace_callback: ' . $pcreErrorCode . ' / ' . self::pcreLastErrorMessage($pcreErrorCode));
             }
             $data = str_replace(
-                ['¤', '¦', '¨', '´', '¸', '¼', '½', '¾'],
-                ['€', 'Š', 'š', 'Ž', 'ž', 'Œ', 'œ', 'Ÿ'],
+                ['Â¤', 'Â¦', 'Â¨', 'Â´', 'Â¸', 'Â¼', 'Â½', 'Â¾'],
+                ['â¬', 'Å ', 'Å¡', 'Å½', 'Å¾', 'Å', 'Å', 'Å¸'],
                 $data
             );
         }

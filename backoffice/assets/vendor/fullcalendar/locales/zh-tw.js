@@ -4,18 +4,18 @@ FullCalendar.globalLocales.push(function () {
   var zhTw = {
     code: 'zh-tw',
     buttonText: {
-      prev: '上月',
-      next: '下月',
-      today: '今天',
-      month: '月',
-      week: '週',
-      day: '天',
-      list: '活動列表',
+      prev: 'ä¸æ',
+      next: 'ä¸æ',
+      today: 'ä»å¤©',
+      month: 'æ',
+      week: 'é±',
+      day: 'å¤©',
+      list: 'æ´»ååè¡¨',
     },
-    weekText: '周',
-    allDayText: '整天',
-    moreLinkText: '顯示更多',
-    noEventsText: '没有任何活動',
+    weekText: 'å¨',
+    allDayText: 'æ´å¤©',
+    moreLinkText: 'é¡¯ç¤ºæ´å¤',
+    noEventsText: 'æ²¡æä»»ä½æ´»å',
   };
 
   return zhTw;

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Servera iekšēja kļūda</title>
+<title>Servera iekÅ¡Äja kÄ¼Å«da</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,11 +19,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Servera iekšēja kļūda</h1>
+<h1>Servera iekÅ¡Äja kÄ¼Å«da</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Izpildot Jūsu pieprasījumu, serverim radās iekšēja kļūda.
-Lūdzu, sazinieties ar <?php echo $data['admin']; ?> un ziņojiet par šo problēmu.
+Izpildot JÅ«su pieprasÄ«jumu, serverim radÄs iekÅ¡Äja kÄ¼Å«da.
+LÅ«dzu, sazinieties ar <?php echo $data['admin']; ?> un ziÅojiet par Å¡o problÄmu.
 </p>
 <p>
 Paldies!

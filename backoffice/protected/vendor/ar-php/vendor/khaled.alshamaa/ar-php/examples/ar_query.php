@@ -78,10 +78,10 @@ Inc., 319 North First Ave., Sandpoint, Idaho, USA, 208-263-8178, Fax: 208-263-63
     require '../src/Arabic.php';
     $Arabic = new \ArPHP\I18N\Arabic();
         
-    echo 'نتائج البحث عن <b>فلسطينيون</b>:<br />';
-    echo $Arabic->arQueryAllForms('فلسطينيون');
+    echo 'ÙØªØ§Ø¦Ø¬ Ø§ÙØ¨Ø­Ø« Ø¹Ù <b>ÙÙØ³Ø·ÙÙÙÙÙ</b>:<br />';
+    echo $Arabic->arQueryAllForms('ÙÙØ³Ø·ÙÙÙÙÙ');
     
-    $keyword = 'فلسطينيون';
+    $keyword = 'ÙÙØ³Ø·ÙÙÙÙÙ';
     $keyword = str_replace('\"', '"', $keyword);
 
     $Arabic->setQueryStrFields('field');
@@ -92,7 +92,7 @@ Inc., 319 North First Ave., Sandpoint, Idaho, USA, 208-263-8178, Fax: 208-263-63
 
     $StrSQL = "SELECT `field` FROM `table` WHERE $strCondition ORDER BY $strOrderBy";
     
-    echo '<hr />صيغة استعلام قاعدة البيانات <span dir="ltr">(SQL Query Statement)</span><br />';
+    echo '<hr />ØµÙØºØ© Ø§Ø³ØªØ¹ÙØ§Ù ÙØ§Ø¹Ø¯Ø© Ø§ÙØ¨ÙØ§ÙØ§Øª <span dir="ltr">(SQL Query Statement)</span><br />';
     echo '<pre dir="ltr" style="background-color: #e0e0e0; padding: 5px">' . $StrSQL . '</pre>';
 ?>
 </div><br />
@@ -103,10 +103,10 @@ $code = <<< END
 <?php
     \$Arabic = new \\ArPHP\\I18N\\Arabic();
         
-    echo 'نتائج البحث عن <b>فلسطينيون</b>:<br />';
-    echo \$Arabic->arQueryAllForms('فلسطينيون');
+    echo 'ÙØªØ§Ø¦Ø¬ Ø§ÙØ¨Ø­Ø« Ø¹Ù <b>ÙÙØ³Ø·ÙÙÙÙÙ</b>:<br />';
+    echo \$Arabic->arQueryAllForms('ÙÙØ³Ø·ÙÙÙÙÙ');
     
-    \$keyword = 'فلسطينيون';
+    \$keyword = 'ÙÙØ³Ø·ÙÙÙÙÙ';
     \$keyword = str_replace('\\"', '"', \$keyword);
 
     \$Arabic->setQueryStrFields('field');
@@ -117,7 +117,7 @@ $code = <<< END
 
     \$StrSQL = "SELECT `field` FROM `table` WHERE \$strCondition ORDER BY \$strOrderBy";
     
-    echo '<hr />صيغة استعلام قاعدة البيانات <span dir="ltr">(SQL Query Statement)</span><br />';
+    echo '<hr />ØµÙØºØ© Ø§Ø³ØªØ¹ÙØ§Ù ÙØ§Ø¹Ø¯Ø© Ø§ÙØ¨ÙØ§ÙØ§Øª <span dir="ltr">(SQL Query Statement)</span><br />';
     echo '<pre dir="ltr" style="background-color: #e0e0e0; padding: 5px">' . \$StrSQL . '</pre>';
 END;
 

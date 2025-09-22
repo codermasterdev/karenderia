@@ -7,7 +7,7 @@ use Psr\Http\Client\ClientExceptionInterface as PsrClientException;
 /**
  * Every HTTP Client related Exception must implement this interface.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface Exception extends PsrClientException
 {

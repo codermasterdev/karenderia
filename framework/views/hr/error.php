@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Greška <?php echo $data['code']; ?></title>
+<title>GreÅ¡ka <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,13 +19,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Greška <?php echo $data['code']; ?></h1>
+<h1>GreÅ¡ka <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Greška iznad se dogodila prilikom obrade vašeg zahtjeva web-poslužitelja..
+GreÅ¡ka iznad se dogodila prilikom obrade vaÅ¡eg zahtjeva web-posluÅ¾itelja..
 </p>
 <p>
-Ako mislite da je ovo greška web servera, molimo kontaktirajte <?php echo $data['admin']; ?>.
+Ako mislite da je ovo greÅ¡ka web servera, molimo kontaktirajte <?php echo $data['admin']; ?>.
 </p>
 <p>
 Zahvaljujemo.

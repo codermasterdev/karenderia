@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>未被授权</title>
+<title>æªè¢«ææ</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>未被授权</h1>
+<h1>æªè¢«ææ</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-你没有访问此页面的授权.
+ä½ æ²¡æè®¿é®æ­¤é¡µé¢çææ.
 </p>
 <p>
-如果您认为此错误是服务器造成的,请与管理员联系 <?php echo $data[ 'admin']; ?>.
+å¦ææ¨è®¤ä¸ºæ­¤éè¯¯æ¯æå¡å¨é æç,è¯·ä¸ç®¡çåèç³» <?php echo $data[ 'admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

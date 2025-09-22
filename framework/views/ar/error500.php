@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>خطأ داخلي بالخادم</title>
+<title>Ø®Ø·Ø£ Ø¯Ø§Ø®ÙÙ Ø¨Ø§ÙØ®Ø§Ø¯Ù</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>خطأ داخلي بالخادم</h1>
+<h1>Ø®Ø·Ø£ Ø¯Ø§Ø®ÙÙ Ø¨Ø§ÙØ®Ø§Ø¯Ù</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-حدث خطأ داخلي بالخادم أثناء محاولة معالجة طلبك.
-الرجاء الإتصال <?php echo $data['admin']; ?> للإبلاغ عن هذه المشكلة.
+Ø­Ø¯Ø« Ø®Ø·Ø£ Ø¯Ø§Ø®ÙÙ Ø¨Ø§ÙØ®Ø§Ø¯Ù Ø£Ø«ÙØ§Ø¡ ÙØ­Ø§ÙÙØ© ÙØ¹Ø§ÙØ¬Ø© Ø·ÙØ¨Ù.
+Ø§ÙØ±Ø¬Ø§Ø¡ Ø§ÙØ¥ØªØµØ§Ù <?php echo $data['admin']; ?> ÙÙØ¥Ø¨ÙØ§Øº Ø¹Ù ÙØ°Ù Ø§ÙÙØ´ÙÙØ©.
 </p>
 <p>
-شكرا لك.
+Ø´ÙØ±Ø§ ÙÙ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -24,7 +24,7 @@ use Monolog\Logger;
  *   $redis = new RedisPubSubHandler(new Predis\Client("tcp://localhost:6379"), "logs", Logger::WARNING);
  *   $log->pushHandler($redis);
  *
- * @author Gaëtan Faugère <gaetan@fauge.re>
+ * @author GaÃ«tan FaugÃ¨re <gaetan@fauge.re>
  */
 class RedisPubSubHandler extends AbstractProcessingHandler
 {

@@ -70,8 +70,8 @@ final class Mbstring
     public const MB_CASE_FOLD = \PHP_INT_MAX;
 
     private const CASE_FOLD = [
-        ['µ', 'ſ', "\xCD\x85", 'ς', "\xCF\x90", "\xCF\x91", "\xCF\x95", "\xCF\x96", "\xCF\xB0", "\xCF\xB1", "\xCF\xB5", "\xE1\xBA\x9B", "\xE1\xBE\xBE"],
-        ['μ', 's', 'ι',        'σ', 'β',        'θ',        'φ',        'π',        'κ',        'ρ',        'ε',        "\xE1\xB9\xA1", 'ι'],
+        ['Âµ', 'Å¿', "\xCD\x85", 'Ï', "\xCF\x90", "\xCF\x91", "\xCF\x95", "\xCF\x96", "\xCF\xB0", "\xCF\xB1", "\xCF\xB5", "\xE1\xBA\x9B", "\xE1\xBE\xBE"],
+        ['Î¼', 's', 'Î¹',        'Ï', 'Î²',        'Î¸',        'Ï',        'Ï',        'Îº',        'Ï',        'Îµ',        "\xE1\xB9\xA1", 'Î¹'],
     ];
 
     private static $encodingList = ['ASCII', 'UTF-8'];

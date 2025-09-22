@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profiling Callstack ���i");
+	console.group("Profiling Callstack ï¿½ï¿½ï¿½i");
 <?php
 foreach($data as $index=>$entry)
 {

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Não Autorizado</title>
+<title>NÃ£o Autorizado</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Não Autorizado</h1>
+<h1>NÃ£o Autorizado</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Você não tem as devidas credenciais para acessar esta página.
+VocÃª nÃ£o tem as devidas credenciais para acessar esta pÃ¡gina.
 </p>
 <p>
-Se você acha que isso é um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
+Se vocÃª acha que isso Ã© um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

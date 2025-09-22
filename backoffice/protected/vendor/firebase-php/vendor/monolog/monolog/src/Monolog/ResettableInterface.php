@@ -23,7 +23,7 @@ namespace Monolog;
  * have a long running process like a worker or an application server serving multiple requests
  * in one process.
  *
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
+ * @author GrÃ©goire Pineau <lyrixx@lyrixx.info>
  */
 interface ResettableInterface
 {

@@ -21,7 +21,7 @@ use Psr\Http\Message\UriInterface;
  *
  * The client also exposes the sendRequest methods of the wrapped HttpClient.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  * @author David Buchmann <mail@davidbu.ch>
  */
 interface HttpMethodsClientInterface extends HttpClient

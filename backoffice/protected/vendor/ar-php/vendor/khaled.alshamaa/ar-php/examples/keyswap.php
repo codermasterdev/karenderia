@@ -79,12 +79,12 @@ highlight_string($code);
 <h2 dir="ltr" id="example-1-b">
 <a href="#example-1-b" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 1 (b):</h2>
 <?php
-$str = 'Hpf lk hgkhs hgljùvtdkK Hpf hg²dk dldg;k fmgdjil Ygn 
+$str = 'Hpf lk hgkhs hgljÃ¹vtdkK Hpf hgÂ²dk dldg;k fmgdjil Ygn 
 ;p$hkd, hgHl;v tb drt;k ljv$$dk fdk krdadk/';
 echo "<u><i>Before - French Keyboard:</i></u><br />$str<br /><br />";
 
 $text = $Arabic->swapFa($str);
-echo "<u><i>After:</i></u><br />$text<br /><br /><b>جبران خليل جبران</b>";
+echo "<u><i>After:</i></u><br />$text<br /><br /><b>Ø¬Ø¨Ø±Ø§Ù Ø®ÙÙÙ Ø¬Ø¨Ø±Ø§Ù</b>";
 
 ?>
 </div><br />
@@ -95,12 +95,12 @@ $code = <<< END
 <?php
     \$Arabic = new \\ArPHP\\I18N\\Arabic();
 
-    \$str = 'Hpf lk hgkhs hgljùvtdkK Hpf hg²dk dldg;k fmgdjil Ygn 
+    \$str = 'Hpf lk hgkhs hgljÃ¹vtdkK Hpf hgÂ²dk dldg;k fmgdjil Ygn 
     ;p\$hkd, hgHl;v tb drt;k ljv\$\$dk fdk krdadk/';
     echo "<u><i>Before - French Keyboard:</i></u><br />\$str<br /><br />";
 
     \$text = \$Arabic->swapFa(\$str);
-    echo "<u><i>After:</i></u><br />\$text<br /><br /><b>جبران خليل جبران</b>";
+    echo "<u><i>After:</i></u><br />\$text<br /><br /><b>Ø¬Ø¨Ø±Ø§Ù Ø®ÙÙÙ Ø¬Ø¨Ø±Ø§Ù</b>";
 ?>
 END;
 
@@ -117,7 +117,7 @@ highlight_string($code);
 <h2 dir="ltr" id="example-2">
 <a href="#example-2" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 2:</h2>
 <?php
-    $str = "ِىغ هىفثممهلثىف بخخم ؤشى ةشنث فاهىلس لاهللثق ةخقث ؤخةحمثء شىي ةخقث رهخمثىفز ÷ف فشنثس ش فخعؤا خب لثىهعس شىي ش مخف خب ؤخعقشلث فخ ةخرث هى فاث خححخسهفث يهقثؤفهخىز";
+    $str = "ÙÙØº ÙÙÙØ«ÙÙÙÙØ«ÙÙ Ø¨Ø®Ø®Ù Ø¤Ø´Ù Ø©Ø´ÙØ« ÙØ§ÙÙÙØ³ ÙØ§ÙÙÙØ«Ù Ø©Ø®ÙØ« Ø¤Ø®Ø©Ø­ÙØ«Ø¡ Ø´ÙÙ Ø©Ø®ÙØ« Ø±ÙØ®ÙØ«ÙÙØ² Ã·Ù ÙØ´ÙØ«Ø³ Ø´ ÙØ®Ø¹Ø¤Ø§ Ø®Ø¨ ÙØ«ÙÙØ¹Ø³ Ø´ÙÙ Ø´ ÙØ®Ù Ø®Ø¨ Ø¤Ø®Ø¹ÙØ´ÙØ« ÙØ® Ø©Ø®Ø±Ø« ÙÙ ÙØ§Ø« Ø®Ø­Ø­Ø®Ø³ÙÙØ« ÙÙÙØ«Ø¤ÙÙØ®ÙØ²";
     echo "<u><i>Before:</i></u><br />$str<br /><br />";
     
     $text = $Arabic->swapAe($str);
@@ -132,7 +132,7 @@ $code = <<< END
 <?php
     \$Arabic = new \\ArPHP\\I18N\\Arabic();
     
-    \$str = "ِىغ هىفثممهلثىف بخخم ؤشى ةشنث فاهىلس لاهللثق ةخقث ؤخةحمثء شىي ةخقث رهخمثىفز ÷ف فشنثس ش فخعؤا خب لثىهعس شىي ش مخف خب ؤخعقشلث فخ ةخرث هى فاث خححخسهفث يهقثؤفهخىز";
+    \$str = "ÙÙØº ÙÙÙØ«ÙÙÙÙØ«ÙÙ Ø¨Ø®Ø®Ù Ø¤Ø´Ù Ø©Ø´ÙØ« ÙØ§ÙÙÙØ³ ÙØ§ÙÙÙØ«Ù Ø©Ø®ÙØ« Ø¤Ø®Ø©Ø­ÙØ«Ø¡ Ø´ÙÙ Ø©Ø®ÙØ« Ø±ÙØ®ÙØ«ÙÙØ² Ã·Ù ÙØ´ÙØ«Ø³ Ø´ ÙØ®Ø¹Ø¤Ø§ Ø®Ø¨ ÙØ«ÙÙØ¹Ø³ Ø´ÙÙ Ø´ ÙØ®Ù Ø®Ø¨ Ø¤Ø®Ø¹ÙØ´ÙØ« ÙØ® Ø©Ø®Ø±Ø« ÙÙ ÙØ§Ø« Ø®Ø­Ø­Ø®Ø³ÙÙØ« ÙÙÙØ«Ø¤ÙÙØ®ÙØ²";
     
     echo "<u><i>Before:</i></u><br />\$str<br /><br />";
     
@@ -154,7 +154,7 @@ highlight_string($code);
 <h2 dir="ltr" id="example-3">
 <a href="#example-3" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 3:</h2>
 <?php
-    $examples = array("ff'z g;k fefhj", "FF'Z G;K FEFHJ", 'ٍمخصمغ لاعف سعقثمغ', 'sLOWLY BUT SURELY');
+    $examples = array("ff'z g;k fefhj", "FF'Z G;K FEFHJ", 'ÙÙØ®ØµÙØº ÙØ§Ø¹Ù Ø³Ø¹ÙØ«ÙØº', 'sLOWLY BUT SURELY');
 
     foreach ($examples as $example) {
         $fix = $Arabic->fixKeyboardLang($example);
@@ -172,7 +172,7 @@ $code = <<< END
 <?php
     \$Arabic = new \\ArPHP\\I18N\\Arabic();
     
-    \$examples = array("ff'z g;k fefhj", "FF'Z G;K FEFHJ", 'ٍمخصمغ لاعف سعقثمغ', 'sLOWLY BUT SURELY');
+    \$examples = array("ff'z g;k fefhj", "FF'Z G;K FEFHJ", 'ÙÙØ®ØµÙØº ÙØ§Ø¹Ù Ø³Ø¹ÙØ«ÙØº', 'sLOWLY BUT SURELY');
 
     foreach (\$examples as \$example) {
         \$fix = \$Arabic->fixKeyboardLang(\$example);

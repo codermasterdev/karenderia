@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			Журнал приложения
+			ÐÑÑÐ½Ð°Ð» Ð¿ÑÐ¸Ð»Ð¾Ð¶ÐµÐ½Ð¸Ñ
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">Время</th>
-		<th>Уровень</th>
-		<th>Категория</th>
-		<th>Сообщение</th>
+	    <th style="width:120px">ÐÑÐµÐ¼Ñ</th>
+		<th>Ð£ÑÐ¾Ð²ÐµÐ½Ñ</th>
+		<th>ÐÐ°ÑÐµÐ³Ð¾ÑÐ¸Ñ</th>
+		<th>Ð¡Ð¾Ð¾Ð±ÑÐµÐ½Ð¸Ðµ</th>
 	</tr>
 <?php
 $colors=array(

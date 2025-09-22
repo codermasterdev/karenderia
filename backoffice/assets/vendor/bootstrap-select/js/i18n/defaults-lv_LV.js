@@ -24,10 +24,10 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Nekas nav atzīmēts',
-    noneResultsText: 'Nav neviena rezultāta {0}',
+    noneSelectedText: 'Nekas nav atzÄ«mÄts',
+    noneResultsText: 'Nav neviena rezultÄta {0}',
     countSelectedText: function (numSelected, numTotal) {
-      return (numSelected == 1) ? '{0} ieraksts atzīmēts' : '{0} ieraksti atzīmēts';
+      return (numSelected == 1) ? '{0} ieraksts atzÄ«mÄts' : '{0} ieraksti atzÄ«mÄts';
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
@@ -35,8 +35,8 @@
         (numGroup == 1) ? 'Sasniegts grupas limits ({n} ieraksts maksimums)' : 'Sasniegts grupas limits ({n} ieraksti maksimums)'
       ];
     },
-    selectAllText: 'Atzīmēt visu',
-    deselectAllText: 'Neatzīmēt nevienu',
+    selectAllText: 'AtzÄ«mÄt visu',
+    deselectAllText: 'NeatzÄ«mÄt nevienu',
     multipleSeparator: ', '
   };
 })(jQuery);

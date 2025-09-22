@@ -26,12 +26,12 @@ class SetupIntentService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * You can cancel a SetupIntent object when it’s in one of these statuses:
+     * You can cancel a SetupIntent object when itâs in one of these statuses:
      * <code>requires_payment_method</code>, <code>requires_confirmation</code>, or
      * <code>requires_action</code>.
      *
      * After you cancel it, setup is abandoned and any operations on the SetupIntent
-     * fail with an error. You can’t cancel the SetupIntent for a Checkout Session. <a
+     * fail with an error. You canât cancel the SetupIntent for a Checkout Session. <a
      * href="/docs/api/checkout/sessions/expire">Expire the Checkout Session</a>
      * instead.
      *
@@ -51,7 +51,7 @@ class SetupIntentService extends \Stripe\Service\AbstractService
     /**
      * Confirm that your customer intends to set up the current or provided payment
      * method. For example, you would confirm a SetupIntent when a customer hits the
-     * “Save” button on a payment method management page on your website.
+     * âSaveâ button on a payment method management page on your website.
      *
      * If the selected payment method does not require any additional steps from the
      * customer, the SetupIntent will transition to the <code>succeeded</code> status.

@@ -117,23 +117,23 @@ return /******/ (function(modules) { // webpackBootstrap
       font: {
         bold: 'Gras',
         italic: 'Italique',
-        underline: 'Souligné',
+        underline: 'SoulignÃ©',
         clear: 'Effacer la mise en forme',
         height: 'Interligne',
         name: 'Famille de police',
-        strikethrough: 'Barré',
+        strikethrough: 'BarrÃ©',
         superscript: 'Exposant',
         subscript: 'Indice',
         size: 'Taille de police'
       },
       image: {
         image: 'Image',
-        insert: 'Insérer une image',
+        insert: 'InsÃ©rer une image',
         resizeFull: 'Taille originale',
-        resizeHalf: 'Redimensionner à 50 %',
-        resizeQuarter: 'Redimensionner à 25 %',
-        floatLeft: 'Aligné à gauche',
-        floatRight: 'Aligné à droite',
+        resizeHalf: 'Redimensionner Ã  50 %',
+        resizeQuarter: 'Redimensionner Ã  25 %',
+        floatLeft: 'AlignÃ© Ã  gauche',
+        floatRight: 'AlignÃ© Ã  droite',
         floatNone: 'Pas d\'alignement',
         shapeRounded: 'Forme: Rectangle arrondi',
         shapeCircle: 'Forme: Cercle',
@@ -143,39 +143,39 @@ return /******/ (function(modules) { // webpackBootstrap
         dropImage: 'Lachez l\'image ou le texte',
         selectFromFiles: 'Choisir un fichier',
         maximumFileSize: 'Taille de fichier maximale',
-        maximumFileSizeError: 'Taille maximale du fichier dépassée',
+        maximumFileSizeError: 'Taille maximale du fichier dÃ©passÃ©e',
         url: 'URL de l\'image',
         remove: 'Supprimer l\'image',
         original: 'Original'
       },
       video: {
-        video: 'Vidéo',
-        videoLink: 'Lien vidéo',
-        insert: 'Insérer une vidéo',
-        url: 'URL de la vidéo',
+        video: 'VidÃ©o',
+        videoLink: 'Lien vidÃ©o',
+        insert: 'InsÃ©rer une vidÃ©o',
+        url: 'URL de la vidÃ©o',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ou Youku)'
       },
       link: {
         link: 'Lien',
-        insert: 'Insérer un lien',
+        insert: 'InsÃ©rer un lien',
         unlink: 'Supprimer un lien',
         edit: 'Modifier',
-        textToDisplay: 'Texte à afficher',
+        textToDisplay: 'Texte Ã  afficher',
         url: 'URL du lien',
-        openInNewWindow: 'Ouvrir dans une nouvelle fenêtre'
+        openInNewWindow: 'Ouvrir dans une nouvelle fenÃªtre'
       },
       table: {
         table: 'Tableau',
         addRowAbove: 'Ajouter une ligne au-dessus',
         addRowBelow: 'Ajouter une ligne en dessous',
-        addColLeft: 'Ajouter une colonne à gauche',
-        addColRight: 'Ajouter une colonne à droite',
+        addColLeft: 'Ajouter une colonne Ã  gauche',
+        addColRight: 'Ajouter une colonne Ã  droite',
         delRow: 'Supprimer la ligne',
         delCol: 'Supprimer la colonne',
         delTable: 'Supprimer le tableau'
       },
       hr: {
-        insert: 'Insérer une ligne horizontale'
+        insert: 'InsÃ©rer une ligne horizontale'
       },
       style: {
         style: 'Style',
@@ -190,32 +190,32 @@ return /******/ (function(modules) { // webpackBootstrap
         h6: 'Titre 6'
       },
       lists: {
-        unordered: 'Liste à puces',
-        ordered: 'Liste numérotée'
+        unordered: 'Liste Ã  puces',
+        ordered: 'Liste numÃ©rotÃ©e'
       },
       options: {
         help: 'Aide',
-        fullscreen: 'Plein écran',
+        fullscreen: 'Plein Ã©cran',
         codeview: 'Afficher le code HTML'
       },
       paragraph: {
         paragraph: 'Paragraphe',
         outdent: 'Diminuer le retrait',
         indent: 'Augmenter le retrait',
-        left: 'Aligner à gauche',
+        left: 'Aligner Ã  gauche',
         center: 'Centrer',
-        right: 'Aligner à droite',
+        right: 'Aligner Ã  droite',
         justify: 'Justifier'
       },
       color: {
-        recent: 'Dernière couleur sélectionnée',
+        recent: 'DerniÃ¨re couleur sÃ©lectionnÃ©e',
         more: 'Plus de couleurs',
         background: 'Couleur de fond',
         foreground: 'Couleur de police',
         transparent: 'Transparent',
-        setTransparent: 'Définir la transparence',
+        setTransparent: 'DÃ©finir la transparence',
         reset: 'Restaurer',
-        resetToDefault: 'Restaurer la couleur par défaut'
+        resetToDefault: 'Restaurer la couleur par dÃ©faut'
       },
       shortcut: {
         shortcuts: 'Raccourcis',
@@ -224,44 +224,44 @@ return /******/ (function(modules) { // webpackBootstrap
         action: 'Action',
         paragraphFormatting: 'Mise en forme des paragraphes',
         documentStyle: 'Style du document',
-        extraKeys: 'Touches supplémentaires'
+        extraKeys: 'Touches supplÃ©mentaires'
       },
       help: {
-        'insertParagraph': 'Insérer paragraphe',
-        'undo': 'Défaire la dernière commande',
-        'redo': 'Refaire la dernière commande',
+        'insertParagraph': 'InsÃ©rer paragraphe',
+        'undo': 'DÃ©faire la derniÃ¨re commande',
+        'redo': 'Refaire la derniÃ¨re commande',
         'tab': 'Tabulation',
-        'untab': 'Tabulation arrière',
-        'bold': 'Mettre en caractère gras',
+        'untab': 'Tabulation arriÃ¨re',
+        'bold': 'Mettre en caractÃ¨re gras',
         'italic': 'Mettre en italique',
-        'underline': 'Mettre en souligné',
-        'strikethrough': 'Mettre en texte barré',
+        'underline': 'Mettre en soulignÃ©',
+        'strikethrough': 'Mettre en texte barrÃ©',
         'removeFormat': 'Nettoyer les styles',
-        'justifyLeft': 'Aligner à gauche',
+        'justifyLeft': 'Aligner Ã  gauche',
         'justifyCenter': 'Centrer',
-        'justifyRight': 'Aligner à droite',
-        'justifyFull': 'Justifier à gauche et à droite',
-        'insertUnorderedList': 'Basculer liste à puces',
-        'insertOrderedList': 'Basculer liste ordonnée',
+        'justifyRight': 'Aligner Ã  droite',
+        'justifyFull': 'Justifier Ã  gauche et Ã  droite',
+        'insertUnorderedList': 'Basculer liste Ã  puces',
+        'insertOrderedList': 'Basculer liste ordonnÃ©e',
         'outdent': 'Diminuer le retrait du paragraphe',
         'indent': 'Augmenter le retrait du paragraphe',
         'formatPara': 'Changer le paragraphe en cours en normal (P)',
-        'formatH1': 'Changer le paragraphe en cours en entête H1',
-        'formatH2': 'Changer le paragraphe en cours en entête H2',
-        'formatH3': 'Changer le paragraphe en cours en entête H3',
-        'formatH4': 'Changer le paragraphe en cours en entête H4',
-        'formatH5': 'Changer le paragraphe en cours en entête H5',
-        'formatH6': 'Changer le paragraphe en cours en entête H6',
-        'insertHorizontalRule': 'Insérer séparation horizontale',
-        'linkDialog.show': 'Afficher fenêtre d\'hyperlien'
+        'formatH1': 'Changer le paragraphe en cours en entÃªte H1',
+        'formatH2': 'Changer le paragraphe en cours en entÃªte H2',
+        'formatH3': 'Changer le paragraphe en cours en entÃªte H3',
+        'formatH4': 'Changer le paragraphe en cours en entÃªte H4',
+        'formatH5': 'Changer le paragraphe en cours en entÃªte H5',
+        'formatH6': 'Changer le paragraphe en cours en entÃªte H6',
+        'insertHorizontalRule': 'InsÃ©rer sÃ©paration horizontale',
+        'linkDialog.show': 'Afficher fenÃªtre d\'hyperlien'
       },
       history: {
-        undo: 'Annuler la dernière action',
-        redo: 'Restaurer la dernière action annulée'
+        undo: 'Annuler la derniÃ¨re action',
+        redo: 'Restaurer la derniÃ¨re action annulÃ©e'
       },
       specialChar: {
-        specialChar: 'Caractères spéciaux',
-        select: 'Choisir des caractères spéciaux'
+        specialChar: 'CaractÃ¨res spÃ©ciaux',
+        select: 'Choisir des caractÃ¨res spÃ©ciaux'
       }
     }
   });

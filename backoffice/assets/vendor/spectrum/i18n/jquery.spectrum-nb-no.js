@@ -1,5 +1,5 @@
 // Spectrum Colorpicker
-// Norwegian, Bokmål (nb-no) localization
+// Norwegian, BokmÃ¥l (nb-no) localization
 // https://github.com/greendimka
 
 (function ( $ ) {

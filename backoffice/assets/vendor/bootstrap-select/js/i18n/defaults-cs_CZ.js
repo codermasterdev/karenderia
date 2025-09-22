@@ -25,12 +25,12 @@
 (function ($) {
   $.fn.selectpicker.defaults = {
     noneSelectedText: 'Vyberte ze seznamu',
-    noneResultsText: 'Pro hledání {0} nebyly nalezeny žádné výsledky',
-    countSelectedText: 'Vybrané {0} z {1}',
-    maxOptionsText: ['Limit překročen ({n} {var} max)', 'Limit skupiny překročen ({n} {var} max)', ['položek', 'položka']],
+    noneResultsText: 'Pro hledÃ¡nÃ­ {0} nebyly nalezeny Å¾Ã¡dnÃ© vÃ½sledky',
+    countSelectedText: 'VybranÃ© {0} z {1}',
+    maxOptionsText: ['Limit pÅekroÄen ({n} {var} max)', 'Limit skupiny pÅekroÄen ({n} {var} max)', ['poloÅ¾ek', 'poloÅ¾ka']],
     multipleSeparator: ', ',
-    selectAllText: 'Vybrat vše',
-    deselectAllText: 'Zrušit výběr'
+    selectAllText: 'Vybrat vÅ¡e',
+    deselectAllText: 'ZruÅ¡it vÃ½bÄr'
   };
 })(jQuery);
 

@@ -21,7 +21,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
 Die angeforderte URL wurde auf diesem Server nicht gefunden.
-Wenn Sie die URL von Hand eingegeben haben, prüfen Sie bitte Ihre Schreibweise und versuchen Sie es dann erneut.
+Wenn Sie die URL von Hand eingegeben haben, prÃ¼fen Sie bitte Ihre Schreibweise und versuchen Sie es dann erneut.
 </p>
 <p>
 Wenn Sie der Meinung sind, dass es sich um einen Serverfehler handelt, kontaktieren Sie bitte

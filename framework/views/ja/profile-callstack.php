@@ -1,13 +1,13 @@
 <!-- start profiling callstack -->
-<table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif; background:#EEEEEE;color:#666666;">
+<table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, 'ã¡ã¤ãªãª', Meiryo, 'ï¼­ï¼³ ï¼°ã´ã·ãã¯', 'ãã©ã®ãè§ã´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif; background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			プロファイリング コールスタック レポート
+			ãã­ãã¡ã¤ãªã³ã° ã³ã¼ã«ã¹ã¿ãã¯ ã¬ãã¼ã
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>プロシージャ</th>
-		<th>時間 (s)</th>
+	    <th>ãã­ã·ã¼ã¸ã£</th>
+		<th>æé (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

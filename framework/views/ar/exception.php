@@ -170,7 +170,7 @@ pre span.error-ln {
 	</div>
 
 	<div class="traces">
-		<h2>تتبع الخطأ</h2>
+		<h2>ØªØªØ¨Ø¹ Ø§ÙØ®Ø·Ø£</h2>
 		<?php $count=0; ?>
 		<table style="width:100%;">
 		<?php foreach($data['traces'] as $n => $trace): ?>
@@ -191,7 +191,7 @@ pre span.error-ln {
 				<div class="trace-file">
 					<?php if($hasCode): ?>
 						<div class="plus">+</div>
-						<div class="minus">–</div>
+						<div class="minus">â</div>
 					<?php endif; ?>
 					<?php
 						echo '&nbsp;';

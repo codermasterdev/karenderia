@@ -9,7 +9,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Authenticate a PSR-7 Request if the request is matching the given request matcher.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class RequestConditional implements Authentication
 {

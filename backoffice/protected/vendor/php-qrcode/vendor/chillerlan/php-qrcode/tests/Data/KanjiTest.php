@@ -17,7 +17,7 @@ use chillerlan\QRCode\Data\{Kanji, QRCodeDataException};
 class KanjiTest extends DatainterfaceTestAbstract{
 
 	protected $FQCN = Kanji::class;
-	protected $testdata = '茗荷茗荷茗荷茗荷茗荷';
+	protected $testdata = 'èè·èè·èè·èè·èè·';
 	protected $expected = [
 		128, 173, 85, 26, 95, 85, 70, 151,
 		213, 81, 165, 245, 84, 105, 125, 85,
@@ -38,13 +38,13 @@ class KanjiTest extends DatainterfaceTestAbstract{
 		$this->expectException(QRCodeDataException::class);
 		$this->expectExceptionMessage('illegal char at 1 [16191]');
 
-		$this->dataInterface->setData('ÃÃ');
+		$this->dataInterface->setData('ÃÃ');
 	}
 
 	public function testIllegalCharException2(){
 		$this->expectException(QRCodeDataException::class);
 		$this->expectExceptionMessage('illegal char at 1');
 
-		$this->dataInterface->setData('Ã');
+		$this->dataInterface->setData('Ã');
 	}
 }

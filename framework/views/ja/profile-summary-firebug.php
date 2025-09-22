@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("プロファイリング概要レポート");
+	console.group("ãã­ãã¡ã¤ãªã³ã°æ¦è¦ã¬ãã¼ã");
 	console.log(" count   total   average    min      max   ");
 <?php
 foreach($data as $index=>$entry)

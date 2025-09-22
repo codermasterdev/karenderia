@@ -10,7 +10,7 @@ use Psr\Http\Message\StreamInterface;
  *
  * This factory contract can be reused in Message and Server Message factories.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface ResponseFactory
 {

@@ -18,7 +18,7 @@ namespace Stripe\Forwarding;
  * keys provided on the underlying third-party request.
  *
  * Forwarding Requests are synchronous requests that return a response or time out according to
- * Stripe’s limits.
+ * Stripeâs limits.
  *
  * Related guide: <a href="https://docs.stripe.com/payments/forwarding">Forward card details to third-party API endpoints</a>.
  *

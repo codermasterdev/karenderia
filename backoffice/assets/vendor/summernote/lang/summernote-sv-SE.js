@@ -119,7 +119,7 @@ return /******/ (function(modules) { // webpackBootstrap
         italic: 'Kursiv',
         underline: 'Understruken',
         clear: 'Radera formatering',
-        height: 'Radavstånd',
+        height: 'RadavstÃ¥nd',
         name: 'Teckensnitt',
         strikethrough: 'Genomstruken',
         subscript: 'Subscript',
@@ -131,9 +131,9 @@ return /******/ (function(modules) { // webpackBootstrap
         insert: 'Infoga bild',
         resizeFull: 'Full storlek',
         resizeHalf: 'Halv storlek',
-        resizeQuarter: 'En fjärdedel i storlek',
-        floatLeft: 'Vänsterjusterad',
-        floatRight: 'Högerjusterad',
+        resizeQuarter: 'En fjÃ¤rdedel i storlek',
+        floatLeft: 'VÃ¤nsterjusterad',
+        floatRight: 'HÃ¶gerjusterad',
         floatNone: 'Ingen justering',
         shapeRounded: 'Shape: Rounded',
         shapeCircle: 'Shape: Circle',
@@ -141,28 +141,28 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeNone: 'Shape: None',
         dragImageHere: 'Dra en bild hit',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'Välj från filer',
+        selectFromFiles: 'VÃ¤lj frÃ¥n filer',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        url: 'Länk till bild',
+        url: 'LÃ¤nk till bild',
         remove: 'Ta bort bild',
         original: 'Original'
       },
       video: {
         video: 'Filmklipp',
-        videoLink: 'Länk till filmklipp',
+        videoLink: 'LÃ¤nk till filmklipp',
         insert: 'Infoga filmklipp',
-        url: 'Länk till filmklipp',
+        url: 'LÃ¤nk till filmklipp',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion eller Youku)'
       },
       link: {
-        link: 'Länk',
-        insert: 'Infoga länk',
-        unlink: 'Ta bort länk',
+        link: 'LÃ¤nk',
+        insert: 'Infoga lÃ¤nk',
+        unlink: 'Ta bort lÃ¤nk',
         edit: 'Redigera',
         textToDisplay: 'Visningstext',
-        url: 'Till vilken URL ska denna länk peka?',
-        openInNewWindow: 'Öppna i ett nytt fönster'
+        url: 'Till vilken URL ska denna lÃ¤nk peka?',
+        openInNewWindow: 'Ãppna i ett nytt fÃ¶nster'
       },
       table: {
         table: 'Tabell',
@@ -194,32 +194,32 @@ return /******/ (function(modules) { // webpackBootstrap
         ordered: 'Numrerad lista'
       },
       options: {
-        help: 'Hjälp',
-        fullscreen: 'Fullskärm',
+        help: 'HjÃ¤lp',
+        fullscreen: 'FullskÃ¤rm',
         codeview: 'HTML-visning'
       },
       paragraph: {
         paragraph: 'Justera text',
         outdent: 'Minska indrag',
-        indent: 'Öka indrag',
-        left: 'Vänsterjusterad',
+        indent: 'Ãka indrag',
+        left: 'VÃ¤nsterjusterad',
         center: 'Centrerad',
-        right: 'Högerjusterad',
+        right: 'HÃ¶gerjusterad',
         justify: 'Justera text'
       },
       color: {
-        recent: 'Senast använda färg',
-        more: 'Fler färger',
-        background: 'Bakgrundsfärg',
-        foreground: 'Teckenfärg',
+        recent: 'Senast anvÃ¤nda fÃ¤rg',
+        more: 'Fler fÃ¤rger',
+        background: 'BakgrundsfÃ¤rg',
+        foreground: 'TeckenfÃ¤rg',
         transparent: 'Genomskinlig',
-        setTransparent: 'Gör genomskinlig',
-        reset: 'Nollställ',
-        resetToDefault: 'Återställ till standard'
+        setTransparent: 'GÃ¶r genomskinlig',
+        reset: 'NollstÃ¤ll',
+        resetToDefault: 'ÃterstÃ¤ll till standard'
       },
       shortcut: {
         shortcuts: 'Kortkommandon',
-        close: 'Stäng',
+        close: 'StÃ¤ng',
         textFormatting: 'Textformatering',
         action: 'Funktion',
         paragraphFormatting: 'Avsnittsformatering',
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Ångra',
-        redo: 'Gör om'
+        undo: 'Ãngra',
+        redo: 'GÃ¶r om'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

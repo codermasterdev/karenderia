@@ -10,7 +10,7 @@ use Ably\AblyRest;
 class ClientOptions extends AuthOptions {
 
     /**
-     * @var boolean value indicating whether or not a TLS (“SSL”) secure connection should be used.
+     * @var boolean value indicating whether or not a TLS (âSSLâ) secure connection should be used.
      */
     public $tls = true;
     
@@ -63,13 +63,13 @@ class ClientOptions extends AuthOptions {
     public $fallbackHosts;
 
     /**
-     * @var integer – default 600000 (10 minutes) the period in milliseconds
+     * @var integer â default 600000 (10 minutes) the period in milliseconds
      * before HTTP requests are retried against the default endpoint
      */
     public $fallbackRetryTimeout = 600000;
 
     /**
-     * @var \Ably\Models\TokenParams defaultTokenParams – overrides the client library defaults described in TokenParams
+     * @var \Ably\Models\TokenParams defaultTokenParams â overrides the client library defaults described in TokenParams
      */
     public $defaultTokenParams;
 

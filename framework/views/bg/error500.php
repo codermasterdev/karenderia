@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Вътрешна грешка на сървъра</title>
+<title>ÐÑÑÑÐµÑÐ½Ð° Ð³ÑÐµÑÐºÐ° Ð½Ð° ÑÑÑÐ²ÑÑÐ°</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Вътрешна грешка на сървъра</h1>
+<h1>ÐÑÑÑÐµÑÐ½Ð° Ð³ÑÐµÑÐºÐ° Ð½Ð° ÑÑÑÐ²ÑÑÐ°</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Вътрешна грешка, възникна на сървъра, докато се опитваше да изпълни вашата заявка.
-Моля свържете се с <?php echo $data['admin']; ?>, за да докладвате проблема.
+ÐÑÑÑÐµÑÐ½Ð° Ð³ÑÐµÑÐºÐ°, Ð²ÑÐ·Ð½Ð¸ÐºÐ½Ð° Ð½Ð° ÑÑÑÐ²ÑÑÐ°, Ð´Ð¾ÐºÐ°ÑÐ¾ ÑÐµ Ð¾Ð¿Ð¸ÑÐ²Ð°ÑÐµ Ð´Ð° Ð¸Ð·Ð¿ÑÐ»Ð½Ð¸ Ð²Ð°ÑÐ°ÑÐ° Ð·Ð°ÑÐ²ÐºÐ°.
+ÐÐ¾Ð»Ñ ÑÐ²ÑÑÐ¶ÐµÑÐµ ÑÐµ Ñ <?php echo $data['admin']; ?>, Ð·Ð° Ð´Ð° Ð´Ð¾ÐºÐ»Ð°Ð´Ð²Ð°ÑÐµ Ð¿ÑÐ¾Ð±Ð»ÐµÐ¼Ð°.
 </p>
 <p>
-Благодарим ви.
+ÐÐ»Ð°Ð³Ð¾Ð´Ð°ÑÐ¸Ð¼ Ð²Ð¸.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

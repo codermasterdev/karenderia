@@ -7,7 +7,7 @@ namespace Stripe\Service;
 class ChargeService extends \Stripe\Service\AbstractService
 {
     /**
-     * Returns a list of charges you’ve previously created. The charges are returned in
+     * Returns a list of charges youâve previously created. The charges are returned in
      * sorted order, with the most recent charges appearing first.
      *
      * @param null|array $params
@@ -47,7 +47,7 @@ class ChargeService extends \Stripe\Service\AbstractService
     /**
      * To charge a credit card or other payment source, you create a
      * <code>Charge</code> object. If your API key is in test mode, the supplied
-     * payment source (e.g., card) won’t actually be charged, although everything else
+     * payment source (e.g., card) wonât actually be charged, although everything else
      * will occur as if in live mode. (Stripe assumes that the charge would have
      * completed successfully).
      *

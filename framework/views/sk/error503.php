@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Služba nie je dostupná</title>
+<title>SluÅ¾ba nie je dostupnÃ¡</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Služba nie je dostupná</h1>
+<h1>SluÅ¾ba nie je dostupnÃ¡</h1>
 <p>
-Momentálne prebieha údržba systému. Navštívte nás prosím neskôr.
+MomentÃ¡lne prebieha ÃºdrÅ¾ba systÃ©mu. NavÅ¡tÃ­vte nÃ¡s prosÃ­m neskÃ´r.
 </p>
 <p>
-Ďakujeme.
+Äakujeme.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

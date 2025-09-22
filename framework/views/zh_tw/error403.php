@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>未被授權</h1>
+<h1>æªè¢«ææ¬</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-您沒有存取此頁面的適當憑據.
+æ¨æ²æå­åæ­¤é é¢çé©ç¶ææ.
 </p>
 <p>
-如果您認為是伺服器錯誤所造成, 請聯絡<?php echo $data[ 'admin']; ?>.
+å¦ææ¨èªçºæ¯ä¼ºæå¨é¯èª¤æé æ, è«è¯çµ¡<?php echo $data[ 'admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

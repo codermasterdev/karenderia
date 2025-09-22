@@ -17,7 +17,7 @@ use Monolog\ResettableInterface;
 /**
  * Forwards records to multiple handlers
  *
- * @author Lenar Lõhmus <lenar@city.ee>
+ * @author Lenar LÃµhmus <lenar@city.ee>
  *
  * @phpstan-import-type Record from \Monolog\Logger
  */

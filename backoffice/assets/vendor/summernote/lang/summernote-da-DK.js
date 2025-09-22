@@ -119,31 +119,31 @@ return /******/ (function(modules) { // webpackBootstrap
         italic: 'Kursiv',
         underline: 'Understreget',
         clear: 'Fjern formatering',
-        height: 'Højde',
+        height: 'HÃ¸jde',
         name: 'Skrifttype',
         strikethrough: 'Gennemstreget',
-        subscript: 'Sænket skrift',
-        superscript: 'Hævet skrift',
-        size: 'Skriftstørrelse'
+        subscript: 'SÃ¦nket skrift',
+        superscript: 'HÃ¦vet skrift',
+        size: 'SkriftstÃ¸rrelse'
       },
       image: {
         image: 'Billede',
-        insert: 'Indsæt billede',
-        resizeFull: 'Original størrelse',
-        resizeHalf: 'Halv størrelse',
-        resizeQuarter: 'Kvart størrelse',
+        insert: 'IndsÃ¦t billede',
+        resizeFull: 'Original stÃ¸rrelse',
+        resizeHalf: 'Halv stÃ¸rrelse',
+        resizeQuarter: 'Kvart stÃ¸rrelse',
         floatLeft: 'Venstrestillet',
-        floatRight: 'Højrestillet',
+        floatRight: 'HÃ¸jrestillet',
         floatNone: 'Fjern formatering',
         shapeRounded: 'Form: Runde kanter',
         shapeCircle: 'Form: Cirkel',
         shapeThumbnail: 'Form: Miniature',
         shapeNone: 'Form: Ingen',
-        dragImageHere: 'Træk billede hertil',
+        dragImageHere: 'TrÃ¦k billede hertil',
         dropImage: 'Slip billede',
-        selectFromFiles: 'Vælg billed-fil',
-        maximumFileSize: 'Maks fil størrelse',
-        maximumFileSizeError: 'Filen er større end maks tilladte fil størrelse!',
+        selectFromFiles: 'VÃ¦lg billed-fil',
+        maximumFileSize: 'Maks fil stÃ¸rrelse',
+        maximumFileSizeError: 'Filen er stÃ¸rre end maks tilladte fil stÃ¸rrelse!',
         url: 'Billede URL',
         remove: 'Fjern billede',
         original: 'Original'
@@ -151,31 +151,31 @@ return /******/ (function(modules) { // webpackBootstrap
       video: {
         video: 'Video',
         videoLink: 'Video Link',
-        insert: 'Indsæt Video',
+        insert: 'IndsÃ¦t Video',
         url: 'Video URL?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion eller Youku)'
       },
       link: {
         link: 'Link',
-        insert: 'Indsæt link',
+        insert: 'IndsÃ¦t link',
         unlink: 'Fjern link',
         edit: 'Rediger',
         textToDisplay: 'Visningstekst',
         url: 'Hvor skal linket pege hen?',
-        openInNewWindow: 'Åbn i nyt vindue'
+        openInNewWindow: 'Ãbn i nyt vindue'
       },
       table: {
         table: 'Tabel',
-        addRowAbove: 'Tilføj række over',
-        addRowBelow: 'Tilføj række under',
-        addColLeft: 'Tilføj venstre kolonne',
-        addColRight: 'Tilføj højre kolonne',
-        delRow: 'Slet række',
+        addRowAbove: 'TilfÃ¸j rÃ¦kke over',
+        addRowBelow: 'TilfÃ¸j rÃ¦kke under',
+        addColLeft: 'TilfÃ¸j venstre kolonne',
+        addColRight: 'TilfÃ¸j hÃ¸jre kolonne',
+        delRow: 'Slet rÃ¦kke',
         delCol: 'Slet kolonne',
         delTable: 'Slet tabel'
       },
       hr: {
-        insert: 'Indsæt horisontal linje'
+        insert: 'IndsÃ¦t horisontal linje'
       },
       style: {
         style: 'Stil',
@@ -194,17 +194,17 @@ return /******/ (function(modules) { // webpackBootstrap
         ordered: 'Nummereret liste'
       },
       options: {
-        help: 'Hjælp',
-        fullscreen: 'Fuld skærm',
+        help: 'HjÃ¦lp',
+        fullscreen: 'Fuld skÃ¦rm',
         codeview: 'HTML-Visning'
       },
       paragraph: {
         paragraph: 'Afsnit',
         outdent: 'Formindsk indryk',
-        indent: 'Forøg indryk',
+        indent: 'ForÃ¸g indryk',
         left: 'Venstrestillet',
         center: 'Centreret',
-        right: 'Højrestillet',
+        right: 'HÃ¸jrestillet',
         justify: 'Blokjuster'
       },
       color: {
@@ -213,7 +213,7 @@ return /******/ (function(modules) { // webpackBootstrap
         background: 'Baggrund',
         foreground: 'Forgrund',
         transparent: 'Transparent',
-        setTransparent: 'Sæt transparent',
+        setTransparent: 'SÃ¦t transparent',
         reset: 'Nulstil',
         resetToDefault: 'Gendan standardindstillinger'
       },
@@ -227,7 +227,7 @@ return /******/ (function(modules) { // webpackBootstrap
         extraKeys: 'Extra keys'
       },
       help: {
-        'insertParagraph': 'Indsæt paragraf',
+        'insertParagraph': 'IndsÃ¦t paragraf',
         'undo': 'Undoes the last command',
         'redo': 'Redoes the last command',
         'tab': 'Tab',
@@ -261,7 +261,7 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',
-        select: 'Vælg special karakterer'
+        select: 'VÃ¦lg special karakterer'
       }
     }
   });

@@ -13,18 +13,18 @@ FullCalendar.globalLocales.push(function () {
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Zurück',
+      prev: 'ZurÃ¼ck',
       next: 'Vor',
       today: 'Heute',
       year: 'Jahr',
       month: 'Monat',
       week: 'Woche',
       day: 'Tag',
-      list: 'Terminübersicht',
+      list: 'TerminÃ¼bersicht',
     },
     weekText: 'KW',
     weekTextLong: 'Woche',
-    allDayText: 'Ganztägig',
+    allDayText: 'GanztÃ¤gig',
     moreLinkText: function(n) {
       return '+ weitere ' + n
     },
@@ -34,10 +34,10 @@ FullCalendar.globalLocales.push(function () {
         return `Vorherige${affix(buttonText)} ${buttonText}`
       },
       next(buttonText) {
-        return `Nächste${affix(buttonText)} ${buttonText}`
+        return `NÃ¤chste${affix(buttonText)} ${buttonText}`
       },
       today(buttonText) {
-        // → Heute, Diese Woche, Dieser Monat, Dieses Jahr
+        // â Heute, Diese Woche, Dieser Monat, Dieses Jahr
         if (buttonText === 'Tag') {
           return 'Heute'
         }
@@ -45,7 +45,7 @@ FullCalendar.globalLocales.push(function () {
       },
     },
     viewHint(buttonText) {
-      // → Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
+      // â Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
       const glue = buttonText === 'Woche' ? 'n' : buttonText === 'Monat' ? 's' : 'es';
       return buttonText + glue + 'ansicht'
     },
@@ -55,7 +55,7 @@ FullCalendar.globalLocales.push(function () {
         'ein weiteres Ereignis' :
         eventCnt + ' weitere Ereignisse')
     },
-    closeHint: 'Schließen',
+    closeHint: 'SchlieÃen',
     timeHint: 'Uhrzeit',
     eventHint: 'Ereignis',
   };

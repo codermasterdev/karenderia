@@ -4791,7 +4791,7 @@ class CHttpSession extends CApplicationComponent implements IteratorAggregate,Ar
 		if($value>=0 && $value<=100)
 		{
 			$this->freeze();
-			// percent * 21474837 / 2147483647 ≈ percent * 0.01
+			// percent * 21474837 / 2147483647 â percent * 0.01
 			ini_set('session.gc_probability',floor($value*21474836.47));
 			ini_set('session.gc_divisor',2147483647);
 			$this->unfreeze();

@@ -9,19 +9,19 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Prethodna',
-      next: 'Sledeći',
+      next: 'SledecÌi',
       today: 'Danas',
-      month: 'Mеsеc',
-      week: 'Nеdеlja',
+      month: 'MÐµsÐµc',
+      week: 'NÐµdÐµlja',
       day: 'Dan',
-      list: 'Planеr',
+      list: 'PlanÐµr',
     },
     weekText: 'Sed',
-    allDayText: 'Cеo dan',
+    allDayText: 'CÐµo dan',
     moreLinkText: function(n) {
-      return '+ još ' + n
+      return '+ joÅ¡ ' + n
     },
-    noEventsText: 'Nеma događaja za prikaz',
+    noEventsText: 'NÐµma dogaÄaja za prikaz',
   };
 
   return sr;

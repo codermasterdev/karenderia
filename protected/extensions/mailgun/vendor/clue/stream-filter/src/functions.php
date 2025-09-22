@@ -184,7 +184,7 @@ function prepend($stream, $callback, $read_write = STREAM_FILTER_ALL)
  * Filter\fun('unknown'); // throws RuntimeException
  * ```
  *
- * Some filters may accept or require additional filter parameters – most
+ * Some filters may accept or require additional filter parameters â most
  * filters do not require filter parameters.
  * If given, the optional `$parameters` argument will be passed to the
  * underlying filter handler as-is.
@@ -289,7 +289,7 @@ function fun($filter, $parameters = null)
  *
  * ```php
  * $filter = Filter\append($stream, function () {
- *     // …
+ *     // â¦
  * });
  * Filter\remove($filter);
  * ```

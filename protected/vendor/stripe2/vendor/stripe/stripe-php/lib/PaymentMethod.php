@@ -17,7 +17,7 @@ namespace Stripe;
  * @property null|\Stripe\StripeObject $affirm
  * @property null|\Stripe\StripeObject $afterpay_clearpay
  * @property null|\Stripe\StripeObject $alipay
- * @property null|string $allow_redisplay This field indicates whether this payment method can be shown again to its customer in a checkout flow. Stripe products such as Checkout and Elements use this field to determine whether a payment method can be shown as a saved payment method in a checkout flow. The field defaults to “unspecified”.
+ * @property null|string $allow_redisplay This field indicates whether this payment method can be shown again to its customer in a checkout flow. Stripe products such as Checkout and Elements use this field to determine whether a payment method can be shown as a saved payment method in a checkout flow. The field defaults to âunspecifiedâ.
  * @property null|\Stripe\StripeObject $amazon_pay
  * @property null|\Stripe\StripeObject $au_becs_debit
  * @property null|\Stripe\StripeObject $bacs_debit
@@ -144,7 +144,7 @@ class PaymentMethod extends ApiResource
     /**
      * Returns a list of PaymentMethods for Treasury flows. If you want to list the
      * PaymentMethods attached to a Customer for payments, you should use the <a
-     * href="/docs/api/payment_methods/customer_list">List a Customer’s
+     * href="/docs/api/payment_methods/customer_list">List a Customerâs
      * PaymentMethods</a> API instead.
      *
      * @param null|array $params
@@ -164,7 +164,7 @@ class PaymentMethod extends ApiResource
     /**
      * Retrieves a PaymentMethod object attached to the StripeAccount. To retrieve a
      * payment method attached to a Customer, you should use <a
-     * href="/docs/api/payment_methods/customer">Retrieve a Customer’s
+     * href="/docs/api/payment_methods/customer">Retrieve a Customerâs
      * PaymentMethods</a>.
      *
      * @param array|string $id the ID of the API resource to retrieve, or an options array containing an `id` key

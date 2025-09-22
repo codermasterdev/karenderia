@@ -12,7 +12,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Apply a delegated plugin based on a request match.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class RequestMatcherPlugin implements Plugin
 {

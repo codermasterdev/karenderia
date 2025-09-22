@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			Ημερολόγιο εφαρμογής
+			ÎÎ¼ÎµÏÎ¿Î»ÏÎ³Î¹Î¿ ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">Χρονική ετικέτα</th>
-		<th>Επίπεδο</th>
-		<th>Κατηγορία</th>
-		<th>Μήνυμα</th>
+	    <th style="width:120px">Î§ÏÎ¿Î½Î¹ÎºÎ® ÎµÏÎ¹ÎºÎ­ÏÎ±</th>
+		<th>ÎÏÎ¯ÏÎµÎ´Î¿</th>
+		<th>ÎÎ±ÏÎ·Î³Î¿ÏÎ¯Î±</th>
+		<th>ÎÎ®Î½ÏÎ¼Î±</th>
 	</tr>
 <?php
 $colors=array(

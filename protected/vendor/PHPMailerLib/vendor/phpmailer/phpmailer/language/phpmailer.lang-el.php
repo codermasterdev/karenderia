@@ -5,29 +5,29 @@
  * @package PHPMailer
  */
 
-$PHPMAILER_LANG['authenticate']         = 'Σφάλμα SMTP: Αδυναμία πιστοποίησης.';
-$PHPMAILER_LANG['buggy_php']            = 'Η έκδοση PHP που χρησιμοποιείτε παρουσιάζει σφάλμα που μπορεί να έχει ως αποτέλεσμα κατεστραμένα μηνύματα. Για να το διορθώσετε, αλλάξτε τον τρόπο αποστολής σε SMTP, απενεργοποιήστε την επιλογή mail.add_x_header στο αρχείο php.ini, αλλάξτε λειτουργικό σε MacOS ή Linux ή αναβαθμίστε την PHP σε έκδοση 7.0.17+ ή 7.1.3+.';
-$PHPMAILER_LANG['connect_host']         = 'Σφάλμα SMTP: Αδυναμία σύνδεσης με τον φιλοξενητή SMTP.';
-$PHPMAILER_LANG['data_not_accepted']    = 'Σφάλμα SMTP: Μη αποδεκτά δεδομένα.';
-$PHPMAILER_LANG['empty_message']        = 'Η ηλεκτρονική επιστολή δεν έχει περιεχόμενο.';
-$PHPMAILER_LANG['encoding']             = 'Άγνωστη μορφή κωδικοποίησης: ';
-$PHPMAILER_LANG['execute']              = 'Αδυναμία εκτέλεσης: ';
-$PHPMAILER_LANG['extension_missing']    = 'Απουσία επέκτασης: ';
-$PHPMAILER_LANG['file_access']          = 'Αδυναμία πρόσβασης στο αρχείο: ';
-$PHPMAILER_LANG['file_open']            = 'Σφάλμα Αρχείου: Αδυναμία ανοίγματος αρχείου: ';
-$PHPMAILER_LANG['from_failed']          = 'Η ακόλουθη διεύθυνση αποστολέα δεν είναι σωστή: ';
-$PHPMAILER_LANG['instantiate']          = 'Αδυναμία εκκίνησης συνάρτησης Mail.';
-$PHPMAILER_LANG['invalid_address']      = 'Μη έγκυρη διεύθυνση: ';
-$PHPMAILER_LANG['invalid_header']       = 'Μη έγκυρο όνομα κεφαλίδας ή τιμή';
-$PHPMAILER_LANG['invalid_hostentry']    = 'Μη έγκυρη εισαγωγή φιλοξενητή: ';
-$PHPMAILER_LANG['invalid_host']         = 'Μη έγκυρος φιλοξενητής: ';
-$PHPMAILER_LANG['mailer_not_supported'] = ' mailer δεν υποστηρίζεται.';
-$PHPMAILER_LANG['provide_address']      = 'Δώστε τουλάχιστον μια ηλεκτρονική διεύθυνση παραλήπτη.';
-$PHPMAILER_LANG['recipients_failed']    = 'Σφάλμα SMTP: Οι παρακάτω διευθύνσεις παραλήπτη δεν είναι έγκυρες: ';
-$PHPMAILER_LANG['signing']              = 'Σφάλμα υπογραφής: ';
-$PHPMAILER_LANG['smtp_code']            = 'Κώδικάς SMTP: ';
-$PHPMAILER_LANG['smtp_code_ex']         = 'Πρόσθετες πληροφορίες SMTP: ';
-$PHPMAILER_LANG['smtp_connect_failed']  = 'Αποτυχία σύνδεσης SMTP.';
-$PHPMAILER_LANG['smtp_detail']          = 'Λεπτομέρεια: ';
-$PHPMAILER_LANG['smtp_error']           = 'Σφάλμα με τον διακομιστή SMTP: ';
-$PHPMAILER_LANG['variable_set']         = 'Αδυναμία ορισμού ή επαναφοράς μεταβλητής: ';
+$PHPMAILER_LANG['authenticate']         = 'Î£ÏÎ¬Î»Î¼Î± SMTP: ÎÎ´ÏÎ½Î±Î¼Î¯Î± ÏÎ¹ÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ·Ï.';
+$PHPMAILER_LANG['buggy_php']            = 'Î Î­ÎºÎ´Î¿ÏÎ· PHP ÏÎ¿Ï ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÎµÎ¯ÏÎµ ÏÎ±ÏÎ¿ÏÏÎ¹Î¬Î¶ÎµÎ¹ ÏÏÎ¬Î»Î¼Î± ÏÎ¿Ï Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÏ Î±ÏÎ¿ÏÎ­Î»ÎµÏÎ¼Î± ÎºÎ±ÏÎµÏÏÏÎ±Î¼Î­Î½Î± Î¼Î·Î½ÏÎ¼Î±ÏÎ±. ÎÎ¹Î± Î½Î± ÏÎ¿ Î´Î¹Î¿ÏÎ¸ÏÏÎµÏÎµ, Î±Î»Î»Î¬Î¾ÏÎµ ÏÎ¿Î½ ÏÏÏÏÎ¿ Î±ÏÎ¿ÏÏÎ¿Î»Î®Ï ÏÎµ SMTP, Î±ÏÎµÎ½ÎµÏÎ³Î¿ÏÎ¿Î¹Î®ÏÏÎµ ÏÎ·Î½ ÎµÏÎ¹Î»Î¿Î³Î® mail.add_x_header ÏÏÎ¿ Î±ÏÏÎµÎ¯Î¿ php.ini, Î±Î»Î»Î¬Î¾ÏÎµ Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏ ÏÎµ MacOS Î® Linux Î® Î±Î½Î±Î²Î±Î¸Î¼Î¯ÏÏÎµ ÏÎ·Î½ PHP ÏÎµ Î­ÎºÎ´Î¿ÏÎ· 7.0.17+ Î® 7.1.3+.';
+$PHPMAILER_LANG['connect_host']         = 'Î£ÏÎ¬Î»Î¼Î± SMTP: ÎÎ´ÏÎ½Î±Î¼Î¯Î± ÏÏÎ½Î´ÎµÏÎ·Ï Î¼Îµ ÏÎ¿Î½ ÏÎ¹Î»Î¿Î¾ÎµÎ½Î·ÏÎ® SMTP.';
+$PHPMAILER_LANG['data_not_accepted']    = 'Î£ÏÎ¬Î»Î¼Î± SMTP: ÎÎ· Î±ÏÎ¿Î´ÎµÎºÏÎ¬ Î´ÎµÎ´Î¿Î¼Î­Î½Î±.';
+$PHPMAILER_LANG['empty_message']        = 'Î Î·Î»ÎµÎºÏÏÎ¿Î½Î¹ÎºÎ® ÎµÏÎ¹ÏÏÎ¿Î»Î® Î´ÎµÎ½ Î­ÏÎµÎ¹ ÏÎµÏÎ¹ÎµÏÏÎ¼ÎµÎ½Î¿.';
+$PHPMAILER_LANG['encoding']             = 'ÎÎ³Î½ÏÏÏÎ· Î¼Î¿ÏÏÎ® ÎºÏÎ´Î¹ÎºÎ¿ÏÎ¿Î¯Î·ÏÎ·Ï: ';
+$PHPMAILER_LANG['execute']              = 'ÎÎ´ÏÎ½Î±Î¼Î¯Î± ÎµÎºÏÎ­Î»ÎµÏÎ·Ï: ';
+$PHPMAILER_LANG['extension_missing']    = 'ÎÏÎ¿ÏÏÎ¯Î± ÎµÏÎ­ÎºÏÎ±ÏÎ·Ï: ';
+$PHPMAILER_LANG['file_access']          = 'ÎÎ´ÏÎ½Î±Î¼Î¯Î± ÏÏÏÏÎ²Î±ÏÎ·Ï ÏÏÎ¿ Î±ÏÏÎµÎ¯Î¿: ';
+$PHPMAILER_LANG['file_open']            = 'Î£ÏÎ¬Î»Î¼Î± ÎÏÏÎµÎ¯Î¿Ï: ÎÎ´ÏÎ½Î±Î¼Î¯Î± Î±Î½Î¿Î¯Î³Î¼Î±ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï: ';
+$PHPMAILER_LANG['from_failed']          = 'Î Î±ÎºÏÎ»Î¿ÏÎ¸Î· Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ· Î±ÏÎ¿ÏÏÎ¿Î»Î­Î± Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ ÏÏÏÏÎ®: ';
+$PHPMAILER_LANG['instantiate']          = 'ÎÎ´ÏÎ½Î±Î¼Î¯Î± ÎµÎºÎºÎ¯Î½Î·ÏÎ·Ï ÏÏÎ½Î¬ÏÏÎ·ÏÎ·Ï Mail.';
+$PHPMAILER_LANG['invalid_address']      = 'ÎÎ· Î­Î³ÎºÏÏÎ· Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ·: ';
+$PHPMAILER_LANG['invalid_header']       = 'ÎÎ· Î­Î³ÎºÏÏÎ¿ ÏÎ½Î¿Î¼Î± ÎºÎµÏÎ±Î»Î¯Î´Î±Ï Î® ÏÎ¹Î¼Î®';
+$PHPMAILER_LANG['invalid_hostentry']    = 'ÎÎ· Î­Î³ÎºÏÏÎ· ÎµÎ¹ÏÎ±Î³ÏÎ³Î® ÏÎ¹Î»Î¿Î¾ÎµÎ½Î·ÏÎ®: ';
+$PHPMAILER_LANG['invalid_host']         = 'ÎÎ· Î­Î³ÎºÏÏÎ¿Ï ÏÎ¹Î»Î¿Î¾ÎµÎ½Î·ÏÎ®Ï: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' mailer Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹.';
+$PHPMAILER_LANG['provide_address']      = 'ÎÏÏÏÎµ ÏÎ¿ÏÎ»Î¬ÏÎ¹ÏÏÎ¿Î½ Î¼Î¹Î± Î·Î»ÎµÎºÏÏÎ¿Î½Î¹ÎºÎ® Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ· ÏÎ±ÏÎ±Î»Î®ÏÏÎ·.';
+$PHPMAILER_LANG['recipients_failed']    = 'Î£ÏÎ¬Î»Î¼Î± SMTP: ÎÎ¹ ÏÎ±ÏÎ±ÎºÎ¬ÏÏ Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎµÎ¹Ï ÏÎ±ÏÎ±Î»Î®ÏÏÎ· Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎµÏ: ';
+$PHPMAILER_LANG['signing']              = 'Î£ÏÎ¬Î»Î¼Î± ÏÏÎ¿Î³ÏÎ±ÏÎ®Ï: ';
+$PHPMAILER_LANG['smtp_code']            = 'ÎÏÎ´Î¹ÎºÎ¬Ï SMTP: ';
+$PHPMAILER_LANG['smtp_code_ex']         = 'Î ÏÏÏÎ¸ÎµÏÎµÏ ÏÎ»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ SMTP: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'ÎÏÎ¿ÏÏÏÎ¯Î± ÏÏÎ½Î´ÎµÏÎ·Ï SMTP.';
+$PHPMAILER_LANG['smtp_detail']          = 'ÎÎµÏÏÎ¿Î¼Î­ÏÎµÎ¹Î±: ';
+$PHPMAILER_LANG['smtp_error']           = 'Î£ÏÎ¬Î»Î¼Î± Î¼Îµ ÏÎ¿Î½ Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® SMTP: ';
+$PHPMAILER_LANG['variable_set']         = 'ÎÎ´ÏÎ½Î±Î¼Î¯Î± Î¿ÏÎ¹ÏÎ¼Î¿Ï Î® ÎµÏÎ±Î½Î±ÏÎ¿ÏÎ¬Ï Î¼ÎµÏÎ±Î²Î»Î·ÏÎ®Ï: ';

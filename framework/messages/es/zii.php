@@ -17,7 +17,7 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Are you sure you want to delete this item?' => '¿Está seguro que desea borrar este elemento?',
+  'Are you sure you want to delete this item?' => 'Â¿EstÃ¡ seguro que desea borrar este elemento?',
   'Delete' => 'Borrar',
   'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Viendo {start}-{end} de 1 resultado.|Viendo {start}-{end} de {count} resultados.',
   'Either "name" or "value" must be specified for CDataColumn.' => 'Deben especificarse ya sea "name" o "value" para CDataColumn.',
@@ -29,11 +29,11 @@ return array (
   'Sort by: ' => 'Ordenar por: ',
   'The "dataProvider" property cannot be empty.' => 'La propiedad "dataProvider" no puede estar vacia.',
   'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'El atributo debe especificarse en el formato "Nombre:Tipo:Etiqueta", donde "Tipo" y "Etiqueta" son opcionales.',
-  'The button type "{type}" is not supported.' => 'El tipo de botón "{type}" no es soportado.',
+  'The button type "{type}" is not supported.' => 'El tipo de botÃ³n "{type}" no es soportado.',
   'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'La columna debe especificarse en el formato "Nombre:Tipo:Etiqueta", donde "Tipo" y "Etiqueta" son opcionales.',
   'The property "itemView" cannot be empty.' => 'La propiedad "itemView" no puede estar vacia.',
-  'The property filterSelector should be defined.' => 'La propiedad filterSelector debería estar definida.',
-  'The property updateSelector should be defined.' => 'La propiedad updateSelector debería estar definida.',
+  'The property filterSelector should be defined.' => 'La propiedad filterSelector deberÃ­a estar definida.',
+  'The property updateSelector should be defined.' => 'La propiedad updateSelector deberÃ­a estar definida.',
   'Total 1 result.|Total {count} results.' => 'Total de 1 resultado.|Total de {count} resultados.',
   'Update' => 'Actualizar',
   'View' => 'Ver',

@@ -9,17 +9,17 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Iepr.',
-      next: 'Nāk.',
-      today: 'Šodien',
-      month: 'Mēnesis',
-      week: 'Nedēļa',
+      next: 'NÄk.',
+      today: 'Å odien',
+      month: 'MÄnesis',
+      week: 'NedÄÄ¼a',
       day: 'Diena',
-      list: 'Dienas kārtība',
+      list: 'Dienas kÄrtÄ«ba',
     },
     weekText: 'Ned.',
     allDayText: 'Visu dienu',
     moreLinkText: function(n) {
-      return '+vēl ' + n
+      return '+vÄl ' + n
     },
     noEventsText: 'Nav notikumu',
   };

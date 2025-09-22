@@ -13,7 +13,7 @@ class PaymentMethodService extends \Stripe\Service\AbstractService
     /**
      * Returns a list of PaymentMethods for Treasury flows. If you want to list the
      * PaymentMethods attached to a Customer for payments, you should use the <a
-     * href="/docs/api/payment_methods/customer_list">List a Customer’s
+     * href="/docs/api/payment_methods/customer_list">List a Customerâs
      * PaymentMethods</a> API instead.
      *
      * @param null|array $params
@@ -46,7 +46,7 @@ class PaymentMethodService extends \Stripe\Service\AbstractService
      * To use this PaymentMethod as the default for invoice or subscription payments,
      * set <a
      * href="/docs/api/customers/update#update_customer-invoice_settings-default_payment_method"><code>invoice_settings.default_payment_method</code></a>,
-     * on the Customer to the PaymentMethod’s ID.
+     * on the Customer to the PaymentMethodâs ID.
      *
      * @param string $id
      * @param null|array $params
@@ -104,7 +104,7 @@ class PaymentMethodService extends \Stripe\Service\AbstractService
     /**
      * Retrieves a PaymentMethod object attached to the StripeAccount. To retrieve a
      * payment method attached to a Customer, you should use <a
-     * href="/docs/api/payment_methods/customer">Retrieve a Customer’s
+     * href="/docs/api/payment_methods/customer">Retrieve a Customerâs
      * PaymentMethods</a>.
      *
      * @param string $id

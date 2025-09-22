@@ -7,7 +7,7 @@
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th style="width:120px">Tid</th>
-		<th>Nivå</th>
+		<th>NivÃ¥</th>
 		<th>Kategori</th>
 		<th>Melding</th>
 	</tr>

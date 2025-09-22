@@ -19,10 +19,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Paslauga nepasiekiama</h1>
 <p>
-Šiuo metu sistema tvarkoma, prašytume užsukti vėliau. 
+Å iuo metu sistema tvarkoma, praÅ¡ytume uÅ¾sukti vÄliau. 
 </p>
 <p>
-Ačiū.
+AÄiÅ«.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -22,8 +22,8 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Internt serverfel</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Ett internt fel uppstod vid behandlingen av Er begäran.
-Vänligen kontakta <?php echo $data['admin']; ?> för att rapportera detta problem.
+Ett internt fel uppstod vid behandlingen av Er begÃ¤ran.
+VÃ¤nligen kontakta <?php echo $data['admin']; ?> fÃ¶r att rapportera detta problem.
 </p>
 <p>
 Tack.

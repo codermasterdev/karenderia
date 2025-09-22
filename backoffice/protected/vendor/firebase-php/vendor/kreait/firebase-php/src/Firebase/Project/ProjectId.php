@@ -35,7 +35,7 @@ final class ProjectId
         // This should never happen, however:
         // If the regex above is invalid, preg_replace() will return false.
         // As it's not invalid, code coverage will complain about this
-        // never being reached, so we ignore it ¯\_(ツ)_/¯
+        // never being reached, so we ignore it Â¯\_(ã)_/Â¯
         return $this->value;
         // @codeCoverageIgnoreEnd
     }

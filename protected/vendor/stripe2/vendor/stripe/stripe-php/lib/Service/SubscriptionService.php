@@ -27,12 +27,12 @@ class SubscriptionService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Cancels a customer’s subscription immediately. The customer will not be charged
+     * Cancels a customerâs subscription immediately. The customer will not be charged
      * again for the subscription.
      *
-     * Note, however, that any pending invoice items that you’ve created will still be
+     * Note, however, that any pending invoice items that youâve created will still be
      * charged for at the end of the period, unless manually <a
-     * href="#delete_invoiceitem">deleted</a>. If you’ve set the subscription to cancel
+     * href="#delete_invoiceitem">deleted</a>. If youâve set the subscription to cancel
      * at the end of the period, any pending prorations will also be left in place and
      * collected at the end of the period. But if the subscription is set to cancel
      * immediately, pending prorations will be removed.
@@ -139,8 +139,8 @@ class SubscriptionService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Search for subscriptions you’ve previously created using Stripe’s <a
-     * href="/docs/search#search-query-language">Search Query Language</a>. Don’t use
+     * Search for subscriptions youâve previously created using Stripeâs <a
+     * href="/docs/search#search-query-language">Search Query Language</a>. Donât use
      * search in read-after-write flows where strict consistency is necessary. Under
      * normal operating conditions, data is searchable in less than a minute.
      * Occasionally, propagation of new or updated data can be up to an hour behind
@@ -166,12 +166,12 @@ class SubscriptionService extends \Stripe\Service\AbstractService
      * preview</a> endpoint.
      *
      * By default, we prorate subscription changes. For example, if a customer signs up
-     * on May 1 for a <currency>100</currency> price, they’ll be billed
+     * on May 1 for a <currency>100</currency> price, theyâll be billed
      * <currency>100</currency> immediately. If on May 15 they switch to a
-     * <currency>200</currency> price, then on June 1 they’ll be billed
+     * <currency>200</currency> price, then on June 1 theyâll be billed
      * <currency>250</currency> (<currency>200</currency> for a renewal of her
      * subscription, plus a <currency>50</currency> prorating adjustment for half of
-     * the previous month’s <currency>100</currency> difference). Similarly, a
+     * the previous monthâs <currency>100</currency> difference). Similarly, a
      * downgrade generates a credit that is applied to the next invoice. We also
      * prorate when you make quantity changes.
      *
@@ -193,15 +193,15 @@ class SubscriptionService extends \Stripe\Service\AbstractService
      * prorations, automatically invoice the customer for those proration adjustments,
      * and attempt to collect payment. If you pass <code>create_prorations</code>, the
      * prorations are created but not automatically invoiced. If you want to bill the
-     * customer for the prorations before the subscription’s renewal date, you need to
+     * customer for the prorations before the subscriptionâs renewal date, you need to
      * manually <a href="/docs/api/invoices/create">invoice the customer</a>.
      *
-     * If you don’t want to prorate, set the <code>proration_behavior</code> option to
+     * If you donât want to prorate, set the <code>proration_behavior</code> option to
      * <code>none</code>. With this option, the customer is billed
      * <currency>100</currency> on May 1 and <currency>200</currency> on June 1.
      * Similarly, if you set <code>proration_behavior</code> to <code>none</code> when
      * switching between different billing intervals (for example, from monthly to
-     * yearly), we don’t generate any credits for the old subscription’s unused time.
+     * yearly), we donât generate any credits for the old subscriptionâs unused time.
      * We still reset the billing date and bill immediately for the new subscription.
      *
      * Updating the quantity on a subscription many times in an hour may result in <a

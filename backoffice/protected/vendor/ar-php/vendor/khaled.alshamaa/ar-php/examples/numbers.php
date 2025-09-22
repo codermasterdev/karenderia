@@ -31,7 +31,7 @@ and more personality.</p>
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-1">
-<a href="#example-1" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 1: المعدود مذكر مرفوع</h2>
+<a href="#example-1" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 1: Ø§ÙÙØ¹Ø¯ÙØ¯ ÙØ°ÙØ± ÙØ±ÙÙØ¹</h2>
 <?php
 
 error_reporting(E_STRICT);
@@ -84,7 +84,7 @@ highlight_string($code);
 <br />
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-2">
-<a href="#example-2" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 2: المعدود مؤنث منصوب أو مجرور</h2>
+<a href="#example-2" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 2: Ø§ÙÙØ¹Ø¯ÙØ¯ ÙØ¤ÙØ« ÙÙØµÙØ¨ Ø£Ù ÙØ¬Ø±ÙØ±</h2>
 <?php
     $Arabic->setNumberFeminine(2);
     $Arabic->setNumberFormat(2);
@@ -126,7 +126,7 @@ highlight_string($code);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-3">
-<a href="#example-3" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 3: المعدود مؤنث منصوب أو مجرور وهو سالب بفاصلة عشرية</h2>
+<a href="#example-3" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 3: Ø§ÙÙØ¹Ø¯ÙØ¯ ÙØ¤ÙØ« ÙÙØµÙØ¨ Ø£Ù ÙØ¬Ø±ÙØ± ÙÙÙ Ø³Ø§ÙØ¨ Ø¨ÙØ§ØµÙØ© Ø¹Ø´Ø±ÙØ©</h2>
 <?php
     $Arabic->setNumberFeminine(2);
     $Arabic->setNumberFormat(2);
@@ -168,7 +168,7 @@ highlight_string($code);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-4">
-<a href="#example-4" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 4: العملات العربية</h2>
+<a href="#example-4" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 4: Ø§ÙØ¹ÙÙØ§Øª Ø§ÙØ¹Ø±Ø¨ÙØ©</h2>
 <?php
     $Arabic->setNumberFeminine(1);
     $Arabic->setNumberFormat(1);
@@ -209,17 +209,17 @@ highlight_string($code);
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-5">
 <a href="#example-5" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>
-Example Output 5: صيغ الجمع
+Example Output 5: ØµÙØº Ø§ÙØ¬ÙØ¹
 </h2>
 <?php
     $number = 9;
-    $text   = $Arabic->arPlural('تعليق', $number);
+    $text   = $Arabic->arPlural('ØªØ¹ÙÙÙ', $number);
     $text   = str_replace('%d', $number, $text);
     
     echo "<p align=center>$text</p>";
     
     $number = 16;
-    $text   = $Arabic->arPlural('صندوق', $number, 'صندوقان', 'صناديق', 'صندوقا');
+    $text   = $Arabic->arPlural('ØµÙØ¯ÙÙ', $number, 'ØµÙØ¯ÙÙØ§Ù', 'ØµÙØ§Ø¯ÙÙ', 'ØµÙØ¯ÙÙØ§');
     $text   = str_replace('%d', $number, $text);
 
     echo "<p align=center>$text</p>";
@@ -234,13 +234,13 @@ $code = <<< END
 	\$Arabic = new \\ArPHP\\I18N\\Arabic();
 
     \$number = 9;
-    \$text   = \$Arabic->arPlural('تعليق', \$number);
+    \$text   = \$Arabic->arPlural('ØªØ¹ÙÙÙ', \$number);
     \$text   = str_replace('%d', \$number, \$text);
     
     echo "<p align=center>\$text</p>";
     
     \$number = 16;
-    \$text   = \$Arabic->arPlural('صندوق', \$number, 'صندوقان', 'صناديق', 'صندوقا');
+    \$text   = \$Arabic->arPlural('ØµÙØ¯ÙÙ', \$number, 'ØµÙØ¯ÙÙØ§Ù', 'ØµÙØ§Ø¯ÙÙ', 'ØµÙØ¯ÙÙØ§');
     \$text   = str_replace('%d', \$number, \$text);
 
     echo "<p align=center>\$text</p>";
@@ -256,9 +256,9 @@ highlight_string($code);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-6">
-<a href="#example-6" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 6: الأرقام الهندية</h2>
+<a href="#example-6" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 6: Ø§ÙØ£Ø±ÙØ§Ù Ø§ÙÙÙØ¯ÙØ©</h2>
 <?php
-    $text1 = '1975/8/2 9:43 صباحا';
+    $text1 = '1975/8/2 9:43 ØµØ¨Ø§Ø­Ø§';
     $text2 = $Arabic->int2indic($text1);
     
     echo "<p align=center>$text1<br />$text2</p>";
@@ -272,7 +272,7 @@ $code = <<< END
 <?php
 	\$Arabic = new \\ArPHP\\I18N\\Arabic();
     
-    \$text1 = '1975/8/2 9:43 صباحا';
+    \$text1 = '1975/8/2 9:43 ØµØ¨Ø§Ø­Ø§';
     \$text2 = \$Arabic->int2indic(\$text1);
     
     echo "<p align=center>\$text1<br />\$text2</p>";
@@ -288,7 +288,7 @@ highlight_string($code);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-7">
-<a href="#example-7" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 7: ترتيب لمعدود مؤنث منصوب أو مجرور</h2>
+<a href="#example-7" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 7: ØªØ±ØªÙØ¨ ÙÙØ¹Ø¯ÙØ¯ ÙØ¤ÙØ« ÙÙØµÙØ¨ Ø£Ù ÙØ¬Ø±ÙØ±</h2>
 <?php
     $Arabic->setNumberFeminine(2);
     $Arabic->setNumberFormat(2);
@@ -332,9 +332,9 @@ highlight_string($code);
 
 <div class="Paragraph" dir="rtl">
 <h2 dir="ltr" id="example-8">
-<a href="#example-8" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 8: تحويل الرقم المكتوب إلى عدد صحيح من جديد</h2>
+<a href="#example-8" class="anchor"><img src="./images/link_icon.png" width="16" border="0"></a>Example Output 8: ØªØ­ÙÙÙ Ø§ÙØ±ÙÙ Ø§ÙÙÙØªÙØ¨ Ø¥ÙÙ Ø¹Ø¯Ø¯ ØµØ­ÙØ­ ÙÙ Ø¬Ø¯ÙØ¯</h2>
 <?php
-    $string  = 'مليار ومئتين وخمسة وستين مليون وثلاثمئة وثمانية وخمسين ألف وتسعمئة وتسعة وسبعين';
+    $string  = 'ÙÙÙØ§Ø± ÙÙØ¦ØªÙÙ ÙØ®ÙØ³Ø© ÙØ³ØªÙÙ ÙÙÙÙÙ ÙØ«ÙØ§Ø«ÙØ¦Ø© ÙØ«ÙØ§ÙÙØ© ÙØ®ÙØ³ÙÙ Ø£ÙÙ ÙØªØ³Ø¹ÙØ¦Ø© ÙØªØ³Ø¹Ø© ÙØ³Ø¨Ø¹ÙÙ';
 
     $integer = $Arabic->str2int($string);
     
@@ -349,7 +349,7 @@ $code = <<< END
 <?php
 	\$Arabic = new \\ArPHP\\I18N\\Arabic();
     
-    \$string  = 'مليار ومئتين وخمسة وستين مليون وثلاثمئة وثمانية وخمسين ألف وتسعمئة وتسعة وسبعين';
+    \$string  = 'ÙÙÙØ§Ø± ÙÙØ¦ØªÙÙ ÙØ®ÙØ³Ø© ÙØ³ØªÙÙ ÙÙÙÙÙ ÙØ«ÙØ§Ø«ÙØ¦Ø© ÙØ«ÙØ§ÙÙØ© ÙØ®ÙØ³ÙÙ Ø£ÙÙ ÙØªØ³Ø¹ÙØ¦Ø© ÙØªØ³Ø¹Ø© ÙØ³Ø¨Ø¹ÙÙ';
 
     \$integer = \$Arabic->str2int(\$string);
     

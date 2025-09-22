@@ -137,8 +137,8 @@ trait RequestTrait
     /**
      * Create a new instance with a specific request-target.
      *
-     * If the request needs a non-origin-form request-target — e.g., for
-     * specifying an absolute-form, authority-form, or asterisk-form —
+     * If the request needs a non-origin-form request-target â e.g., for
+     * specifying an absolute-form, authority-form, or asterisk-form â
      * this method may be used to create an instance with the specified
      * request-target, verbatim.
      *

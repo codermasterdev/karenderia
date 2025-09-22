@@ -14,7 +14,7 @@ namespace Monolog\Processor;
 /**
  * Adds value of getmypid into records
  *
- * @author Andreas Hörnicke
+ * @author Andreas HÃ¶rnicke
  */
 class ProcessIdProcessor implements ProcessorInterface
 {

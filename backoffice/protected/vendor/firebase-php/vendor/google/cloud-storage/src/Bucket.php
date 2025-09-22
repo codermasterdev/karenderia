@@ -356,7 +356,7 @@ class Bucket
      *           force a hash method regardless of performance implications. In
      *           PHP versions earlier than 7.4, performance will be very
      *           adversely impacted by using crc32c unless you install the
-     *           `crc32c` PHP extension. **Defaults to** `true`.ß
+     *           `crc32c` PHP extension. **Defaults to** `true`.Ã
      *     @type string $predefinedAcl Predefined ACL to apply to the object.
      *           Acceptable values include, `"authenticatedRead"`,
      *           `"bucketOwnerFullControl"`, `"bucketOwnerRead"`, `"private"`,

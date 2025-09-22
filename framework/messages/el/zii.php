@@ -17,25 +17,25 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '{class} must specify "model" and "{attribute}" or "{name}" property values.' => 'Η κλάση {class} πρέπει να ορίσει τις ιδιότητες "model" και "{attribute}" ή "{name}".',
-  'Are you sure you want to delete this item?' => 'Είστε σίγουρος ότι θέλετε να διαγράψετε το αντικείμενο;',
-  'Delete' => 'Διαγραφή',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Εμφάνιση {start}-{end} από 1 αποτέλεσμα.|Εμφάνιση {start}-{end} από {count} αποτελέσματα.',
-  'Either "name" or "value" must be specified for CDataColumn.' => 'Πρέπει να οριστεί είτε το "όνομα" είτε η "τιμή" για το CDataColumn.',
-  'Home' => 'Αρχική',
-  'No results found.' => 'Δε βρέθηκαν αποτελέσματα.',
-  'Not set' => 'Δεν έχει οριστεί',
-  'Please specify the "attributes" property.' => 'Καθορίστε την ιδιότητα "attributes".',
-  'Please specify the "data" property.' => 'Καθορίστε την ιδιότητα "data".',
-  'Sort by: ' => 'Ταξινόμηση κατά: ',
-  'The "dataProvider" property cannot be empty.' => 'Η ιδιότητα "dataProvider" δεν μπορεί να μην έχει τιμή.',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Η ιδιότητα πρέπει να οριστεί στη μορφή "Όνομα:Τύπος:Ετικέτα", όπου "Τύπος" και "Ετικέτα" είναι προαιρετικά.',
-  'The button type "{type}" is not supported.' => 'Ο τύπος κουμπιού "{type}" δεν υποστηρίζεται.',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Η στήλη πρέπει να οριστεί στη μορφή "Όνομα:Τύπος:Ετικέτα", όπου "Τύπος" και "Ετικέτα" είναι προαιρετικά.',
-  'The property "itemView" cannot be empty.' => 'Η ιδιότητα "itemView" δεν μπορεί να μην έχει τιμή.',
-  'The property filterSelector should be defined.' => 'Πρέπει να οριστεί η ιδιότητα filterSelector.',
-  'The property updateSelector should be defined.' => 'Πρέπει να οριστεί η ιδιότητα updateSelector.',
-  'Total 1 result.|Total {count} results.' => 'Συνολικά 1 αποτέλεσμα.|Συνολικά {count} αποτελέσματα.',
-  'Update' => 'Ενημέρωση',
-  'View' => 'Εμφάνιση',
+  '{class} must specify "model" and "{attribute}" or "{name}" property values.' => 'Î ÎºÎ»Î¬ÏÎ· {class} ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¯ÏÎµÎ¹ ÏÎ¹Ï Î¹Î´Î¹ÏÏÎ·ÏÎµÏ "model" ÎºÎ±Î¹ "{attribute}" Î® "{name}".',
+  'Are you sure you want to delete this item?' => 'ÎÎ¯ÏÏÎµ ÏÎ¯Î³Î¿ÏÏÎ¿Ï ÏÏÎ¹ Î¸Î­Î»ÎµÏÎµ Î½Î± Î´Î¹Î±Î³ÏÎ¬ÏÎµÏÎµ ÏÎ¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿;',
+  'Delete' => 'ÎÎ¹Î±Î³ÏÎ±ÏÎ®',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'ÎÎ¼ÏÎ¬Î½Î¹ÏÎ· {start}-{end} Î±ÏÏ 1 Î±ÏÎ¿ÏÎ­Î»ÎµÏÎ¼Î±.|ÎÎ¼ÏÎ¬Î½Î¹ÏÎ· {start}-{end} Î±ÏÏ {count} Î±ÏÎ¿ÏÎµÎ»Î­ÏÎ¼Î±ÏÎ±.',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'Î ÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ ÎµÎ¯ÏÎµ ÏÎ¿ "ÏÎ½Î¿Î¼Î±" ÎµÎ¯ÏÎµ Î· "ÏÎ¹Î¼Î®" Î³Î¹Î± ÏÎ¿ CDataColumn.',
+  'Home' => 'ÎÏÏÎ¹ÎºÎ®',
+  'No results found.' => 'ÎÎµ Î²ÏÎ­Î¸Î·ÎºÎ±Î½ Î±ÏÎ¿ÏÎµÎ»Î­ÏÎ¼Î±ÏÎ±.',
+  'Not set' => 'ÎÎµÎ½ Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯',
+  'Please specify the "attributes" property.' => 'ÎÎ±Î¸Î¿ÏÎ¯ÏÏÎµ ÏÎ·Î½ Î¹Î´Î¹ÏÏÎ·ÏÎ± "attributes".',
+  'Please specify the "data" property.' => 'ÎÎ±Î¸Î¿ÏÎ¯ÏÏÎµ ÏÎ·Î½ Î¹Î´Î¹ÏÏÎ·ÏÎ± "data".',
+  'Sort by: ' => 'Î¤Î±Î¾Î¹Î½ÏÎ¼Î·ÏÎ· ÎºÎ±ÏÎ¬: ',
+  'The "dataProvider" property cannot be empty.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "dataProvider" Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î¼Î·Î½ Î­ÏÎµÎ¹ ÏÎ¹Î¼Î®.',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÏÎ· Î¼Î¿ÏÏÎ® "ÎÎ½Î¿Î¼Î±:Î¤ÏÏÎ¿Ï:ÎÏÎ¹ÎºÎ­ÏÎ±", ÏÏÎ¿Ï "Î¤ÏÏÎ¿Ï" ÎºÎ±Î¹ "ÎÏÎ¹ÎºÎ­ÏÎ±" ÎµÎ¯Î½Î±Î¹ ÏÏÎ¿Î±Î¹ÏÎµÏÎ¹ÎºÎ¬.',
+  'The button type "{type}" is not supported.' => 'Î ÏÏÏÎ¿Ï ÎºÎ¿ÏÎ¼ÏÎ¹Î¿Ï "{type}" Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹.',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Î ÏÏÎ®Î»Î· ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÏÎ· Î¼Î¿ÏÏÎ® "ÎÎ½Î¿Î¼Î±:Î¤ÏÏÎ¿Ï:ÎÏÎ¹ÎºÎ­ÏÎ±", ÏÏÎ¿Ï "Î¤ÏÏÎ¿Ï" ÎºÎ±Î¹ "ÎÏÎ¹ÎºÎ­ÏÎ±" ÎµÎ¯Î½Î±Î¹ ÏÏÎ¿Î±Î¹ÏÎµÏÎ¹ÎºÎ¬.',
+  'The property "itemView" cannot be empty.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "itemView" Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î¼Î·Î½ Î­ÏÎµÎ¹ ÏÎ¹Î¼Î®.',
+  'The property filterSelector should be defined.' => 'Î ÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ Î· Î¹Î´Î¹ÏÏÎ·ÏÎ± filterSelector.',
+  'The property updateSelector should be defined.' => 'Î ÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ Î· Î¹Î´Î¹ÏÏÎ·ÏÎ± updateSelector.',
+  'Total 1 result.|Total {count} results.' => 'Î£ÏÎ½Î¿Î»Î¹ÎºÎ¬ 1 Î±ÏÎ¿ÏÎ­Î»ÎµÏÎ¼Î±.|Î£ÏÎ½Î¿Î»Î¹ÎºÎ¬ {count} Î±ÏÎ¿ÏÎµÎ»Î­ÏÎ¼Î±ÏÎ±.',
+  'Update' => 'ÎÎ½Î·Î¼Î­ÏÏÏÎ·',
+  'View' => 'ÎÎ¼ÏÎ¬Î½Î¹ÏÎ·',
 );

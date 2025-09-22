@@ -115,56 +115,56 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'sk-SK': {
       font: {
-        bold: 'Tučné',
-        italic: 'Kurzíva',
-        underline: 'Podčiarknutie',
-        clear: 'Odstrániť štýl písma',
-        height: 'Výška riadku',
-        strikethrough: 'Prečiarknuté',
+        bold: 'TuÄnÃ©',
+        italic: 'KurzÃ­va',
+        underline: 'PodÄiarknutie',
+        clear: 'OdstrÃ¡niÅ¥ Å¡tÃ½l pÃ­sma',
+        height: 'VÃ½Å¡ka riadku',
+        strikethrough: 'PreÄiarknutÃ©',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Veľkosť písma'
+        size: 'VeÄ¾kosÅ¥ pÃ­sma'
       },
       image: {
-        image: 'Obrázok',
-        insert: 'Vložiť obrázok',
-        resizeFull: 'Pôvodná veľkosť',
-        resizeHalf: 'Polovičná veľkosť',
-        resizeQuarter: 'Štvrtinová veľkosť',
-        floatLeft: 'Umiestniť doľava',
-        floatRight: 'Umiestniť doprava',
+        image: 'ObrÃ¡zok',
+        insert: 'VloÅ¾iÅ¥ obrÃ¡zok',
+        resizeFull: 'PÃ´vodnÃ¡ veÄ¾kosÅ¥',
+        resizeHalf: 'PoloviÄnÃ¡ veÄ¾kosÅ¥',
+        resizeQuarter: 'Å tvrtinovÃ¡ veÄ¾kosÅ¥',
+        floatLeft: 'UmiestniÅ¥ doÄ¾ava',
+        floatRight: 'UmiestniÅ¥ doprava',
         floatNone: 'Bez zarovnania',
         shapeRounded: 'Shape: Rounded',
         shapeCircle: 'Shape: Circle',
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
-        dragImageHere: 'Pretiahnuť sem obrázok',
+        dragImageHere: 'PretiahnuÅ¥ sem obrÃ¡zok',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'Vybrať súbor',
+        selectFromFiles: 'VybraÅ¥ sÃºbor',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        url: 'URL obrázku',
+        url: 'URL obrÃ¡zku',
         remove: 'Remove Image',
         original: 'Original'
       },
       video: {
         video: 'Video',
         videoLink: 'Odkaz videa',
-        insert: 'Vložiť video',
+        insert: 'VloÅ¾iÅ¥ video',
         url: 'URL videa?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion alebo Youku)'
       },
       link: {
         link: 'Odkaz',
-        insert: 'Vytvoriť odkaz',
-        unlink: 'Zrušiť odkaz',
-        edit: 'Upraviť',
-        textToDisplay: 'Zobrazovaný text',
-        url: 'Na akú URL adresu má tento odkaz viesť?',
-        openInNewWindow: 'Otvoriť v novom okne'
+        insert: 'VytvoriÅ¥ odkaz',
+        unlink: 'ZruÅ¡iÅ¥ odkaz',
+        edit: 'UpraviÅ¥',
+        textToDisplay: 'ZobrazovanÃ½ text',
+        url: 'Na akÃº URL adresu mÃ¡ tento odkaz viesÅ¥?',
+        openInNewWindow: 'OtvoriÅ¥ v novom okne'
       },
       table: {
-        table: 'Tabuľka',
+        table: 'TabuÄ¾ka',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -174,13 +174,13 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Vložit vodorovnú čiaru'
+        insert: 'VloÅ¾it vodorovnÃº Äiaru'
       },
       style: {
-        style: 'Štýl',
-        p: 'Normálny',
-        blockquote: 'Citácia',
-        pre: 'Kód',
+        style: 'Å tÃ½l',
+        p: 'NormÃ¡lny',
+        blockquote: 'CitÃ¡cia',
+        pre: 'KÃ³d',
         h1: 'Nadpis 1',
         h2: 'Nadpis 2',
         h3: 'Nadpis 3',
@@ -189,40 +189,40 @@ return /******/ (function(modules) { // webpackBootstrap
         h6: 'Nadpis 6'
       },
       lists: {
-        unordered: 'Odrážkový zoznam',
-        ordered: 'Číselný zoznam'
+        unordered: 'OdrÃ¡Å¾kovÃ½ zoznam',
+        ordered: 'ÄÃ­selnÃ½ zoznam'
       },
       options: {
         help: 'Pomoc',
-        fullscreen: 'Celá obrazovka',
-        codeview: 'HTML kód'
+        fullscreen: 'CelÃ¡ obrazovka',
+        codeview: 'HTML kÃ³d'
       },
       paragraph: {
         paragraph: 'Odsek',
-        outdent: 'Zväčšiť odsadenie',
-        indent: 'Zmenšiť odsadenie',
-        left: 'Zarovnať doľava',
-        center: 'Zarovnať na stred',
-        right: 'Zarovnať doprava',
-        justify: 'Zarovnať obojstranne'
+        outdent: 'ZvÃ¤ÄÅ¡iÅ¥ odsadenie',
+        indent: 'ZmenÅ¡iÅ¥ odsadenie',
+        left: 'ZarovnaÅ¥ doÄ¾ava',
+        center: 'ZarovnaÅ¥ na stred',
+        right: 'ZarovnaÅ¥ doprava',
+        justify: 'ZarovnaÅ¥ obojstranne'
       },
       color: {
-        recent: 'Aktuálna farba',
-        more: 'Dalšie farby',
+        recent: 'AktuÃ¡lna farba',
+        more: 'DalÅ¡ie farby',
         background: 'Farba pozadia',
-        foreground: 'Farba písma',
-        transparent: 'Priehľadnosť',
-        setTransparent: 'Nastaviť priehľadnosť',
-        reset: 'Obnoviť',
-        resetToDefault: 'Obnoviť prednastavené'
+        foreground: 'Farba pÃ­sma',
+        transparent: 'PriehÄ¾adnosÅ¥',
+        setTransparent: 'NastaviÅ¥ priehÄ¾adnosÅ¥',
+        reset: 'ObnoviÅ¥',
+        resetToDefault: 'ObnoviÅ¥ prednastavenÃ©'
       },
       shortcut: {
-        shortcuts: 'Klávesové skratky',
-        close: 'Zavrieť',
-        textFormatting: 'Formátovanie textu',
+        shortcuts: 'KlÃ¡vesovÃ© skratky',
+        close: 'ZavrieÅ¥',
+        textFormatting: 'FormÃ¡tovanie textu',
         action: 'Akcia',
-        paragraphFormatting: 'Formátovanie odseku',
-        documentStyle: 'Štýl dokumentu'
+        paragraphFormatting: 'FormÃ¡tovanie odseku',
+        documentStyle: 'Å tÃ½l dokumentu'
       },
       help: {
         'insertParagraph': 'Insert Paragraph',

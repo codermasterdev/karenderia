@@ -50,8 +50,8 @@ error_reporting(E_STRICT);
 require '../src/Arabic.php';
 $Arabic = new \ArPHP\I18N\Arabic();
 
-$Clinton = array('كلينتون', 'كلينتن', 'كلينطون', 'كلنتن', 'كلنتون', 
-                 'كلاينتون');
+$Clinton = array('ÙÙÙÙØªÙÙ', 'ÙÙÙÙØªÙ', 'ÙÙÙÙØ·ÙÙ', 'ÙÙÙØªÙ', 'ÙÙÙØªÙÙ', 
+                 'ÙÙØ§ÙÙØªÙÙ');
 
 echo <<<END
 <table border="0" cellpadding="5" cellspacing="2" align="center">
@@ -82,8 +82,8 @@ foreach ($Clinton as $name) {
 
 echo '<tr>
         <td bgcolor=#f5f5c5>Arabic Soundex Method</td>
-        <td bgcolor=#f5f5c5>كلينزمان</td>
-        <td bgcolor=#f5f5c5>' . $Arabic->soundex('كلينزمان') . '</td>
+        <td bgcolor=#f5f5c5>ÙÙÙÙØ²ÙØ§Ù</td>
+        <td bgcolor=#f5f5c5>' . $Arabic->soundex('ÙÙÙÙØ²ÙØ§Ù') . '</td>
       </tr>';
 
 echo <<<END
@@ -103,8 +103,8 @@ echo <<<END
 <tr>
 END;
     
-$Milosevic = array('ميلوسيفيتش', 'ميلوسفيتش', 'ميلوزفيتش', 'ميلوزيفيتش',
-                   'ميلسيفيتش', 'ميلوسيفتش');
+$Milosevic = array('ÙÙÙÙØ³ÙÙÙØªØ´', 'ÙÙÙÙØ³ÙÙØªØ´', 'ÙÙÙÙØ²ÙÙØªØ´', 'ÙÙÙÙØ²ÙÙÙØªØ´',
+                   'ÙÙÙØ³ÙÙÙØªØ´', 'ÙÙÙÙØ³ÙÙØªØ´');
 
 echo '<tr>
         <td bgcolor=#f5f5f5>PHP soundex function</td>
@@ -122,16 +122,16 @@ foreach ($Milosevic as $name) {
 
 echo '<tr>
         <td bgcolor=#f5f5c5>Arabic Soundex Method</td>
-        <td bgcolor=#f5f5c5>ميلينيوم</td>
-        <td bgcolor=#f5f5c5>' . $Arabic->soundex('ميلينيوم') . '</td>
+        <td bgcolor=#f5f5c5>ÙÙÙÙÙÙÙÙ</td>
+        <td bgcolor=#f5f5c5>' . $Arabic->soundex('ÙÙÙÙÙÙÙÙ') . '</td>
       </tr>';
 
 $Arabic->setSoundexLen(5);
 $Arabic->setSoundexLang('ar');
 
 echo '<tr><td colspan=3><i><small>
-        Arabic Soundex Method (set Len=5 and Lang=ar) for "ميلوسيفيتش" word is: ' . 
-        $Arabic->soundex('ميلوسيفيتش') . 
+        Arabic Soundex Method (set Len=5 and Lang=ar) for "ÙÙÙÙØ³ÙÙÙØªØ´" word is: ' . 
+        $Arabic->soundex('ÙÙÙÙØ³ÙÙÙØªØ´') . 
      '</small></i></td></tr></table>';
 ?>
 
@@ -143,7 +143,7 @@ $code = <<< ENDALL
 <?php
     \$Arabic = new \\ArPHP\\I18N\\Arabic();
     
-    \$Clinton = array('كلينتون', 'كلينتن', 'كلينطون', 'كلنتن', 'كلنتون', 'كلاينتون');
+    \$Clinton = array('ÙÙÙÙØªÙÙ', 'ÙÙÙÙØªÙ', 'ÙÙÙÙØ·ÙÙ', 'ÙÙÙØªÙ', 'ÙÙÙØªÙÙ', 'ÙÙØ§ÙÙØªÙÙ');
 
     echo <<<END
 <table border="0" cellpadding="5" cellspacing="2" align="center">
@@ -174,8 +174,8 @@ foreach (\$Clinton as \$name) {
 
 echo '<tr>
         <td bgcolor=#f5f5c5>Arabic Soundex Method</td>
-        <td bgcolor=#f5f5c5>كلينزمان</td>
-        <td bgcolor=#f5f5c5>' . \$Arabic->soundex('كلينزمان') . '</td>
+        <td bgcolor=#f5f5c5>ÙÙÙÙØ²ÙØ§Ù</td>
+        <td bgcolor=#f5f5c5>' . \$Arabic->soundex('ÙÙÙÙØ²ÙØ§Ù') . '</td>
       </tr>';
 
 echo <<<END
@@ -195,7 +195,7 @@ echo <<<END
 <tr>
 END;
     
-    \$Milosevic = array('ميلوسيفيتش', 'ميلوسفيتش', 'ميلوزفيتش', 'ميلوزيفيتش', 'ميلسيفيتش', 'ميلوسيفتش');
+    \$Milosevic = array('ÙÙÙÙØ³ÙÙÙØªØ´', 'ÙÙÙÙØ³ÙÙØªØ´', 'ÙÙÙÙØ²ÙÙØªØ´', 'ÙÙÙÙØ²ÙÙÙØªØ´', 'ÙÙÙØ³ÙÙÙØªØ´', 'ÙÙÙÙØ³ÙÙØªØ´');
 
     echo '<tr>
             <td bgcolor=#f5f5f5>PHP soundex function</td>
@@ -213,16 +213,16 @@ END;
 
     echo '<tr>
             <td bgcolor=#f5f5c5>Arabic Soundex Method</td>
-            <td bgcolor=#f5f5c5>ميلينيوم</td>
-            <td bgcolor=#f5f5c5>' . \$Arabic->soundex('ميلينيوم') . '</td>
+            <td bgcolor=#f5f5c5>ÙÙÙÙÙÙÙÙ</td>
+            <td bgcolor=#f5f5c5>' . \$Arabic->soundex('ÙÙÙÙÙÙÙÙ') . '</td>
           </tr>';
 
     \$Arabic->setSoundexLen(5);
     \$Arabic->setSoundexLang('ar');
 
     echo '<tr><td colspan=3><i><small>
-            Arabic Soundex Method (set Len=5 and Lang=ar) for "ميلوسيفيتش" word is: ' . 
-            \$Arabic->soundex('ميلوسيفيتش') . 
+            Arabic Soundex Method (set Len=5 and Lang=ar) for "ÙÙÙÙØ³ÙÙÙØªØ´" word is: ' . 
+            \$Arabic->soundex('ÙÙÙÙØ³ÙÙÙØªØ´') . 
          '</small></i></td></tr></table>';
 ENDALL;
 

@@ -2213,9 +2213,9 @@ module.exports = !fails(function () {
     || new URL('https://a@b').username !== 'a'
     || new URLSearchParams(new URLSearchParams('a=b')).get('a') !== 'b'
     // not punycoded in Edge
-    || new URL('http://тест').host !== 'xn--e1aybc'
+    || new URL('http://ÑÐµÑÑ').host !== 'xn--e1aybc'
     // not escaped in Chrome 62-
-    || new URL('http://a#б').hash !== '#%D0%B1'
+    || new URL('http://a#Ð±').hash !== '#%D0%B1'
     // fails in Chrome 66-
     || result !== 'a1c3'
     // throws in Safari
@@ -3000,7 +3000,7 @@ var store = __webpack_require__(5465);
 })('versions', []).push({
   version: '3.9.0',
   mode: IS_PURE ? 'pure' : 'global',
-  copyright: '© 2021 Denis Pushkarev (zloirock.ru)'
+  copyright: 'Â© 2021 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -7237,7 +7237,7 @@ var defaultOptions = {
   addRemoveLinks: false,
 
   /**
-   * Defines where to display the file previews – if `null` the
+   * Defines where to display the file previews â if `null` the
    * Dropzone element itself is used. Can be a plain `HTMLElement` or a CSS
    * selector. The element should have the `dropzone-previews` class so
    * the previews are displayed properly.
@@ -8681,8 +8681,8 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
         // It's actual different than the size to be transmitted.
         total: file.size,
         bytesSent: 0,
-        filename: this._renameFile(file) // Not setting chunking information here, because the acutal data — and
-        // thus the chunks — might change if `options.transformFile` is set
+        filename: this._renameFile(file) // Not setting chunking information here, because the acutal data â and
+        // thus the chunks â might change if `options.transformFile` is set
         // and does something to the data.
 
       };
@@ -8958,7 +8958,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
               break;
 
             case 3:
-              // 180° rotate left
+              // 180Â° rotate left
               ctx.translate(canvas.width, canvas.height);
               ctx.rotate(Math.PI);
               break;
@@ -8976,7 +8976,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
               break;
 
             case 6:
-              // 90° rotate right
+              // 90Â° rotate right
               ctx.rotate(0.5 * Math.PI);
               ctx.translate(0, -canvas.width);
               break;
@@ -8989,7 +8989,7 @@ var Dropzone = /*#__PURE__*/function (_Emitter) {
               break;
 
             case 8:
-              // 90° rotate left
+              // 90Â° rotate left
               ctx.rotate(-0.5 * Math.PI);
               ctx.translate(-canvas.height, 0);
               break;

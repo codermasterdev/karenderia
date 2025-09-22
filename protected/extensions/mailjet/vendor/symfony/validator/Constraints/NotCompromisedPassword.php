@@ -16,7 +16,7 @@ use Symfony\Component\Validator\Constraint;
 /**
  * Checks if a password has been leaked in a data breach.
  *
- * @author Kévin Dunglas <dunglas@gmail.com>
+ * @author KÃ©vin Dunglas <dunglas@gmail.com>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class NotCompromisedPassword extends Constraint

@@ -14,23 +14,23 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Are you sure you want to delete this item?' => 'உறுதியாக இதை நீக்கிவிடவா?',
-  'Delete' => 'நீக்கு',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => '{count} முடிவுகளில் {start}-{end} முடிவுகளை காண்பிக்கிறது',
-  'Either "name" or "value" must be specified for CDataColumn.' => 'CDataColumn இல் "name" அல்லது "value" கொடுத்திருக்க வேண்டும்.',
-  'Home' => 'முகப்பு',
-  'No results found.' => 'முடிவுகள் கிடைக்கவில்லை.',
-  'Not set' => 'உள்ளிடிருக்கவில்லை',
-  'Please specify the "attributes" property.' => '"attributes" மதிப்புகளை உள்ளிடவும்.',
-  'Please specify the "data" property.' => '"data" மதிப்புகளை உள்ளிடவும்.',
-  'Sort by: ' => 'வரிசைப்படுத்து: ',
-  'The "dataProvider" property cannot be empty.' => '"dataProvider" மதிப்பு காலியாக இருக்கக்கூடாது.',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'மதிப்பு "Name:Type:Label" மாதிரி கொடுத்திருக்க வேண்டும், இதில் "Type" மற்றும் "Label" முக்கியமானவை அல்ல.',
-  'The button type "{type}" is not supported.' => '"{type}" பொத்தான் வகை பயன்பாட்டிலில்லை.',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'வரிசை மதிப்பு "Name:Type:Label" மாதிரி கொடுத்திருக்க வேண்டும், இதில் "Type" மற்றும் "Label" முக்கியமானவை அல்ல.',
-  'The property "itemView" cannot be empty.' => '"itemView" மதிப்பு காலியாக இருக்கக்கூடாது.',
-  'Total 1 result.|Total {count} results.' => 'மொத்தம் {count} முடிவுகள்.',
-  'Update' => 'புதுப்பி',
-  'View' => 'பார்வையிடு',
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} உடற்கூறு "model" மற்றும் "attribute" அல்லது "name" மதிப்பைக் கொண்டிருக்க வேண்டும்.',
+  'Are you sure you want to delete this item?' => 'à®à®±à¯à®¤à®¿à®¯à®¾à® à®à®¤à¯ à®¨à¯à®à¯à®à®¿à®µà®¿à®à®µà®¾?',
+  'Delete' => 'à®¨à¯à®à¯à®à¯',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => '{count} à®®à¯à®à®¿à®µà¯à®à®³à®¿à®²à¯ {start}-{end} à®®à¯à®à®¿à®µà¯à®à®³à¯ à®à®¾à®£à¯à®ªà®¿à®à¯à®à®¿à®±à®¤à¯',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'CDataColumn à®à®²à¯ "name" à®à®²à¯à®²à®¤à¯ "value" à®à¯à®à¯à®¤à¯à®¤à®¿à®°à¯à®à¯à® à®µà¯à®£à¯à®à¯à®®à¯.',
+  'Home' => 'à®®à¯à®à®ªà¯à®ªà¯',
+  'No results found.' => 'à®®à¯à®à®¿à®µà¯à®à®³à¯ à®à®¿à®à¯à®à¯à®à®µà®¿à®²à¯à®²à¯.',
+  'Not set' => 'à®à®³à¯à®³à®¿à®à®¿à®°à¯à®à¯à®à®µà®¿à®²à¯à®²à¯',
+  'Please specify the "attributes" property.' => '"attributes" à®®à®¤à®¿à®ªà¯à®ªà¯à®à®³à¯ à®à®³à¯à®³à®¿à®à®µà¯à®®à¯.',
+  'Please specify the "data" property.' => '"data" à®®à®¤à®¿à®ªà¯à®ªà¯à®à®³à¯ à®à®³à¯à®³à®¿à®à®µà¯à®®à¯.',
+  'Sort by: ' => 'à®µà®°à®¿à®à¯à®ªà¯à®ªà®à¯à®¤à¯à®¤à¯: ',
+  'The "dataProvider" property cannot be empty.' => '"dataProvider" à®®à®¤à®¿à®ªà¯à®ªà¯ à®à®¾à®²à®¿à®¯à®¾à® à®à®°à¯à®à¯à®à®à¯à®à¯à®à®¾à®¤à¯.',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'à®®à®¤à®¿à®ªà¯à®ªà¯ "Name:Type:Label" à®®à®¾à®¤à®¿à®°à®¿ à®à¯à®à¯à®¤à¯à®¤à®¿à®°à¯à®à¯à® à®µà¯à®£à¯à®à¯à®®à¯, à®à®¤à®¿à®²à¯ "Type" à®®à®±à¯à®±à¯à®®à¯ "Label" à®®à¯à®à¯à®à®¿à®¯à®®à®¾à®©à®µà¯ à®à®²à¯à®².',
+  'The button type "{type}" is not supported.' => '"{type}" à®ªà¯à®¤à¯à®¤à®¾à®©à¯ à®µà®à¯ à®ªà®¯à®©à¯à®ªà®¾à®à¯à®à®¿à®²à®¿à®²à¯à®²à¯.',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'à®µà®°à®¿à®à¯ à®®à®¤à®¿à®ªà¯à®ªà¯ "Name:Type:Label" à®®à®¾à®¤à®¿à®°à®¿ à®à¯à®à¯à®¤à¯à®¤à®¿à®°à¯à®à¯à® à®µà¯à®£à¯à®à¯à®®à¯, à®à®¤à®¿à®²à¯ "Type" à®®à®±à¯à®±à¯à®®à¯ "Label" à®®à¯à®à¯à®à®¿à®¯à®®à®¾à®©à®µà¯ à®à®²à¯à®².',
+  'The property "itemView" cannot be empty.' => '"itemView" à®®à®¤à®¿à®ªà¯à®ªà¯ à®à®¾à®²à®¿à®¯à®¾à® à®à®°à¯à®à¯à®à®à¯à®à¯à®à®¾à®¤à¯.',
+  'Total 1 result.|Total {count} results.' => 'à®®à¯à®¤à¯à®¤à®®à¯ {count} à®®à¯à®à®¿à®µà¯à®à®³à¯.',
+  'Update' => 'à®ªà¯à®¤à¯à®ªà¯à®ªà®¿',
+  'View' => 'à®ªà®¾à®°à¯à®µà¯à®¯à®¿à®à¯',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} à®à®à®±à¯à®à¯à®±à¯ "model" à®®à®±à¯à®±à¯à®®à¯ "attribute" à®à®²à¯à®²à®¤à¯ "name" à®®à®¤à®¿à®ªà¯à®ªà¯à®à¯ à®à¯à®£à¯à®à®¿à®°à¯à®à¯à® à®µà¯à®£à¯à®à¯à®®à¯.',
 );

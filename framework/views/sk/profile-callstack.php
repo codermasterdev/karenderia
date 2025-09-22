@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Profilová zpráva zásobníka
+			ProfilovÃ¡ zprÃ¡va zÃ¡sobnÃ­ka
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th>Funkcia</th>
-		<th>Čas (s)</th>
+		<th>Äas (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

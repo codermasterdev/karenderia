@@ -9,7 +9,7 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Anterior',
-      next: 'Següent',
+      next: 'SegÃ¼ent',
       today: 'Avui',
       month: 'Mes',
       week: 'Setmana',
@@ -18,7 +18,7 @@ FullCalendar.globalLocales.push(function () {
     },
     weekText: 'Set',
     allDayText: 'Tot el dia',
-    moreLinkText: 'més',
+    moreLinkText: 'mÃ©s',
     noEventsText: 'No hi ha esdeveniments per mostrar',
   };
 

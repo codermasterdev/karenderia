@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Trang web không tồn tại</h1>
+<h1>Trang web khÃ´ng tá»n táº¡i</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-URL bạn yêu cầu không có trên máy chủ.
-Nếu bạn nhập tay URL thì xin hãy kiểm tra lại lỗi chính tả và thử lại.
+URL báº¡n yÃªu cáº§u khÃ´ng cÃ³ trÃªn mÃ¡y chá»§.
+Náº¿u báº¡n nháº­p tay URL thÃ¬ xin hÃ£y kiá»m tra láº¡i lá»i chÃ­nh táº£ vÃ  thá»­ láº¡i.
 </p>
 <p>
-Nếu bạn nghĩ đây là lỗi của máy chủ, xin liên hệ <?php echo $data['admin']; ?>.
+Náº¿u báº¡n nghÄ© ÄÃ¢y lÃ  lá»i cá»§a mÃ¡y chá»§, xin liÃªn há» <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

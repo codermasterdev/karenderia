@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Felaktig förfrågan</title>
+<title>Felaktig fÃ¶rfrÃ¥gan</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,11 +17,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Felaktig förfrågan</h1>
+<h1>Felaktig fÃ¶rfrÃ¥gan</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Servern förstod inte denna förfrågan på grund av felaktig syntax.
-Vänligen repetera inte denna förfrågan omodifierad.
+Servern fÃ¶rstod inte denna fÃ¶rfrÃ¥gan pÃ¥ grund av felaktig syntax.
+VÃ¤nligen repetera inte denna fÃ¶rfrÃ¥gan omodifierad.
 </p>
 <p>
 Vid misstanke om serverfel, kontakta <?php echo $data['admin']; ?>.

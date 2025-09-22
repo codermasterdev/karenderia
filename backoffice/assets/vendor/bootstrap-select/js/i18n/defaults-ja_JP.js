@@ -24,12 +24,12 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: '選択されていません',
-    noneResultsText: '\'{0}\'は見つかりません',
-    countSelectedText: '{0}/{1} 選択中',
-    maxOptionsText: ['選択上限数を超えています(最大{n}{var})', 'グループの選択上限数を超えています(最大{n}{var})', ['アイテム', 'アイテム']],
-    selectAllText: '全て選択',
-    deselectAllText: '選択をクリア',
+    noneSelectedText: 'é¸æããã¦ãã¾ãã',
+    noneResultsText: '\'{0}\'ã¯è¦ã¤ããã¾ãã',
+    countSelectedText: '{0}/{1} é¸æä¸­',
+    maxOptionsText: ['é¸æä¸éæ°ãè¶ãã¦ãã¾ã(æå¤§{n}{var})', 'ã°ã«ã¼ãã®é¸æä¸éæ°ãè¶ãã¦ãã¾ã(æå¤§{n}{var})', ['ã¢ã¤ãã ', 'ã¢ã¤ãã ']],
+    selectAllText: 'å¨ã¦é¸æ',
+    deselectAllText: 'é¸æãã¯ãªã¢',
     multipleSeparator: ', '
   };
 })(jQuery);

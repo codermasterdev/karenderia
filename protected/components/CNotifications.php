@@ -851,7 +851,7 @@ class CNotifications
 					if(is_array($attributes_item) && count($attributes_item)>=1){
 						$check_item = $attributes_item[0] ?? null;
 						if(!empty($check_item)){
-							$attributes_items .="  • ";
+							$attributes_items .="  â¢ ";
 							foreach ($attributes_item as $attributes_value) {
 								$attributes_items .="{$attributes_value},";
 							}						
@@ -864,12 +864,12 @@ class CNotifications
 
 			if(is_array($addons) && count($addons)>=1){
 				foreach ($addons as $addons_cat) {
-					$order_items .=" ➤ {$addons_cat['subcategory_name']}\n";
+					$order_items .=" â¤ {$addons_cat['subcategory_name']}\n";
 					$addon_items = $addons_cat['addon_items'] ?? null;
 					$addons_items='';
 					if(is_array($addon_items) && count($addon_items)>=1){
 						foreach ($addon_items as $addon_val) {
-							$addons_items .="  • {$addon_val['qty']}x {$addon_val['sub_item_name']}\n";
+							$addons_items .="  â¢ {$addon_val['qty']}x {$addon_val['sub_item_name']}\n";
 						}
 						$order_items .= "$addons_items";
 					}

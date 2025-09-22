@@ -91,7 +91,7 @@ $form = $this->beginWidget(
     <p class="card-text"><?php echo t("Used for server requests such as geocoding, directions, and distance calculations."); ?></p>
     <ol>
       <li><?php echo t("Go to"); ?> <a href="https://console.cloud.google.com/" target="_blank"><?php echo t("Google Cloud Console"); ?></a>.</li>
-      <li><?php echo t("Navigate to"); ?> <strong><?php echo t("APIs & Services → Credentials"); ?></strong>.</li>
+      <li><?php echo t("Navigate to"); ?> <strong><?php echo t("APIs & Services â Credentials"); ?></strong>.</li>
       <li><?php echo t("Enable the following APIs:"); ?>
         <ul>
           <li><?php echo t("Directions API"); ?></li>
@@ -109,7 +109,7 @@ $form = $this->beginWidget(
     <h5 class="card-title mt-4">2. <?php echo t("Google Maps JavaScript API Key (Website)"); ?></h5>
     <p class="card-text"><?php echo t("Used for displaying interactive maps in your website."); ?></p>
     <ol>
-      <li><?php echo t("Go to"); ?> <strong><?php echo t("APIs & Services → Credentials"); ?></strong>.</li>
+      <li><?php echo t("Go to"); ?> <strong><?php echo t("APIs & Services â Credentials"); ?></strong>.</li>
       <li><?php echo t("Select your {api} for the website.", ['{api}' => '<strong>'.t("Maps JavaScript API key").'</strong>']); ?></li>
       <li><?php echo t("Under"); ?> <strong><?php echo t("Key restrictions"); ?></strong>, <?php echo t("select"); ?> <strong><?php echo t("HTTP referrers (websites)"); ?></strong>.</li>
       <li><?php echo t("Add your domain(s) in this format:"); ?>
@@ -124,9 +124,9 @@ $form = $this->beginWidget(
     <h5 class="card-title mt-4">3. <?php echo t("Google Maps JavaScript API Key (Mobile App)"); ?></h5>
     <p class="card-text"><?php echo t("Used when loading maps inside mobile apps"); ?></p>
     <ol>
-      <li><?php echo t("Go to"); ?> <strong><?php echo t("APIs & Services → Credentials"); ?></strong>.</li>
+      <li><?php echo t("Go to"); ?> <strong><?php echo t("APIs & Services â Credentials"); ?></strong>.</li>
       <li><?php echo t("Select the API key used in your mobile app."); ?></li>
-      <li><strong><?php echo t("Do not"); ?></strong> <?php echo t("set domain or IP restrictions — instead, scroll to"); ?> <strong><?php echo t("API restrictions"); ?></strong>.</li>
+      <li><strong><?php echo t("Do not"); ?></strong> <?php echo t("set domain or IP restrictions â instead, scroll to"); ?> <strong><?php echo t("API restrictions"); ?></strong>.</li>
       <li><?php echo t("Select"); ?> <strong><?php echo t("Restrict key"); ?></strong> <?php echo t("and enable only:"); ?>
         <ul>
           <li><?php echo t("Google Maps JavaScript API"); ?></li>

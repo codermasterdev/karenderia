@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>目前無法提供服務</h1>
+<h1>ç®åç¡æ³æä¾æå</h1>
 <p>
-系統目前正在維護中. 請稍後再試.
+ç³»çµ±ç®åæ­£å¨ç¶­è­·ä¸­. è«ç¨å¾åè©¦.
 </p>
 <p>
-謝謝.
+è¬è¬.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

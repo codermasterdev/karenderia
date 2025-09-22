@@ -12,7 +12,7 @@ namespace Stripe;
  *
  * Invoice Items can be created before you are ready to actually send the invoice. This can be particularly useful when combined
  * with a <a href="https://stripe.com/docs/api/subscriptions">subscription</a>. Sometimes you want to add a charge or credit to a customer, but actually charge
- * or credit the customer’s card only at the end of a regular billing cycle. This is useful for combining several charges
+ * or credit the customerâs card only at the end of a regular billing cycle. This is useful for combining several charges
  * (to minimize per-transaction fees), or for having Stripe tabulate your usage-based billing totals.
  *
  * Related guides: <a href="https://stripe.com/docs/invoicing/integration">Integrate with the Invoicing API</a>, <a href="https://stripe.com/docs/billing/invoices/subscription#adding-upcoming-invoice-items">Subscription Invoices</a>.
@@ -73,7 +73,7 @@ class InvoiceItem extends ApiResource
 
     /**
      * Deletes an invoice item, removing it from an invoice. Deleting invoice items is
-     * only possible when they’re not attached to invoices, or if it’s attached to a
+     * only possible when theyâre not attached to invoices, or if itâs attached to a
      * draft invoice.
      *
      * @param null|array $params
@@ -133,7 +133,7 @@ class InvoiceItem extends ApiResource
 
     /**
      * Updates the amount or description of an invoice item on an upcoming invoice.
-     * Updating an invoice item is only possible before the invoice it’s attached to is
+     * Updating an invoice item is only possible before the invoice itâs attached to is
      * closed.
      *
      * @param string $id the ID of the resource to update

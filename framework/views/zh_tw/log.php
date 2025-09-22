@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			應用程式日誌
+			æç¨ç¨å¼æ¥èª
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">時間戳</th>
-		<th>等級</th>
-		<th>分類</th>
-		<th>訊息</th>
+	    <th style="width:120px">æéæ³</th>
+		<th>ç­ç´</th>
+		<th>åé¡</th>
+		<th>è¨æ¯</th>
 	</tr>
 <?php
 $colors=array(

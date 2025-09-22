@@ -8,20 +8,20 @@ FullCalendar.globalLocales.push(function () {
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'முந்தைய',
-      next: 'அடுத்தது',
-      today: 'இன்று',
-      month: 'மாதம்',
-      week: 'வாரம்',
-      day: 'நாள்',
-      list: 'தினசரி அட்டவணை',
+      prev: 'à®®à¯à®¨à¯à®¤à¯à®¯',
+      next: 'à®à®à¯à®¤à¯à®¤à®¤à¯',
+      today: 'à®à®©à¯à®±à¯',
+      month: 'à®®à®¾à®¤à®®à¯',
+      week: 'à®µà®¾à®°à®®à¯',
+      day: 'à®¨à®¾à®³à¯',
+      list: 'à®¤à®¿à®©à®à®°à®¿ à®à®à¯à®à®µà®£à¯',
     },
-    weekText: 'வாரம்',
-    allDayText: 'நாள் முழுவதும்',
+    weekText: 'à®µà®¾à®°à®®à¯',
+    allDayText: 'à®¨à®¾à®³à¯ à®®à¯à®´à¯à®µà®¤à¯à®®à¯',
     moreLinkText: function(n) {
-      return '+ மேலும் ' + n
+      return '+ à®®à¯à®²à¯à®®à¯ ' + n
     },
-    noEventsText: 'காண்பிக்க நிகழ்வுகள் இல்லை',
+    noEventsText: 'à®à®¾à®£à¯à®ªà®¿à®à¯à® à®¨à®¿à®à®´à¯à®µà¯à®à®³à¯ à®à®²à¯à®²à¯',
   };
 
   return taIn;

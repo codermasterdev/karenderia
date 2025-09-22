@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			Log da Aplicação
+			Log da AplicaÃ§Ã£o
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th style="width:120px">Timestamp</th>
-		<th>Nível</th>
+		<th>NÃ­vel</th>
 		<th>Categoria</th>
 		<th>Mensagem</th>
 	</tr>

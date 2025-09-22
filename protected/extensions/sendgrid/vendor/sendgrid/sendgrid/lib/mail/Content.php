@@ -16,7 +16,7 @@ class Content implements \JsonSerializable
 {
     /**
      * @var string
-     * The mime type of the content you are including in your email. For example, “text/plain” or “text/html”
+     * The mime type of the content you are including in your email. For example, âtext/plainâ or âtext/htmlâ
      */
     private $type;
 
@@ -30,8 +30,8 @@ class Content implements \JsonSerializable
      * Optional constructor
      *
      * @param string|null $type  The mime type of the content you are including
-     *                           in your email. For example, “text/plain” or
-     *                           “text/html”
+     *                           in your email. For example, âtext/plainâ or
+     *                           âtext/htmlâ
      * @param string|null $value The actual content of the specified mime type
      *                           that you are including in your email
      *
@@ -51,8 +51,8 @@ class Content implements \JsonSerializable
      * Add the mime type on a Content object
      *
      * @param string $type The mime type of the content you are including
-     *                     in your email. For example, “text/plain” or
-     *                     “text/html”
+     *                     in your email. For example, âtext/plainâ or
+     *                     âtext/htmlâ
      *
      * @throws TypeException
      */

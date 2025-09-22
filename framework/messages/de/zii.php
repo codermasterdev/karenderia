@@ -18,10 +18,10 @@
  */
 return array (
   '{class} must specify "model" and "{attribute}" or "{name}" property values.' => '{class} muss die Eigenschaften "model" und "{attribute}" oder "{name}" spezifizieren.',
-  'Are you sure you want to delete this item?' => 'Wollen Sie diesen Eintrag wirklich löschen?',
-  'Delete' => 'Löschen',
+  'Are you sure you want to delete this item?' => 'Wollen Sie diesen Eintrag wirklich lÃ¶schen?',
+  'Delete' => 'LÃ¶schen',
   'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Zeige Ergebnisse {start}-{end} von {count}.',
-  'Either "name" or "value" must be specified for CDataColumn.' => 'Für CDataColumn muss entweder "name" oder "value" angegeben werden.',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'FÃ¼r CDataColumn muss entweder "name" oder "value" angegeben werden.',
   'Home' => 'Home',
   'No results found.' => 'Keine Ergebnisse gefunden.',
   'Not set' => 'Nicht gesetzt',
@@ -30,7 +30,7 @@ return array (
   'Sort by: ' => 'Sortieren nach:',
   'The "dataProvider" property cannot be empty.' => 'Die Eigenschaft "dataProvider" darf nicht leer sein.',
   'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Das Attribut muss im Format "Name:Typ:Label" angegeben werden, wobei "Typ" und "Label" optional sind.',
-  'The button type "{type}" is not supported.' => 'Buttontyp "{type}" wird nicht unterstützt.',
+  'The button type "{type}" is not supported.' => 'Buttontyp "{type}" wird nicht unterstÃ¼tzt.',
   'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Die Spalte muss im Format "Name:Typ:Label" angegeben werden, wobei "Typ" und "Label" optional sind.',
   'The property "itemView" cannot be empty.' => 'Die Eigenschaft "itemView" darf nicht leer sein.',
   'The property filterSelector should be defined.' => 'Die Eigenschaft "filterSelector" muss definiert werden.',

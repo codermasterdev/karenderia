@@ -9,18 +9,18 @@ FullCalendar.globalLocales.push(function () {
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   return arKw;

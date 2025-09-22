@@ -7,10 +7,10 @@
      var localization = $.spectrum.localization["et"] = {
         cancelText: "Katkesta",
         chooseText: "Vali",
-        clearText: "Tühista värvivalik",
-        noColorSelectedText: "Ühtki värvi pole valitud",
+        clearText: "TÃ¼hista vÃ¤rvivalik",
+        noColorSelectedText: "Ãhtki vÃ¤rvi pole valitud",
         togglePaletteMoreText: "Rohkem",
-        togglePaletteLessText: "Vähem"
+        togglePaletteLessText: "VÃ¤hem"
     };
 
  })( jQuery );

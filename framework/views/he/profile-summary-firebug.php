@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("תחציר דוח פרופילים");
+	console.group("×ª××¦××¨ ××× ×¤×¨××¤××××");
 	console.log(" count   total   average    min      max   ");
 <?php
 foreach($data as $index=>$entry)

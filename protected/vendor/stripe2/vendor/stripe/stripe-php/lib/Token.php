@@ -46,7 +46,7 @@ class Token extends ApiResource
     const TYPE_PII = 'pii';
 
     /**
-     * Creates a single-use token that represents a bank account’s details. You can use
+     * Creates a single-use token that represents a bank accountâs details. You can use
      * this token with any API method in place of a bank account dictionary. You can
      * only use this token once. To do so, attach it to a <a href="#accounts">connected
      * account</a> where <a

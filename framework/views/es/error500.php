@@ -22,7 +22,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Internal Server Error</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Un error interno ocurrió cuando el servidor estaba procesando su solicitud.
+Un error interno ocurriÃ³ cuando el servidor estaba procesando su solicitud.
 </p>
 <p>
 Si piensa que este es un error del servidor, por favor contacte a <?php echo $data['admin']; ?>.

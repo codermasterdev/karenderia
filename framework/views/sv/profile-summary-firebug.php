@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profileringsrapport - Sammanställning");
+	console.group("Profileringsrapport - SammanstÃ¤llning");
 	console.log(" antal   total     medel    min      max   ");
 <?php
 foreach($data as $index=>$entry)

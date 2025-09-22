@@ -1,28 +1,28 @@
 function noDots(str, debug = false) {
-    str = str.replace(/[ًٌٍَُِّْ]/gu, '');
+    str = str.replace(/[ÙÙÙÙÙÙÙÙ]/gu, '');
 
     // \b not working with unicode chars in JavaScript
-    str = str.replace(/ن(\s+|$)/gu, 'ں\$1');
-    str = str.replace(/ك(\s+|$)/gu, 'لـﹳ\$1');
+    str = str.replace(/Ù(\s+|$)/gu, 'Úº\$1');
+    str = str.replace(/Ù(\s+|$)/gu, 'ÙÙï¹³\$1');
 
-    str = str.replace(/[بتثن]/gu, 'ٮ');
-    str = str.replace(/ي/gu, 'ى');
+    str = str.replace(/[Ø¨ØªØ«Ù]/gu, 'Ù®');
+    str = str.replace(/Ù/gu, 'Ù');
 
-    str = str.replace(/ف/gu, 'ڡ');
-    str = str.replace(/ق/gu, 'ٯ');
+    str = str.replace(/Ù/gu, 'Ú¡');
+    str = str.replace(/Ù/gu, 'Ù¯');
 
-    str = str.replace(/ش/gu, 'س');
-    str = str.replace(/غ/gu, 'ع');
-    str = str.replace(/ذ/gu, 'د');
-    str = str.replace(/ز/gu, 'ر');
-    str = str.replace(/ض/gu, 'ص');
-    str = str.replace(/ظ/gu, 'ط');
-    str = str.replace(/ة/gu, 'ه');
-    str = str.replace(/[جخ]/gu, 'ح');
+    str = str.replace(/Ø´/gu, 'Ø³');
+    str = str.replace(/Øº/gu, 'Ø¹');
+    str = str.replace(/Ø°/gu, 'Ø¯');
+    str = str.replace(/Ø²/gu, 'Ø±');
+    str = str.replace(/Ø¶/gu, 'Øµ');
+    str = str.replace(/Ø¸/gu, 'Ø·');
+    str = str.replace(/Ø©/gu, 'Ù');
+    str = str.replace(/[Ø¬Ø®]/gu, 'Ø­');
 
-    str = str.replace(/[أإآ]/gu, 'ا');
-    str = str.replace(/ؤ/gu, 'و');
-    str = str.replace(/ئ/gu, 'ى');
+    str = str.replace(/[Ø£Ø¥Ø¢]/gu, 'Ø§');
+    str = str.replace(/Ø¤/gu, 'Ù');
+    str = str.replace(/Ø¦/gu, 'Ù');
 
     return str;
 }
@@ -49,7 +49,7 @@ function copyToClipboard() {
   document.getElementById("copy").select();
 
   // alert the copied text
-  alert("تم النسخ بنجاح!");
+  alert("ØªÙ Ø§ÙÙØ³Ø® Ø¨ÙØ¬Ø§Ø­!");
 }
 
 function newString() {

@@ -14,7 +14,7 @@ namespace Stripe;
  * prices without having to change your provisioning scheme.
  *
  * For example, you might have a single &quot;gold&quot; product that has prices
- * for $10/month, $100/year, and €9 once.
+ * for $10/month, $100/year, and â¬9 once.
  *
  * Related guides: <a
  * href="https://stripe.com/docs/billing/subscriptions/set-up-subscription">Set up

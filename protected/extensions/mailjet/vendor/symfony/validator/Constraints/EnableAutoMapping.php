@@ -20,7 +20,7 @@ use Symfony\Component\Validator\Exception\ConstraintDefinitionException;
  * Using the attribute on a property has higher precedence than using it on a class,
  * which has higher precedence than any configuration that might be defined outside the class.
  *
- * @author Kévin Dunglas <dunglas@gmail.com>
+ * @author KÃ©vin Dunglas <dunglas@gmail.com>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::TARGET_CLASS)]
 class EnableAutoMapping extends Constraint

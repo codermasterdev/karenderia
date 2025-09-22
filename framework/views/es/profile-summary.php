@@ -13,7 +13,7 @@
 		<th>Total (es)</th>
 		<th>Promedio (s)</th>
 		<th>Min. (s)</th>
-		<th>Máx. (s)</th>
+		<th>MÃ¡x. (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

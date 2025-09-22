@@ -4,16 +4,16 @@
 		<th style="background:black;color:white;" colspan="6">
 			Relatorio Resumido de Profiling 
 			(Tempo: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
-			Mem�ria: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			Memï¿½ria: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th>Procedimento</th>
 		<th>Contagem</th>
 		<th>Total (s)</th>
-		<th>M�d. (s)</th>
-		<th>M�n. (s)</th>
-		<th>M�x. (s)</th>
+		<th>Mï¿½d. (s)</th>
+		<th>Mï¿½n. (s)</th>
+		<th>Mï¿½x. (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

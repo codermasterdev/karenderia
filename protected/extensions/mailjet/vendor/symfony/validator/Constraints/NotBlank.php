@@ -18,7 +18,7 @@ use Symfony\Component\Validator\Exception\InvalidArgumentException;
  * Validates that a value is not blank.
  *
  * @author Bernhard Schussek <bschussek@gmail.com>
- * @author Kévin Dunglas <dunglas@gmail.com>
+ * @author KÃ©vin Dunglas <dunglas@gmail.com>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class NotBlank extends Constraint

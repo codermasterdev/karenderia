@@ -23,7 +23,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Returns a list of transactions that updated the customer’s <a
+     * Returns a list of transactions that updated the customerâs <a
      * href="/docs/billing/customer/balance">balances</a>.
      *
      * @param string $parentId
@@ -103,7 +103,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Creates an immutable transaction that updates the customer’s credit <a
+     * Creates an immutable transaction that updates the customerâs credit <a
      * href="/docs/billing/customer/balance">balance</a>.
      *
      * @param string $parentId
@@ -123,7 +123,7 @@ class CustomerService extends \Stripe\Service\AbstractService
      * When you create a new credit card, you must specify a customer or recipient on
      * which to create it.
      *
-     * If the card’s owner has no default card, then the new card will become the
+     * If the cardâs owner has no default card, then the new card will become the
      * default. However, if the owner already has a default, then it will not change.
      * To change the default, you should <a href="/docs/api#update_customer">update the
      * customer</a> to have a new <code>default_source</code>.
@@ -240,7 +240,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Retrieves a specific customer balance transaction that updated the customer’s <a
+     * Retrieves a specific customer balance transaction that updated the customerâs <a
      * href="/docs/billing/customer/balance">balances</a>.
      *
      * @param string $parentId
@@ -294,10 +294,10 @@ class CustomerService extends \Stripe\Service\AbstractService
     /**
      * Updates the specified customer by setting the values of the parameters passed.
      * Any parameters not provided will be left unchanged. For example, if you pass the
-     * <strong>source</strong> parameter, that becomes the customer’s active source
+     * <strong>source</strong> parameter, that becomes the customerâs active source
      * (e.g., a card) to be used for all charges in the future. When you update a
      * customer to a new valid card source by passing the <strong>source</strong>
-     * parameter: for each of the customer’s current subscriptions, if the subscription
+     * parameter: for each of the customerâs current subscriptions, if the subscription
      * bills automatically and is in the <code>past_due</code> state, then the latest
      * open invoice for the subscription with automatic collection enabled will be
      * retried. This retry will not count as an automatic retry, and will not affect

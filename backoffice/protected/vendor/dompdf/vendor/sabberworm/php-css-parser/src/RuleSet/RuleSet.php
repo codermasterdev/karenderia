@@ -66,7 +66,7 @@ abstract class RuleSet implements Renderable, Commentable
                 } catch (UnexpectedTokenException $e) {
                     try {
                         $sConsume = $oParserState->consumeUntil(["\n", ";", '}'], true);
-                        // We need to “unfind” the matches to the end of the ruleSet as this will be matched later
+                        // We need to âunfindâ the matches to the end of the ruleSet as this will be matched later
                         if ($oParserState->streql(substr($sConsume, -1), '}')) {
                             $oParserState->backtrack(1);
                         } else {
@@ -75,7 +75,7 @@ abstract class RuleSet implements Renderable, Commentable
                             }
                         }
                     } catch (UnexpectedTokenException $e) {
-                        // We’ve reached the end of the document. Just close the RuleSet.
+                        // Weâve reached the end of the document. Just close the RuleSet.
                         return;
                     }
                 }
@@ -134,7 +134,7 @@ abstract class RuleSet implements Renderable, Commentable
     /**
      * Returns all rules matching the given rule name
      *
-     * @example $oRuleSet->getRules('font') // returns array(0 => $oRule, …) or array().
+     * @example $oRuleSet->getRules('font') // returns array(0 => $oRule, â¦) or array().
      *
      * @example $oRuleSet->getRules('font-')
      *          //returns an array of all rules either beginning with font- or matching font.
@@ -156,7 +156,7 @@ abstract class RuleSet implements Renderable, Commentable
         $aResult = [];
         foreach ($this->aRules as $sName => $aRules) {
             // Either no search rule is given or the search rule matches the found rule exactly
-            // or the search rule ends in “-” and the found rule starts with the search rule.
+            // or the search rule ends in â-â and the found rule starts with the search rule.
             if (
                 !$mRule || $sName === $mRule
                 || (
@@ -192,7 +192,7 @@ abstract class RuleSet implements Renderable, Commentable
     }
 
     /**
-     * Returns all rules matching the given pattern and returns them in an associative array with the rule’s name
+     * Returns all rules matching the given pattern and returns them in an associative array with the ruleâs name
      * as keys. This method exists mainly for backwards-compatibility and is really only partially useful.
      *
      * Note: This method loses some information: Calling this (with an argument of `background-`) on a declaration block
@@ -247,7 +247,7 @@ abstract class RuleSet implements Renderable, Commentable
         } else {
             foreach ($this->aRules as $sName => $aRules) {
                 // Either no search rule is given or the search rule matches the found rule exactly
-                // or the search rule ends in “-” and the found rule starts with the search rule or equals it
+                // or the search rule ends in â-â and the found rule starts with the search rule or equals it
                 // (without the trailing dash).
                 if (
                     !$mRule || $sName === $mRule

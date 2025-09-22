@@ -20,10 +20,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Nesankcionuota</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Jūs neturite reikalingų teisių atversti šį puslapį.
+JÅ«s neturite reikalingÅ³ teisiÅ³ atversti Å¡Ä¯ puslapÄ¯.
 </p>
 <p>
-Jeigu manote, kad tai serverio klaida, prašytume apie ją pranešti <?php echo $data['admin']; ?>.
+Jeigu manote, kad tai serverio klaida, praÅ¡ytume apie jÄ praneÅ¡ti <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

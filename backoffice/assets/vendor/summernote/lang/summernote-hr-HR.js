@@ -117,19 +117,19 @@ return /******/ (function(modules) { // webpackBootstrap
       font: {
         bold: 'Podebljano',
         italic: 'Kurziv',
-        underline: 'Podvučeno',
+        underline: 'PodvuÄeno',
         clear: 'Ukloni stilove fonta',
         height: 'Visina linije',
         name: 'Font Family',
         strikethrough: 'Precrtano',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Veličina fonta'
+        size: 'VeliÄina fonta'
       },
       image: {
         image: 'Slika',
         insert: 'Ubaci sliku',
-        resizeFull: 'Puna veličina',
+        resizeFull: 'Puna veliÄina',
         resizeHalf: 'Umanji na 50%',
         resizeQuarter: 'Umanji na 25%',
         floatLeft: 'Poravnaj lijevo',
@@ -181,7 +181,7 @@ return /******/ (function(modules) { // webpackBootstrap
         style: 'Stil',
         p: 'pni',
         blockquote: 'Citat',
-        pre: 'Kôd',
+        pre: 'KÃ´d',
         h1: 'Naslov 1',
         h2: 'Naslov 2',
         h3: 'Naslov 3',
@@ -190,18 +190,18 @@ return /******/ (function(modules) { // webpackBootstrap
         h6: 'Naslov 6'
       },
       lists: {
-        unordered: 'Obična lista',
+        unordered: 'ObiÄna lista',
         ordered: 'Numerirana lista'
       },
       options: {
-        help: 'Pomoć',
+        help: 'PomoÄ',
         fullscreen: 'Preko cijelog ekrana',
-        codeview: 'Izvorni kôd'
+        codeview: 'Izvorni kÃ´d'
       },
       paragraph: {
         paragraph: 'Paragraf',
-        outdent: 'Smanji uvlačenje',
-        indent: 'Povećaj uvlačenje',
+        outdent: 'Smanji uvlaÄenje',
+        indent: 'PoveÄaj uvlaÄenje',
         left: 'Poravnaj lijevo',
         center: 'Centrirano',
         right: 'Poravnaj desno',
@@ -209,16 +209,16 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       color: {
         recent: 'Posljednja boja',
-        more: 'Više boja',
+        more: 'ViÅ¡e boja',
         background: 'Boja pozadine',
         foreground: 'Boja teksta',
         transparent: 'Prozirna',
         setTransparent: 'Prozirna',
-        reset: 'Poništi',
+        reset: 'PoniÅ¡ti',
         resetToDefault: 'Podrazumijevana'
       },
       shortcut: {
-        shortcuts: 'Prečice s tipkovnice',
+        shortcuts: 'PreÄice s tipkovnice',
         close: 'Zatvori',
         textFormatting: 'Formatiranje teksta',
         action: 'Akcija',
@@ -256,7 +256,7 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Poništi',
+        undo: 'PoniÅ¡ti',
         redo: 'Ponovi'
       },
       specialChar: {

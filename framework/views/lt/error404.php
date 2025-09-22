@@ -20,11 +20,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Puslapis nerastas</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Užklaustas puslapis serveryje nerastas.
-Jeigu adresą suvedėte rankiniu būdu, prašytume pasitikslinti rašybą ir bandyti dar kartą. 
+UÅ¾klaustas puslapis serveryje nerastas.
+Jeigu adresÄ suvedÄte rankiniu bÅ«du, praÅ¡ytume pasitikslinti raÅ¡ybÄ ir bandyti dar kartÄ. 
 </p>
 <p>
-Jeigu manote, kad tai serverio klaida, prašytume apie ją pranešti <?php echo $data['admin']; ?>.
+Jeigu manote, kad tai serverio klaida, praÅ¡ytume apie jÄ praneÅ¡ti <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

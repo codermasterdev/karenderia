@@ -24,7 +24,7 @@ class InvoiceService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * When retrieving an invoice, you’ll get a <strong>lines</strong> property
+     * When retrieving an invoice, youâll get a <strong>lines</strong> property
      * containing the total count of line items and the first handful of those items.
      * There is also a URL where you can retrieve the full (paginated) list of line
      * items.
@@ -83,7 +83,7 @@ class InvoiceService extends \Stripe\Service\AbstractService
 
     /**
      * Stripe automatically finalizes drafts before sending and attempting payment on
-     * invoices. However, if you’d like to finalize a draft invoice manually, you can
+     * invoices. However, if youâd like to finalize a draft invoice manually, you can
      * do so using this method.
      *
      * @param string $id
@@ -120,7 +120,7 @@ class InvoiceService extends \Stripe\Service\AbstractService
      * Stripe automatically creates and then attempts to collect payment on invoices
      * for customers on subscriptions according to your <a
      * href="https://dashboard.stripe.com/account/billing/automatic">subscriptions
-     * settings</a>. However, if you’d like to attempt payment on an invoice out of the
+     * settings</a>. However, if youâd like to attempt payment on an invoice out of the
      * normal collection schedule or for some other reason, you can do so.
      *
      * @param string $id
@@ -155,7 +155,7 @@ class InvoiceService extends \Stripe\Service\AbstractService
     /**
      * Stripe will automatically send invoices to customers according to your <a
      * href="https://dashboard.stripe.com/account/billing/automatic">subscriptions
-     * settings</a>. However, if you’d like to manually send an invoice to your
+     * settings</a>. However, if youâd like to manually send an invoice to your
      * customer out of the normal schedule, you can do so. When sending invoices that
      * have already been paid, there will be no reference to the payment in the email.
      *
@@ -182,11 +182,11 @@ class InvoiceService extends \Stripe\Service\AbstractService
      * applicable to the invoice.
      *
      * Note that when you are viewing an upcoming invoice, you are simply viewing a
-     * preview – the invoice has not yet been created. As such, the upcoming invoice
+     * preview â the invoice has not yet been created. As such, the upcoming invoice
      * will not show up in invoice listing calls, and you cannot use the API to pay or
      * edit the invoice. If you want to change the amount that your customer will be
      * billed, you can add, remove, or update pending invoice items, or update the
-     * customer’s discount.
+     * customerâs discount.
      *
      * You can preview the effects of updating a subscription, including a preview of
      * what proration will take place. To ensure that the actual proration is
@@ -211,7 +211,7 @@ class InvoiceService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * When retrieving an upcoming invoice, you’ll get a <strong>lines</strong>
+     * When retrieving an upcoming invoice, youâll get a <strong>lines</strong>
      * property containing the total count of line items and the first handful of those
      * items. There is also a URL where you can retrieve the full (paginated) list of
      * line items.

@@ -12,7 +12,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Emulates an HTTP Async Client in an HTTP Client.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 trait HttpAsyncClientEmulator
 {

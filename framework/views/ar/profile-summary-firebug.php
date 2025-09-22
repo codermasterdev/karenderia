@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("ملخص تقرير التنميط");
-	console.log(" عدد   مجموع   معدل    أدنى      أعلى   ");
+	console.group("ÙÙØ®Øµ ØªÙØ±ÙØ± Ø§ÙØªÙÙÙØ·");
+	console.log(" Ø¹Ø¯Ø¯   ÙØ¬ÙÙØ¹   ÙØ¹Ø¯Ù    Ø£Ø¯ÙÙ      Ø£Ø¹ÙÙ   ");
 <?php
 foreach($data as $index=>$entry)
 {

@@ -17,266 +17,266 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '\'{db}\' component doesn\'t exist.' => 'Δεν υπάρχει το δομικό στοιχείο \'{db}\'.',
-  '\'{db}\' component is not a valid CDbConnection instance.' => 'Το δομικό στοιχείο \'{db}\' δεν είναι έγκυρο στιγμιότυπο CDbConnection.',
-  'A PHP extension stopped the file upload.' => 'Μια επέκταση της PHP διέκοψε την αποστολή του αρχείου.',
-  'CApcCache requires PHP {extension} extension to be loaded.' => 'Το CApcCache απαιτεί την επέκταση {extension} της PHP να έχει φορτωθεί.',
-  'Can not generate multiple insert command with empty data set.' => 'Δεν είναι δυνατή η δημιουργία πολλαπλών εντολών insert με κενό σετ δεδομένων.',
-  'Can\'t create state persister table. Check CREATE privilege for \'{db}\' connection user or create table manually with SQL: {sql}.' => 'Δεν είναι δυνατή η δημιουργία του πίνακα διατήρησης κατάστασης. Ελέγξτε αν ο χρήστης της βάσης \'{db}\' έχει το δικαίωμα CREATE ή δημιουργήστε τον πίνακα χειροκίνητα με την εντολή SQL: {sql}',
-  'Encryption key length can be {keyLengths}.' => 'Το μήκος του κλειδιού κρυπτογράφησης πρέπει να είναι {keyLengths}.',
-  'Encryption key length must be between {minLength} and {maxLength}.' => 'Το μήκος του κλειδιού κρυπτογράφησης πρέπει να είναι μεταξύ {minLength} και {maxLength}.',
-  'Encryption key should be a string.' => 'Το κλειδί κρυπτογράφησης πρέπει να είναι αλφαριθμητικό.',
-  'Failed to validate key. Supported key lengths of cipher not known.' => 'Δεν ήταν δυνατή η επαλήθευση του κλειδιού. Δεν είναι γνωστά τα υποστηριζόμενα μήκη κλειδιών του κώδικα κρυπτογράφησης.',
-  'No encryption key specified.' => 'Δεν ορίστηκε κλειδί κρυπτογράφησης.',
-  'Unable to upload the file "{file}" because of an unrecognized error.' => 'Δεν ήταν δυνατή η αποστολή του αρχείου "{file}" λόγω άγνωστου σφάλματος.',
-  'stateTableName param cannot be null.' => 'Η παράμετρος stateTableName δεν μπορεί να είναι κενή.',
-  '"{path}" is not a valid directory.' => 'Η διαδρομή "{path}" δεν είναι έγκυρος κατάλογος.',
-  '&lt; Previous' => '&lt; Προηγούμενη',
-  '&lt;&lt; First' => '&lt;&lt; Αρχική',
-  'Action class {class} must implement the "run" method.' => 'Η κλάση ενέργεια {class} πρέπει να υλοποιεί την μέθοδο "run".',
-  'Active Record requires a "db" CDbConnection application component.' => 'Το Active Record απαιτεί ένα "db" CDbConnection δομικό στοιχείο της εφαρμογής.',
-  'Active record "{class}" has an invalid configuration for relation "{relation}". It must specify the relation type, the related active record class and the foreign key.' => 'Η Active record κλάση "{class}" έχει μια μη έγκυρη παραμετροποίηση για τη σχέση "{relation}". Θα πρέπει να ορίζεται ο τύπος της σχέσης, η σχετιζόμενη κλάση Active record και το ξένο κλειδί.',
-  'Active record "{class}" is trying to select an invalid column "{column}". Note, the column must exist in the table or be an expression with alias.' => 'Η Active record κλάση "{class}" προσπαθεί να επιλέξει μια μη έγκυρη στήλη "{column}". Πρέπει να σημειωθεί, ότι η στήλη θα πρέπει να υπάρχει στον πίνακα ή να είναι μια έκφραση με κάποιο ψευδώνυμο.',
-  'Adding a foreign key constraint to an existing table is not supported by SQLite.' => 'Η προσθήκη περιορισμού ξένου κλειδιού σε υπάρχοντα πίνακα δεν υποστηρίζεται από την SQLite.',
-  'Adding a primary key after table has been created is not supported by SQLite.' => 'Η προσθήκη πρωτεύοντος κλειδιού αφού έχει δημιουργηθεί ο πίνακας δεν υποστηρίζεται από το SQLite.',
-  'Alias "{alias}" is invalid. Make sure it points to an existing PHP file and the file is readable.' => 'Το ψευδώνυμο "{alias}" δεν είναι έγκυρο. Βεβαιωθείτε ότι δείχνει σε υπάρχον αρχείο PHP.',
-  'Alias "{alias}" is invalid. Make sure it points to an existing directory or file.' => 'Το ψευδώνυμο "{alias}" δεν είναι έγκυρο. Επιβεβαιώστε ότι δείχνει σε ένα υπάρχων κατάλογο ή αρχείο.',
-  'Altering a DB column is not supported by SQLite.' => 'Η τροποποίηση μια στήλης πίνακα της βάσης δεδομένων δεν υποστηρίζεται από την SQLite.',
-  'Application Log' => 'Ημερολόγιο εφαρμογής',
-  'Application base path "{path}" is not a valid directory.' => 'Η βασική διαδρομή της εφαρμογής "{path}" δεν είναι έγκυρος κατάλογος.',
-  'Application runtime path "{path}" is not valid. Please make sure it is a directory writable by the Web server process.' => 'Η βασική διαδρομή εκτέλεσης "{path}" δεν είναι έγκυρη. Επιβεβαιώστε ότι ο κατάλογος είναι εγγράψιμος από τη διεργασία του διακομιστή ιστοσελίδων.',
-  'Authorization item "{item}" has already been assigned to user "{user}".' => 'Το αντικείμενο πιστοποίησης "{item}" έχει οριστεί στο χρήστη "{user}".',
-  'Base path "{path}" is not a valid directory.' => 'Η βασική διαδρομή "{path}" δεν είναι έγκυρος κατάλογος.',
-  'CAssetManager.basePath "{path}" is invalid. Please make sure the directory exists and is writable by the Web server process.' => 'Η διαδρομή CAssetManager.basePath "{path}" δεν είναι έγκυρη. Επιβεβαιώστε ότι ο κατάλογος υπάρχει και είναι εγγράψιμος από τη διεργασία του διακομιστή ιστοσελίδων.',
-  'CCacheHttpSession.cacheID is invalid. Please make sure "{id}" refers to a valid cache application component.' => 'Το CCacheHttpSession.cacheID δεν είναι έγκυρο. Επιβεβαιώστε ότι το "{id}" αναφέρεται σε ένα έγκυρο δομικό στοιχείο λανθάνουσας μνήμης της εφαρμογής.',
-  'CCaptchaValidator.action "{id}" is invalid. Unable to find such an action in the current controller.' => 'Το CCaptchaValidator.action "{id}" δεν είναι έγκυρο. Δεν ήταν δυνατή η εύρεση τέτοιας ενέργειας στον τρέχων ελεγκτή.',
-  'CDbAuthManager.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Το CDbAuthManager.connectionID "{id}" δεν είναι έγκυρο. Επιβεβαιώστε ότι αναφέρεται στο αναγνωριστικό (ID) του δομικού στοιχείου CDbConnection της εφαρμογής.',
-  'CDbCache.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Το CDbCache.connectionID "{id}" δεν είναι έγκυρο. Επιβεβαιώστε ότι αναφέρεται στο αναγνωριστικό (ID) του δομικού στοιχείου CDbConnection της εφαρμογής.',
-  'CDbCacheDependency.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Το CDbCacheDependency.connectionID "{id}" δεν είναι έγκυρο. Βεβαιωθείτε ότι αυτό δείχνει στο αναγνωριστικό ενός δομικού στοιχείου CDbConnection της εφαρμογής.',
-  'CDbCacheDependency.sql cannot be empty.' => 'Το CDbCacheDependency.sql δεν πρέπει να είναι κενό.',
-  'CDbCommand failed to execute the SQL statement: {error}' => 'Το CDbCommand απέτυχε να εκτελέσει τη δήλωση SQL: {error}',
-  'CDbCommand failed to prepare the SQL statement: {error}' => 'Το CDbCommand απέτυχε να προετοιμάσει τη δήλωση SQL: {error}',
-  'CDbCommand::execute() failed: {error}. The SQL statement executed was: {sql}.' => 'Το CDbCommand::execute() απέτυχε: {error}. Η δήλωση SQL που εκτελέστηκε ήταν: {sql}.',
-  'CDbCommand::{method}() failed: {error}. The SQL statement executed was: {sql}.' => 'Το CDbCommand::{method}() απέτυχε: {error}. Η δήλωση SQL που εκτελέστηκε ήταν: {sql}.',
-  'CDbConnection does not support reading schema for {driver} database.' => 'Το CDbConnection δεν υποστηρίζει την ανάγνωση του σχήματος από τον οδηγό {driver} της βάσης δεδομένων.',
-  'CDbConnection failed to open the DB connection.' => 'Το CDbConnection απέτυχε να ανοίξει τη σύνδεση με τη βάση δεδομένων.',
-  'CDbConnection is unable to find PDO class "{className}". Make sure PDO is installed correctly.' => 'Το CDbConnection αδυνατεί να βρει την PDO κλάση "{className}". Βεβαιωθείτε ότι το PDO είναι σωστά εγκατεστημένο.',
-  'CDbDataReader cannot rewind. It is a forward-only reader.' => 'Το CDbDataReader δεν μπορεί να επιστρέψει πίσω. Είναι αναγνώστης μόνο προς τα εμπρός.',
-  'CDbHttpSession.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Το CDbHttpSession.connectionID "{id}" δεν είναι έγκυρο. Επιβεβαιώστε ότι αναφέρεται στο αναγνωριστικό (ID) του δομικού στοιχείου CDbConnection της εφαρμογής.',
-  'CDbLogRoute.connectionID "{id}" does not point to a valid CDbConnection application component.' => 'Το CDbLogRoute.connectionID "{id}" δεν δείχνει σε έγκυρο δομικό στοιχείο CDbConnection της εφαρμογής.',
-  'CDbMessageSource.connectionID is invalid. Please make sure "{id}" refers to a valid database application component.' => 'Το CDbMessageSource.connectionID δεν είναι έγκυρο. Επιβεβαιώστε ότι το "{id}" αναφέρεται σε ένα έγκυρο δομικό στοιχείο βάσης δεδομένων της εφαρμογής.',
-  'CDbTestFixture.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Το CDbTestFixture.connectionID "{id}" δεν είναι έγκυρο. Βεβαιωθείτε ότι αναφέρεται στο ID ενός δομικού στοιχείου CDbConnection της εφαρμογής.',
-  'CDbTransaction is inactive and cannot perform commit or roll back operations.' => 'Το CDbTransaction είναι ανενεργό και δεν μπορεί να εκτελέσει την ολοκλήρωση ή ακύρωση ενεργειών.',
-  'CDirectoryCacheDependency.directory cannot be empty.' => 'Το CDirectoryCacheDependency.directory δεν πρέπει να είναι κενό.',
-  'CEAcceleratorCache requires PHP eAccelerator extension to be loaded, enabled or compiled with the "--with-eaccelerator-shared-memory" option.' => 'Το CEAcceleratorCache απαιτεί η επέκταση PHP eAccelerator να είναι φορτωμένη, ενεργοποιημένη ή μεταγλωττισμένη με την επιλογή "--with-eaccelerator-shared-memory".',
-  'CFileCacheDependency.fileName cannot be empty.' => 'Το CFileCacheDependency.fileName δεν πρέπει να είναι κενό.',
-  'CFileLogRoute.logPath "{path}" does not point to a valid directory. Make sure the directory exists and is writable by the Web server process.' => 'Το CFileLogRoute.logPath "{path}" δεν δείχνει σε έγκυρο κατάλογο. Επιβεβαιώστε ότι ο κατάλογος υπάρχει και είναι εγγράψιμος από τη διεργασία του διακομιστή ιστοσελίδων.',
-  'CFilterChain can only take objects implementing the IFilter interface.' => 'Το CFilterChain δέχεται μόνο αντικείμενα που υλοποιούν τη διεπαφή IFilter.',
-  'CFlexWidget.baseUrl cannot be empty.' => 'Το CFlexWidget.baseUrl δεν πρέπει να είναι κενό.',
-  'CFlexWidget.name cannot be empty.' => 'Το CFlexWidget.name δεν πρέπει να είναι κενό.',
-  'CGlobalStateCacheDependency.stateName cannot be empty.' => 'Το CGlobalStateCacheDependency.stateName δεν πρέπει να είναι κενό.',
-  'CHttpCacheFilter.lastModified contained a value that could not be understood by strtotime()' => 'Το CHttpCacheFilter.lastModified περιείχε μια τιμή που δεν ήταν δυνατό να καταλάβει η strtotime()',
-  'CHttpCookieCollection can only hold CHttpCookie objects.' => 'Το CHttpCookieCollection μπορεί να κρατά μόνο αντικείμενα τύπου CHttpCookie.',
-  'CHttpRequest is unable to determine the entry script URL.' => 'Το CHttpRequest δεν μπόρεσε να καθορίσει τη διεύθυνση URL του σεναρίου εισαγωγής.',
-  'CHttpRequest is unable to determine the path info of the request.' => 'Το CHttpRequest δεν μπόρεσε να καθορίσει τις πληροφορίες διαδρομής της αίτησης.',
-  'CHttpRequest is unable to determine the request URI.' => 'Το CHttpRequest δεν μπόρεσε να καθορίσει το URI αίτησης.',
-  'CHttpSession.cookieMode can only be "none", "allow" or "only".' => 'Το CHttpSession.cookieMode μπορεί να είναι μόνο "none", "allow" ή "only".',
-  'CHttpSession.gcProbability "{value}" is invalid. It must be a float between 0 and 100.' => 'Η τιμή "{value}" για το CHttpSession.gcProbability δεν είναι έγκυρη. Πρέπει να είναι πραγματικός αριθμός μεταξύ 0 και 100.',
-  'CHttpSession.savePath "{path}" is not a valid directory.' => 'Το CHttpSession.savePath "{path}" δεν είναι έγκυρος κατάλογος.',
-  'CMemCache requires PHP {extension} extension to be loaded.' => 'Το CMemCache απαιτεί την PHP επέκταση {extension} να έχει φορτωθεί.',
-  'CMemCache server configuration must be an array.' => 'Η παραμετροποίηση διακομιστή του CMemCache πρέπει να είναι πίνακας.',
-  'CMemCache server configuration must have "host" value.' => 'Η παραμετροποίηση διακομιστή του CMemCache πρέπει να περιέχει την τιμή "host".',
-  'CProfileLogRoute found a mismatching code block "{token}". Make sure the calls to Yii::beginProfile() and Yii::endProfile() be properly nested.' => 'Το CProfileLogRoute βρήκε ένα τμήμα κώδικα "{token}" που δεν ταιριάζει. Επιβεβαιώστε ότι οι κλήσεις στο Yii::beginProfile() και Yii::endProfile() είναι σωστά φωλιασμένες.',
-  'CProfileLogRoute.report "{report}" is invalid. Valid values include "summary" and "callstack".' => 'Το CProfileLogRoute.report "{report}" είναι μη έγκυρο. Οι έγκυρες τιμές περιλαμβάνουν τα "summary" και "callstack".',
-  'CSecurityManager requires PHP mcrypt extension to be loaded in order to use data encryption feature.' => 'Το CSecurityManager απαιτεί να έχει φορτωθεί η επέκταση mcrypt της PHP προκειμένου να χρησιμοποιηθεί το χαρακτηριστικό κρυπτογράφησης των δεδομένων.',
-  'CSecurityManager.validationKey cannot be empty.' => 'Το CSecurityManager.validationKey δεν πρέπει να είναι κενό.',
-  'CSecurityManager::generateRandomString() cannot generate random string in the current environment.' => 'Η μέθοδος CSecurityManager::generateRandomString() δεν μπορεί να δημιουργήσει τυχαία αλφαριθμητική φράση στο τρέχον περιβάλλον.',
-  'CTypedList<{type}> can only hold objects of {type} class.' => 'Το CTypedList<{type}>  μπορεί να περιέχει μόνο αντικείμενα τύπου {type}.',
-  'CTypedMap<{type}> can only hold objects of {type} class.' => 'Το CTypedMap<{type}> μπορεί να κρατάει μόνο αντικείμενα της κλάσης {type}.',
-  'CUrlManager.UrlFormat must be either "path" or "get".' => 'Το CUrlManager.UrlFormat μπορεί να είναι είτε "path" είτε "get".',
-  'CWinCache requires PHP wincache extension to be loaded.' => 'Το CWinCache απαιτεί να έχει φορτωθεί η επέκταση wincache της PHP.',
-  'CWinCache user cache is disabled. Please set wincache.ucenabled to On in your php.ini.' => 'Η λανθάνουσα μνήμη χρήστη CWinCache είναι απενεργοποιημένη. Ορίστε το wincache.ucenabled στην τιμή On στο php.ini.',
-  'CXCache requires PHP XCache extension to be loaded.' => 'Το CXCache απαιτεί να έχει φορτωθεί η επέκταση XCache της PHP.',
-  'CZendDataCache requires PHP Zend Data Cache extension to be loaded.' => 'Το CZendDataCache απαιτεί να έχει φορτωθεί η επέκταση Zend Data Cache της PHP.',
-  'Cannot add "{child}" as a child of "{name}". A loop has been detected.' => 'Δεν είναι δυνατή η πρόσθεση του "{child}" ως παιδί του "{name}". Ανιχνεύθηκε βρόχος.',
-  'Cannot add "{child}" as a child of "{parent}". A loop has been detected.' => 'Δεν είναι δυνατή η πρόσθεση του "{child}" ως παιδί του "{name}". Ανιχνεύθηκε βρόχος.',
-  'Cannot add "{name}" as a child of itself.' => 'Δεν είναι δυνατή η πρόσθεση του "{name}" ως παιδί του εαυτού του.',
-  'Cannot add an item of type "{child}" to an item of type "{parent}".' => 'Δεν είναι δυνατή η πρόσθεση αντικειμένου του τύπου "{child}" σε αντικείμενο τύπου "{parent}".',
-  'Class name "{class}" does not match class file "{file}".' => 'Το όνομα της κλάσης "{class}" δεν συμπίπτει με το αρχείο κλάσης "{file}".',
-  'Column name must be either a string or an array.' => 'Το όνομα στήλης πρέπει να είναι είτε αλφαριθμητικό είτε πίνακας.',
-  'Dropping DB column is not supported by SQLite.' => 'Η κατάργηση μια στήλης πίνακα της βάσης δεδομένων δεν υποστηρίζεται από την SQLite.',
-  'Dropping a foreign key constraint is not supported by SQLite.' => 'Η κατάργηση περιορισμού ξένου κλειδιού δεν υποστηρίζεται από την SQLite.',
-  'Either "{parent}" or "{child}" does not exist.' => 'Είτε το "{parent}" είτε το "{child}" δεν υπάρχει.',
-  'Error: Table "{table}" does not have a primary key.' => 'Σφάλμα: Ο πίνακας "{table}" δεν έχει κύριο κλειδί.',
-  'Error: Table "{table}" has a composite primary key which is not supported by crud command.' => 'Σφάλμα: Ο πίνακας "{table}" έχει σύνθετο κύριο κλειδί που δεν υποστηρίζεται από την εντολή crud.',
-  'Event "{class}.{event}" is attached with an invalid handler "{handler}".' => 'Το συμβάν "{class}.{event}" έχει συνδεθεί με χρήση ενός μη έγκυρου χειριστή "{handler}".',
-  'Event "{class}.{event}" is not defined.' => 'Το συμβάν "{class}.{event}" δεν έχει οριστεί.',
-  'Extension path "{path}" does not exist.' => 'Η διαδρομή επέκτασης "{path}" δεν υπάρχει.',
-  'Failed to initialize the mcrypt module.' => 'Απέτυχε η αρχικοποίηση της μονάδας mcrypt.',
-  'Failed to set unsafe attribute "{attribute}" of "{class}".' => 'Απέτυχε ο ορισμός της μη ασφαλούς ιδιότητας "{attribute}" της κλάσης "{class}".',
-  'Failed to start session.' => 'Απέτυχε η έναρξη συνόδου.',
-  'Failed to write the uploaded file "{file}" to disk.' => 'Δεν ήταν δυνατή η εγγραφή του απεσταλμένου αρχείου "{file}" στο δίσκο.',
-  'Filter "{filter}" is invalid. Controller "{class}" does not have the filter method "filter{filter}".' => 'Το φίλτρο "{filter}" δεν είναι έγκυρο. Ο ελεγκτής "{class}" δεν περιέχει τη μέθοδο φίλτρου "filter{filter}".',
-  'GD with FreeType or ImageMagick PHP extensions are required.' => 'Απαιτούνται οι PHP επεκτάσεις GD με το FreeType ή το ImageMagick.',
-  'Get a new code' => 'Δημιουργία νέου κωδικού',
-  'Go to page: ' => 'Μετάβαση στη σελίδα: ',
-  'In order to use MIME-type validation provided by CFileValidator fileinfo PECL extension should be installed.' => 'Προκειμένου να χρησιμοποιήσετε την επαλήθευση για τον MIME τύπο που παρέχει το CFileValidator, απαιτείται να είναι εγκατεστημένη η επέκταση PECL fileinfo.',
-  'Internal error while generating hash.' => 'Εσωτερικό σφάλμα κατά τον κατακερματισμό.',
-  'Invalid MO file revision: {revision}.' => 'Μη έγκυρος αριθμός αρχείου MO αναθεώρησης: {revision}.',
-  'Invalid MO file: {file} (magic: {magic}).' => 'Μη έγκυρο αρχείο MO: {file} (magic: {magic}).',
-  'Invalid enumerable value "{value}". Please make sure it is among ({enum}).' => 'Μη έγκυρη τιμή απαρίθμησης "{value}". Βεβαιωθείτε ότι είναι μεταξύ ({enum}).',
-  'Invalid expression for CHttpCacheFilter.lastModifiedExpression: The evaluation result "{value}" could not be understood by strtotime()' => 'Μη έγκυρη έκφραση για το CHttpCacheFilter.lastModifiedExpression: Το αποτέλεσμα της αξιολόγησης "{value}" δεν ήταν δυνατό να καταλάβει η strtotime()',
-  'Invalid operator "{operator}".' => 'Μη έγκυρος τελεστής "{operator}".',
-  'Last &gt;&gt;' => 'Τελευταία &gt;&gt;',
-  'List data must be an array or an object implementing Traversable.' => 'Τα δεδομένα λίστας πρέπει να είναι πίνακας ή αντικείμενο που υλοποιεί το Traversable.',
-  'List index "{index}" is out of bound.' => 'Ο δείκτης λίστας "{index}" είναι εκτός ορίων.',
-  'Login Required' => 'Απαιτείται σύνδεση',
-  'Map data must be an array or an object implementing Traversable.' => 'Τα δεδομένα τύπου Map πρέπει να είναι πίνακας ή αντικείμενο που υλοποιεί το Traversable.',
-  'Missing the temporary folder to store the uploaded file "{file}".' => 'Δεν υπάρχει ο προσωρινός φάκελος για την αποθήκευση του ανεβασμένου αρχείου "{file}".',
-  'Next &gt;' => 'Επόμενη &gt;',
-  'No' => 'Όχι',
-  'No columns are being updated for table "{table}".' => 'Δεν ενημερώνονται στήλες για τον πίνακα "{table}".',
-  'No counter columns are being updated for table "{table}".' => 'Δεν ενημερώνονται στήλες για τον πίνακα "{table}".',
-  'Object configuration must be an array containing a "class" element.' => 'Η παραμετροποίηση αντικειμένου πρέπει να είναι πίνακας που να περιέχει ένα στοιχείο "class".',
-  'Only SHA1 and MD5 hashing algorithms are supported when using PHP 5.1.1 or below.' => 'Μόνο αλγόριθμοι κατακερματισμού SHA1 και MD5 υποστηρίζονται όταν χρησιμοποιείται έκδοση PHP 5.1.1 και πιο κάτω.',
-  'Please fix the following input errors:' => 'Παρακαλώ διορθώστε τα παρακάτω σφάλματα:',
-  'Powered by {yii}.' => 'Ο ιστοτόπος τρέχει {yii}.',
-  'Property "{class}.{property}" is not defined.' => 'Η ιδιότητα "{class}.{property}" δεν έχει ορισθεί.',
-  'Property "{class}.{property}" is read only.' => 'Η ιδιότητα "{class}.{property}" είναι μόνο για ανάγνωση.',
-  'Property CMaskedTextField.mask cannot be empty.' => 'Η ιδιότητα CMaskedTextField.mask δεν μπορεί να είναι κενή.',
-  'Queue data must be an array or an object implementing Traversable.' => 'Τα δεδομένα ουράς πρέπει να είναι πίνακας ή αντικείμενο που υλοποιεί το Traversable.',
-  'Relation "{name}" is not defined in active record class "{class}".' => 'Η σχέση "{name}" δεν έχει οριστεί για την active record κλάση "{class}".',
-  'Removing a primary key after table has been created is not supported by SQLite.' => 'Η αφαίρεση πρωτεύοντος κλειδιού αφού έχει δημιουργηθεί ο πίνακας δεν υποστηρίζεται από το SQLite.',
-  'Renaming a DB column is not supported by SQLite.' => 'Η μετονομασία μια στήλης πίνακα της βάσης δεδομένων δεν υποστηρίζεται από την SQLite.',
-  'Script HTML options are not allowed for "CClientScript::POS_LOAD" and "CClientScript::POS_READY".' => 'Οι επιλογές σεναρίου HTML δεν επιτρέπονται για τα "CClientScript::POS_LOAD" και "CClientScript::POS_READY".',
-  'Stack data must be an array or an object implementing Traversable.' => 'Τα δεδομένα στοίβας πρέπει να είναι πίνακας ή αντικείμενο που υλοποιεί το Traversable.',
-  'Table "{table}" does not exist.' => 'Ο πίνακας "{table}" δεν υπάρχει.',
-  'Table "{table}" does not have a column named "{column}".' => 'Ο πίνακας "{table}" δεν έχει στήλη με όνομα "{column}".',
-  'The "db" application component must be configured to be a CDbConnection object.' => 'Το δομικό στοιχείο της εφαρμογής "db" πρέπει να οριστεί ως αντικείμενο τύπου CDbConnection.',
-  'The "filter" property must be specified with a valid callback.' => 'Η ιδιότητα "filter" πρέπει να οριστεί με ένα έγκυρο callback.',
-  'The "forceCopy" and "linkAssets" cannot be both true.' => 'Τα "forceCopy" και "linkAssets" δεν μπορεί να είναι και τα δύο αληθή.',
-  'The "pattern" property must be specified with a valid regular expression.' => 'Η ιδιότητα "pattern" πρέπει να οριστεί με μια έγκυρη κανονική έκφραση.',
-  'The "range" property must be specified with a list of values.' => 'Η ιδιότητα "range" πρέπει να καθοριστεί με μια λίστα τιμών.',
-  'The $converter argument must be a valid callback or null.' => 'Το όρισμα $converter πρέπει να είναι έγκυρη συνάρτηση επανάκλησης ή null.',
-  'The CSRF token could not be verified.' => 'Ήταν αδύνατη η επαλήθευση του συμβόλου CSRF.',
-  'The STAT relation "{name}" cannot have child relations.' => 'Η σχέση STAT "{name}" δεν μπορεί να έχει σχέσεις-παιδιά.',
-  'The URL pattern "{pattern}" for route "{route}" is not a valid regular expression.' => 'Το URL πρότυπο "{pattern}" για τη διαδρομή "{route}" πρέπει να είναι έγκυρη κανονική έκφραση.',
-  'The active record cannot be deleted because it is new.' => 'Δεν είναι δυνατή η διαγραφή του active record, διότι είναι καινούριο.',
-  'The active record cannot be inserted to database because it is not new.' => 'Δεν είναι δυνατή η εισαγωγή του active record στη βάση δεδομένων, διότι δεν είναι καινούριο.',
-  'The active record cannot be updated because it is new.' => 'Δεν είναι δυνατή η ενημέρωση του active record, διότι είναι καινούριο.',
-  'The asset "{asset}" to be published does not exist.' => 'Το στοιχείο "{asset}" για δημοσίευση δεν υπάρχει.',
-  'The command path "{path}" is not a valid directory.' => 'Η διαδρομή εντολής "{path}" δεν είναι έγκυρος κατάλογος.',
-  'The controller path "{path}" is not a valid directory.' => 'Η διαδρομή ελεγκτή "{path}" δεν είναι έγκυρος κατάλογος.',
-  'The file "{file}" cannot be uploaded. Only files of these MIME-types are allowed: {mimeTypes}.' => 'Δεν είναι δυνατό το ανέβασμα του αρχείου "{file}". Επιτρέπονται μόνο οι παρακάτω MIME τύποι: {mimeTypes}.',
-  'The file "{file}" cannot be uploaded. Only files with these extensions are allowed: {extensions}.' => 'Δεν ήταν δυνατό το ανέβασμα του αρχείου "{file}". Επιτρέπονται μόνο αρχεία με τις ακόλουθες επεκτάσεις: {extensions}.',
-  'The file "{file}" is too large. Its size cannot exceed {limit} bytes.' => 'Το αρχείο "{file}" είναι πολύ μεγάλο. Το μέγεθός του δεν μπορεί να υπερβαίνει τα {limit} bytes.',
-  'The file "{file}" is too small. Its size cannot be smaller than {limit} bytes.' => 'Το αρχείο "{file}" είναι πολύ μικρό. Το μέγεθός του δεν μπορεί να είναι μικρότερο των {limit} bytes.',
-  'The file "{file}" was only partially uploaded.' => 'Το αρχείο "{file}" ανέβηκε μόνο μερικώς.',
-  'The first element in a filter configuration must be the filter class.' => 'Το πρώτο στοιχείο στην παραμετροποίηση ενός φίλτρου πρέπει να είναι η κλάση φίλτρου.',
-  'The format of {attribute} is invalid.' => 'Η μορφή του {attribute} δεν είναι έγκυρη.',
-  'The item "{name}" does not exist.' => 'Το αντικείμενο "{name}" δεν υπάρχει.',
-  'The item "{parent}" already has a child "{child}".' => 'Το αντικείμενο "{name}" έχει ήδη ένα παιδί "{child}".',
-  'The layout path "{path}" is not a valid directory.' => 'Η διαδρομή διάταξης "{path}" δεν είναι έγκυρος κατάλογος.',
-  'The list is read only.' => 'Η λίστα είναι μόνο για ανάγνωση.',
-  'The map is read only.' => 'Ο χάρτης είναι μόνο για ανάγνωση.',
-  'The module path "{path}" is not a valid directory.' => 'Η διαδρομή μονάδων "{path}" δεν είναι έγκυρος κατάλογος.',
-  'The pattern for 12 hour format must be "h" or "hh".' => 'Το πρότυπο για την 12-ωρη μορφή ώρας πρέπει να είναι "h" ή "hh".',
-  'The pattern for 24 hour format must be "H" or "HH".' => 'Το πρότυπο για την 24-ωρη μορφή ώρας πρέπει να είναι "H" ή "HH".',
-  'The pattern for AM/PM marker must be "a".' => 'Το πρότυπο για το σύμβολο πμ/μμ πρέπει να είναι "a".',
-  'The pattern for day in month must be "F".' => 'Το πρότυπο για την ημέρα μέσα σε ένα μήνα πρέπει να είναι "F".',
-  'The pattern for day in year must be "D", "DD" or "DDD".' => 'Το πρότυπο για την ημέρα μέσα σε ένα έτος πρέπει να είναι "D", "DD" ή "DDD".',
-  'The pattern for day of the month must be "d" or "dd".' => 'Το πρότυπο για την ημέρα του μήνα πρέπει να είναι "d" ή "dd".',
-  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" or "ccccc".' => 'Το πρότυπο για την ημέρα της εβδομάδας πρέπει να είναι "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" ή "ccccc".',
-  'The pattern for era must be "G", "GG", "GGG", "GGGG" or "GGGGG".' => 'Το πρότυπο για την ιστορική περίοδο πρέπει να είναι "G", "GG", "GGG", "GGGG" ή "GGGGG".',
-  'The pattern for hour in AM/PM must be "K" or "KK".' => 'Το πρότυπο για την ώρα σε πμ/μμ πρέπει να είναι "K" ή "KK".',
-  'The pattern for hour in day must be "k" or "kk".' => 'Το πρότυπο για την ώρα μέσα στην ημέρα πρέπει να είναι "k" ή "kk".',
-  'The pattern for minutes must be "m" or "mm".' => 'Το πρότυπο για τα λεπτά πρέπει να είναι "m" ή "mm".',
-  'The pattern for month must be "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" or "LLLL".' => 'Το πρότυπο για το μήνα πρέπει να είναι "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" ή "LLLL".',
-  'The pattern for seconds must be "s" or "ss".' => 'Το πρότυπο για τα λεπτά πρέπει να είναι "s" ή "ss".',
-  'The pattern for time zone must be "z" or "v".' => 'Το πρότυπο για την ώρα ζώνης πρέπει να είναι "z" ή "v".',
-  'The pattern for week in month must be "W".' => 'Το πρότυπο για την εβδομάδα μέσα σε ένα μήνα πρέπει να είναι "W".',
-  'The pattern for week in year must be "w".' => 'Το πρότυπο για την εβδομάδα μέσα σε ένα έτος πρέπει να είναι "w".',
-  'The queue is empty.' => 'Η ουρά είναι άδεια.',
-  'The relation "{relation}" in active record class "{class}" is not specified correctly: the join table "{joinTable}" given in the foreign key cannot be found in the database.' => 'Η σχέση "{relation}" στην active record κλάση "{class}" δεν έχει οριστεί σωστά: Ο πίνακας σύζευξης "{joinTable}" που δίνεται στο ξένο κλειδί δεν μπορεί να βρεθεί στη βάση δεδομένων.',
-  'The relation "{relation}" in active record class "{class}" is specified with a foreign key "{key}" that does not point to the parent table "{table}".' => 'Η σχέση "{relation}" στην active record κλάση "{class}" έχει οριστεί με το ξένο κλειδί "{key}" που δεν δείχνει στον γονικό πίνακα "{table}".',
-  'The relation "{relation}" in active record class "{class}" is specified with an incomplete foreign key. The foreign key must consist of columns referencing both joining tables.' => 'Η σχέση "{relation}" στην active record κλάση "{class}" έχει οριστεί με ελλειπές ξένο κλειδί. Το ξένο κλειδί θα πρέπει να περιέχει τις στήλες που αναφέρονται στους συζευγμένους πίνακες.',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". There is no such column in the table "{table}".' => 'Η σχέση "{relation}" στην active record κλάση "{class}" έχει οριστεί με μη έγκυρο ξένο κλειδί "{key}". Δεν υπάρχει τέτοια στήλη στον πίνακα "{table}".',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The columns in the key must match the primary keys of the table "{table}".' => 'Η σχέση "{relation}" στην active record κλάση "{class}" έχει οριστεί με μη έγκυρο ξένο κλειδί. Οι στήλες στο κλειδί πρέπει να δείχνουν στο κύριο κλειδί του πίνακα "{table}".',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' => 'Η σχέση "{relation}" στην active record κλάση "{class}" έχει οριστεί με μη έγκυρο ξένο κλειδί. Η μορφή του ξένου κλειδιού πρέπει να είναι "συζευγμένοςΠίνακας(ξκ1,ξκ2,...)".',
-  'The requested view "{name}" was not found.' => 'Δεν ήταν δυνατή η εύρεση της όψης "{name}".',
-  'The stack is empty.' => 'Η στοίβα είναι άδεια.',
-  'The system is unable to find the requested action "{action}".' => 'Το σύστημα ήταν αδύνατο να εντοπίσει την ζητούμενη ενέργεια "{action}".',
-  'The system view path "{path}" is not a valid directory.' => 'Η διαδρομή όψεων του συστήματος "{path}" δεν είναι έγκυρος κατάλογος.',
-  'The table "{table}" for active record class "{class}" cannot be found in the database.' => 'Δεν ήταν δυνατή η εύρεση στη βάση δεδομένων του πίνακα "{table}" για την active record κλάση "{class}".',
-  'The value for the column "{column}" is not supplied when querying the table "{table}".' => 'Δεν παρέχεται η τιμή της στήλης "{column}" κατά την εκτέλεση ερωτήματος στον πίνακα "{table}".',
-  'The verification code is incorrect.' => 'Ο κώδικας επαλήθευσης δεν είναι σωστός.',
-  'The view path "{path}" is not a valid directory.' => 'Η διαδρομή όψεων "{path}" δεν είναι έγκυρος κατάλογος.',
-  'Theme directory "{directory}" does not exist.' => 'Ο κατάλογος θεματικών παραλλαγών "{directory}" δεν υπάρχει.',
-  'This content requires the <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.' => 'Το περιεχόμενο απαιτεί την ύπαρξη του <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.',
-  'Unable to add an item whose name is the same as an existing item.' => 'Δεν ήταν δυνατή η προσθήκη αντικειμένου του οποίου το όνομα είναι το ίδιο με ένα υπάρχον αντικείμενο.',
-  'Unable to change the item name. The name "{name}" is already used by another item.' => 'Δεν ήταν δυνατή η αλλαγή του ονόματος αντικειμένου. Το όνομα "{name}" χρησιμοποιείται ήδη από ένα άλλο αντικείμενο.',
-  'Unable to create application state file "{file}". Make sure the directory containing the file exists and is writable by the Web server process.' => 'Δεν ήταν δυνατή η δημιουργία του αρχείου κατάστασης της εφαρμογής "{file}". Βεβαιωθείτε ότι ο κατάλογος που περιέχει το αρχείο υπάρχει και είναι εγγράψιμος από τη διεργασία του διακομιστή ιστοσελίδων.',
-  'Unable to find "{column}" in table "{table}".' => 'Δεν ήταν δυνατή η εύρεση της στήλης "{column}" στον πίνακα "{table}".',
-  'Unable to generate random string.' => 'Δεν ήταν δυνατή η δημιουργία τυχαίας αλφαριθμητικής φράσης.',
-  'Unable to lock file "{file}" for reading.' => 'Δεν ήταν δυνατό το κλείδωμα του αρχείου "{file}" για ανάγνωση.',
-  'Unable to lock file "{file}" for writing.' => 'Δεν ήταν δυνατό το κλείδωμα του αρχείου "{file}" για εγγραφή.',
-  'Unable to read file "{file}".' => 'Δεν ήταν δυνατή η ανάγνωση του αρχείου "{file}".',
-  'Unable to replay the action "{object}.{method}". The method does not exist.' => 'Δεν ήταν δυνατή η επανεκτέλεση της ενέργειας "{object}.{method}". Η μέθοδος δεν υπάρχει.',
-  'Unable to resolve the request "{route}".' => 'Δεν ήταν δυνατή η επίλυση της αίτησης "{route}".',
-  'Unable to write file "{file}".' => 'Δεν ήταν δυνατή η εγγραφή του αρχείου {file}".',
-  'Unknown authorization item "{name}".' => 'Άγνωστο αντικείμενο πιστοποίησης "{name}".',
-  'Unknown operator "{operator}".' => 'Άγνωστος τελεστής "{operator}".',
-  'Unknown type "{type}".' => 'Άγνωστος τύπος "{type}".',
-  'Unrecognized locale "{locale}".' => 'Η τοπική ρύθμιση "{locale}" δεν αναγνωρίστηκε.',
-  'View file "{file}" does not exist.' => 'Το αρχείο όψης "{view}" δεν υπάρχει.',
-  'Yes' => 'Ναι',
-  'Yii application can only be created once.' => 'Η εφαρμογή Yii μπορεί να δημιουργηθεί μία μόνο φορά.',
-  'You are not authorized to perform this action.' => 'Δεν είστε πιστοποιημένος για την εκτέλεση αυτής της ενέργειας.',
-  'Your request is invalid.' => 'Η αίτησή σας δεν είναι έγκυρη.',
-  '{attribute} "{value}" has already been taken.' => 'Η τιμή "{value}" για το πεδίο {attribute} έχει ήδη δοθεί.',
-  '{attribute} "{value}" is invalid.' => 'Η τιμή "{value}" για το πεδίο {attribute} δεν είναι έγκυρη.',
-  '{attribute} cannot accept more than {limit} files.' => 'Το πεδίο {attribute} δεν δέχεται περισσότερα από {limit} αρχεία.',
-  '{attribute} cannot be blank.' => 'Το πεδίο {attribute} δεν πρέπει να είναι κενό.',
-  '{attribute} is in the list.' => 'Το {attribute} δεν υπάρχει στη λίστα.',
-  '{attribute} is invalid.' => 'Το {attribute} δεν είναι έγκυρο.',
-  '{attribute} is not a valid URL.' => 'Το {attribute} δεν είναι έγκυρη διεύθυνση URL.',
-  '{attribute} is not a valid email address.' => 'Το {attribute} δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου.',
-  '{attribute} is not in the list.' => 'Το {attribute} δεν υπάρχει στη λίστα.',
-  '{attribute} is of the wrong length (should be {length} characters).' => 'Το {attribute} έχει λάθος μέγεθος (πρέπει να ειναι {length} χαρακτήρων).',
-  '{attribute} is too big (maximum is {max}).' => 'Το {attribute} είναι πολύ μεγάλο (το μέγιστο είναι {max}).',
-  '{attribute} is too long (maximum is {max} characters).' => 'Το {attribute} είναι πολύ μεγάλο (το μέγιστο είναι {max} χαρακτήρες).',
-  '{attribute} is too short (minimum is {min} characters).' => 'Το {attribute} είναι πολύ μικρό (το ελάχιστο είναι {min} χαρακτήρες).',
-  '{attribute} is too small (minimum is {min}).' => 'Το {attribute} είναι πολύ μικρό (το ελάχιστο είναι {min}).',
-  '{attribute} must be a number.' => 'Το {attribute} πρέπει να είναι αριθμός.',
-  '{attribute} must be an integer.' => 'Το {attribute} πρέπει να είναι ακέραιος αριθμός.',
-  '{attribute} must be either {true} or {false}.' => 'Το πεδίο {attribute} πρέπει να είναι {true} ή {false}.',
-  '{attribute} must be greater than "{compareValue}".' => 'Το πεδίο {attribute} πρέπει να είναι μεγαλύτερο από "{compareValue}".',
-  '{attribute} must be greater than or equal to "{compareValue}".' => 'Το πεδίο {attribute} πρέπει να είναι μεγαλύτερο ή ίσο από "{compareValue}".',
-  '{attribute} must be less than "{compareValue}".' => 'Το πεδίο {attribute} πρέπει να είναι μικρότερο από "{compareValue}".',
-  '{attribute} must be less than or equal to "{compareValue}".' => 'Το πεδίο {attribute} πρέπει να είναι μικρότερο ή ίσο από "{compareValue}".',
-  '{attribute} must be repeated exactly.' => 'Το {attribute} πρέπει να επαναλαμβάνεται επακριβώς.',
-  '{attribute} must be {type}.' => 'Το {attribute} πρέπει να είναι τύπου {type}.',
-  '{attribute} must be {value}.' => 'Το πεδίο {attribute} πρέπει να είναι ίσο με {value}.',
-  '{attribute} must not be equal to "{compareValue}".' => 'Το πεδίο {attribute} δεν πρέπει να είναι ίσο με {value}.',
-  '{className} does not support add() functionality.' => 'Η κλάση {className} δεν υποστηρίζει τη λειτουργικότητα add().',
-  '{className} does not support delete() functionality.' => 'Η κλάση {className} δεν υποστηρίζει τη λειτουργικότητα delete().',
-  '{className} does not support flushValues() functionality.' => 'Η κλάση {className} δεν υποστηρίζει τη λειτουργικότητα flushValues().',
-  '{className} does not support get() functionality.' => 'Η κλάση {className} δεν υποστηρίζει τη λειτουργικότητα get().',
-  '{className} does not support set() functionality.' => 'Η κλάση {className} δεν υποστηρίζει τη λειτουργικότητα set().',
-  '{class} and its behaviors do not have a method or closure named "{name}".' => 'Η κλάση {class} και οι συμπεριφορές της δεν περιέχουν μέθοδο ή περάτωση με όνομα "{name}".',
-  '{class} does not have relation "{name}".' => 'Η κλάση {class} δεν έχει σχέση με όνομα "{name}".',
-  '{class} does not support fetching all table names.' => 'Η κλάση {class} δεν υποστηρίζει τη λήψη όλων των ονομάτων πινάκων.',
-  '{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' => 'Η κλάση {class} έχει ένα μη έγκυρο κανόνα επαλήθευσης. Ο κανόνας πρέπει να ορίζει τα πεδία που θα επαληθεύονται, καθώς και το όνομα του επαληθευτή.',
-  '{class} must specify "model" and "attribute" or "name" property values.' => 'Η κλάση {class} πρέπει να ορίζει τα "model" και "attribute" ή "name" των τιμών των ιδιοτήτων.',
-  '{class} requires the Blowfish option of the PHP crypt() function. This system does not have it.' => 'Η κλάση {class} απαιτεί την επιλογή Blowfish της συνάρτησης crypt() της PHP. Το σύστημα δεν την έχει.',
-  '{class} requires the PHP crypt() function. This system does not have it.' => 'Η κλάση {class} απαιτεί τη συνάρτηση crypt() της PHP. Το σύστημα δεν την έχει.',
-  '{class}.allowAutoLogin must be set true in order to use cookie-based authentication.' => 'Το {class}.allowAutoLogin πρέπει να οριστεί σε αληθές για να χρησιμοποιηθεί η πιστοποίηση βάσει cookies.',
-  '{class}::$cost must be a number.' => 'Το {class}::$cost πρέπει να είναι αριθμός.',
-  '{class}::$cost must be between 4 and 31.' => 'Το {class}::$cost πρέπει να είναι μεταξύ 4 και 31.',
-  '{class}::authenticate() must be implemented.' => 'Η μέθοδος {class}::authenticate() πρέπει να οριστεί.',
-  '{controller} cannot find the requested view "{view}".' => 'Ο ελεγκτής {controller} δεν μπορεί να βρει την καλούμενη όψη "{view}".',
-  '{controller} contains improperly nested widget tags in its view "{view}". A {widget} widget does not have an endWidget() call.' => 'Ο ελεγκτής {controller} περιέχει λάθος εμφωλευμένες σημάνσεις widget στην όψη "{view}". Το widget {widget} δεν περιέχει την κλήση endWidget().',
-  '{controller} has an extra endWidget({id}) call in its view.' => 'Ο ελεγκτής {controller} έχει μια επιπλέον κλήση endWidget({id}) στην όψη του.',
+  '\'{db}\' component doesn\'t exist.' => 'ÎÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹ ÏÎ¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ \'{db}\'.',
+  '\'{db}\' component is not a valid CDbConnection instance.' => 'Î¤Î¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ \'{db}\' Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿ ÏÏÎ¹Î³Î¼Î¹ÏÏÏÏÎ¿ CDbConnection.',
+  'A PHP extension stopped the file upload.' => 'ÎÎ¹Î± ÎµÏÎ­ÎºÏÎ±ÏÎ· ÏÎ·Ï PHP Î´Î¹Î­ÎºÎ¿ÏÎµ ÏÎ·Î½ Î±ÏÎ¿ÏÏÎ¿Î»Î® ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï.',
+  'CApcCache requires PHP {extension} extension to be loaded.' => 'Î¤Î¿ CApcCache Î±ÏÎ±Î¹ÏÎµÎ¯ ÏÎ·Î½ ÎµÏÎ­ÎºÏÎ±ÏÎ· {extension} ÏÎ·Ï PHP Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯.',
+  'Can not generate multiple insert command with empty data set.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· Î´Î·Î¼Î¹Î¿ÏÏÎ³Î¯Î± ÏÎ¿Î»Î»Î±ÏÎ»ÏÎ½ ÎµÎ½ÏÎ¿Î»ÏÎ½ insert Î¼Îµ ÎºÎµÎ½Ï ÏÎµÏ Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½.',
+  'Can\'t create state persister table. Check CREATE privilege for \'{db}\' connection user or create table manually with SQL: {sql}.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· Î´Î·Î¼Î¹Î¿ÏÏÎ³Î¯Î± ÏÎ¿Ï ÏÎ¯Î½Î±ÎºÎ± Î´Î¹Î±ÏÎ®ÏÎ·ÏÎ·Ï ÎºÎ±ÏÎ¬ÏÏÎ±ÏÎ·Ï. ÎÎ»Î­Î³Î¾ÏÎµ Î±Î½ Î¿ ÏÏÎ®ÏÏÎ·Ï ÏÎ·Ï Î²Î¬ÏÎ·Ï \'{db}\' Î­ÏÎµÎ¹ ÏÎ¿ Î´Î¹ÎºÎ±Î¯ÏÎ¼Î± CREATE Î® Î´Î·Î¼Î¹Î¿ÏÏÎ³Î®ÏÏÎµ ÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± ÏÎµÎ¹ÏÎ¿ÎºÎ¯Î½Î·ÏÎ± Î¼Îµ ÏÎ·Î½ ÎµÎ½ÏÎ¿Î»Î® SQL: {sql}',
+  'Encryption key length can be {keyLengths}.' => 'Î¤Î¿ Î¼Î®ÎºÎ¿Ï ÏÎ¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ {keyLengths}.',
+  'Encryption key length must be between {minLength} and {maxLength}.' => 'Î¤Î¿ Î¼Î®ÎºÎ¿Ï ÏÎ¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÎµÏÎ±Î¾Ï {minLength} ÎºÎ±Î¹ {maxLength}.',
+  'Encryption key should be a string.' => 'Î¤Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î±Î»ÏÎ±ÏÎ¹Î¸Î¼Î·ÏÎ¹ÎºÏ.',
+  'Failed to validate key. Supported key lengths of cipher not known.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÎ±Î»Î®Î¸ÎµÏÏÎ· ÏÎ¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï. ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î³Î½ÏÏÏÎ¬ ÏÎ± ÏÏÎ¿ÏÏÎ·ÏÎ¹Î¶ÏÎ¼ÎµÎ½Î± Î¼Î®ÎºÎ· ÎºÎ»ÎµÎ¹Î´Î¹ÏÎ½ ÏÎ¿Ï ÎºÏÎ´Î¹ÎºÎ± ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï.',
+  'No encryption key specified.' => 'ÎÎµÎ½ Î¿ÏÎ¯ÏÏÎ·ÎºÎµ ÎºÎ»ÎµÎ¹Î´Î¯ ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï.',
+  'Unable to upload the file "{file}" because of an unrecognized error.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· Î±ÏÎ¿ÏÏÎ¿Î»Î® ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}" Î»ÏÎ³Ï Î¬Î³Î½ÏÏÏÎ¿Ï ÏÏÎ¬Î»Î¼Î±ÏÎ¿Ï.',
+  'stateTableName param cannot be null.' => 'Î ÏÎ±ÏÎ¬Î¼ÎµÏÏÎ¿Ï stateTableName Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Î®.',
+  '"{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  '&lt; Previous' => '&lt; Î ÏÎ¿Î·Î³Î¿ÏÎ¼ÎµÎ½Î·',
+  '&lt;&lt; First' => '&lt;&lt; ÎÏÏÎ¹ÎºÎ®',
+  'Action class {class} must implement the "run" method.' => 'Î ÎºÎ»Î¬ÏÎ· ÎµÎ½Î­ÏÎ³ÎµÎ¹Î± {class} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÎ»Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ·Î½ Î¼Î­Î¸Î¿Î´Î¿ "run".',
+  'Active Record requires a "db" CDbConnection application component.' => 'Î¤Î¿ Active Record Î±ÏÎ±Î¹ÏÎµÎ¯ Î­Î½Î± "db" CDbConnection Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'Active record "{class}" has an invalid configuration for relation "{relation}". It must specify the relation type, the related active record class and the foreign key.' => 'Î Active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¼Î¹Î± Î¼Î· Î­Î³ÎºÏÏÎ· ÏÎ±ÏÎ±Î¼ÎµÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î³Î¹Î± ÏÎ· ÏÏÎ­ÏÎ· "{relation}". ÎÎ± ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¯Î¶ÎµÏÎ±Î¹ Î¿ ÏÏÏÎ¿Ï ÏÎ·Ï ÏÏÎ­ÏÎ·Ï, Î· ÏÏÎµÏÎ¹Î¶ÏÎ¼ÎµÎ½Î· ÎºÎ»Î¬ÏÎ· Active record ÎºÎ±Î¹ ÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯.',
+  'Active record "{class}" is trying to select an invalid column "{column}". Note, the column must exist in the table or be an expression with alias.' => 'Î Active record ÎºÎ»Î¬ÏÎ· "{class}" ÏÏÎ¿ÏÏÎ±Î¸ÎµÎ¯ Î½Î± ÎµÏÎ¹Î»Î­Î¾ÎµÎ¹ Î¼Î¹Î± Î¼Î· Î­Î³ÎºÏÏÎ· ÏÏÎ®Î»Î· "{column}". Î ÏÎ­ÏÎµÎ¹ Î½Î± ÏÎ·Î¼ÎµÎ¹ÏÎ¸ÎµÎ¯, ÏÏÎ¹ Î· ÏÏÎ®Î»Î· Î¸Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÏÎ¬ÏÏÎµÎ¹ ÏÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± Î® Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼Î¹Î± Î­ÎºÏÏÎ±ÏÎ· Î¼Îµ ÎºÎ¬ÏÎ¿Î¹Î¿ ÏÎµÏÎ´ÏÎ½ÏÎ¼Î¿.',
+  'Adding a foreign key constraint to an existing table is not supported by SQLite.' => 'Î ÏÏÎ¿ÏÎ¸Î®ÎºÎ· ÏÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼Î¿Ï Î¾Î­Î½Î¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï ÏÎµ ÏÏÎ¬ÏÏÎ¿Î½ÏÎ± ÏÎ¯Î½Î±ÎºÎ± Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ SQLite.',
+  'Adding a primary key after table has been created is not supported by SQLite.' => 'Î ÏÏÎ¿ÏÎ¸Î®ÎºÎ· ÏÏÏÏÎµÏÎ¿Î½ÏÎ¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï Î±ÏÎ¿Ï Î­ÏÎµÎ¹ Î´Î·Î¼Î¹Î¿ÏÏÎ³Î·Î¸ÎµÎ¯ Î¿ ÏÎ¯Î½Î±ÎºÎ±Ï Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ¿ SQLite.',
+  'Alias "{alias}" is invalid. Make sure it points to an existing PHP file and the file is readable.' => 'Î¤Î¿ ÏÎµÏÎ´ÏÎ½ÏÎ¼Î¿ "{alias}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÎµ ÏÏÎ¬ÏÏÎ¿Î½ Î±ÏÏÎµÎ¯Î¿ PHP.',
+  'Alias "{alias}" is invalid. Make sure it points to an existing directory or file.' => 'Î¤Î¿ ÏÎµÏÎ´ÏÎ½ÏÎ¼Î¿ "{alias}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÎµ Î­Î½Î± ÏÏÎ¬ÏÏÏÎ½ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿ Î® Î±ÏÏÎµÎ¯Î¿.',
+  'Altering a DB column is not supported by SQLite.' => 'Î ÏÏÎ¿ÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î¼Î¹Î± ÏÏÎ®Î»Î·Ï ÏÎ¯Î½Î±ÎºÎ± ÏÎ·Ï Î²Î¬ÏÎ·Ï Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ SQLite.',
+  'Application Log' => 'ÎÎ¼ÎµÏÎ¿Î»ÏÎ³Î¹Î¿ ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï',
+  'Application base path "{path}" is not a valid directory.' => 'Î Î²Î±ÏÎ¹ÎºÎ® Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'Application runtime path "{path}" is not valid. Please make sure it is a directory writable by the Web server process.' => 'Î Î²Î±ÏÎ¹ÎºÎ® Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÎµÎºÏÎ­Î»ÎµÏÎ·Ï "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î¿ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï ÎµÎ¯Î½Î±Î¹ ÎµÎ³Î³ÏÎ¬ÏÎ¹Î¼Î¿Ï Î±ÏÏ ÏÎ· Î´Î¹ÎµÏÎ³Î±ÏÎ¯Î± ÏÎ¿Ï Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´ÏÎ½.',
+  'Authorization item "{item}" has already been assigned to user "{user}".' => 'Î¤Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¹ÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ·Ï "{item}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÏÎ¿ ÏÏÎ®ÏÏÎ· "{user}".',
+  'Base path "{path}" is not a valid directory.' => 'Î Î²Î±ÏÎ¹ÎºÎ® Î´Î¹Î±Î´ÏÎ¿Î¼Î® "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'CAssetManager.basePath "{path}" is invalid. Please make sure the directory exists and is writable by the Web server process.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® CAssetManager.basePath "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î¿ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï ÏÏÎ¬ÏÏÎµÎ¹ ÎºÎ±Î¹ ÎµÎ¯Î½Î±Î¹ ÎµÎ³Î³ÏÎ¬ÏÎ¹Î¼Î¿Ï Î±ÏÏ ÏÎ· Î´Î¹ÎµÏÎ³Î±ÏÎ¯Î± ÏÎ¿Ï Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´ÏÎ½.',
+  'CCacheHttpSession.cacheID is invalid. Please make sure "{id}" refers to a valid cache application component.' => 'Î¤Î¿ CCacheHttpSession.cacheID Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ ÏÎ¿ "{id}" Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÎµ Î­Î½Î± Î­Î³ÎºÏÏÎ¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ Î»Î±Î½Î¸Î¬Î½Î¿ÏÏÎ±Ï Î¼Î½Î®Î¼Î·Ï ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CCaptchaValidator.action "{id}" is invalid. Unable to find such an action in the current controller.' => 'Î¤Î¿ CCaptchaValidator.action "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÏÎµÏÎ· ÏÎ­ÏÎ¿Î¹Î±Ï ÎµÎ½Î­ÏÎ³ÎµÎ¹Î±Ï ÏÏÎ¿Î½ ÏÏÎ­ÏÏÎ½ ÎµÎ»ÎµÎ³ÎºÏÎ®.',
+  'CDbAuthManager.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Î¤Î¿ CDbAuthManager.connectionID "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÏÎ¿ Î±Î½Î±Î³Î½ÏÏÎ¹ÏÏÎ¹ÎºÏ (ID) ÏÎ¿Ï Î´Î¿Î¼Î¹ÎºÎ¿Ï ÏÏÎ¿Î¹ÏÎµÎ¯Î¿Ï CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbCache.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Î¤Î¿ CDbCache.connectionID "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÏÎ¿ Î±Î½Î±Î³Î½ÏÏÎ¹ÏÏÎ¹ÎºÏ (ID) ÏÎ¿Ï Î´Î¿Î¼Î¹ÎºÎ¿Ï ÏÏÎ¿Î¹ÏÎµÎ¯Î¿Ï CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbCacheDependency.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Î¤Î¿ CDbCacheDependency.connectionID "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ Î±ÏÏÏ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÏÎ¿ Î±Î½Î±Î³Î½ÏÏÎ¹ÏÏÎ¹ÎºÏ ÎµÎ½ÏÏ Î´Î¿Î¼Î¹ÎºÎ¿Ï ÏÏÎ¿Î¹ÏÎµÎ¯Î¿Ï CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbCacheDependency.sql cannot be empty.' => 'Î¤Î¿ CDbCacheDependency.sql Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CDbCommand failed to execute the SQL statement: {error}' => 'Î¤Î¿ CDbCommand Î±ÏÎ­ÏÏÏÎµ Î½Î± ÎµÎºÏÎµÎ»Î­ÏÎµÎ¹ ÏÎ· Î´Î®Î»ÏÏÎ· SQL: {error}',
+  'CDbCommand failed to prepare the SQL statement: {error}' => 'Î¤Î¿ CDbCommand Î±ÏÎ­ÏÏÏÎµ Î½Î± ÏÏÎ¿ÎµÏÎ¿Î¹Î¼Î¬ÏÎµÎ¹ ÏÎ· Î´Î®Î»ÏÏÎ· SQL: {error}',
+  'CDbCommand::execute() failed: {error}. The SQL statement executed was: {sql}.' => 'Î¤Î¿ CDbCommand::execute() Î±ÏÎ­ÏÏÏÎµ: {error}. Î Î´Î®Î»ÏÏÎ· SQL ÏÎ¿Ï ÎµÎºÏÎµÎ»Î­ÏÏÎ·ÎºÎµ Î®ÏÎ±Î½: {sql}.',
+  'CDbCommand::{method}() failed: {error}. The SQL statement executed was: {sql}.' => 'Î¤Î¿ CDbCommand::{method}() Î±ÏÎ­ÏÏÏÎµ: {error}. Î Î´Î®Î»ÏÏÎ· SQL ÏÎ¿Ï ÎµÎºÏÎµÎ»Î­ÏÏÎ·ÎºÎµ Î®ÏÎ±Î½: {sql}.',
+  'CDbConnection does not support reading schema for {driver} database.' => 'Î¤Î¿ CDbConnection Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ·Î½ Î±Î½Î¬Î³Î½ÏÏÎ· ÏÎ¿Ï ÏÏÎ®Î¼Î±ÏÎ¿Ï Î±ÏÏ ÏÎ¿Î½ Î¿Î´Î·Î³Ï {driver} ÏÎ·Ï Î²Î¬ÏÎ·Ï Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½.',
+  'CDbConnection failed to open the DB connection.' => 'Î¤Î¿ CDbConnection Î±ÏÎ­ÏÏÏÎµ Î½Î± Î±Î½Î¿Î¯Î¾ÎµÎ¹ ÏÎ· ÏÏÎ½Î´ÎµÏÎ· Î¼Îµ ÏÎ· Î²Î¬ÏÎ· Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½.',
+  'CDbConnection is unable to find PDO class "{className}". Make sure PDO is installed correctly.' => 'Î¤Î¿ CDbConnection Î±Î´ÏÎ½Î±ÏÎµÎ¯ Î½Î± Î²ÏÎµÎ¹ ÏÎ·Î½ PDO ÎºÎ»Î¬ÏÎ· "{className}". ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ ÏÎ¿ PDO ÎµÎ¯Î½Î±Î¹ ÏÏÏÏÎ¬ ÎµÎ³ÎºÎ±ÏÎµÏÏÎ·Î¼Î­Î½Î¿.',
+  'CDbDataReader cannot rewind. It is a forward-only reader.' => 'Î¤Î¿ CDbDataReader Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÏÎ¹ÏÏÏÎ­ÏÎµÎ¹ ÏÎ¯ÏÏ. ÎÎ¯Î½Î±Î¹ Î±Î½Î±Î³Î½ÏÏÏÎ·Ï Î¼ÏÎ½Î¿ ÏÏÎ¿Ï ÏÎ± ÎµÎ¼ÏÏÏÏ.',
+  'CDbHttpSession.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Î¤Î¿ CDbHttpSession.connectionID "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÏÎ¿ Î±Î½Î±Î³Î½ÏÏÎ¹ÏÏÎ¹ÎºÏ (ID) ÏÎ¿Ï Î´Î¿Î¼Î¹ÎºÎ¿Ï ÏÏÎ¿Î¹ÏÎµÎ¯Î¿Ï CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbLogRoute.connectionID "{id}" does not point to a valid CDbConnection application component.' => 'Î¤Î¿ CDbLogRoute.connectionID "{id}" Î´ÎµÎ½ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÎµ Î­Î³ÎºÏÏÎ¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbMessageSource.connectionID is invalid. Please make sure "{id}" refers to a valid database application component.' => 'Î¤Î¿ CDbMessageSource.connectionID Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ ÏÎ¿ "{id}" Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÎµ Î­Î½Î± Î­Î³ÎºÏÏÎ¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ Î²Î¬ÏÎ·Ï Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbTestFixture.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'Î¤Î¿ CDbTestFixture.connectionID "{id}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ Î±Î½Î±ÏÎ­ÏÎµÏÎ±Î¹ ÏÏÎ¿ ID ÎµÎ½ÏÏ Î´Î¿Î¼Î¹ÎºÎ¿Ï ÏÏÎ¿Î¹ÏÎµÎ¯Î¿Ï CDbConnection ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï.',
+  'CDbTransaction is inactive and cannot perform commit or roll back operations.' => 'Î¤Î¿ CDbTransaction ÎµÎ¯Î½Î±Î¹ Î±Î½ÎµÎ½ÎµÏÎ³Ï ÎºÎ±Î¹ Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎºÏÎµÎ»Î­ÏÎµÎ¹ ÏÎ·Î½ Î¿Î»Î¿ÎºÎ»Î®ÏÏÏÎ· Î® Î±ÎºÏÏÏÏÎ· ÎµÎ½ÎµÏÎ³ÎµÎ¹ÏÎ½.',
+  'CDirectoryCacheDependency.directory cannot be empty.' => 'Î¤Î¿ CDirectoryCacheDependency.directory Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CEAcceleratorCache requires PHP eAccelerator extension to be loaded, enabled or compiled with the "--with-eaccelerator-shared-memory" option.' => 'Î¤Î¿ CEAcceleratorCache Î±ÏÎ±Î¹ÏÎµÎ¯ Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· PHP eAccelerator Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¿ÏÏÏÎ¼Î­Î½Î·, ÎµÎ½ÎµÏÎ³Î¿ÏÎ¿Î¹Î·Î¼Î­Î½Î· Î® Î¼ÎµÏÎ±Î³Î»ÏÏÏÎ¹ÏÎ¼Î­Î½Î· Î¼Îµ ÏÎ·Î½ ÎµÏÎ¹Î»Î¿Î³Î® "--with-eaccelerator-shared-memory".',
+  'CFileCacheDependency.fileName cannot be empty.' => 'Î¤Î¿ CFileCacheDependency.fileName Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CFileLogRoute.logPath "{path}" does not point to a valid directory. Make sure the directory exists and is writable by the Web server process.' => 'Î¤Î¿ CFileLogRoute.logPath "{path}" Î´ÎµÎ½ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÎµ Î­Î³ÎºÏÏÎ¿ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î¿ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï ÏÏÎ¬ÏÏÎµÎ¹ ÎºÎ±Î¹ ÎµÎ¯Î½Î±Î¹ ÎµÎ³Î³ÏÎ¬ÏÎ¹Î¼Î¿Ï Î±ÏÏ ÏÎ· Î´Î¹ÎµÏÎ³Î±ÏÎ¯Î± ÏÎ¿Ï Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´ÏÎ½.',
+  'CFilterChain can only take objects implementing the IFilter interface.' => 'Î¤Î¿ CFilterChain Î´Î­ÏÎµÏÎ±Î¹ Î¼ÏÎ½Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î± ÏÎ¿Ï ÏÎ»Î¿ÏÎ¿Î¹Î¿ÏÎ½ ÏÎ· Î´Î¹ÎµÏÎ±ÏÎ® IFilter.',
+  'CFlexWidget.baseUrl cannot be empty.' => 'Î¤Î¿ CFlexWidget.baseUrl Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CFlexWidget.name cannot be empty.' => 'Î¤Î¿ CFlexWidget.name Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CGlobalStateCacheDependency.stateName cannot be empty.' => 'Î¤Î¿ CGlobalStateCacheDependency.stateName Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CHttpCacheFilter.lastModified contained a value that could not be understood by strtotime()' => 'Î¤Î¿ CHttpCacheFilter.lastModified ÏÎµÏÎ¹ÎµÎ¯ÏÎµ Î¼Î¹Î± ÏÎ¹Î¼Î® ÏÎ¿Ï Î´ÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÏ Î½Î± ÎºÎ±ÏÎ±Î»Î¬Î²ÎµÎ¹ Î· strtotime()',
+  'CHttpCookieCollection can only hold CHttpCookie objects.' => 'Î¤Î¿ CHttpCookieCollection Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎºÏÎ±ÏÎ¬ Î¼ÏÎ½Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î± ÏÏÏÎ¿Ï CHttpCookie.',
+  'CHttpRequest is unable to determine the entry script URL.' => 'Î¤Î¿ CHttpRequest Î´ÎµÎ½ Î¼ÏÏÏÎµÏÎµ Î½Î± ÎºÎ±Î¸Î¿ÏÎ¯ÏÎµÎ¹ ÏÎ· Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ· URL ÏÎ¿Ï ÏÎµÎ½Î±ÏÎ¯Î¿Ï ÎµÎ¹ÏÎ±Î³ÏÎ³Î®Ï.',
+  'CHttpRequest is unable to determine the path info of the request.' => 'Î¤Î¿ CHttpRequest Î´ÎµÎ½ Î¼ÏÏÏÎµÏÎµ Î½Î± ÎºÎ±Î¸Î¿ÏÎ¯ÏÎµÎ¹ ÏÎ¹Ï ÏÎ»Î·ÏÎ¿ÏÎ¿ÏÎ¯ÎµÏ Î´Î¹Î±Î´ÏÎ¿Î¼Î®Ï ÏÎ·Ï Î±Î¯ÏÎ·ÏÎ·Ï.',
+  'CHttpRequest is unable to determine the request URI.' => 'Î¤Î¿ CHttpRequest Î´ÎµÎ½ Î¼ÏÏÏÎµÏÎµ Î½Î± ÎºÎ±Î¸Î¿ÏÎ¯ÏÎµÎ¹ ÏÎ¿ URI Î±Î¯ÏÎ·ÏÎ·Ï.',
+  'CHttpSession.cookieMode can only be "none", "allow" or "only".' => 'Î¤Î¿ CHttpSession.cookieMode Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÏÎ½Î¿ "none", "allow" Î® "only".',
+  'CHttpSession.gcProbability "{value}" is invalid. It must be a float between 0 and 100.' => 'Î ÏÎ¹Î¼Î® "{value}" Î³Î¹Î± ÏÎ¿ CHttpSession.gcProbability Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·. Î ÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÏÎ±Î³Î¼Î±ÏÎ¹ÎºÏÏ Î±ÏÎ¹Î¸Î¼ÏÏ Î¼ÎµÏÎ±Î¾Ï 0 ÎºÎ±Î¹ 100.',
+  'CHttpSession.savePath "{path}" is not a valid directory.' => 'Î¤Î¿ CHttpSession.savePath "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'CMemCache requires PHP {extension} extension to be loaded.' => 'Î¤Î¿ CMemCache Î±ÏÎ±Î¹ÏÎµÎ¯ ÏÎ·Î½ PHP ÎµÏÎ­ÎºÏÎ±ÏÎ· {extension} Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯.',
+  'CMemCache server configuration must be an array.' => 'Î ÏÎ±ÏÎ±Î¼ÎµÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® ÏÎ¿Ï CMemCache ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï.',
+  'CMemCache server configuration must have "host" value.' => 'Î ÏÎ±ÏÎ±Î¼ÎµÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® ÏÎ¿Ï CMemCache ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÎµÏÎ¹Î­ÏÎµÎ¹ ÏÎ·Î½ ÏÎ¹Î¼Î® "host".',
+  'CProfileLogRoute found a mismatching code block "{token}". Make sure the calls to Yii::beginProfile() and Yii::endProfile() be properly nested.' => 'Î¤Î¿ CProfileLogRoute Î²ÏÎ®ÎºÎµ Î­Î½Î± ÏÎ¼Î®Î¼Î± ÎºÏÎ´Î¹ÎºÎ± "{token}" ÏÎ¿Ï Î´ÎµÎ½ ÏÎ±Î¹ÏÎ¹Î¬Î¶ÎµÎ¹. ÎÏÎ¹Î²ÎµÎ²Î±Î¹ÏÏÏÎµ ÏÏÎ¹ Î¿Î¹ ÎºÎ»Î®ÏÎµÎ¹Ï ÏÏÎ¿ Yii::beginProfile() ÎºÎ±Î¹ Yii::endProfile() ÎµÎ¯Î½Î±Î¹ ÏÏÏÏÎ¬ ÏÏÎ»Î¹Î±ÏÎ¼Î­Î½ÎµÏ.',
+  'CProfileLogRoute.report "{report}" is invalid. Valid values include "summary" and "callstack".' => 'Î¤Î¿ CProfileLogRoute.report "{report}" ÎµÎ¯Î½Î±Î¹ Î¼Î· Î­Î³ÎºÏÏÎ¿. ÎÎ¹ Î­Î³ÎºÏÏÎµÏ ÏÎ¹Î¼Î­Ï ÏÎµÏÎ¹Î»Î±Î¼Î²Î¬Î½Î¿ÏÎ½ ÏÎ± "summary" ÎºÎ±Î¹ "callstack".',
+  'CSecurityManager requires PHP mcrypt extension to be loaded in order to use data encryption feature.' => 'Î¤Î¿ CSecurityManager Î±ÏÎ±Î¹ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯ Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· mcrypt ÏÎ·Ï PHP ÏÏÎ¿ÎºÎµÎ¹Î¼Î­Î½Î¿Ï Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ ÏÎ¿ ÏÎ±ÏÎ±ÎºÏÎ·ÏÎ¹ÏÏÎ¹ÎºÏ ÎºÏÏÏÏÎ¿Î³ÏÎ¬ÏÎ·ÏÎ·Ï ÏÏÎ½ Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½.',
+  'CSecurityManager.validationKey cannot be empty.' => 'Î¤Î¿ CSecurityManager.validationKey Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  'CSecurityManager::generateRandomString() cannot generate random string in the current environment.' => 'Î Î¼Î­Î¸Î¿Î´Î¿Ï CSecurityManager::generateRandomString() Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î´Î·Î¼Î¹Î¿ÏÏÎ³Î®ÏÎµÎ¹ ÏÏÏÎ±Î¯Î± Î±Î»ÏÎ±ÏÎ¹Î¸Î¼Î·ÏÎ¹ÎºÎ® ÏÏÎ¬ÏÎ· ÏÏÎ¿ ÏÏÎ­ÏÎ¿Î½ ÏÎµÏÎ¹Î²Î¬Î»Î»Î¿Î½.',
+  'CTypedList<{type}> can only hold objects of {type} class.' => 'Î¤Î¿ CTypedList<{type}>  Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÎµÏÎ¹Î­ÏÎµÎ¹ Î¼ÏÎ½Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î± ÏÏÏÎ¿Ï {type}.',
+  'CTypedMap<{type}> can only hold objects of {type} class.' => 'Î¤Î¿ CTypedMap<{type}> Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎºÏÎ±ÏÎ¬ÎµÎ¹ Î¼ÏÎ½Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î± ÏÎ·Ï ÎºÎ»Î¬ÏÎ·Ï {type}.',
+  'CUrlManager.UrlFormat must be either "path" or "get".' => 'Î¤Î¿ CUrlManager.UrlFormat Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ¯ÏÎµ "path" ÎµÎ¯ÏÎµ "get".',
+  'CWinCache requires PHP wincache extension to be loaded.' => 'Î¤Î¿ CWinCache Î±ÏÎ±Î¹ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯ Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· wincache ÏÎ·Ï PHP.',
+  'CWinCache user cache is disabled. Please set wincache.ucenabled to On in your php.ini.' => 'Î Î»Î±Î½Î¸Î¬Î½Î¿ÏÏÎ± Î¼Î½Î®Î¼Î· ÏÏÎ®ÏÏÎ· CWinCache ÎµÎ¯Î½Î±Î¹ Î±ÏÎµÎ½ÎµÏÎ³Î¿ÏÎ¿Î¹Î·Î¼Î­Î½Î·. ÎÏÎ¯ÏÏÎµ ÏÎ¿ wincache.ucenabled ÏÏÎ·Î½ ÏÎ¹Î¼Î® On ÏÏÎ¿ php.ini.',
+  'CXCache requires PHP XCache extension to be loaded.' => 'Î¤Î¿ CXCache Î±ÏÎ±Î¹ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯ Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· XCache ÏÎ·Ï PHP.',
+  'CZendDataCache requires PHP Zend Data Cache extension to be loaded.' => 'Î¤Î¿ CZendDataCache Î±ÏÎ±Î¹ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÎ¿ÏÏÏÎ¸ÎµÎ¯ Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· Zend Data Cache ÏÎ·Ï PHP.',
+  'Cannot add "{child}" as a child of "{name}". A loop has been detected.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÏÏÏÏÎ¸ÎµÏÎ· ÏÎ¿Ï "{child}" ÏÏ ÏÎ±Î¹Î´Î¯ ÏÎ¿Ï "{name}". ÎÎ½Î¹ÏÎ½ÎµÏÎ¸Î·ÎºÎµ Î²ÏÏÏÎ¿Ï.',
+  'Cannot add "{child}" as a child of "{parent}". A loop has been detected.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÏÏÏÏÎ¸ÎµÏÎ· ÏÎ¿Ï "{child}" ÏÏ ÏÎ±Î¹Î´Î¯ ÏÎ¿Ï "{name}". ÎÎ½Î¹ÏÎ½ÎµÏÎ¸Î·ÎºÎµ Î²ÏÏÏÎ¿Ï.',
+  'Cannot add "{name}" as a child of itself.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÏÏÏÏÎ¸ÎµÏÎ· ÏÎ¿Ï "{name}" ÏÏ ÏÎ±Î¹Î´Î¯ ÏÎ¿Ï ÎµÎ±ÏÏÎ¿Ï ÏÎ¿Ï.',
+  'Cannot add an item of type "{child}" to an item of type "{parent}".' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÏÏÏÏÎ¸ÎµÏÎ· Î±Î½ÏÎ¹ÎºÎµÎ¹Î¼Î­Î½Î¿Ï ÏÎ¿Ï ÏÏÏÎ¿Ï "{child}" ÏÎµ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÏÏÎ¿Ï "{parent}".',
+  'Class name "{class}" does not match class file "{file}".' => 'Î¤Î¿ ÏÎ½Î¿Î¼Î± ÏÎ·Ï ÎºÎ»Î¬ÏÎ·Ï "{class}" Î´ÎµÎ½ ÏÏÎ¼ÏÎ¯ÏÏÎµÎ¹ Î¼Îµ ÏÎ¿ Î±ÏÏÎµÎ¯Î¿ ÎºÎ»Î¬ÏÎ·Ï "{file}".',
+  'Column name must be either a string or an array.' => 'Î¤Î¿ ÏÎ½Î¿Î¼Î± ÏÏÎ®Î»Î·Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ¯ÏÎµ Î±Î»ÏÎ±ÏÎ¹Î¸Î¼Î·ÏÎ¹ÎºÏ ÎµÎ¯ÏÎµ ÏÎ¯Î½Î±ÎºÎ±Ï.',
+  'Dropping DB column is not supported by SQLite.' => 'Î ÎºÎ±ÏÎ¬ÏÎ³Î·ÏÎ· Î¼Î¹Î± ÏÏÎ®Î»Î·Ï ÏÎ¯Î½Î±ÎºÎ± ÏÎ·Ï Î²Î¬ÏÎ·Ï Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ SQLite.',
+  'Dropping a foreign key constraint is not supported by SQLite.' => 'Î ÎºÎ±ÏÎ¬ÏÎ³Î·ÏÎ· ÏÎµÏÎ¹Î¿ÏÎ¹ÏÎ¼Î¿Ï Î¾Î­Î½Î¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ SQLite.',
+  'Either "{parent}" or "{child}" does not exist.' => 'ÎÎ¯ÏÎµ ÏÎ¿ "{parent}" ÎµÎ¯ÏÎµ ÏÎ¿ "{child}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'Error: Table "{table}" does not have a primary key.' => 'Î£ÏÎ¬Î»Î¼Î±: Î ÏÎ¯Î½Î±ÎºÎ±Ï "{table}" Î´ÎµÎ½ Î­ÏÎµÎ¹ ÎºÏÏÎ¹Î¿ ÎºÎ»ÎµÎ¹Î´Î¯.',
+  'Error: Table "{table}" has a composite primary key which is not supported by crud command.' => 'Î£ÏÎ¬Î»Î¼Î±: Î ÏÎ¯Î½Î±ÎºÎ±Ï "{table}" Î­ÏÎµÎ¹ ÏÏÎ½Î¸ÎµÏÎ¿ ÎºÏÏÎ¹Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ ÏÎ¿Ï Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ ÎµÎ½ÏÎ¿Î»Î® crud.',
+  'Event "{class}.{event}" is attached with an invalid handler "{handler}".' => 'Î¤Î¿ ÏÏÎ¼Î²Î¬Î½ "{class}.{event}" Î­ÏÎµÎ¹ ÏÏÎ½Î´ÎµÎ¸ÎµÎ¯ Î¼Îµ ÏÏÎ®ÏÎ· ÎµÎ½ÏÏ Î¼Î· Î­Î³ÎºÏÏÎ¿Ï ÏÎµÎ¹ÏÎ¹ÏÏÎ® "{handler}".',
+  'Event "{class}.{event}" is not defined.' => 'Î¤Î¿ ÏÏÎ¼Î²Î¬Î½ "{class}.{event}" Î´ÎµÎ½ Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯.',
+  'Extension path "{path}" does not exist.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÎµÏÎ­ÎºÏÎ±ÏÎ·Ï "{path}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'Failed to initialize the mcrypt module.' => 'ÎÏÎ­ÏÏÏÎµ Î· Î±ÏÏÎ¹ÎºÎ¿ÏÎ¿Î¯Î·ÏÎ· ÏÎ·Ï Î¼Î¿Î½Î¬Î´Î±Ï mcrypt.',
+  'Failed to set unsafe attribute "{attribute}" of "{class}".' => 'ÎÏÎ­ÏÏÏÎµ Î¿ Î¿ÏÎ¹ÏÎ¼ÏÏ ÏÎ·Ï Î¼Î· Î±ÏÏÎ±Î»Î¿ÏÏ Î¹Î´Î¹ÏÏÎ·ÏÎ±Ï "{attribute}" ÏÎ·Ï ÎºÎ»Î¬ÏÎ·Ï "{class}".',
+  'Failed to start session.' => 'ÎÏÎ­ÏÏÏÎµ Î· Î­Î½Î±ÏÎ¾Î· ÏÏÎ½ÏÎ´Î¿Ï.',
+  'Failed to write the uploaded file "{file}" to disk.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÎ³Î³ÏÎ±ÏÎ® ÏÎ¿Ï Î±ÏÎµÏÏÎ±Î»Î¼Î­Î½Î¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}" ÏÏÎ¿ Î´Î¯ÏÎºÎ¿.',
+  'Filter "{filter}" is invalid. Controller "{class}" does not have the filter method "filter{filter}".' => 'Î¤Î¿ ÏÎ¯Î»ÏÏÎ¿ "{filter}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿. Î ÎµÎ»ÎµÎ³ÎºÏÎ®Ï "{class}" Î´ÎµÎ½ ÏÎµÏÎ¹Î­ÏÎµÎ¹ ÏÎ· Î¼Î­Î¸Î¿Î´Î¿ ÏÎ¯Î»ÏÏÎ¿Ï "filter{filter}".',
+  'GD with FreeType or ImageMagick PHP extensions are required.' => 'ÎÏÎ±Î¹ÏÎ¿ÏÎ½ÏÎ±Î¹ Î¿Î¹ PHP ÎµÏÎµÎºÏÎ¬ÏÎµÎ¹Ï GD Î¼Îµ ÏÎ¿ FreeType Î® ÏÎ¿ ImageMagick.',
+  'Get a new code' => 'ÎÎ·Î¼Î¹Î¿ÏÏÎ³Î¯Î± Î½Î­Î¿Ï ÎºÏÎ´Î¹ÎºÎ¿Ï',
+  'Go to page: ' => 'ÎÎµÏÎ¬Î²Î±ÏÎ· ÏÏÎ· ÏÎµÎ»Î¯Î´Î±: ',
+  'In order to use MIME-type validation provided by CFileValidator fileinfo PECL extension should be installed.' => 'Î ÏÎ¿ÎºÎµÎ¹Î¼Î­Î½Î¿Ï Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î®ÏÎµÏÎµ ÏÎ·Î½ ÎµÏÎ±Î»Î®Î¸ÎµÏÏÎ· Î³Î¹Î± ÏÎ¿Î½ MIME ÏÏÏÎ¿ ÏÎ¿Ï ÏÎ±ÏÎ­ÏÎµÎ¹ ÏÎ¿ CFileValidator, Î±ÏÎ±Î¹ÏÎµÎ¯ÏÎ±Î¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎµÎ³ÎºÎ±ÏÎµÏÏÎ·Î¼Î­Î½Î· Î· ÎµÏÎ­ÎºÏÎ±ÏÎ· PECL fileinfo.',
+  'Internal error while generating hash.' => 'ÎÏÏÏÎµÏÎ¹ÎºÏ ÏÏÎ¬Î»Î¼Î± ÎºÎ±ÏÎ¬ ÏÎ¿Î½ ÎºÎ±ÏÎ±ÎºÎµÏÎ¼Î±ÏÎ¹ÏÎ¼Ï.',
+  'Invalid MO file revision: {revision}.' => 'ÎÎ· Î­Î³ÎºÏÏÎ¿Ï Î±ÏÎ¹Î¸Î¼ÏÏ Î±ÏÏÎµÎ¯Î¿Ï MO Î±Î½Î±Î¸ÎµÏÏÎ·ÏÎ·Ï: {revision}.',
+  'Invalid MO file: {file} (magic: {magic}).' => 'ÎÎ· Î­Î³ÎºÏÏÎ¿ Î±ÏÏÎµÎ¯Î¿ MO: {file} (magic: {magic}).',
+  'Invalid enumerable value "{value}". Please make sure it is among ({enum}).' => 'ÎÎ· Î­Î³ÎºÏÏÎ· ÏÎ¹Î¼Î® Î±ÏÎ±ÏÎ¯Î¸Î¼Î·ÏÎ·Ï "{value}". ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ ÎµÎ¯Î½Î±Î¹ Î¼ÎµÏÎ±Î¾Ï ({enum}).',
+  'Invalid expression for CHttpCacheFilter.lastModifiedExpression: The evaluation result "{value}" could not be understood by strtotime()' => 'ÎÎ· Î­Î³ÎºÏÏÎ· Î­ÎºÏÏÎ±ÏÎ· Î³Î¹Î± ÏÎ¿ CHttpCacheFilter.lastModifiedExpression: Î¤Î¿ Î±ÏÎ¿ÏÎ­Î»ÎµÏÎ¼Î± ÏÎ·Ï Î±Î¾Î¹Î¿Î»ÏÎ³Î·ÏÎ·Ï "{value}" Î´ÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÏ Î½Î± ÎºÎ±ÏÎ±Î»Î¬Î²ÎµÎ¹ Î· strtotime()',
+  'Invalid operator "{operator}".' => 'ÎÎ· Î­Î³ÎºÏÏÎ¿Ï ÏÎµÎ»ÎµÏÏÎ®Ï "{operator}".',
+  'Last &gt;&gt;' => 'Î¤ÎµÎ»ÎµÏÏÎ±Î¯Î± &gt;&gt;',
+  'List data must be an array or an object implementing Traversable.' => 'Î¤Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± Î»Î¯ÏÏÎ±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï Î® Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¿Ï ÏÎ»Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ¿ Traversable.',
+  'List index "{index}" is out of bound.' => 'Î Î´ÎµÎ¯ÎºÏÎ·Ï Î»Î¯ÏÏÎ±Ï "{index}" ÎµÎ¯Î½Î±Î¹ ÎµÎºÏÏÏ Î¿ÏÎ¯ÏÎ½.',
+  'Login Required' => 'ÎÏÎ±Î¹ÏÎµÎ¯ÏÎ±Î¹ ÏÏÎ½Î´ÎµÏÎ·',
+  'Map data must be an array or an object implementing Traversable.' => 'Î¤Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± ÏÏÏÎ¿Ï Map ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï Î® Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¿Ï ÏÎ»Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ¿ Traversable.',
+  'Missing the temporary folder to store the uploaded file "{file}".' => 'ÎÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹ Î¿ ÏÏÎ¿ÏÏÏÎ¹Î½ÏÏ ÏÎ¬ÎºÎµÎ»Î¿Ï Î³Î¹Î± ÏÎ·Î½ Î±ÏÎ¿Î¸Î®ÎºÎµÏÏÎ· ÏÎ¿Ï Î±Î½ÎµÎ²Î±ÏÎ¼Î­Î½Î¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}".',
+  'Next &gt;' => 'ÎÏÏÎ¼ÎµÎ½Î· &gt;',
+  'No' => 'ÎÏÎ¹',
+  'No columns are being updated for table "{table}".' => 'ÎÎµÎ½ ÎµÎ½Î·Î¼ÎµÏÏÎ½Î¿Î½ÏÎ±Î¹ ÏÏÎ®Î»ÎµÏ Î³Î¹Î± ÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'No counter columns are being updated for table "{table}".' => 'ÎÎµÎ½ ÎµÎ½Î·Î¼ÎµÏÏÎ½Î¿Î½ÏÎ±Î¹ ÏÏÎ®Î»ÎµÏ Î³Î¹Î± ÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'Object configuration must be an array containing a "class" element.' => 'Î ÏÎ±ÏÎ±Î¼ÎµÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î±Î½ÏÎ¹ÎºÎµÎ¹Î¼Î­Î½Î¿Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï ÏÎ¿Ï Î½Î± ÏÎµÏÎ¹Î­ÏÎµÎ¹ Î­Î½Î± ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ "class".',
+  'Only SHA1 and MD5 hashing algorithms are supported when using PHP 5.1.1 or below.' => 'ÎÏÎ½Î¿ Î±Î»Î³ÏÏÎ¹Î¸Î¼Î¿Î¹ ÎºÎ±ÏÎ±ÎºÎµÏÎ¼Î±ÏÎ¹ÏÎ¼Î¿Ï SHA1 ÎºÎ±Î¹ MD5 ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶Î¿Î½ÏÎ±Î¹ ÏÏÎ±Î½ ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÎµÎ¯ÏÎ±Î¹ Î­ÎºÎ´Î¿ÏÎ· PHP 5.1.1 ÎºÎ±Î¹ ÏÎ¹Î¿ ÎºÎ¬ÏÏ.',
+  'Please fix the following input errors:' => 'Î Î±ÏÎ±ÎºÎ±Î»Ï Î´Î¹Î¿ÏÎ¸ÏÏÏÎµ ÏÎ± ÏÎ±ÏÎ±ÎºÎ¬ÏÏ ÏÏÎ¬Î»Î¼Î±ÏÎ±:',
+  'Powered by {yii}.' => 'Î Î¹ÏÏÎ¿ÏÏÏÎ¿Ï ÏÏÎ­ÏÎµÎ¹ {yii}.',
+  'Property "{class}.{property}" is not defined.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "{class}.{property}" Î´ÎµÎ½ Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÎ¸ÎµÎ¯.',
+  'Property "{class}.{property}" is read only.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "{class}.{property}" ÎµÎ¯Î½Î±Î¹ Î¼ÏÎ½Î¿ Î³Î¹Î± Î±Î½Î¬Î³Î½ÏÏÎ·.',
+  'Property CMaskedTextField.mask cannot be empty.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± CMaskedTextField.mask Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Î®.',
+  'Queue data must be an array or an object implementing Traversable.' => 'Î¤Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± Î¿ÏÏÎ¬Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï Î® Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¿Ï ÏÎ»Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ¿ Traversable.',
+  'Relation "{name}" is not defined in active record class "{class}".' => 'Î ÏÏÎ­ÏÎ· "{name}" Î´ÎµÎ½ Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î³Î¹Î± ÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}".',
+  'Removing a primary key after table has been created is not supported by SQLite.' => 'Î Î±ÏÎ±Î¯ÏÎµÏÎ· ÏÏÏÏÎµÏÎ¿Î½ÏÎ¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï Î±ÏÎ¿Ï Î­ÏÎµÎ¹ Î´Î·Î¼Î¹Î¿ÏÏÎ³Î·Î¸ÎµÎ¯ Î¿ ÏÎ¯Î½Î±ÎºÎ±Ï Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ¿ SQLite.',
+  'Renaming a DB column is not supported by SQLite.' => 'Î Î¼ÎµÏÎ¿Î½Î¿Î¼Î±ÏÎ¯Î± Î¼Î¹Î± ÏÏÎ®Î»Î·Ï ÏÎ¯Î½Î±ÎºÎ± ÏÎ·Ï Î²Î¬ÏÎ·Ï Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÏÎ±Î¹ Î±ÏÏ ÏÎ·Î½ SQLite.',
+  'Script HTML options are not allowed for "CClientScript::POS_LOAD" and "CClientScript::POS_READY".' => 'ÎÎ¹ ÎµÏÎ¹Î»Î¿Î³Î­Ï ÏÎµÎ½Î±ÏÎ¯Î¿Ï HTML Î´ÎµÎ½ ÎµÏÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎ±Î¹ Î³Î¹Î± ÏÎ± "CClientScript::POS_LOAD" ÎºÎ±Î¹ "CClientScript::POS_READY".',
+  'Stack data must be an array or an object implementing Traversable.' => 'Î¤Î± Î´ÎµÎ´Î¿Î¼Î­Î½Î± ÏÏÎ¿Î¯Î²Î±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¯Î½Î±ÎºÎ±Ï Î® Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¿Ï ÏÎ»Î¿ÏÎ¿Î¹ÎµÎ¯ ÏÎ¿ Traversable.',
+  'Table "{table}" does not exist.' => 'Î ÏÎ¯Î½Î±ÎºÎ±Ï "{table}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'Table "{table}" does not have a column named "{column}".' => 'Î ÏÎ¯Î½Î±ÎºÎ±Ï "{table}" Î´ÎµÎ½ Î­ÏÎµÎ¹ ÏÏÎ®Î»Î· Î¼Îµ ÏÎ½Î¿Î¼Î± "{column}".',
+  'The "db" application component must be configured to be a CDbConnection object.' => 'Î¤Î¿ Î´Î¿Î¼Î¹ÎºÏ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï "db" ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÏ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÏÏÎ¿Ï CDbConnection.',
+  'The "filter" property must be specified with a valid callback.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "filter" ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î­Î½Î± Î­Î³ÎºÏÏÎ¿ callback.',
+  'The "forceCopy" and "linkAssets" cannot be both true.' => 'Î¤Î± "forceCopy" ÎºÎ±Î¹ "linkAssets" Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎ±Î¹ ÏÎ± Î´ÏÎ¿ Î±Î»Î·Î¸Î®.',
+  'The "pattern" property must be specified with a valid regular expression.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "pattern" ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î¼Î¹Î± Î­Î³ÎºÏÏÎ· ÎºÎ±Î½Î¿Î½Î¹ÎºÎ® Î­ÎºÏÏÎ±ÏÎ·.',
+  'The "range" property must be specified with a list of values.' => 'Î Î¹Î´Î¹ÏÏÎ·ÏÎ± "range" ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎºÎ±Î¸Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î¼Î¹Î± Î»Î¯ÏÏÎ± ÏÎ¹Î¼ÏÎ½.',
+  'The $converter argument must be a valid callback or null.' => 'Î¤Î¿ ÏÏÎ¹ÏÎ¼Î± $converter ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ· ÏÏÎ½Î¬ÏÏÎ·ÏÎ· ÎµÏÎ±Î½Î¬ÎºÎ»Î·ÏÎ·Ï Î® null.',
+  'The CSRF token could not be verified.' => 'ÎÏÎ±Î½ Î±Î´ÏÎ½Î±ÏÎ· Î· ÎµÏÎ±Î»Î®Î¸ÎµÏÏÎ· ÏÎ¿Ï ÏÏÎ¼Î²ÏÎ»Î¿Ï CSRF.',
+  'The STAT relation "{name}" cannot have child relations.' => 'Î ÏÏÎ­ÏÎ· STAT "{name}" Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î­ÏÎµÎ¹ ÏÏÎ­ÏÎµÎ¹Ï-ÏÎ±Î¹Î´Î¹Î¬.',
+  'The URL pattern "{pattern}" for route "{route}" is not a valid regular expression.' => 'Î¤Î¿ URL ÏÏÏÏÏÏÎ¿ "{pattern}" Î³Î¹Î± ÏÎ· Î´Î¹Î±Î´ÏÎ¿Î¼Î® "{route}" ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ· ÎºÎ±Î½Î¿Î½Î¹ÎºÎ® Î­ÎºÏÏÎ±ÏÎ·.',
+  'The active record cannot be deleted because it is new.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· Î´Î¹Î±Î³ÏÎ±ÏÎ® ÏÎ¿Ï active record, Î´Î¹ÏÏÎ¹ ÎµÎ¯Î½Î±Î¹ ÎºÎ±Î¹Î½Î¿ÏÏÎ¹Î¿.',
+  'The active record cannot be inserted to database because it is not new.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÎµÎ¹ÏÎ±Î³ÏÎ³Î® ÏÎ¿Ï active record ÏÏÎ· Î²Î¬ÏÎ· Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½, Î´Î¹ÏÏÎ¹ Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ ÎºÎ±Î¹Î½Î¿ÏÏÎ¹Î¿.',
+  'The active record cannot be updated because it is new.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÎ® Î· ÎµÎ½Î·Î¼Î­ÏÏÏÎ· ÏÎ¿Ï active record, Î´Î¹ÏÏÎ¹ ÎµÎ¯Î½Î±Î¹ ÎºÎ±Î¹Î½Î¿ÏÏÎ¹Î¿.',
+  'The asset "{asset}" to be published does not exist.' => 'Î¤Î¿ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ "{asset}" Î³Î¹Î± Î´Î·Î¼Î¿ÏÎ¯ÎµÏÏÎ· Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'The command path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÎµÎ½ÏÎ¿Î»Î®Ï "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'The controller path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÎµÎ»ÎµÎ³ÎºÏÎ® "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'The file "{file}" cannot be uploaded. Only files of these MIME-types are allowed: {mimeTypes}.' => 'ÎÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î´ÏÎ½Î±ÏÏ ÏÎ¿ Î±Î½Î­Î²Î±ÏÎ¼Î± ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}". ÎÏÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎ±Î¹ Î¼ÏÎ½Î¿ Î¿Î¹ ÏÎ±ÏÎ±ÎºÎ¬ÏÏ MIME ÏÏÏÎ¿Î¹: {mimeTypes}.',
+  'The file "{file}" cannot be uploaded. Only files with these extensions are allowed: {extensions}.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÏ ÏÎ¿ Î±Î½Î­Î²Î±ÏÎ¼Î± ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}". ÎÏÎ¹ÏÏÎ­ÏÎ¿Î½ÏÎ±Î¹ Î¼ÏÎ½Î¿ Î±ÏÏÎµÎ¯Î± Î¼Îµ ÏÎ¹Ï Î±ÎºÏÎ»Î¿ÏÎ¸ÎµÏ ÎµÏÎµÎºÏÎ¬ÏÎµÎ¹Ï: {extensions}.',
+  'The file "{file}" is too large. Its size cannot exceed {limit} bytes.' => 'Î¤Î¿ Î±ÏÏÎµÎ¯Î¿ "{file}" ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼ÎµÎ³Î¬Î»Î¿. Î¤Î¿ Î¼Î­Î³ÎµÎ¸ÏÏ ÏÎ¿Ï Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÏÏÎµÏÎ²Î±Î¯Î½ÎµÎ¹ ÏÎ± {limit} bytes.',
+  'The file "{file}" is too small. Its size cannot be smaller than {limit} bytes.' => 'Î¤Î¿ Î±ÏÏÎµÎ¯Î¿ "{file}" ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼Î¹ÎºÏÏ. Î¤Î¿ Î¼Î­Î³ÎµÎ¸ÏÏ ÏÎ¿Ï Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼Î¹ÎºÏÏÏÎµÏÎ¿ ÏÏÎ½ {limit} bytes.',
+  'The file "{file}" was only partially uploaded.' => 'Î¤Î¿ Î±ÏÏÎµÎ¯Î¿ "{file}" Î±Î½Î­Î²Î·ÎºÎµ Î¼ÏÎ½Î¿ Î¼ÎµÏÎ¹ÎºÏÏ.',
+  'The first element in a filter configuration must be the filter class.' => 'Î¤Î¿ ÏÏÏÏÎ¿ ÏÏÎ¿Î¹ÏÎµÎ¯Î¿ ÏÏÎ·Î½ ÏÎ±ÏÎ±Î¼ÎµÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· ÎµÎ½ÏÏ ÏÎ¯Î»ÏÏÎ¿Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î· ÎºÎ»Î¬ÏÎ· ÏÎ¯Î»ÏÏÎ¿Ï.',
+  'The format of {attribute} is invalid.' => 'Î Î¼Î¿ÏÏÎ® ÏÎ¿Ï {attribute} Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·.',
+  'The item "{name}" does not exist.' => 'Î¤Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ "{name}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'The item "{parent}" already has a child "{child}".' => 'Î¤Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ "{name}" Î­ÏÎµÎ¹ Î®Î´Î· Î­Î½Î± ÏÎ±Î¹Î´Î¯ "{child}".',
+  'The layout path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® Î´Î¹Î¬ÏÎ±Î¾Î·Ï "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'The list is read only.' => 'Î Î»Î¯ÏÏÎ± ÎµÎ¯Î½Î±Î¹ Î¼ÏÎ½Î¿ Î³Î¹Î± Î±Î½Î¬Î³Î½ÏÏÎ·.',
+  'The map is read only.' => 'Î ÏÎ¬ÏÏÎ·Ï ÎµÎ¯Î½Î±Î¹ Î¼ÏÎ½Î¿ Î³Î¹Î± Î±Î½Î¬Î³Î½ÏÏÎ·.',
+  'The module path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® Î¼Î¿Î½Î¬Î´ÏÎ½ "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'The pattern for 12 hour format must be "h" or "hh".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ 12-ÏÏÎ· Î¼Î¿ÏÏÎ® ÏÏÎ±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "h" Î® "hh".',
+  'The pattern for 24 hour format must be "H" or "HH".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ 24-ÏÏÎ· Î¼Î¿ÏÏÎ® ÏÏÎ±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "H" Î® "HH".',
+  'The pattern for AM/PM marker must be "a".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ¿ ÏÏÎ¼Î²Î¿Î»Î¿ ÏÎ¼/Î¼Î¼ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "a".',
+  'The pattern for day in month must be "F".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ Î·Î¼Î­ÏÎ± Î¼Î­ÏÎ± ÏÎµ Î­Î½Î± Î¼Î®Î½Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "F".',
+  'The pattern for day in year must be "D", "DD" or "DDD".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ Î·Î¼Î­ÏÎ± Î¼Î­ÏÎ± ÏÎµ Î­Î½Î± Î­ÏÎ¿Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "D", "DD" Î® "DDD".',
+  'The pattern for day of the month must be "d" or "dd".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ Î·Î¼Î­ÏÎ± ÏÎ¿Ï Î¼Î®Î½Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "d" Î® "dd".',
+  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" or "ccccc".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ Î·Î¼Î­ÏÎ± ÏÎ·Ï ÎµÎ²Î´Î¿Î¼Î¬Î´Î±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" Î® "ccccc".',
+  'The pattern for era must be "G", "GG", "GGG", "GGGG" or "GGGGG".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ Î¹ÏÏÎ¿ÏÎ¹ÎºÎ® ÏÎµÏÎ¯Î¿Î´Î¿ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "G", "GG", "GGG", "GGGG" Î® "GGGGG".',
+  'The pattern for hour in AM/PM must be "K" or "KK".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ ÏÏÎ± ÏÎµ ÏÎ¼/Î¼Î¼ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "K" Î® "KK".',
+  'The pattern for hour in day must be "k" or "kk".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ ÏÏÎ± Î¼Î­ÏÎ± ÏÏÎ·Î½ Î·Î¼Î­ÏÎ± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "k" Î® "kk".',
+  'The pattern for minutes must be "m" or "mm".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ± Î»ÎµÏÏÎ¬ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "m" Î® "mm".',
+  'The pattern for month must be "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" or "LLLL".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ¿ Î¼Î®Î½Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" Î® "LLLL".',
+  'The pattern for seconds must be "s" or "ss".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ± Î»ÎµÏÏÎ¬ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "s" Î® "ss".',
+  'The pattern for time zone must be "z" or "v".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ ÏÏÎ± Î¶ÏÎ½Î·Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "z" Î® "v".',
+  'The pattern for week in month must be "W".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ ÎµÎ²Î´Î¿Î¼Î¬Î´Î± Î¼Î­ÏÎ± ÏÎµ Î­Î½Î± Î¼Î®Î½Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "W".',
+  'The pattern for week in year must be "w".' => 'Î¤Î¿ ÏÏÏÏÏÏÎ¿ Î³Î¹Î± ÏÎ·Î½ ÎµÎ²Î´Î¿Î¼Î¬Î´Î± Î¼Î­ÏÎ± ÏÎµ Î­Î½Î± Î­ÏÎ¿Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "w".',
+  'The queue is empty.' => 'Î Î¿ÏÏÎ¬ ÎµÎ¯Î½Î±Î¹ Î¬Î´ÎµÎ¹Î±.',
+  'The relation "{relation}" in active record class "{class}" is not specified correctly: the join table "{joinTable}" given in the foreign key cannot be found in the database.' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î´ÎµÎ½ Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÏÏÏÎ¬: Î ÏÎ¯Î½Î±ÎºÎ±Ï ÏÏÎ¶ÎµÏÎ¾Î·Ï "{joinTable}" ÏÎ¿Ï Î´Î¯Î½ÎµÏÎ±Î¹ ÏÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î²ÏÎµÎ¸ÎµÎ¯ ÏÏÎ· Î²Î¬ÏÎ· Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½.',
+  'The relation "{relation}" in active record class "{class}" is specified with a foreign key "{key}" that does not point to the parent table "{table}".' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ ÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ "{key}" ÏÎ¿Ï Î´ÎµÎ½ Î´ÎµÎ¯ÏÎ½ÎµÎ¹ ÏÏÎ¿Î½ Î³Î¿Î½Î¹ÎºÏ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'The relation "{relation}" in active record class "{class}" is specified with an incomplete foreign key. The foreign key must consist of columns referencing both joining tables.' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ ÎµÎ»Î»ÎµÎ¹ÏÎ­Ï Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯. Î¤Î¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ Î¸Î± ÏÏÎ­ÏÎµÎ¹ Î½Î± ÏÎµÏÎ¹Î­ÏÎµÎ¹ ÏÎ¹Ï ÏÏÎ®Î»ÎµÏ ÏÎ¿Ï Î±Î½Î±ÏÎ­ÏÎ¿Î½ÏÎ±Î¹ ÏÏÎ¿ÏÏ ÏÏÎ¶ÎµÏÎ³Î¼Î­Î½Î¿ÏÏ ÏÎ¯Î½Î±ÎºÎµÏ.',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". There is no such column in the table "{table}".' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î¼Î· Î­Î³ÎºÏÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ "{key}". ÎÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹ ÏÎ­ÏÎ¿Î¹Î± ÏÏÎ®Î»Î· ÏÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The columns in the key must match the primary keys of the table "{table}".' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î¼Î· Î­Î³ÎºÏÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯. ÎÎ¹ ÏÏÎ®Î»ÎµÏ ÏÏÎ¿ ÎºÎ»ÎµÎ¹Î´Î¯ ÏÏÎ­ÏÎµÎ¹ Î½Î± Î´ÎµÎ¯ÏÎ½Î¿ÏÎ½ ÏÏÎ¿ ÎºÏÏÎ¹Î¿ ÎºÎ»ÎµÎ¹Î´Î¯ ÏÎ¿Ï ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' => 'Î ÏÏÎ­ÏÎ· "{relation}" ÏÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}" Î­ÏÎµÎ¹ Î¿ÏÎ¹ÏÏÎµÎ¯ Î¼Îµ Î¼Î· Î­Î³ÎºÏÏÎ¿ Î¾Î­Î½Î¿ ÎºÎ»ÎµÎ¹Î´Î¯. Î Î¼Î¿ÏÏÎ® ÏÎ¿Ï Î¾Î­Î½Î¿Ï ÎºÎ»ÎµÎ¹Î´Î¹Î¿Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ "ÏÏÎ¶ÎµÏÎ³Î¼Î­Î½Î¿ÏÎ Î¯Î½Î±ÎºÎ±Ï(Î¾Îº1,Î¾Îº2,...)".',
+  'The requested view "{name}" was not found.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÏÎµÏÎ· ÏÎ·Ï ÏÏÎ·Ï "{name}".',
+  'The stack is empty.' => 'Î ÏÏÎ¿Î¯Î²Î± ÎµÎ¯Î½Î±Î¹ Î¬Î´ÎµÎ¹Î±.',
+  'The system is unable to find the requested action "{action}".' => 'Î¤Î¿ ÏÏÏÏÎ·Î¼Î± Î®ÏÎ±Î½ Î±Î´ÏÎ½Î±ÏÎ¿ Î½Î± ÎµÎ½ÏÎ¿ÏÎ¯ÏÎµÎ¹ ÏÎ·Î½ Î¶Î·ÏÎ¿ÏÎ¼ÎµÎ½Î· ÎµÎ½Î­ÏÎ³ÎµÎ¹Î± "{action}".',
+  'The system view path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÏÏÎµÏÎ½ ÏÎ¿Ï ÏÏÏÏÎ®Î¼Î±ÏÎ¿Ï "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'The table "{table}" for active record class "{class}" cannot be found in the database.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÏÎµÏÎ· ÏÏÎ· Î²Î¬ÏÎ· Î´ÎµÎ´Î¿Î¼Î­Î½ÏÎ½ ÏÎ¿Ï ÏÎ¯Î½Î±ÎºÎ± "{table}" Î³Î¹Î± ÏÎ·Î½ active record ÎºÎ»Î¬ÏÎ· "{class}".',
+  'The value for the column "{column}" is not supplied when querying the table "{table}".' => 'ÎÎµÎ½ ÏÎ±ÏÎ­ÏÎµÏÎ±Î¹ Î· ÏÎ¹Î¼Î® ÏÎ·Ï ÏÏÎ®Î»Î·Ï "{column}" ÎºÎ±ÏÎ¬ ÏÎ·Î½ ÎµÎºÏÎ­Î»ÎµÏÎ· ÎµÏÏÏÎ®Î¼Î±ÏÎ¿Ï ÏÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'The verification code is incorrect.' => 'Î ÎºÏÎ´Î¹ÎºÎ±Ï ÎµÏÎ±Î»Î®Î¸ÎµÏÏÎ·Ï Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ ÏÏÏÏÏÏ.',
+  'The view path "{path}" is not a valid directory.' => 'Î Î´Î¹Î±Î´ÏÎ¿Î¼Î® ÏÏÎµÏÎ½ "{path}" Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿Ï ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï.',
+  'Theme directory "{directory}" does not exist.' => 'Î ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï Î¸ÎµÎ¼Î±ÏÎ¹ÎºÏÎ½ ÏÎ±ÏÎ±Î»Î»Î±Î³ÏÎ½ "{directory}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'This content requires the <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.' => 'Î¤Î¿ ÏÎµÏÎ¹ÎµÏÏÎ¼ÎµÎ½Î¿ Î±ÏÎ±Î¹ÏÎµÎ¯ ÏÎ·Î½ ÏÏÎ±ÏÎ¾Î· ÏÎ¿Ï <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.',
+  'Unable to add an item whose name is the same as an existing item.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÏÏÎ¿ÏÎ¸Î®ÎºÎ· Î±Î½ÏÎ¹ÎºÎµÎ¹Î¼Î­Î½Î¿Ï ÏÎ¿Ï Î¿ÏÎ¿Î¯Î¿Ï ÏÎ¿ ÏÎ½Î¿Î¼Î± ÎµÎ¯Î½Î±Î¹ ÏÎ¿ Î¯Î´Î¹Î¿ Î¼Îµ Î­Î½Î± ÏÏÎ¬ÏÏÎ¿Î½ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿.',
+  'Unable to change the item name. The name "{name}" is already used by another item.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· Î±Î»Î»Î±Î³Î® ÏÎ¿Ï Î¿Î½ÏÎ¼Î±ÏÎ¿Ï Î±Î½ÏÎ¹ÎºÎµÎ¹Î¼Î­Î½Î¿Ï. Î¤Î¿ ÏÎ½Î¿Î¼Î± "{name}" ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹ÎµÎ¯ÏÎ±Î¹ Î®Î´Î· Î±ÏÏ Î­Î½Î± Î¬Î»Î»Î¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿.',
+  'Unable to create application state file "{file}". Make sure the directory containing the file exists and is writable by the Web server process.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· Î´Î·Î¼Î¹Î¿ÏÏÎ³Î¯Î± ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï ÎºÎ±ÏÎ¬ÏÏÎ±ÏÎ·Ï ÏÎ·Ï ÎµÏÎ±ÏÎ¼Î¿Î³Î®Ï "{file}". ÎÎµÎ²Î±Î¹ÏÎ¸ÎµÎ¯ÏÎµ ÏÏÎ¹ Î¿ ÎºÎ±ÏÎ¬Î»Î¿Î³Î¿Ï ÏÎ¿Ï ÏÎµÏÎ¹Î­ÏÎµÎ¹ ÏÎ¿ Î±ÏÏÎµÎ¯Î¿ ÏÏÎ¬ÏÏÎµÎ¹ ÎºÎ±Î¹ ÎµÎ¯Î½Î±Î¹ ÎµÎ³Î³ÏÎ¬ÏÎ¹Î¼Î¿Ï Î±ÏÏ ÏÎ· Î´Î¹ÎµÏÎ³Î±ÏÎ¯Î± ÏÎ¿Ï Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® Î¹ÏÏÎ¿ÏÎµÎ»Î¯Î´ÏÎ½.',
+  'Unable to find "{column}" in table "{table}".' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÏÎµÏÎ· ÏÎ·Ï ÏÏÎ®Î»Î·Ï "{column}" ÏÏÎ¿Î½ ÏÎ¯Î½Î±ÎºÎ± "{table}".',
+  'Unable to generate random string.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· Î´Î·Î¼Î¹Î¿ÏÏÎ³Î¯Î± ÏÏÏÎ±Î¯Î±Ï Î±Î»ÏÎ±ÏÎ¹Î¸Î¼Î·ÏÎ¹ÎºÎ®Ï ÏÏÎ¬ÏÎ·Ï.',
+  'Unable to lock file "{file}" for reading.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÏ ÏÎ¿ ÎºÎ»ÎµÎ¯Î´ÏÎ¼Î± ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}" Î³Î¹Î± Î±Î½Î¬Î³Î½ÏÏÎ·.',
+  'Unable to lock file "{file}" for writing.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÏ ÏÎ¿ ÎºÎ»ÎµÎ¯Î´ÏÎ¼Î± ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}" Î³Î¹Î± ÎµÎ³Î³ÏÎ±ÏÎ®.',
+  'Unable to read file "{file}".' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· Î±Î½Î¬Î³Î½ÏÏÎ· ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï "{file}".',
+  'Unable to replay the action "{object}.{method}". The method does not exist.' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÎ±Î½ÎµÎºÏÎ­Î»ÎµÏÎ· ÏÎ·Ï ÎµÎ½Î­ÏÎ³ÎµÎ¹Î±Ï "{object}.{method}". Î Î¼Î­Î¸Î¿Î´Î¿Ï Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'Unable to resolve the request "{route}".' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÏÎ¯Î»ÏÏÎ· ÏÎ·Ï Î±Î¯ÏÎ·ÏÎ·Ï "{route}".',
+  'Unable to write file "{file}".' => 'ÎÎµÎ½ Î®ÏÎ±Î½ Î´ÏÎ½Î±ÏÎ® Î· ÎµÎ³Î³ÏÎ±ÏÎ® ÏÎ¿Ï Î±ÏÏÎµÎ¯Î¿Ï {file}".',
+  'Unknown authorization item "{name}".' => 'ÎÎ³Î½ÏÏÏÎ¿ Î±Î½ÏÎ¹ÎºÎµÎ¯Î¼ÎµÎ½Î¿ ÏÎ¹ÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ·Ï "{name}".',
+  'Unknown operator "{operator}".' => 'ÎÎ³Î½ÏÏÏÎ¿Ï ÏÎµÎ»ÎµÏÏÎ®Ï "{operator}".',
+  'Unknown type "{type}".' => 'ÎÎ³Î½ÏÏÏÎ¿Ï ÏÏÏÎ¿Ï "{type}".',
+  'Unrecognized locale "{locale}".' => 'Î ÏÎ¿ÏÎ¹ÎºÎ® ÏÏÎ¸Î¼Î¹ÏÎ· "{locale}" Î´ÎµÎ½ Î±Î½Î±Î³Î½ÏÏÎ¯ÏÏÎ·ÎºÎµ.',
+  'View file "{file}" does not exist.' => 'Î¤Î¿ Î±ÏÏÎµÎ¯Î¿ ÏÏÎ·Ï "{view}" Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹.',
+  'Yes' => 'ÎÎ±Î¹',
+  'Yii application can only be created once.' => 'Î ÎµÏÎ±ÏÎ¼Î¿Î³Î® Yii Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î´Î·Î¼Î¹Î¿ÏÏÎ³Î·Î¸ÎµÎ¯ Î¼Î¯Î± Î¼ÏÎ½Î¿ ÏÎ¿ÏÎ¬.',
+  'You are not authorized to perform this action.' => 'ÎÎµÎ½ ÎµÎ¯ÏÏÎµ ÏÎ¹ÏÏÎ¿ÏÎ¿Î¹Î·Î¼Î­Î½Î¿Ï Î³Î¹Î± ÏÎ·Î½ ÎµÎºÏÎ­Î»ÎµÏÎ· Î±ÏÏÎ®Ï ÏÎ·Ï ÎµÎ½Î­ÏÎ³ÎµÎ¹Î±Ï.',
+  'Your request is invalid.' => 'Î Î±Î¯ÏÎ·ÏÎ® ÏÎ±Ï Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·.',
+  '{attribute} "{value}" has already been taken.' => 'Î ÏÎ¹Î¼Î® "{value}" Î³Î¹Î± ÏÎ¿ ÏÎµÎ´Î¯Î¿ {attribute} Î­ÏÎµÎ¹ Î®Î´Î· Î´Î¿Î¸ÎµÎ¯.',
+  '{attribute} "{value}" is invalid.' => 'Î ÏÎ¹Î¼Î® "{value}" Î³Î¹Î± ÏÎ¿ ÏÎµÎ´Î¯Î¿ {attribute} Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ·.',
+  '{attribute} cannot accept more than {limit} files.' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} Î´ÎµÎ½ Î´Î­ÏÎµÏÎ±Î¹ ÏÎµÏÎ¹ÏÏÏÏÎµÏÎ± Î±ÏÏ {limit} Î±ÏÏÎµÎ¯Î±.',
+  '{attribute} cannot be blank.' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÎºÎµÎ½Ï.',
+  '{attribute} is in the list.' => 'Î¤Î¿ {attribute} Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹ ÏÏÎ· Î»Î¯ÏÏÎ±.',
+  '{attribute} is invalid.' => 'Î¤Î¿ {attribute} Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ¿.',
+  '{attribute} is not a valid URL.' => 'Î¤Î¿ {attribute} Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ· Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ· URL.',
+  '{attribute} is not a valid email address.' => 'Î¤Î¿ {attribute} Î´ÎµÎ½ ÎµÎ¯Î½Î±Î¹ Î­Î³ÎºÏÏÎ· Î´Î¹ÎµÏÎ¸ÏÎ½ÏÎ· Î·Î»ÎµÎºÏÏÎ¿Î½Î¹ÎºÎ¿Ï ÏÎ±ÏÏÎ´ÏÎ¿Î¼ÎµÎ¯Î¿Ï.',
+  '{attribute} is not in the list.' => 'Î¤Î¿ {attribute} Î´ÎµÎ½ ÏÏÎ¬ÏÏÎµÎ¹ ÏÏÎ· Î»Î¯ÏÏÎ±.',
+  '{attribute} is of the wrong length (should be {length} characters).' => 'Î¤Î¿ {attribute} Î­ÏÎµÎ¹ Î»Î¬Î¸Î¿Ï Î¼Î­Î³ÎµÎ¸Î¿Ï (ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¹Î½Î±Î¹ {length} ÏÎ±ÏÎ±ÎºÏÎ®ÏÏÎ½).',
+  '{attribute} is too big (maximum is {max}).' => 'Î¤Î¿ {attribute} ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼ÎµÎ³Î¬Î»Î¿ (ÏÎ¿ Î¼Î­Î³Î¹ÏÏÎ¿ ÎµÎ¯Î½Î±Î¹ {max}).',
+  '{attribute} is too long (maximum is {max} characters).' => 'Î¤Î¿ {attribute} ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼ÎµÎ³Î¬Î»Î¿ (ÏÎ¿ Î¼Î­Î³Î¹ÏÏÎ¿ ÎµÎ¯Î½Î±Î¹ {max} ÏÎ±ÏÎ±ÎºÏÎ®ÏÎµÏ).',
+  '{attribute} is too short (minimum is {min} characters).' => 'Î¤Î¿ {attribute} ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼Î¹ÎºÏÏ (ÏÎ¿ ÎµÎ»Î¬ÏÎ¹ÏÏÎ¿ ÎµÎ¯Î½Î±Î¹ {min} ÏÎ±ÏÎ±ÎºÏÎ®ÏÎµÏ).',
+  '{attribute} is too small (minimum is {min}).' => 'Î¤Î¿ {attribute} ÎµÎ¯Î½Î±Î¹ ÏÎ¿Î»Ï Î¼Î¹ÎºÏÏ (ÏÎ¿ ÎµÎ»Î¬ÏÎ¹ÏÏÎ¿ ÎµÎ¯Î½Î±Î¹ {min}).',
+  '{attribute} must be a number.' => 'Î¤Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î±ÏÎ¹Î¸Î¼ÏÏ.',
+  '{attribute} must be an integer.' => 'Î¤Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î±ÎºÎ­ÏÎ±Î¹Î¿Ï Î±ÏÎ¹Î¸Î¼ÏÏ.',
+  '{attribute} must be either {true} or {false}.' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ {true} Î® {false}.',
+  '{attribute} must be greater than "{compareValue}".' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÎµÎ³Î±Î»ÏÏÎµÏÎ¿ Î±ÏÏ "{compareValue}".',
+  '{attribute} must be greater than or equal to "{compareValue}".' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÎµÎ³Î±Î»ÏÏÎµÏÎ¿ Î® Î¯ÏÎ¿ Î±ÏÏ "{compareValue}".',
+  '{attribute} must be less than "{compareValue}".' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼Î¹ÎºÏÏÏÎµÏÎ¿ Î±ÏÏ "{compareValue}".',
+  '{attribute} must be less than or equal to "{compareValue}".' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼Î¹ÎºÏÏÏÎµÏÎ¿ Î® Î¯ÏÎ¿ Î±ÏÏ "{compareValue}".',
+  '{attribute} must be repeated exactly.' => 'Î¤Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÏÎ±Î½Î±Î»Î±Î¼Î²Î¬Î½ÎµÏÎ±Î¹ ÎµÏÎ±ÎºÏÎ¹Î²ÏÏ.',
+  '{attribute} must be {type}.' => 'Î¤Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ ÏÏÏÎ¿Ï {type}.',
+  '{attribute} must be {value}.' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¯ÏÎ¿ Î¼Îµ {value}.',
+  '{attribute} must not be equal to "{compareValue}".' => 'Î¤Î¿ ÏÎµÎ´Î¯Î¿ {attribute} Î´ÎµÎ½ ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¯ÏÎ¿ Î¼Îµ {value}.',
+  '{className} does not support add() functionality.' => 'Î ÎºÎ»Î¬ÏÎ· {className} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÏÎ·ÏÎ± add().',
+  '{className} does not support delete() functionality.' => 'Î ÎºÎ»Î¬ÏÎ· {className} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÏÎ·ÏÎ± delete().',
+  '{className} does not support flushValues() functionality.' => 'Î ÎºÎ»Î¬ÏÎ· {className} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÏÎ·ÏÎ± flushValues().',
+  '{className} does not support get() functionality.' => 'Î ÎºÎ»Î¬ÏÎ· {className} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÏÎ·ÏÎ± get().',
+  '{className} does not support set() functionality.' => 'Î ÎºÎ»Î¬ÏÎ· {className} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»ÎµÎ¹ÏÎ¿ÏÏÎ³Î¹ÎºÏÏÎ·ÏÎ± set().',
+  '{class} and its behaviors do not have a method or closure named "{name}".' => 'Î ÎºÎ»Î¬ÏÎ· {class} ÎºÎ±Î¹ Î¿Î¹ ÏÏÎ¼ÏÎµÏÎ¹ÏÎ¿ÏÎ­Ï ÏÎ·Ï Î´ÎµÎ½ ÏÎµÏÎ¹Î­ÏÎ¿ÏÎ½ Î¼Î­Î¸Î¿Î´Î¿ Î® ÏÎµÏÎ¬ÏÏÏÎ· Î¼Îµ ÏÎ½Î¿Î¼Î± "{name}".',
+  '{class} does not have relation "{name}".' => 'Î ÎºÎ»Î¬ÏÎ· {class} Î´ÎµÎ½ Î­ÏÎµÎ¹ ÏÏÎ­ÏÎ· Î¼Îµ ÏÎ½Î¿Î¼Î± "{name}".',
+  '{class} does not support fetching all table names.' => 'Î ÎºÎ»Î¬ÏÎ· {class} Î´ÎµÎ½ ÏÏÎ¿ÏÏÎ·ÏÎ¯Î¶ÎµÎ¹ ÏÎ· Î»Î®ÏÎ· ÏÎ»ÏÎ½ ÏÏÎ½ Î¿Î½Î¿Î¼Î¬ÏÏÎ½ ÏÎ¹Î½Î¬ÎºÏÎ½.',
+  '{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' => 'Î ÎºÎ»Î¬ÏÎ· {class} Î­ÏÎµÎ¹ Î­Î½Î± Î¼Î· Î­Î³ÎºÏÏÎ¿ ÎºÎ±Î½ÏÎ½Î± ÎµÏÎ±Î»Î®Î¸ÎµÏÏÎ·Ï. Î ÎºÎ±Î½ÏÎ½Î±Ï ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¯Î¶ÎµÎ¹ ÏÎ± ÏÎµÎ´Î¯Î± ÏÎ¿Ï Î¸Î± ÎµÏÎ±Î»Î·Î¸ÎµÏÎ¿Î½ÏÎ±Î¹, ÎºÎ±Î¸ÏÏ ÎºÎ±Î¹ ÏÎ¿ ÏÎ½Î¿Î¼Î± ÏÎ¿Ï ÎµÏÎ±Î»Î·Î¸ÎµÏÏÎ®.',
+  '{class} must specify "model" and "attribute" or "name" property values.' => 'Î ÎºÎ»Î¬ÏÎ· {class} ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¯Î¶ÎµÎ¹ ÏÎ± "model" ÎºÎ±Î¹ "attribute" Î® "name" ÏÏÎ½ ÏÎ¹Î¼ÏÎ½ ÏÏÎ½ Î¹Î´Î¹Î¿ÏÎ®ÏÏÎ½.',
+  '{class} requires the Blowfish option of the PHP crypt() function. This system does not have it.' => 'Î ÎºÎ»Î¬ÏÎ· {class} Î±ÏÎ±Î¹ÏÎµÎ¯ ÏÎ·Î½ ÎµÏÎ¹Î»Î¿Î³Î® Blowfish ÏÎ·Ï ÏÏÎ½Î¬ÏÏÎ·ÏÎ·Ï crypt() ÏÎ·Ï PHP. Î¤Î¿ ÏÏÏÏÎ·Î¼Î± Î´ÎµÎ½ ÏÎ·Î½ Î­ÏÎµÎ¹.',
+  '{class} requires the PHP crypt() function. This system does not have it.' => 'Î ÎºÎ»Î¬ÏÎ· {class} Î±ÏÎ±Î¹ÏÎµÎ¯ ÏÎ· ÏÏÎ½Î¬ÏÏÎ·ÏÎ· crypt() ÏÎ·Ï PHP. Î¤Î¿ ÏÏÏÏÎ·Î¼Î± Î´ÎµÎ½ ÏÎ·Î½ Î­ÏÎµÎ¹.',
+  '{class}.allowAutoLogin must be set true in order to use cookie-based authentication.' => 'Î¤Î¿ {class}.allowAutoLogin ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯ ÏÎµ Î±Î»Î·Î¸Î­Ï Î³Î¹Î± Î½Î± ÏÏÎ·ÏÎ¹Î¼Î¿ÏÎ¿Î¹Î·Î¸ÎµÎ¯ Î· ÏÎ¹ÏÏÎ¿ÏÎ¿Î¯Î·ÏÎ· Î²Î¬ÏÎµÎ¹ cookies.',
+  '{class}::$cost must be a number.' => 'Î¤Î¿ {class}::$cost ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î±ÏÎ¹Î¸Î¼ÏÏ.',
+  '{class}::$cost must be between 4 and 31.' => 'Î¤Î¿ {class}::$cost ÏÏÎ­ÏÎµÎ¹ Î½Î± ÎµÎ¯Î½Î±Î¹ Î¼ÎµÏÎ±Î¾Ï 4 ÎºÎ±Î¹ 31.',
+  '{class}::authenticate() must be implemented.' => 'Î Î¼Î­Î¸Î¿Î´Î¿Ï {class}::authenticate() ÏÏÎ­ÏÎµÎ¹ Î½Î± Î¿ÏÎ¹ÏÏÎµÎ¯.',
+  '{controller} cannot find the requested view "{view}".' => 'Î ÎµÎ»ÎµÎ³ÎºÏÎ®Ï {controller} Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î²ÏÎµÎ¹ ÏÎ·Î½ ÎºÎ±Î»Î¿ÏÎ¼ÎµÎ½Î· ÏÏÎ· "{view}".',
+  '{controller} contains improperly nested widget tags in its view "{view}". A {widget} widget does not have an endWidget() call.' => 'Î ÎµÎ»ÎµÎ³ÎºÏÎ®Ï {controller} ÏÎµÏÎ¹Î­ÏÎµÎ¹ Î»Î¬Î¸Î¿Ï ÎµÎ¼ÏÏÎ»ÎµÏÎ¼Î­Î½ÎµÏ ÏÎ·Î¼Î¬Î½ÏÎµÎ¹Ï widget ÏÏÎ·Î½ ÏÏÎ· "{view}". Î¤Î¿ widget {widget} Î´ÎµÎ½ ÏÎµÏÎ¹Î­ÏÎµÎ¹ ÏÎ·Î½ ÎºÎ»Î®ÏÎ· endWidget().',
+  '{controller} has an extra endWidget({id}) call in its view.' => 'Î ÎµÎ»ÎµÎ³ÎºÏÎ®Ï {controller} Î­ÏÎµÎ¹ Î¼Î¹Î± ÎµÏÎ¹ÏÎ»Î­Î¿Î½ ÎºÎ»Î®ÏÎ· endWidget({id}) ÏÏÎ·Î½ ÏÏÎ· ÏÎ¿Ï.',
   '{n} B' => '{n} B',
   '{n} GB' => '{n} GB',
   '{n} KB' => '{n} KB',
@@ -287,5 +287,5 @@ return array (
   '{n} kilobyte|{n} kilobytes' => '{n} kilobyte|{n} kilobytes',
   '{n} megabyte|{n} megabytes' => '{n} megabyte|{n} megabytes',
   '{n} terabyte|{n} terabytes' => '{n} terabyte|{n} terabytes',
-  '{widget} cannot find the view "{view}".' => 'Το widget {widget} δεν μπορεί να βρει την όψη "{view}".',
+  '{widget} cannot find the view "{view}".' => 'Î¤Î¿ widget {widget} Î´ÎµÎ½ Î¼ÏÎ¿ÏÎµÎ¯ Î½Î± Î²ÏÎµÎ¹ ÏÎ·Î½ ÏÏÎ· "{view}".',
 );

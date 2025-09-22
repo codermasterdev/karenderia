@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			سجل التطبيق
+			Ø³Ø¬Ù Ø§ÙØªØ·Ø¨ÙÙ
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">الختم الزمني</th>
-		<th>المستوى</th>
-		<th>التصنيف</th>
-		<th>الرسالة</th>
+	    <th style="width:120px">Ø§ÙØ®ØªÙ Ø§ÙØ²ÙÙÙ</th>
+		<th>Ø§ÙÙØ³ØªÙÙ</th>
+		<th>Ø§ÙØªØµÙÙÙ</th>
+		<th>Ø§ÙØ±Ø³Ø§ÙØ©</th>
 	</tr>
 <?php
 $colors=array(

@@ -119,11 +119,11 @@ return /******/ (function(modules) { // webpackBootstrap
         italic: 'Cursiva',
         underline: 'Subratllat',
         clear: 'Treure estil de lletra',
-        height: 'Alçada de línia',
+        height: 'AlÃ§ada de lÃ­nia',
         name: 'Font',
         strikethrough: 'Ratllat',
-        subscript: 'Subíndex',
-        superscript: 'Superíndex',
+        subscript: 'SubÃ­ndex',
+        superscript: 'SuperÃ­ndex',
         size: 'Mida de lletra'
       },
       image: {
@@ -139,29 +139,29 @@ return /******/ (function(modules) { // webpackBootstrap
         shapeCircle: 'Forma: Cercle',
         shapeThumbnail: 'Forma: Marc',
         shapeNone: 'Forma: Cap',
-        dragImageHere: 'Arrossegueu una imatge o text aquí',
-        dropImage: 'Deixa anar aquí una imatge o un text',
+        dragImageHere: 'Arrossegueu una imatge o text aquÃ­',
+        dropImage: 'Deixa anar aquÃ­ una imatge o un text',
         selectFromFiles: 'Seleccioneu des dels arxius',
-        maximumFileSize: 'Mida màxima de l\'arxiu',
-        maximumFileSizeError: 'La mida màxima de l\'arxiu s\'ha superat.',
+        maximumFileSize: 'Mida mÃ xima de l\'arxiu',
+        maximumFileSizeError: 'La mida mÃ xima de l\'arxiu s\'ha superat.',
         url: 'URL de la imatge',
         remove: 'Eliminar imatge',
         original: 'Original'
       },
       video: {
-        video: 'Vídeo',
-        videoLink: 'Enllaç del vídeo',
-        insert: 'Inserir vídeo',
-        url: 'URL del vídeo?',
+        video: 'VÃ­deo',
+        videoLink: 'EnllaÃ§ del vÃ­deo',
+        insert: 'Inserir vÃ­deo',
+        url: 'URL del vÃ­deo?',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion o Youku)'
       },
       link: {
-        link: 'Enllaç',
-        insert: 'Inserir enllaç',
-        unlink: 'Treure enllaç',
+        link: 'EnllaÃ§',
+        insert: 'Inserir enllaÃ§',
+        unlink: 'Treure enllaÃ§',
         edit: 'Editar',
         textToDisplay: 'Text per mostrar',
-        url: 'Cap a quina URL porta l\'enllaç?',
+        url: 'Cap a quina URL porta l\'enllaÃ§?',
         openInNewWindow: 'Obrir en una finestra nova'
       },
       table: {
@@ -175,23 +175,23 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Inserir línia horitzontal'
+        insert: 'Inserir lÃ­nia horitzontal'
       },
       style: {
         style: 'Estil',
         p: 'p',
         blockquote: 'Cita',
         pre: 'Codi',
-        h1: 'Títol 1',
-        h2: 'Títol 2',
-        h3: 'Títol 3',
-        h4: 'Títol 4',
-        h5: 'Títol 5',
-        h6: 'Títol 6'
+        h1: 'TÃ­tol 1',
+        h2: 'TÃ­tol 2',
+        h3: 'TÃ­tol 3',
+        h4: 'TÃ­tol 4',
+        h5: 'TÃ­tol 5',
+        h6: 'TÃ­tol 6'
       },
       lists: {
-        unordered: 'Llista desendreçada',
-        ordered: 'Llista endreçada'
+        unordered: 'Llista desendreÃ§ada',
+        ordered: 'Llista endreÃ§ada'
       },
       options: {
         help: 'Ajut',
@@ -199,17 +199,17 @@ return /******/ (function(modules) { // webpackBootstrap
         codeview: 'Veure codi font'
       },
       paragraph: {
-        paragraph: 'Paràgraf',
-        outdent: 'Menys tabulació',
-        indent: 'Més tabulació',
+        paragraph: 'ParÃ graf',
+        outdent: 'Menys tabulaciÃ³',
+        indent: 'MÃ©s tabulaciÃ³',
         left: 'Alinear a l\'esquerra',
         center: 'Alinear al mig',
         right: 'Alinear a la dreta',
         justify: 'Justificar'
       },
       color: {
-        recent: 'Últim color',
-        more: 'Més colors',
+        recent: 'Ãltim color',
+        more: 'MÃ©s colors',
         background: 'Color de fons',
         foreground: 'Color de lletra',
         transparent: 'Transparent',
@@ -221,17 +221,17 @@ return /******/ (function(modules) { // webpackBootstrap
         shortcuts: 'Dreceres de teclat',
         close: 'Tancar',
         textFormatting: 'Format de text',
-        action: 'Acció',
-        paragraphFormatting: 'Format de paràgraf',
+        action: 'AcciÃ³',
+        paragraphFormatting: 'Format de parÃ graf',
         documentStyle: 'Estil del document',
         extraKeys: 'Tecles adicionals'
       },
       help: {
-        'insertParagraph': 'Inserir paràgraf',
-        'undo': 'Desfer l\'última acció',
-        'redo': 'Refer l\'última acció',
+        'insertParagraph': 'Inserir parÃ graf',
+        'undo': 'Desfer l\'Ãºltima acciÃ³',
+        'redo': 'Refer l\'Ãºltima acciÃ³',
         'tab': 'Tabular',
-        'untab': 'Eliminar tabulació',
+        'untab': 'Eliminar tabulaciÃ³',
         'bold': 'Establir estil negreta',
         'italic': 'Establir estil cursiva',
         'underline': 'Establir estil subratllat',
@@ -241,27 +241,27 @@ return /******/ (function(modules) { // webpackBootstrap
         'justifyCenter': 'Alinear al centre',
         'justifyRight': 'Alinear a la dreta',
         'justifyFull': 'Justificar',
-        'insertUnorderedList': 'Inserir llista desendreçada',
-        'insertOrderedList': 'Inserir llista endreçada',
-        'outdent': 'Reduïr tabulació del paràgraf',
-        'indent': 'Augmentar tabulació del paràgraf',
-        'formatPara': 'Canviar l\'estil del bloc com a un paràgraf (etiqueta P)',
+        'insertUnorderedList': 'Inserir llista desendreÃ§ada',
+        'insertOrderedList': 'Inserir llista endreÃ§ada',
+        'outdent': 'ReduÃ¯r tabulaciÃ³ del parÃ graf',
+        'indent': 'Augmentar tabulaciÃ³ del parÃ graf',
+        'formatPara': 'Canviar l\'estil del bloc com a un parÃ graf (etiqueta P)',
         'formatH1': 'Canviar l\'estil del bloc com a un H1',
         'formatH2': 'Canviar l\'estil del bloc com a un H2',
         'formatH3': 'Canviar l\'estil del bloc com a un H3',
         'formatH4': 'Canviar l\'estil del bloc com a un H4',
         'formatH5': 'Canviar l\'estil del bloc com a un H5',
         'formatH6': 'Canviar l\'estil del bloc com a un H6',
-        'insertHorizontalRule': 'Inserir una línia horitzontal',
-        'linkDialog.show': 'Mostrar panel d\'enllaços'
+        'insertHorizontalRule': 'Inserir una lÃ­nia horitzontal',
+        'linkDialog.show': 'Mostrar panel d\'enllaÃ§os'
       },
       history: {
         undo: 'Desfer',
         redo: 'Refer'
       },
       specialChar: {
-        specialChar: 'CARÀCTERS ESPECIALS',
-        select: 'Selecciona caràcters especials'
+        specialChar: 'CARÃCTERS ESPECIALS',
+        select: 'Selecciona carÃ cters especials'
       }
     }
   });

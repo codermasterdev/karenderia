@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			Общий отчет
-			(Время: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>с,
-			Память: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>Кб)
+			ÐÐ±ÑÐ¸Ð¹ Ð¾ÑÑÐµÑ
+			(ÐÑÐµÐ¼Ñ: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>Ñ,
+			ÐÐ°Ð¼ÑÑÑ: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>ÐÐ±)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Процедура</th>
-		<th>Номер</th>
-		<th>Всего (с)</th>
-		<th>Средн. (с)</th>
-		<th>Мин. (с)</th>
-		<th>Макс. (с)</th>
+	    <th>ÐÑÐ¾ÑÐµÐ´ÑÑÐ°</th>
+		<th>ÐÐ¾Ð¼ÐµÑ</th>
+		<th>ÐÑÐµÐ³Ð¾ (Ñ)</th>
+		<th>Ð¡ÑÐµÐ´Ð½. (Ñ)</th>
+		<th>ÐÐ¸Ð½. (Ñ)</th>
+		<th>ÐÐ°ÐºÑ. (Ñ)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

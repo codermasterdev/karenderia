@@ -14,23 +14,23 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Home' => '首頁',
-  'The button type "{type}" is not supported.' => '按鈕類型 "{type}" 不支援。',
-  'Are you sure you want to delete this item?' => '確定要刪除這筆項目嗎？',
-  'Delete' => '刪除',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => '顯示 {start}-{end} 筆, 共 {count} 筆。',
-  'Either "name" or "value" must be specified for CDataColumn.' => '必須給定 "name" 或 "value" 給 CDataColumn。',
-  'No results found.' => '没有符合的資料。',
-  'Not set' => '未設置',
-  'Please specify the "attributes" property.' => '請給定 "attributes" 属性。',
-  'Please specify the "data" property.' => '請給定 "data" 属性。',
-  'Sort by: ' => '排序：',
-  'The "dataProvider" property cannot be empty.' => '"dataProvider" 屬性不能為空值。',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => '属性格式 "Name:Type:Label", "Type" 和 "Label" 為非必須的。',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => '欄位格式 "Name:Type:Label", "Type" 和 "Label" 為非必須的。',
-  'The property "itemView" cannot be empty.' => '"itemView" 屬性不能為空值。',
-  'Total 1 result.|Total {count} results.' => '共 {count} 筆。',
-  'Update' => '更新',
-  'View' => '檢視',
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} 必須給定 "model" 與 "attribute" 或 "name" 属性值。',
+  'Home' => 'é¦é ',
+  'The button type "{type}" is not supported.' => 'æéé¡å "{type}" ä¸æ¯æ´ã',
+  'Are you sure you want to delete this item?' => 'ç¢ºå®è¦åªé¤éç­é ç®åï¼',
+  'Delete' => 'åªé¤',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'é¡¯ç¤º {start}-{end} ç­, å± {count} ç­ã',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'å¿é çµ¦å® "name" æ "value" çµ¦ CDataColumnã',
+  'No results found.' => 'æ²¡æç¬¦åçè³æã',
+  'Not set' => 'æªè¨­ç½®',
+  'Please specify the "attributes" property.' => 'è«çµ¦å® "attributes" å±æ§ã',
+  'Please specify the "data" property.' => 'è«çµ¦å® "data" å±æ§ã',
+  'Sort by: ' => 'æåºï¼',
+  'The "dataProvider" property cannot be empty.' => '"dataProvider" å±¬æ§ä¸è½çºç©ºå¼ã',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'å±æ§æ ¼å¼ "Name:Type:Label", "Type" å "Label" çºéå¿é çã',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'æ¬ä½æ ¼å¼ "Name:Type:Label", "Type" å "Label" çºéå¿é çã',
+  'The property "itemView" cannot be empty.' => '"itemView" å±¬æ§ä¸è½çºç©ºå¼ã',
+  'Total 1 result.|Total {count} results.' => 'å± {count} ç­ã',
+  'Update' => 'æ´æ°',
+  'View' => 'æª¢è¦',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} å¿é çµ¦å® "model" è "attribute" æ "name" å±æ§å¼ã',
 );

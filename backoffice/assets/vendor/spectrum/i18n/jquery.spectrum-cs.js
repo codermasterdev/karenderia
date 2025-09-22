@@ -6,12 +6,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["cs"] = {
-        cancelText: "zrušit",
+        cancelText: "zruÅ¡it",
         chooseText: "vybrat",
-        clearText: "Resetovat výběr barev",
-        noColorSelectedText: "Žádná barva nebyla vybrána",
-        togglePaletteMoreText: "více",
-        togglePaletteLessText: "méně"
+        clearText: "Resetovat vÃ½bÄr barev",
+        noColorSelectedText: "Å½Ã¡dnÃ¡ barva nebyla vybrÃ¡na",
+        togglePaletteMoreText: "vÃ­ce",
+        togglePaletteLessText: "mÃ©nÄ"
     };
 
 })( jQuery );

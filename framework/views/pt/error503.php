@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Serviço Indisponível</title>
+<title>ServiÃ§o IndisponÃ­vel</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,9 +17,9 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Serviço Indisponível</h1>
+<h1>ServiÃ§o IndisponÃ­vel</h1>
 <p>
-Atualmente, nosso sistema encontra-se em manuntenção. Por favor, tente mais tarde.
+Atualmente, nosso sistema encontra-se em manuntenÃ§Ã£o. Por favor, tente mais tarde.
 </p>
 <p>
 Obrigado.

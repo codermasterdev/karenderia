@@ -19,10 +19,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Pakalpojums nav pieejams</h1>
 <p>
-Serverim tiek veikti uzturēšanas darbi. Mēģiniet vēlāk vēlreiz.
+Serverim tiek veikti uzturÄÅ¡anas darbi. MÄÄ£iniet vÄlÄk vÄlreiz.
 </p>
 <p>
-Atvainojamies par sagādātajām neērtībām.
+Atvainojamies par sagÄdÄtajÄm neÄrtÄ«bÄm.
 </p>
 <div class="version">
 <?php echo date('d.m.Y H:i:s',$data['time']) .' '. $data['version']; ?>

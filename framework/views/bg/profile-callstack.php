@@ -2,12 +2,12 @@
 <table width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Обобщен доклад от профилирането
+			ÐÐ±Ð¾Ð±ÑÐµÐ½ Ð´Ð¾ÐºÐ»Ð°Ð´ Ð¾Ñ Ð¿ÑÐ¾ÑÐ¸Ð»Ð¸ÑÐ°Ð½ÐµÑÐ¾
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Процедура</th>
-		<th>Време (на)</th>
+	    <th>ÐÑÐ¾ÑÐµÐ´ÑÑÐ°</th>
+		<th>ÐÑÐµÐ¼Ðµ (Ð½Ð°)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

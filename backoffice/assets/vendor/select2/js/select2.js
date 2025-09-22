@@ -4911,7 +4911,7 @@ S2.define('select2/i18n/en',[],function () {
       return message;
     },
     loadingMore: function () {
-      return 'Loading more results…';
+      return 'Loading more resultsâ¦';
     },
     maximumSelected: function (args) {
       var message = 'You can only select ' + args.maximum + ' item';
@@ -4926,7 +4926,7 @@ S2.define('select2/i18n/en',[],function () {
       return 'No results found';
     },
     searching: function () {
-      return 'Searching…';
+      return 'Searchingâ¦';
     },
     removeAllItems: function () {
       return 'Remove all items';

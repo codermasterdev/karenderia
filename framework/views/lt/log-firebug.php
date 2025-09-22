@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.<?php echo $this->collapsedInFireBug?'groupCollapsed':'group'; ?>("Programos žurnalas");
+	console.<?php echo $this->collapsedInFireBug?'groupCollapsed':'group'; ?>("Programos Å¾urnalas");
 <?php
 foreach($data as $index=>$log)
 {

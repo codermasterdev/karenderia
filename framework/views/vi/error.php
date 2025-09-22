@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Lỗi <?php echo $data['code']; ?></h1>
+<h1>Lá»i <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Lỗi trên xảy ra khi Web server xử lý yêu cầu của bạn.
+Lá»i trÃªn xáº£y ra khi Web server xá»­ lÃ½ yÃªu cáº§u cá»§a báº¡n.
 </p>
 <p>
-Nếu bạn nghĩ đây là lỗi của máy chủ, xin liên hệ <?php echo $data['admin']; ?>.
+Náº¿u báº¡n nghÄ© ÄÃ¢y lÃ  lá»i cá»§a mÃ¡y chá»§, xin liÃªn há» <?php echo $data['admin']; ?>.
 </p>
 <p>
-Xin cám ơn.
+Xin cÃ¡m Æ¡n.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

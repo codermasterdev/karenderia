@@ -76,7 +76,7 @@ class SkuService extends \Stripe\Service\AbstractService
      * Updates the specific SKU by setting the values of the parameters passed. Any
      * parameters not provided will be left unchanged.
      *
-     * Note that a SKU’s <code>attributes</code> are not editable. Instead, you would
+     * Note that a SKUâs <code>attributes</code> are not editable. Instead, you would
      * need to deactivate the existing SKU and create a new one with the new attribute
      * values.
      *

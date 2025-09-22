@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>غير مصرح</title>
+<title>ØºÙØ± ÙØµØ±Ø­</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>غير مصرح</h1>
+<h1>ØºÙØ± ÙØµØ±Ø­</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-لاتملك الصلاحيات المناسبة للوصول إلى هذه الصفحة.
+ÙØ§ØªÙÙÙ Ø§ÙØµÙØ§Ø­ÙØ§Øª Ø§ÙÙÙØ§Ø³Ø¨Ø© ÙÙÙØµÙÙ Ø¥ÙÙ ÙØ°Ù Ø§ÙØµÙØ­Ø©.
 </p>
 <p>
-اذا كنت تعتقد ان هذا الخطأ حدث من ملقم الويب، الرجاء الاتصال <?php echo $data['admin']; ?>.
+Ø§Ø°Ø§ ÙÙØª ØªØ¹ØªÙØ¯ Ø§Ù ÙØ°Ø§ Ø§ÙØ®Ø·Ø£ Ø­Ø¯Ø« ÙÙ ÙÙÙÙ Ø§ÙÙÙØ¨Ø Ø§ÙØ±Ø¬Ø§Ø¡ Ø§ÙØ§ØªØµØ§Ù <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

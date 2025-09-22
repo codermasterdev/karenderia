@@ -58,7 +58,7 @@ class NewFactorList extends ListResource
     /**
      * Create the NewFactorInstance
      *
-     * @param string $friendlyName The friendly name of this Factor. This can be any string up to 64 characters, meant for humans to distinguish between Factors. For `factor_type` `push`, this could be a device name. For `factor_type` `totp`, this value is used as the “account name” in constructing the `binding.uri` property. At the same time, we recommend avoiding providing PII.
+     * @param string $friendlyName The friendly name of this Factor. This can be any string up to 64 characters, meant for humans to distinguish between Factors. For `factor_type` `push`, this could be a device name. For `factor_type` `totp`, this value is used as the âaccount nameâ in constructing the `binding.uri` property. At the same time, we recommend avoiding providing PII.
      * @param string $factorType
      * @param array|Options $options Optional Arguments
      * @return NewFactorInstance Created NewFactorInstance

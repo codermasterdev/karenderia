@@ -462,7 +462,7 @@ class Logger implements LoggerInterface, ResettableInterface
             }
 
             // Contains chars of all log levels and avoids using strtoupper() which may have
-            // strange results depending on locale (for example, "i" will become "İ" in Turkish locale)
+            // strange results depending on locale (for example, "i" will become "Ä°" in Turkish locale)
             $upper = strtr($level, 'abcdefgilmnortuwy', 'ABCDEFGILMNORTUWY');
             if (defined(__CLASS__.'::'.$upper)) {
                 return constant(__CLASS__ . '::' . $upper);

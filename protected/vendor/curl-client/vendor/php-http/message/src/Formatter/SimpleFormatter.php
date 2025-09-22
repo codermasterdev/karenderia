@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
  * Normalize a request or a response into a string or an array.
  *
  * @author Joel Wurtz <joel.wurtz@gmail.com>
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 class SimpleFormatter implements Formatter
 {

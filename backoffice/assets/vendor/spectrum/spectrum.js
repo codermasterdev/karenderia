@@ -2431,12 +2431,12 @@
 (function ( $ ) {
 
   var localization = $.spectrum.localization["ar"] = {
-      cancelText: "إلغاء",
-      chooseText: "إختار",
-      clearText: "إرجاع الألوان على ما كانت",
-      noColorSelectedText: "لم تختار أي لون",
-      togglePaletteMoreText: "أكثر",
-      togglePaletteLessText: "أقل"
+      cancelText: "Ø¥ÙØºØ§Ø¡",
+      chooseText: "Ø¥Ø®ØªØ§Ø±",
+      clearText: "Ø¥Ø±Ø¬Ø§Ø¹ Ø§ÙØ£ÙÙØ§Ù Ø¹ÙÙ ÙØ§ ÙØ§ÙØª",
+      noColorSelectedText: "ÙÙ ØªØ®ØªØ§Ø± Ø£Ù ÙÙÙ",
+      togglePaletteMoreText: "Ø£ÙØ«Ø±",
+      togglePaletteLessText: "Ø£ÙÙ"
   };
 
 })( jQuery );
@@ -2448,11 +2448,11 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ca"] = {
-        cancelText: "Cancel·lar",
+        cancelText: "CancelÂ·lar",
         chooseText: "Escollir",
         clearText: "Esborrar color seleccionat",
         noColorSelectedText: "Cap color seleccionat",
-        togglePaletteMoreText: "Més",
+        togglePaletteMoreText: "MÃ©s",
         togglePaletteLessText: "Menys"
     };
 
@@ -2466,12 +2466,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["cs"] = {
-        cancelText: "zrušit",
+        cancelText: "zruÅ¡it",
         chooseText: "vybrat",
-        clearText: "Resetovat výběr barev",
-        noColorSelectedText: "Žádná barva nebyla vybrána",
-        togglePaletteMoreText: "více",
-        togglePaletteLessText: "méně"
+        clearText: "Resetovat vÃ½bÄr barev",
+        noColorSelectedText: "Å½Ã¡dnÃ¡ barva nebyla vybrÃ¡na",
+        togglePaletteMoreText: "vÃ­ce",
+        togglePaletteLessText: "mÃ©nÄ"
     };
 
 })( jQuery );
@@ -2484,9 +2484,9 @@
 
     var localization = $.spectrum.localization["de"] = {
         cancelText: "Abbrechen",
-        chooseText: "Wählen",
-        clearText: "Farbauswahl zurücksetzen",
-        noColorSelectedText: "Keine Farbe ausgewählt",
+        chooseText: "WÃ¤hlen",
+        clearText: "Farbauswahl zurÃ¼cksetzen",
+        noColorSelectedText: "Keine Farbe ausgewÃ¤hlt",
         togglePaletteMoreText: "Mehr",
         togglePaletteLessText: "Weniger"
     };
@@ -2501,7 +2501,7 @@
 
     var localization = $.spectrum.localization["dk"] = {
 		cancelText: "annuller",
-		chooseText: "Vælg"
+		chooseText: "VÃ¦lg"
     };
 
 })( jQuery );
@@ -2516,8 +2516,8 @@
         cancelText: "Cancelar",
         chooseText: "Elegir",
         clearText: "Borrar color seleccionado",
-        noColorSelectedText: "Ningún color seleccionado",
-        togglePaletteMoreText: "Más",
+        noColorSelectedText: "NingÃºn color seleccionado",
+        togglePaletteMoreText: "MÃ¡s",
         togglePaletteLessText: "Menos"
     };
 
@@ -2532,10 +2532,10 @@
      var localization = $.spectrum.localization["et"] = {
         cancelText: "Katkesta",
         chooseText: "Vali",
-        clearText: "Tühista värvivalik",
-        noColorSelectedText: "Ühtki värvi pole valitud",
+        clearText: "TÃ¼hista vÃ¤rvivalik",
+        noColorSelectedText: "Ãhtki vÃ¤rvi pole valitud",
         togglePaletteMoreText: "Rohkem",
-        togglePaletteLessText: "Vähem"
+        togglePaletteLessText: "VÃ¤hem"
     };
 
  })( jQuery );
@@ -2547,12 +2547,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["fa"] = {
-        cancelText: "لغو",
-        chooseText: "انتخاب",
-        clearText: "تنظیم مجدد رنگ",
-        noColorSelectedText: "هیچ رنگی انتخاب نشده است!",
-        togglePaletteMoreText: "بیشتر",
-        togglePaletteLessText: "کمتر"
+        cancelText: "ÙØºÙ",
+        chooseText: "Ø§ÙØªØ®Ø§Ø¨",
+        clearText: "ØªÙØ¸ÛÙ ÙØ¬Ø¯Ø¯ Ø±ÙÚ¯",
+        noColorSelectedText: "ÙÛÚ Ø±ÙÚ¯Û Ø§ÙØªØ®Ø§Ø¨ ÙØ´Ø¯Ù Ø§Ø³Øª!",
+        togglePaletteMoreText: "Ø¨ÛØ´ØªØ±",
+        togglePaletteLessText: "Ú©ÙØªØ±"
     };
 
 })( jQuery );
@@ -2579,8 +2579,8 @@
     var localization = $.spectrum.localization["fr"] = {
         cancelText: "Annuler",
         chooseText: "Valider",
-        clearText: "Effacer couleur sélectionnée",
-        noColorSelectedText: "Aucune couleur sélectionnée",
+        clearText: "Effacer couleur sÃ©lectionnÃ©e",
+        noColorSelectedText: "Aucune couleur sÃ©lectionnÃ©e",
         togglePaletteMoreText: "Plus",
         togglePaletteLessText: "Moins"
     };
@@ -2594,12 +2594,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["gr"] = {
-        cancelText: "Ακύρωση",
-        chooseText: "Επιλογή",
-        clearText: "Καθαρισμός επιλεγμένου χρώματος",
-        noColorSelectedText: "Δεν έχει επιλεχθεί κάποιο χρώμα",
-        togglePaletteMoreText: "Περισσότερα",
-        togglePaletteLessText: "Λιγότερα"
+        cancelText: "ÎÎºÏÏÏÏÎ·",
+        chooseText: "ÎÏÎ¹Î»Î¿Î³Î®",
+        clearText: "ÎÎ±Î¸Î±ÏÎ¹ÏÎ¼ÏÏ ÎµÏÎ¹Î»ÎµÎ³Î¼Î­Î½Î¿Ï ÏÏÏÎ¼Î±ÏÎ¿Ï",
+        noColorSelectedText: "ÎÎµÎ½ Î­ÏÎµÎ¹ ÎµÏÎ¹Î»ÎµÏÎ¸ÎµÎ¯ ÎºÎ¬ÏÎ¿Î¹Î¿ ÏÏÏÎ¼Î±",
+        togglePaletteMoreText: "Î ÎµÏÎ¹ÏÏÏÏÎµÏÎ±",
+        togglePaletteLessText: "ÎÎ¹Î³ÏÏÎµÏÎ±"
     };
 
 })( jQuery );
@@ -2611,12 +2611,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["he"] = {
-        cancelText: "בטל בחירה",
-        chooseText: "בחר צבע",
-        clearText: "אפס בחירה",
-        noColorSelectedText: "לא נבחר צבע",
-        togglePaletteMoreText: "עוד צבעים",
-        togglePaletteLessText: "פחות צבעים"
+        cancelText: "××× ××××¨×",
+        chooseText: "×××¨ ×¦××¢",
+        clearText: "××¤×¡ ××××¨×",
+        noColorSelectedText: "×× × ×××¨ ×¦××¢",
+        togglePaletteMoreText: "×¢×× ×¦××¢××",
+        togglePaletteLessText: "×¤×××ª ×¦××¢××"
     };
 
 })( jQuery );
@@ -2630,9 +2630,9 @@
     var localization = $.spectrum.localization["hr"] = {
         cancelText: "Odustani",
         chooseText: "Odaberi",
-        clearText: "Poništi odabir",
+        clearText: "PoniÅ¡ti odabir",
         noColorSelectedText: "Niti jedna boja nije odabrana",
-        togglePaletteMoreText: "Više",
+        togglePaletteMoreText: "ViÅ¡e",
         togglePaletteLessText: "Manje"
     };
 
@@ -2645,11 +2645,11 @@
 (function ( $ ) {
 
   var localization = $.spectrum.localization["hu"] = {
-      cancelText: "Mégsem",
-      chooseText: "Mentés",
-      clearText: "A színválasztás visszaállítása",
-      noColorSelectedText: "Nincs szín kijelölve",
-      togglePaletteMoreText: "Több",
+      cancelText: "MÃ©gsem",
+      chooseText: "MentÃ©s",
+      clearText: "A szÃ­nvÃ¡lasztÃ¡s visszaÃ¡llÃ­tÃ¡sa",
+      noColorSelectedText: "Nincs szÃ­n kijelÃ¶lve",
+      togglePaletteMoreText: "TÃ¶bb",
       togglePaletteLessText: "Kevesebb"
   };
 
@@ -2694,8 +2694,8 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ja"] = {
-        cancelText: "中止",
-        chooseText: "選択"
+        cancelText: "ä¸­æ­¢",
+        chooseText: "é¸æ"
     };
 
 })( jQuery );
@@ -2707,12 +2707,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ko"] = {
-        cancelText: "취소",
-        chooseText: "선택",
-        clearText: "선택 초기화",
-        noColorSelectedText: "선택된 색상 없음",
-        togglePaletteMoreText: "더보기",
-        togglePaletteLessText: "줄이기"
+        cancelText: "ì·¨ì",
+        chooseText: "ì í",
+        clearText: "ì í ì´ê¸°í",
+        noColorSelectedText: "ì íë ìì ìì",
+        togglePaletteMoreText: "ëë³´ê¸°",
+        togglePaletteLessText: "ì¤ì´ê¸°"
     };
 
 })( jQuery );
@@ -2724,18 +2724,18 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["lt"] = {
-        cancelText: "Atšaukti",
+        cancelText: "AtÅ¡aukti",
         chooseText: "Pasirinkti",
-        clearText: "Išvalyti pasirinkimą",
+        clearText: "IÅ¡valyti pasirinkimÄ",
         noColorSelectedText: "Spalva nepasirinkta",
         togglePaletteMoreText: "Daugiau",
-        togglePaletteLessText: "Mažiau"
+        togglePaletteLessText: "MaÅ¾iau"
     };
 
 })( jQuery );
 
 // Spectrum Colorpicker
-// Norwegian, Bokmål (nb-no) localization
+// Norwegian, BokmÃ¥l (nb-no) localization
 // https://github.com/greendimka
 
 (function ( $ ) {
@@ -2776,9 +2776,9 @@
     var localization = $.spectrum.localization["pl"] = {
         cancelText: "Anuluj",
         chooseText: "Wybierz",
-        clearText: "Usuń wybór koloru",
+        clearText: "UsuÅ wybÃ³r koloru",
         noColorSelectedText: "Nie wybrano koloru",
-        togglePaletteMoreText: "Więcej",
+        togglePaletteMoreText: "WiÄcej",
         togglePaletteLessText: "Mniej"
     };
 
@@ -2825,12 +2825,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ru"] = {
-        cancelText: "Отмена",
-        chooseText: "Выбрать",
-        clearText: "Сбросить",
-        noColorSelectedText: "Цвет не выбран",
-        togglePaletteMoreText: "Ещё",
-        togglePaletteLessText: "Скрыть"
+        cancelText: "ÐÑÐ¼ÐµÐ½Ð°",
+        chooseText: "ÐÑÐ±ÑÐ°ÑÑ",
+        clearText: "Ð¡Ð±ÑÐ¾ÑÐ¸ÑÑ",
+        noColorSelectedText: "Ð¦Ð²ÐµÑ Ð½Ðµ Ð²ÑÐ±ÑÐ°Ð½",
+        togglePaletteMoreText: "ÐÑÑ",
+        togglePaletteLessText: "Ð¡ÐºÑÑÑÑ"
     };
 
 })( jQuery );
@@ -2843,7 +2843,7 @@
 
     var localization = $.spectrum.localization["sv"] = {
         cancelText: "Avbryt",
-        chooseText: "Välj"
+        chooseText: "VÃ¤lj"
     };
 
 })( jQuery );
@@ -2868,12 +2868,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["zh-cn"] = {
-        cancelText: "取消",
-        chooseText: "选择",
-        clearText: "清除",
-        togglePaletteMoreText: "更多选项",
-        togglePaletteLessText: "隐藏",
-        noColorSelectedText: "尚未选择任何颜色"
+        cancelText: "åæ¶",
+        chooseText: "éæ©",
+        clearText: "æ¸é¤",
+        togglePaletteMoreText: "æ´å¤éé¡¹",
+        togglePaletteLessText: "éè",
+        noColorSelectedText: "å°æªéæ©ä»»ä½é¢è²"
     };
 
 })( jQuery );
@@ -2885,12 +2885,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["zh-tw"] = {
-        cancelText: "取消",
-        chooseText: "選擇",
-        clearText: "清除",
-        togglePaletteMoreText: "更多選項",
-        togglePaletteLessText: "隱藏",
-        noColorSelectedText: "尚未選擇任何顏色"
+        cancelText: "åæ¶",
+        chooseText: "é¸æ",
+        clearText: "æ¸é¤",
+        togglePaletteMoreText: "æ´å¤é¸é ",
+        togglePaletteLessText: "é±è",
+        noColorSelectedText: "å°æªé¸æä»»ä½é¡è²"
     };
 
 })( jQuery );

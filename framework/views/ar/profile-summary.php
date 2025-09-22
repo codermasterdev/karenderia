@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			ملخص تقرير التنميط
-			(الزمن: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
-			الذاكرة: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			ÙÙØ®Øµ ØªÙØ±ÙØ± Ø§ÙØªÙÙÙØ·
+			(Ø§ÙØ²ÙÙ: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
+			Ø§ÙØ°Ø§ÙØ±Ø©: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>الإجراء</th>
-		<th>العدد</th>
-		<th>المجموع (ث)</th>
-		<th>المعدل (ث)</th>
-		<th>الأدنى (ث)</th>
-		<th>الأعلى (ث)</th>
+	    <th>Ø§ÙØ¥Ø¬Ø±Ø§Ø¡</th>
+		<th>Ø§ÙØ¹Ø¯Ø¯</th>
+		<th>Ø§ÙÙØ¬ÙÙØ¹ (Ø«)</th>
+		<th>Ø§ÙÙØ¹Ø¯Ù (Ø«)</th>
+		<th>Ø§ÙØ£Ø¯ÙÙ (Ø«)</th>
+		<th>Ø§ÙØ£Ø¹ÙÙ (Ø«)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

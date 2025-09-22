@@ -115,57 +115,57 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'sr-RS': {
       font: {
-        bold: 'Подебљано',
-        italic: 'Курзив',
-        underline: 'Подвучено',
-        clear: 'Уклони стилове фонта',
-        height: 'Висина линије',
+        bold: 'ÐÐ¾Ð´ÐµÐ±ÑÐ°Ð½Ð¾',
+        italic: 'ÐÑÑÐ·Ð¸Ð²',
+        underline: 'ÐÐ¾Ð´Ð²ÑÑÐµÐ½Ð¾',
+        clear: 'Ð£ÐºÐ»Ð¾Ð½Ð¸ ÑÑÐ¸Ð»Ð¾Ð²Ðµ ÑÐ¾Ð½ÑÐ°',
+        height: 'ÐÐ¸ÑÐ¸Ð½Ð° Ð»Ð¸Ð½Ð¸ÑÐµ',
         name: 'Font Family',
-        strikethrough: 'Прецртано',
+        strikethrough: 'ÐÑÐµÑÑÑÐ°Ð½Ð¾',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Величина фонта'
+        size: 'ÐÐµÐ»Ð¸ÑÐ¸Ð½Ð° ÑÐ¾Ð½ÑÐ°'
       },
       image: {
-        image: 'Слика',
-        insert: 'Уметни слику',
-        resizeFull: 'Пуна величина',
-        resizeHalf: 'Умањи на 50%',
-        resizeQuarter: 'Умањи на 25%',
-        floatLeft: 'Уз леву ивицу',
-        floatRight: 'Уз десну ивицу',
-        floatNone: 'Без равнања',
+        image: 'Ð¡Ð»Ð¸ÐºÐ°',
+        insert: 'Ð£Ð¼ÐµÑÐ½Ð¸ ÑÐ»Ð¸ÐºÑ',
+        resizeFull: 'ÐÑÐ½Ð° Ð²ÐµÐ»Ð¸ÑÐ¸Ð½Ð°',
+        resizeHalf: 'Ð£Ð¼Ð°ÑÐ¸ Ð½Ð° 50%',
+        resizeQuarter: 'Ð£Ð¼Ð°ÑÐ¸ Ð½Ð° 25%',
+        floatLeft: 'Ð£Ð· Ð»ÐµÐ²Ñ Ð¸Ð²Ð¸ÑÑ',
+        floatRight: 'Ð£Ð· Ð´ÐµÑÐ½Ñ Ð¸Ð²Ð¸ÑÑ',
+        floatNone: 'ÐÐµÐ· ÑÐ°Ð²Ð½Ð°ÑÐ°',
         shapeRounded: 'Shape: Rounded',
         shapeCircle: 'Shape: Circle',
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
-        dragImageHere: 'Превуци слику овде',
+        dragImageHere: 'ÐÑÐµÐ²ÑÑÐ¸ ÑÐ»Ð¸ÐºÑ Ð¾Ð²Ð´Ðµ',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'Изабери из датотеке',
+        selectFromFiles: 'ÐÐ·Ð°Ð±ÐµÑÐ¸ Ð¸Ð· Ð´Ð°ÑÐ¾ÑÐµÐºÐµ',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        url: 'Адреса слике',
-        remove: 'Уклони слику',
+        url: 'ÐÐ´ÑÐµÑÐ° ÑÐ»Ð¸ÐºÐµ',
+        remove: 'Ð£ÐºÐ»Ð¾Ð½Ð¸ ÑÐ»Ð¸ÐºÑ',
         original: 'Original'
       },
       video: {
-        video: 'Видео',
-        videoLink: 'Веза ка видеу',
-        insert: 'Уметни видео',
-        url: 'URL видео',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion или Youku)'
+        video: 'ÐÐ¸Ð´ÐµÐ¾',
+        videoLink: 'ÐÐµÐ·Ð° ÐºÐ° Ð²Ð¸Ð´ÐµÑ',
+        insert: 'Ð£Ð¼ÐµÑÐ½Ð¸ Ð²Ð¸Ð´ÐµÐ¾',
+        url: 'URL Ð²Ð¸Ð´ÐµÐ¾',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion Ð¸Ð»Ð¸ Youku)'
       },
       link: {
-        link: 'Веза',
-        insert: 'Уметни везу',
-        unlink: 'Уклони везу',
-        edit: 'Уреди',
-        textToDisplay: 'Текст за приказ',
-        url: 'Интернет адреса',
-        openInNewWindow: 'Отвори у новом прозору'
+        link: 'ÐÐµÐ·Ð°',
+        insert: 'Ð£Ð¼ÐµÑÐ½Ð¸ Ð²ÐµÐ·Ñ',
+        unlink: 'Ð£ÐºÐ»Ð¾Ð½Ð¸ Ð²ÐµÐ·Ñ',
+        edit: 'Ð£ÑÐµÐ´Ð¸',
+        textToDisplay: 'Ð¢ÐµÐºÑÑ Ð·Ð° Ð¿ÑÐ¸ÐºÐ°Ð·',
+        url: 'ÐÐ½ÑÐµÑÐ½ÐµÑ Ð°Ð´ÑÐµÑÐ°',
+        openInNewWindow: 'ÐÑÐ²Ð¾ÑÐ¸ Ñ Ð½Ð¾Ð²Ð¾Ð¼ Ð¿ÑÐ¾Ð·Ð¾ÑÑ'
       },
       table: {
-        table: 'Табела',
+        table: 'Ð¢Ð°Ð±ÐµÐ»Ð°',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -175,56 +175,56 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Уметни хоризонталну линију'
+        insert: 'Ð£Ð¼ÐµÑÐ½Ð¸ ÑÐ¾ÑÐ¸Ð·Ð¾Ð½ÑÐ°Ð»Ð½Ñ Ð»Ð¸Ð½Ð¸ÑÑ'
       },
       style: {
-        style: 'Стил',
-        p: 'Нормални',
-        blockquote: 'Цитат',
-        pre: 'Код',
-        h1: 'Заглавље 1',
-        h2: 'Заглавље 2',
-        h3: 'Заглавље 3',
-        h4: 'Заглавље 4',
-        h5: 'Заглавље 5',
-        h6: 'Заглавље 6'
+        style: 'Ð¡ÑÐ¸Ð»',
+        p: 'ÐÐ¾ÑÐ¼Ð°Ð»Ð½Ð¸',
+        blockquote: 'Ð¦Ð¸ÑÐ°Ñ',
+        pre: 'ÐÐ¾Ð´',
+        h1: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 1',
+        h2: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 2',
+        h3: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 3',
+        h4: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 4',
+        h5: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 5',
+        h6: 'ÐÐ°Ð³Ð»Ð°Ð²ÑÐµ 6'
       },
       lists: {
-        unordered: 'Обична листа',
-        ordered: 'Нумерисана листа'
+        unordered: 'ÐÐ±Ð¸ÑÐ½Ð° Ð»Ð¸ÑÑÐ°',
+        ordered: 'ÐÑÐ¼ÐµÑÐ¸ÑÐ°Ð½Ð° Ð»Ð¸ÑÑÐ°'
       },
       options: {
-        help: 'Помоћ',
-        fullscreen: 'Преко целог екрана',
-        codeview: 'Изворни код'
+        help: 'ÐÐ¾Ð¼Ð¾Ñ',
+        fullscreen: 'ÐÑÐµÐºÐ¾ ÑÐµÐ»Ð¾Ð³ ÐµÐºÑÐ°Ð½Ð°',
+        codeview: 'ÐÐ·Ð²Ð¾ÑÐ½Ð¸ ÐºÐ¾Ð´'
       },
       paragraph: {
-        paragraph: 'Параграф',
-        outdent: 'Смањи увлачење',
-        indent: 'Повечај увлачење',
-        left: 'Поравнај у лево',
-        center: 'Центрирано',
-        right: 'Поравнај у десно',
-        justify: 'Поравнај обострано'
+        paragraph: 'ÐÐ°ÑÐ°Ð³ÑÐ°Ñ',
+        outdent: 'Ð¡Ð¼Ð°ÑÐ¸ ÑÐ²Ð»Ð°ÑÐµÑÐµ',
+        indent: 'ÐÐ¾Ð²ÐµÑÐ°Ñ ÑÐ²Ð»Ð°ÑÐµÑÐµ',
+        left: 'ÐÐ¾ÑÐ°Ð²Ð½Ð°Ñ Ñ Ð»ÐµÐ²Ð¾',
+        center: 'Ð¦ÐµÐ½ÑÑÐ¸ÑÐ°Ð½Ð¾',
+        right: 'ÐÐ¾ÑÐ°Ð²Ð½Ð°Ñ Ñ Ð´ÐµÑÐ½Ð¾',
+        justify: 'ÐÐ¾ÑÐ°Ð²Ð½Ð°Ñ Ð¾Ð±Ð¾ÑÑÑÐ°Ð½Ð¾'
       },
       color: {
-        recent: 'Последња боја',
-        more: 'Више боја',
-        background: 'Боја позадине',
-        foreground: 'Боја текста',
-        transparent: 'Провидна',
-        setTransparent: 'Провидна',
-        reset: 'Опозив',
-        resetToDefault: 'Подразумевана'
+        recent: 'ÐÐ¾ÑÐ»ÐµÐ´ÑÐ° Ð±Ð¾ÑÐ°',
+        more: 'ÐÐ¸ÑÐµ Ð±Ð¾ÑÐ°',
+        background: 'ÐÐ¾ÑÐ° Ð¿Ð¾Ð·Ð°Ð´Ð¸Ð½Ðµ',
+        foreground: 'ÐÐ¾ÑÐ° ÑÐµÐºÑÑÐ°',
+        transparent: 'ÐÑÐ¾Ð²Ð¸Ð´Ð½Ð°',
+        setTransparent: 'ÐÑÐ¾Ð²Ð¸Ð´Ð½Ð°',
+        reset: 'ÐÐ¿Ð¾Ð·Ð¸Ð²',
+        resetToDefault: 'ÐÐ¾Ð´ÑÐ°Ð·ÑÐ¼ÐµÐ²Ð°Ð½Ð°'
       },
       shortcut: {
-        shortcuts: 'Пречице са тастатуре',
-        close: 'Затвори',
-        textFormatting: 'Форматирање текста',
-        action: 'Акција',
-        paragraphFormatting: 'Форматирање параграфа',
-        documentStyle: 'Стил документа',
-        extraKeys: 'Додатне комбинације'
+        shortcuts: 'ÐÑÐµÑÐ¸ÑÐµ ÑÐ° ÑÐ°ÑÑÐ°ÑÑÑÐµ',
+        close: 'ÐÐ°ÑÐ²Ð¾ÑÐ¸',
+        textFormatting: 'Ð¤Ð¾ÑÐ¼Ð°ÑÐ¸ÑÐ°ÑÐµ ÑÐµÐºÑÑÐ°',
+        action: 'ÐÐºÑÐ¸ÑÐ°',
+        paragraphFormatting: 'Ð¤Ð¾ÑÐ¼Ð°ÑÐ¸ÑÐ°ÑÐµ Ð¿Ð°ÑÐ°Ð³ÑÐ°ÑÐ°',
+        documentStyle: 'Ð¡ÑÐ¸Ð» Ð´Ð¾ÐºÑÐ¼ÐµÐ½ÑÐ°',
+        extraKeys: 'ÐÐ¾Ð´Ð°ÑÐ½Ðµ ÐºÐ¾Ð¼Ð±Ð¸Ð½Ð°ÑÐ¸ÑÐµ'
       },
       help: {
         'insertParagraph': 'Insert Paragraph',
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Поништи',
-        redo: 'Понови'
+        undo: 'ÐÐ¾Ð½Ð¸ÑÑÐ¸',
+        redo: 'ÐÐ¾Ð½Ð¾Ð²Ð¸'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

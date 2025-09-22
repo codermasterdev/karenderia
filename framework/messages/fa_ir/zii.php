@@ -16,22 +16,22 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Are you sure you want to delete this item?' => 'آیا از حذف این آیتم اطمینان دارید؟',
-  'Delete' => 'حذف',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'نمایش {start}-{end} از {count} نتیجه ',
-  'Either "name" or "value" must be specified for CDataColumn.' => '"name" و "value" هردو برای CDataColumn باید مشخص شوند.',
-  'No results found.' => 'نتیجه ای یافت نشد.',
-  'Not set' => 'تنظیم نشده',
-  'Please specify the "attributes" property.' => 'لطفا تنظیمات "attributes" را مشخص کنید.',
-  'Please specify the "data" property.' => 'لطفا تنظیمات "attributes" را مشخص کنید.',
-  'Sort by: ' => 'مرتب سازی بر اساس: ',
-  'The "dataProvider" property cannot be empty.' => 'تنظیمات "dataProvider" نباید خالی باشد.',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'attribute (تنظیمات) می بایست به  صورت  "Name:Type:Label" باشد که  "Type" و "Label" اختیاری است.',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'ستون می بایست به صورت "Name:Type:Label" مشخص شود که در آن "Type" و "Label" اختیاری می باشند.',
-  'The property "itemView" cannot be empty.' => 'تنظیمات "itemView" نباید خالی باشند.',
-  'Total 1 result.|Total {count} results.' => 'مجموع {count} نتیجه',
-  'Update' => 'به روز رسانی',
-  'View' => 'مشاهده',
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} می بایست مقادیر  "model" و  "attribute"  یا "name" را مشخص کرده باشد.',
-  'Home' => 'صفحه اول',
+  'Are you sure you want to delete this item?' => 'Ø¢ÛØ§ Ø§Ø² Ø­Ø°Ù Ø§ÛÙ Ø¢ÛØªÙ Ø§Ø·ÙÛÙØ§Ù Ø¯Ø§Ø±ÛØ¯Ø',
+  'Delete' => 'Ø­Ø°Ù',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'ÙÙØ§ÛØ´ {start}-{end} Ø§Ø² {count} ÙØªÛØ¬Ù ',
+  'Either "name" or "value" must be specified for CDataColumn.' => '"name" Ù "value" ÙØ±Ø¯Ù Ø¨Ø±Ø§Û CDataColumn Ø¨Ø§ÛØ¯ ÙØ´Ø®Øµ Ø´ÙÙØ¯.',
+  'No results found.' => 'ÙØªÛØ¬Ù Ø§Û ÛØ§ÙØª ÙØ´Ø¯.',
+  'Not set' => 'ØªÙØ¸ÛÙ ÙØ´Ø¯Ù',
+  'Please specify the "attributes" property.' => 'ÙØ·ÙØ§ ØªÙØ¸ÛÙØ§Øª "attributes" Ø±Ø§ ÙØ´Ø®Øµ Ú©ÙÛØ¯.',
+  'Please specify the "data" property.' => 'ÙØ·ÙØ§ ØªÙØ¸ÛÙØ§Øª "attributes" Ø±Ø§ ÙØ´Ø®Øµ Ú©ÙÛØ¯.',
+  'Sort by: ' => 'ÙØ±ØªØ¨ Ø³Ø§Ø²Û Ø¨Ø± Ø§Ø³Ø§Ø³: ',
+  'The "dataProvider" property cannot be empty.' => 'ØªÙØ¸ÛÙØ§Øª "dataProvider" ÙØ¨Ø§ÛØ¯ Ø®Ø§ÙÛ Ø¨Ø§Ø´Ø¯.',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'attribute (ØªÙØ¸ÛÙØ§Øª) ÙÛ Ø¨Ø§ÛØ³Øª Ø¨Ù  ØµÙØ±Øª  "Name:Type:Label" Ø¨Ø§Ø´Ø¯ Ú©Ù  "Type" Ù "Label" Ø§Ø®ØªÛØ§Ø±Û Ø§Ø³Øª.',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Ø³ØªÙÙ ÙÛ Ø¨Ø§ÛØ³Øª Ø¨Ù ØµÙØ±Øª "Name:Type:Label" ÙØ´Ø®Øµ Ø´ÙØ¯ Ú©Ù Ø¯Ø± Ø¢Ù "Type" Ù "Label" Ø§Ø®ØªÛØ§Ø±Û ÙÛ Ø¨Ø§Ø´ÙØ¯.',
+  'The property "itemView" cannot be empty.' => 'ØªÙØ¸ÛÙØ§Øª "itemView" ÙØ¨Ø§ÛØ¯ Ø®Ø§ÙÛ Ø¨Ø§Ø´ÙØ¯.',
+  'Total 1 result.|Total {count} results.' => 'ÙØ¬ÙÙØ¹ {count} ÙØªÛØ¬Ù',
+  'Update' => 'Ø¨Ù Ø±ÙØ² Ø±Ø³Ø§ÙÛ',
+  'View' => 'ÙØ´Ø§ÙØ¯Ù',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} ÙÛ Ø¨Ø§ÛØ³Øª ÙÙØ§Ø¯ÛØ±  "model" Ù  "attribute"  ÛØ§ "name" Ø±Ø§ ÙØ´Ø®Øµ Ú©Ø±Ø¯Ù Ø¨Ø§Ø´Ø¯.',
+  'Home' => 'ØµÙØ­Ù Ø§ÙÙ',
 );

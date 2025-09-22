@@ -5,11 +5,11 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ca"] = {
-        cancelText: "Cancel·lar",
+        cancelText: "CancelÂ·lar",
         chooseText: "Escollir",
         clearText: "Esborrar color seleccionat",
         noColorSelectedText: "Cap color seleccionat",
-        togglePaletteMoreText: "Més",
+        togglePaletteMoreText: "MÃ©s",
         togglePaletteLessText: "Menys"
     };
 

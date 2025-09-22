@@ -8,18 +8,18 @@ FullCalendar.globalLocales.push(function () {
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'පෙර',
-      next: 'පසු',
-      today: 'අද',
-      month: 'මාසය',
-      week: 'සතිය',
-      day: 'දවස',
-      list: 'ලැයිස්තුව',
+      prev: 'à¶´à·à¶»',
+      next: 'à¶´à·à·',
+      today: 'à¶à¶¯',
+      month: 'à¶¸à·à·à¶º',
+      week: 'à·à¶­à·à¶º',
+      day: 'à¶¯à·à·',
+      list: 'à¶½à·à¶ºà·à·à·à¶­à·à·',
     },
-    weekText: 'සති',
-    allDayText: 'සියලු',
-    moreLinkText: 'තවත්',
-    noEventsText: 'මුකුත් නැත',
+    weekText: 'à·à¶­à·',
+    allDayText: 'à·à·à¶ºà¶½à·',
+    moreLinkText: 'à¶­à·à¶­à·',
+    noEventsText: 'à¶¸à·à¶à·à¶­à· à¶±à·à¶­',
   };
 
   return siLk;

@@ -39,7 +39,7 @@ require_once dirname(__FILE__).'/IDNA2/Exception/Nameprep.php';
  * simple strings and complete email addresses as well. That means, that you might
  * use any of the following notations:
  *
- * - www.n�rgler.com
+ * - www.nï¿½rgler.com
  * - xn--nrgler-wxa
  * - xn--brse-5qa.xn--knrz-1ra.info
  *

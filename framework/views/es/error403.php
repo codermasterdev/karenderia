@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>No Autorizado</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-No tiene los permisos necesarios para acceder a esta página.
+No tiene los permisos necesarios para acceder a esta pÃ¡gina.
 </p>
 <p>
 Si piensa que este es un error del servidor, por favor contacte a <?php echo $data['admin']; ?>.

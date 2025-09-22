@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Ошибка <?php echo $data['code']; ?></title>
+<title>ÐÑÐ¸Ð±ÐºÐ° <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Ошибка <?php echo $data['code']; ?></h1>
+<h1>ÐÑÐ¸Ð±ÐºÐ° <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-При обработке веб-сервером вашего запроса произошла указанная выше ошибка.
+ÐÑÐ¸ Ð¾Ð±ÑÐ°Ð±Ð¾ÑÐºÐµ Ð²ÐµÐ±-ÑÐµÑÐ²ÐµÑÐ¾Ð¼ Ð²Ð°ÑÐµÐ³Ð¾ Ð·Ð°Ð¿ÑÐ¾ÑÐ° Ð¿ÑÐ¾Ð¸Ð·Ð¾ÑÐ»Ð° ÑÐºÐ°Ð·Ð°Ð½Ð½Ð°Ñ Ð²ÑÑÐµ Ð¾ÑÐ¸Ð±ÐºÐ°.
 </p>
 <p>
-Если вы считаете, что это ошибка настройки сервера, обратитесь по адресу <?php echo $data['admin']; ?>.
+ÐÑÐ»Ð¸ Ð²Ñ ÑÑÐ¸ÑÐ°ÐµÑÐµ, ÑÑÐ¾ ÑÑÐ¾ Ð¾ÑÐ¸Ð±ÐºÐ° Ð½Ð°ÑÑÑÐ¾Ð¹ÐºÐ¸ ÑÐµÑÐ²ÐµÑÐ°, Ð¾Ð±ÑÐ°ÑÐ¸ÑÐµÑÑ Ð¿Ð¾ Ð°Ð´ÑÐµÑÑ <?php echo $data['admin']; ?>.
 </p>
 <p>
-Спасибо.
+Ð¡Ð¿Ð°ÑÐ¸Ð±Ð¾.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

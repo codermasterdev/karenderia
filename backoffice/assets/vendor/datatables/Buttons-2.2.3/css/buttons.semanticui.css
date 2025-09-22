@@ -299,7 +299,7 @@ div.dt-button-collection div.dt-btn-split-wrapper button.dt-btn-split-drop {
 
 button.buttons-collection.ui.button span:after {
   display: inline-block;
-  content: "▾";
+  content: "â¾";
   padding-left: 0.5em;
 }
 

@@ -14,7 +14,7 @@ namespace Symfony\Component\Validator\Constraints;
 /**
  * Validates that a value is a positive number or equal to zero.
  *
- * @author Jan Schädlich <jan.schaedlich@sensiolabs.de>
+ * @author Jan SchÃ¤dlich <jan.schaedlich@sensiolabs.de>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class PositiveOrZero extends GreaterThanOrEqual

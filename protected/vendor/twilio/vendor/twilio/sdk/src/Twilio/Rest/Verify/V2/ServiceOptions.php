@@ -27,9 +27,9 @@ abstract class ServiceOptions
      * @param bool $dtmfInputRequired Whether to ask the user to press a number before delivering the verify code in a phone call.
      * @param string $ttsName The name of an alternative text-to-speech service to use in phone calls. Applies only to TTS languages.
      * @param bool $psd2Enabled Whether to pass PSD2 transaction parameters when starting a verification.
-     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Don’t share this code with anyone; our employees will never ask for the code`
+     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Donât share this code with anyone; our employees will never ask for the code`
      * @param bool $customCodeEnabled Whether to allow sending verifications with a custom code instead of a randomly generated one.
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
      * @param string $pushApnCredentialSid Optional configuration for the Push factors. Set the APN Credential for this service. This will allow to send push notifications to iOS devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $pushFcmCredentialSid Optional configuration for the Push factors. Set the FCM Credential for this service. This will allow to send push notifications to Android devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $totpIssuer Optional configuration for the TOTP factors. Set TOTP Issuer for this service. This will allow to configure the issuer of the TOTP URI. Defaults to the service friendly name if not provided.
@@ -102,7 +102,7 @@ abstract class ServiceOptions
      * @param bool $psd2Enabled Whether to pass PSD2 transaction parameters when starting a verification.
      * @param bool $doNotShareWarningEnabled Whether to add a privacy warning at the end of an SMS. **Disabled by default and applies only for SMS.**
      * @param bool $customCodeEnabled Whether to allow sending verifications with a custom code instead of a randomly generated one.
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter.
      * @param string $pushApnCredentialSid Optional configuration for the Push factors. Set the APN Credential for this service. This will allow to send push notifications to iOS devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $pushFcmCredentialSid Optional configuration for the Push factors. Set the FCM Credential for this service. This will allow to send push notifications to Android devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $totpIssuer Optional configuration for the TOTP factors. Set TOTP Issuer for this service. This will allow to configure the issuer of the TOTP URI.
@@ -175,9 +175,9 @@ class CreateServiceOptions extends Options
      * @param bool $dtmfInputRequired Whether to ask the user to press a number before delivering the verify code in a phone call.
      * @param string $ttsName The name of an alternative text-to-speech service to use in phone calls. Applies only to TTS languages.
      * @param bool $psd2Enabled Whether to pass PSD2 transaction parameters when starting a verification.
-     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Don’t share this code with anyone; our employees will never ask for the code`
+     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Donât share this code with anyone; our employees will never ask for the code`
      * @param bool $customCodeEnabled Whether to allow sending verifications with a custom code instead of a randomly generated one.
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
      * @param string $pushApnCredentialSid Optional configuration for the Push factors. Set the APN Credential for this service. This will allow to send push notifications to iOS devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $pushFcmCredentialSid Optional configuration for the Push factors. Set the FCM Credential for this service. This will allow to send push notifications to Android devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $totpIssuer Optional configuration for the TOTP factors. Set TOTP Issuer for this service. This will allow to configure the issuer of the TOTP URI. Defaults to the service friendly name if not provided.
@@ -306,9 +306,9 @@ class CreateServiceOptions extends Options
     }
 
     /**
-     * Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Don’t share this code with anyone; our employees will never ask for the code`
+     * Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Donât share this code with anyone; our employees will never ask for the code`
      *
-     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Don’t share this code with anyone; our employees will never ask for the code`
+     * @param bool $doNotShareWarningEnabled Whether to add a security warning at the end of an SMS verification body. Disabled by default and applies only to SMS. Example SMS body: `Your AppName verification code is: 1234. Donât share this code with anyone; our employees will never ask for the code`
      * @return $this Fluent Builder
      */
     public function setDoNotShareWarningEnabled(bool $doNotShareWarningEnabled): self
@@ -330,9 +330,9 @@ class CreateServiceOptions extends Options
     }
 
     /**
-     * Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
+     * Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
      *
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter. This timestamp value is the same one as the one found in `date_created`, please use that one instead.
      * @return $this Fluent Builder
      */
     public function setPushIncludeDate(bool $pushIncludeDate): self
@@ -488,7 +488,7 @@ class UpdateServiceOptions extends Options
      * @param bool $psd2Enabled Whether to pass PSD2 transaction parameters when starting a verification.
      * @param bool $doNotShareWarningEnabled Whether to add a privacy warning at the end of an SMS. **Disabled by default and applies only for SMS.**
      * @param bool $customCodeEnabled Whether to allow sending verifications with a custom code instead of a randomly generated one.
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter.
      * @param string $pushApnCredentialSid Optional configuration for the Push factors. Set the APN Credential for this service. This will allow to send push notifications to iOS devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $pushFcmCredentialSid Optional configuration for the Push factors. Set the FCM Credential for this service. This will allow to send push notifications to Android devices. See [Credential Resource](https://www.twilio.com/docs/notify/api/credential-resource)
      * @param string $totpIssuer Optional configuration for the TOTP factors. Set TOTP Issuer for this service. This will allow to configure the issuer of the TOTP URI.
@@ -655,9 +655,9 @@ class UpdateServiceOptions extends Options
     }
 
     /**
-     * Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter.
+     * Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter.
      *
-     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resource’s details parameter for more info. Default: false. **Deprecated** do not use this parameter.
+     * @param bool $pushIncludeDate Optional configuration for the Push factors. If true, include the date in the Challenge's response. Otherwise, the date is omitted from the response. See [Challenge](https://www.twilio.com/docs/verify/api/challenge) resourceâs details parameter for more info. Default: false. **Deprecated** do not use this parameter.
      * @return $this Fluent Builder
      */
     public function setPushIncludeDate(bool $pushIncludeDate): self

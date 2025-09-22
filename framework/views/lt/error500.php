@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lt" lang="lt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Vidinė serverio klaida</title>
+<title>VidinÄ serverio klaida</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Vidinė serverio klaida</h1>
+<h1>VidinÄ serverio klaida</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Apdorojant Jūsų užklausą įvyko vidinė serverio klaida.
-Prašytume susisiekti <?php echo $data['admin']; ?> ir pranešti apie šią klaidą.
+Apdorojant JÅ«sÅ³ uÅ¾klausÄ Ä¯vyko vidinÄ serverio klaida.
+PraÅ¡ytume susisiekti <?php echo $data['admin']; ?> ir praneÅ¡ti apie Å¡iÄ klaidÄ.
 </p>
 <p>
-Ačiū.
+AÄiÅ«.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

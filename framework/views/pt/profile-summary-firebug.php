@@ -3,7 +3,7 @@
 if(typeof(console)=='object')
 {
 	console.group("Relatorio Resumido de Profiling ");
-	console.log(" contagem   total   média    min      max   ");
+	console.log(" contagem   total   mÃ©dia    min      max   ");
 <?php
 foreach($data as $index=>$entry)
 {

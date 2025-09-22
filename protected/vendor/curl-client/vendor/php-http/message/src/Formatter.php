@@ -8,7 +8,7 @@ use Psr\Http\Message\ResponseInterface;
 /**
  * Formats a request and/or a response as a string.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  *
  * The formatResponseForRequest method will be added to this interface in the next major version, replacing the formatRequest method.
  * Meanwhile, callers SHOULD check the formatter for the existence of formatResponseForRequest and call that if available.

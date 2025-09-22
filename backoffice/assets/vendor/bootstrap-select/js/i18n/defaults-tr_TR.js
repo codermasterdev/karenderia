@@ -24,19 +24,19 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Hiçbiri seçilmedi',
-    noneResultsText: 'Hiçbir sonuç bulunamadı {0}',
+    noneSelectedText: 'HiÃ§biri seÃ§ilmedi',
+    noneResultsText: 'HiÃ§bir sonuÃ§ bulunamadÄ± {0}',
     countSelectedText: function (numSelected, numTotal) {
-      return (numSelected == 1) ? '{0} öğe seçildi' : '{0} öğe seçildi';
+      return (numSelected == 1) ? '{0} Ã¶Äe seÃ§ildi' : '{0} Ã¶Äe seÃ§ildi';
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
-        (numAll == 1) ? 'Limit aşıldı (maksimum {n} sayıda öğe )' : 'Limit aşıldı (maksimum {n} sayıda öğe)',
-        (numGroup == 1) ? 'Grup limiti aşıldı (maksimum {n} sayıda öğe)' : 'Grup limiti aşıldı (maksimum {n} sayıda öğe)'
+        (numAll == 1) ? 'Limit aÅÄ±ldÄ± (maksimum {n} sayÄ±da Ã¶Äe )' : 'Limit aÅÄ±ldÄ± (maksimum {n} sayÄ±da Ã¶Äe)',
+        (numGroup == 1) ? 'Grup limiti aÅÄ±ldÄ± (maksimum {n} sayÄ±da Ã¶Äe)' : 'Grup limiti aÅÄ±ldÄ± (maksimum {n} sayÄ±da Ã¶Äe)'
       ];
     },
-    selectAllText: 'Tümünü Seç',
-    deselectAllText: 'Seçiniz',
+    selectAllText: 'TÃ¼mÃ¼nÃ¼ SeÃ§',
+    deselectAllText: 'SeÃ§iniz',
     multipleSeparator: ', '
   };
 })(jQuery);

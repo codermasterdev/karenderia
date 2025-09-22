@@ -20,12 +20,12 @@ final class TextDumper extends BaseDumper
 {
     protected function formatTemplate(Profile $profile, $prefix): string
     {
-        return sprintf('%s└ %s', $prefix, $profile->getTemplate());
+        return sprintf('%sâ %s', $prefix, $profile->getTemplate());
     }
 
     protected function formatNonTemplate(Profile $profile, $prefix): string
     {
-        return sprintf('%s└ %s::%s(%s)', $prefix, $profile->getTemplate(), $profile->getType(), $profile->getName());
+        return sprintf('%sâ %s::%s(%s)', $prefix, $profile->getTemplate(), $profile->getType(), $profile->getName());
     }
 
     protected function formatTime(Profile $profile, $percent): string

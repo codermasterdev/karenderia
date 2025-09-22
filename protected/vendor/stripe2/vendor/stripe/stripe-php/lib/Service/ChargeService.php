@@ -11,7 +11,7 @@ namespace Stripe\Service;
 class ChargeService extends \Stripe\Service\AbstractService
 {
     /**
-     * Returns a list of charges you’ve previously created. The charges are returned in
+     * Returns a list of charges youâve previously created. The charges are returned in
      * sorted order, with the most recent charges appearing first.
      *
      * @param null|array $params
@@ -34,7 +34,7 @@ class ChargeService extends \Stripe\Service\AbstractService
      * href="/docs/charges/placing-a-hold">7 by default</a>), after which they are
      * marked as refunded and capture attempts will fail.
      *
-     * Don’t use this method to capture a PaymentIntent-initiated charge. Use <a
+     * Donât use this method to capture a PaymentIntent-initiated charge. Use <a
      * href="/docs/api/payment_intents/capture">Capture a PaymentIntent</a>.
      *
      * @param string $id
@@ -51,7 +51,7 @@ class ChargeService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * This method is no longer recommended—use the <a
+     * This method is no longer recommendedâuse the <a
      * href="/docs/api/payment_intents">Payment Intents API</a> to initiate a new
      * payment instead. Confirmation of the PaymentIntent creates the
      * <code>Charge</code> object used to request payment.
@@ -88,8 +88,8 @@ class ChargeService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Search for charges you’ve previously created using Stripe’s <a
-     * href="/docs/search#search-query-language">Search Query Language</a>. Don’t use
+     * Search for charges youâve previously created using Stripeâs <a
+     * href="/docs/search#search-query-language">Search Query Language</a>. Donât use
      * search in read-after-write flows where strict consistency is necessary. Under
      * normal operating conditions, data is searchable in less than a minute.
      * Occasionally, propagation of new or updated data can be up to an hour behind

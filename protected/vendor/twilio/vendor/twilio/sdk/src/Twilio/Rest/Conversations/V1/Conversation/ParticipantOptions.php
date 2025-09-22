@@ -84,8 +84,8 @@ abstract class ParticipantOptions
      * @param string $messagingBindingProxyAddress The address of the Twilio phone number that the participant is in contact with. 'null' value will remove it.
      * @param string $messagingBindingProjectedAddress The address of the Twilio phone number that is used in Group MMS. 'null' value will remove it.
      * @param string $identity A unique string identifier for the conversation participant as [Conversation User](https://www.twilio.com/docs/conversations/api/user-resource). This parameter is non-null if (and only if) the participant is using the Conversations SDK to communicate. Limited to 256 characters.
-     * @param int $lastReadMessageIndex Index of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
-     * @param string $lastReadTimestamp Timestamp of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param int $lastReadMessageIndex Index of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param string $lastReadTimestamp Timestamp of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      * @param string $xTwilioWebhookEnabled The X-Twilio-Webhook-Enabled HTTP request header
      * @return UpdateParticipantOptions Options builder
      */
@@ -326,8 +326,8 @@ class UpdateParticipantOptions extends Options
      * @param string $messagingBindingProxyAddress The address of the Twilio phone number that the participant is in contact with. 'null' value will remove it.
      * @param string $messagingBindingProjectedAddress The address of the Twilio phone number that is used in Group MMS. 'null' value will remove it.
      * @param string $identity A unique string identifier for the conversation participant as [Conversation User](https://www.twilio.com/docs/conversations/api/user-resource). This parameter is non-null if (and only if) the participant is using the Conversations SDK to communicate. Limited to 256 characters.
-     * @param int $lastReadMessageIndex Index of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
-     * @param string $lastReadTimestamp Timestamp of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param int $lastReadMessageIndex Index of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param string $lastReadTimestamp Timestamp of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      * @param string $xTwilioWebhookEnabled The X-Twilio-Webhook-Enabled HTTP request header
      */
     public function __construct(
@@ -441,9 +441,9 @@ class UpdateParticipantOptions extends Options
     }
 
     /**
-     * Index of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * Index of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      *
-     * @param int $lastReadMessageIndex Index of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param int $lastReadMessageIndex Index of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      * @return $this Fluent Builder
      */
     public function setLastReadMessageIndex(int $lastReadMessageIndex): self
@@ -453,9 +453,9 @@ class UpdateParticipantOptions extends Options
     }
 
     /**
-     * Timestamp of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * Timestamp of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      *
-     * @param string $lastReadTimestamp Timestamp of last “read” message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
+     * @param string $lastReadTimestamp Timestamp of last âreadâ message in the [Conversation](https://www.twilio.com/docs/conversations/api/conversation-resource) for the Participant.
      * @return $this Fluent Builder
      */
     public function setLastReadTimestamp(string $lastReadTimestamp): self

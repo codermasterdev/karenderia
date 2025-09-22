@@ -115,155 +115,155 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'ko-KR': {
       font: {
-        bold: '굵게',
-        italic: '기울임꼴',
-        underline: '밑줄',
-        clear: '서식 지우기',
-        height: '줄 간격',
-        name: '글꼴',
-        superscript: '위 첨자',
-        subscript: '아래 첨자',
-        strikethrough: '취소선',
-        size: '글자 크기'
+        bold: 'êµµê²',
+        italic: 'ê¸°ì¸ìê¼´',
+        underline: 'ë°ì¤',
+        clear: 'ìì ì§ì°ê¸°',
+        height: 'ì¤ ê°ê²©',
+        name: 'ê¸ê¼´',
+        superscript: 'ì ì²¨ì',
+        subscript: 'ìë ì²¨ì',
+        strikethrough: 'ì·¨ìì ',
+        size: 'ê¸ì í¬ê¸°'
       },
       image: {
-        image: '그림',
-        insert: '그림 삽입',
-        resizeFull: '100% 크기로 변경',
-        resizeHalf: '50% 크기로 변경',
-        resizeQuarter: '25% 크기로 변경',
-        resizeNone: '원본 크기',
-        floatLeft: '왼쪽 정렬',
-        floatRight: '오른쪽 정렬',
-        floatNone: '정렬하지 않음',
-        shapeRounded: '스타일: 둥근 모서리',
-        shapeCircle: '스타일: 원형',
-        shapeThumbnail: '스타일: 액자',
-        shapeNone: '스타일: 없음',
-        dragImageHere: '텍스트 혹은 사진을 이곳으로 끌어오세요',
-        dropImage: '텍스트 혹은 사진을 내려놓으세요',
-        selectFromFiles: '파일 선택',
-        maximumFileSize: '최대 파일 크기',
-        maximumFileSizeError: '최대 파일 크기를 초과했습니다.',
-        url: '사진 URL',
-        remove: '사진 삭제',
-        original: '원본'
+        image: 'ê·¸ë¦¼',
+        insert: 'ê·¸ë¦¼ ì½ì',
+        resizeFull: '100% í¬ê¸°ë¡ ë³ê²½',
+        resizeHalf: '50% í¬ê¸°ë¡ ë³ê²½',
+        resizeQuarter: '25% í¬ê¸°ë¡ ë³ê²½',
+        resizeNone: 'ìë³¸ í¬ê¸°',
+        floatLeft: 'ì¼ìª½ ì ë ¬',
+        floatRight: 'ì¤ë¥¸ìª½ ì ë ¬',
+        floatNone: 'ì ë ¬íì§ ìì',
+        shapeRounded: 'ì¤íì¼: ë¥ê·¼ ëª¨ìë¦¬',
+        shapeCircle: 'ì¤íì¼: ìí',
+        shapeThumbnail: 'ì¤íì¼: ì¡ì',
+        shapeNone: 'ì¤íì¼: ìì',
+        dragImageHere: 'íì¤í¸ í¹ì ì¬ì§ì ì´ê³³ì¼ë¡ ëì´ì¤ì¸ì',
+        dropImage: 'íì¤í¸ í¹ì ì¬ì§ì ë´ë ¤ëì¼ì¸ì',
+        selectFromFiles: 'íì¼ ì í',
+        maximumFileSize: 'ìµë íì¼ í¬ê¸°',
+        maximumFileSizeError: 'ìµë íì¼ í¬ê¸°ë¥¼ ì´ê³¼íìµëë¤.',
+        url: 'ì¬ì§ URL',
+        remove: 'ì¬ì§ ì­ì ',
+        original: 'ìë³¸'
       },
       video: {
-        video: '동영상',
-        videoLink: '동영상 링크',
-        insert: '동영상 삽입',
-        url: '동영상 URL',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, Youku 사용 가능)'
+        video: 'ëìì',
+        videoLink: 'ëìì ë§í¬',
+        insert: 'ëìì ì½ì',
+        url: 'ëìì URL',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion, Youku ì¬ì© ê°ë¥)'
       },
       link: {
-        link: '링크',
-        insert: '링크 삽입',
-        unlink: '링크 삭제',
-        edit: '수정',
-        textToDisplay: '링크에 표시할 내용',
-        url: '이동할 URL',
-        openInNewWindow: '새창으로 열기'
+        link: 'ë§í¬',
+        insert: 'ë§í¬ ì½ì',
+        unlink: 'ë§í¬ ì­ì ',
+        edit: 'ìì ',
+        textToDisplay: 'ë§í¬ì íìí  ë´ì©',
+        url: 'ì´ëí  URL',
+        openInNewWindow: 'ìì°½ì¼ë¡ ì´ê¸°'
       },
       table: {
-        table: '표',
-        addRowAbove: '위에 행 삽입',
-        addRowBelow: '아래에 행 삽입',
-        addColLeft: '왼쪽에 열 삽입',
-        addColRight: '오른쪽에 열 삽입',
-        delRow: '행 지우기',
-        delCol: '열 지우기',
-        delTable: '표 삭제'
+        table: 'í',
+        addRowAbove: 'ìì í ì½ì',
+        addRowBelow: 'ìëì í ì½ì',
+        addColLeft: 'ì¼ìª½ì ì´ ì½ì',
+        addColRight: 'ì¤ë¥¸ìª½ì ì´ ì½ì',
+        delRow: 'í ì§ì°ê¸°',
+        delCol: 'ì´ ì§ì°ê¸°',
+        delTable: 'í ì­ì '
       },
       hr: {
-        insert: '구분선 삽입'
+        insert: 'êµ¬ë¶ì  ì½ì'
       },
       style: {
-        style: '스타일',
-        p: '본문',
-        blockquote: '인용구',
-        pre: '코드',
-        h1: '제목 1',
-        h2: '제목 2',
-        h3: '제목 3',
-        h4: '제목 4',
-        h5: '제목 5',
-        h6: '제목 6'
+        style: 'ì¤íì¼',
+        p: 'ë³¸ë¬¸',
+        blockquote: 'ì¸ì©êµ¬',
+        pre: 'ì½ë',
+        h1: 'ì ëª© 1',
+        h2: 'ì ëª© 2',
+        h3: 'ì ëª© 3',
+        h4: 'ì ëª© 4',
+        h5: 'ì ëª© 5',
+        h6: 'ì ëª© 6'
       },
       lists: {
-        unordered: '글머리 기호',
-        ordered: '번호 매기기'
+        unordered: 'ê¸ë¨¸ë¦¬ ê¸°í¸',
+        ordered: 'ë²í¸ ë§¤ê¸°ê¸°'
       },
       options: {
-        help: '도움말',
-        fullscreen: '전체 화면',
-        codeview: '코드 보기'
+        help: 'ëìë§',
+        fullscreen: 'ì ì²´ íë©´',
+        codeview: 'ì½ë ë³´ê¸°'
       },
       paragraph: {
-        paragraph: '문단 정렬',
-        outdent: '내어쓰기',
-        indent: '들여쓰기',
-        left: '왼쪽 정렬',
-        center: '가운데 정렬',
-        right: '오른쪽 정렬',
-        justify: '양쪽 정렬'
+        paragraph: 'ë¬¸ë¨ ì ë ¬',
+        outdent: 'ë´ì´ì°ê¸°',
+        indent: 'ë¤ì¬ì°ê¸°',
+        left: 'ì¼ìª½ ì ë ¬',
+        center: 'ê°ì´ë° ì ë ¬',
+        right: 'ì¤ë¥¸ìª½ ì ë ¬',
+        justify: 'ììª½ ì ë ¬'
       },
       color: {
-        recent: '마지막으로 사용한 색',
-        more: '다른 색 선택',
-        background: '배경색',
-        foreground: '글자색',
-        transparent: '투명',
-        setTransparent: '투명으로 설정',
-        reset: '취소',
-        resetToDefault: '기본값으로 설정',
-        cpSelect: '고르다'
+        recent: 'ë§ì§ë§ì¼ë¡ ì¬ì©í ì',
+        more: 'ë¤ë¥¸ ì ì í',
+        background: 'ë°°ê²½ì',
+        foreground: 'ê¸ìì',
+        transparent: 'í¬ëª',
+        setTransparent: 'í¬ëªì¼ë¡ ì¤ì ',
+        reset: 'ì·¨ì',
+        resetToDefault: 'ê¸°ë³¸ê°ì¼ë¡ ì¤ì ',
+        cpSelect: 'ê³ ë¥´ë¤'
       },
       shortcut: {
-        shortcuts: '키보드 단축키',
-        close: '닫기',
-        textFormatting: '글자 스타일 적용',
-        action: '기능',
-        paragraphFormatting: '문단 스타일 적용',
-        documentStyle: '문서 스타일 적용',
-        extraKeys: '추가 키'
+        shortcuts: 'í¤ë³´ë ë¨ì¶í¤',
+        close: 'ë«ê¸°',
+        textFormatting: 'ê¸ì ì¤íì¼ ì ì©',
+        action: 'ê¸°ë¥',
+        paragraphFormatting: 'ë¬¸ë¨ ì¤íì¼ ì ì©',
+        documentStyle: 'ë¬¸ì ì¤íì¼ ì ì©',
+        extraKeys: 'ì¶ê° í¤'
       },
       help: {
-        'insertParagraph': '문단 삽입',
-        'undo': '마지막 명령 취소',
-        'redo': '마지막 명령 재실행',
-        'tab': '탭',
-        'untab': '탭 제거',
-        'bold': '굵은 글자로 설정',
-        'italic': '기울임꼴 글자로 설정',
-        'underline': '밑줄 글자로 설정',
-        'strikethrough': '취소선 글자로 설정',
-        'removeFormat': '서식 삭제',
-        'justifyLeft': '왼쪽 정렬하기',
-        'justifyCenter': '가운데 정렬하기',
-        'justifyRight': '오른쪽 정렬하기',
-        'justifyFull': '좌우채움 정렬하기',
-        'insertUnorderedList': '글머리 기호 켜고 끄기',
-        'insertOrderedList': '번호 매기기 켜고 끄기',
-        'outdent': '현재 문단 내어쓰기',
-        'indent': '현재 문단 들여쓰기',
-        'formatPara': '현재 블록의 포맷을 문단(P)으로 변경',
-        'formatH1': '현재 블록의 포맷을 제목1(H1)로 변경',
-        'formatH2': '현재 블록의 포맷을 제목2(H2)로 변경',
-        'formatH3': '현재 블록의 포맷을 제목3(H3)로 변경',
-        'formatH4': '현재 블록의 포맷을 제목4(H4)로 변경',
-        'formatH5': '현재 블록의 포맷을 제목5(H5)로 변경',
-        'formatH6': '현재 블록의 포맷을 제목6(H6)로 변경',
-        'insertHorizontalRule': '구분선 삽입',
-        'linkDialog.show': '링크 대화상자 열기'
+        'insertParagraph': 'ë¬¸ë¨ ì½ì',
+        'undo': 'ë§ì§ë§ ëªë ¹ ì·¨ì',
+        'redo': 'ë§ì§ë§ ëªë ¹ ì¬ì¤í',
+        'tab': 'í­',
+        'untab': 'í­ ì ê±°',
+        'bold': 'êµµì ê¸ìë¡ ì¤ì ',
+        'italic': 'ê¸°ì¸ìê¼´ ê¸ìë¡ ì¤ì ',
+        'underline': 'ë°ì¤ ê¸ìë¡ ì¤ì ',
+        'strikethrough': 'ì·¨ìì  ê¸ìë¡ ì¤ì ',
+        'removeFormat': 'ìì ì­ì ',
+        'justifyLeft': 'ì¼ìª½ ì ë ¬íê¸°',
+        'justifyCenter': 'ê°ì´ë° ì ë ¬íê¸°',
+        'justifyRight': 'ì¤ë¥¸ìª½ ì ë ¬íê¸°',
+        'justifyFull': 'ì¢ì°ì±ì ì ë ¬íê¸°',
+        'insertUnorderedList': 'ê¸ë¨¸ë¦¬ ê¸°í¸ ì¼ê³  ëê¸°',
+        'insertOrderedList': 'ë²í¸ ë§¤ê¸°ê¸° ì¼ê³  ëê¸°',
+        'outdent': 'íì¬ ë¬¸ë¨ ë´ì´ì°ê¸°',
+        'indent': 'íì¬ ë¬¸ë¨ ë¤ì¬ì°ê¸°',
+        'formatPara': 'íì¬ ë¸ë¡ì í¬ë§·ì ë¬¸ë¨(P)ì¼ë¡ ë³ê²½',
+        'formatH1': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©1(H1)ë¡ ë³ê²½',
+        'formatH2': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©2(H2)ë¡ ë³ê²½',
+        'formatH3': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©3(H3)ë¡ ë³ê²½',
+        'formatH4': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©4(H4)ë¡ ë³ê²½',
+        'formatH5': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©5(H5)ë¡ ë³ê²½',
+        'formatH6': 'íì¬ ë¸ë¡ì í¬ë§·ì ì ëª©6(H6)ë¡ ë³ê²½',
+        'insertHorizontalRule': 'êµ¬ë¶ì  ì½ì',
+        'linkDialog.show': 'ë§í¬ ëíìì ì´ê¸°'
       },
       history: {
-        undo: '실행 취소',
-        redo: '재실행'
+        undo: 'ì¤í ì·¨ì',
+        redo: 'ì¬ì¤í'
       },
       specialChar: {
-        specialChar: '특수문자',
-        select: '특수문자를 선택하세요'
+        specialChar: 'í¹ìë¬¸ì',
+        select: 'í¹ìë¬¸ìë¥¼ ì ííì¸ì'
       }
     }
   });

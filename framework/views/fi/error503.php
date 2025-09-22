@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Palvelu ei ole käytettävissä</title>
+<title>Palvelu ei ole kÃ¤ytettÃ¤vissÃ¤</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,9 +17,9 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Palvelu ei ole käytettävissä</h1>
+<h1>Palvelu ei ole kÃ¤ytettÃ¤vissÃ¤</h1>
 <p>
-Palvelua huolletaan. Yritä myöhemmin uudelleen.
+Palvelua huolletaan. YritÃ¤ myÃ¶hemmin uudelleen.
 </p>
 <p>
 Kiitos.

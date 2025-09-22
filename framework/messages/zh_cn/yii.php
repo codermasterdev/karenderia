@@ -14,247 +14,247 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Active record class "{class}" does not have a scope named "{scope}".' => 'AR类 "{class}" 没有名为 "{scope}" 的命名范围。',
-  'Alias "{alias}" is invalid. Make sure it points to an existing PHP file and the file is readable.' => '别名 "{alias}" 无效。请确认它指向一个存在的PHP文件。',
-  'Alias "{alias}" is invalid. Make sure it points to an existing directory.' => '别名 "{alias}" 无效。请确认它指向一个存在的目录。',
-  'Application Log' => '程序日志',
-  'Base path "{path}" is not a valid directory.' => '基准路径 "{path}" 不是一个有效的目录。',
-  'CDbCacheDependency.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbCacheDependency.connectionID "{id}" 无效。请确认它指向一个有效的CDbConnection应用组件的ID',
-  'CDbConnection failed to open the DB connection.' => 'CDbConnection连接数据库失败',
-  'CDbTestFixture.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbTestFixture.connectionID "{id}" 无效。请确认它指向一个有效的CDbConnection应用组件的ID',
-  'CEAcceleratorCache requires PHP eAccelerator extension to be loaded, enabled or compiled with the "--with-eaccelerator-shared-memory" option.' => 'CEAcceleratorCache需要PHP的Accelerator扩展被调用，并且使用 "--with-eaccelerator-shared-memory" 选项启用或者编译。',
-  'CTypedMap<{type}> can only hold objects of {type} class.' => 'CTypedMap<{type}>仅支持{type}类的对象。',
-  'CWinCache requires PHP wincache extension to be loaded.' => 'CWinCache需要PHP的wincache扩展被调用。',
-  'CWinCache user cache is disabled. Please set wincache.ucenabled to On in your php.ini.' => 'CWinCache用户缓存北京永。请在php.ini中设置wincache.ucenabled启用。',
-  'CZendDataCache requires PHP Zend Data Cache extension to be loaded.' => 'CZendDataCache需要PHP的Zend Data Cache扩展被调用。',
-  'Column name must be either a string or an array.' => '列名必须是一个字符串或者数组',
-  'Extension path "{path}" does not exist.' => '扩展路径 "{path}" 不存在。',
-  'Failed to initialize the mcrypt module.' => '初始化mcrypt模块失败。',
-  'Failed to set unsafe attribute "{attribute}".' => '设置非安全（unsafe）属性 "{attribute}" 失败。',
-  'GD and FreeType PHP extensions are required.' => 'PHP的GD和FreeType扩展需要被调用。',
-  'Invalid operator "{operator}".' => '无效操作符 "{operator}"。',
-  'Resetting PK sequence is not supported.' => '重置主键（PK）序列不支持。',
-  'Setting integrity check is not supported.' => '设置完整性检查不支持。',
-  'Table "{table}" does not exist.' => '数据表 "{table}" 不存在。',
-  'The "range" property must be specified with a list of values.' => '"range" 属性必须用一个列表值设定。',
-  'The STAT relation "{name}" cannot have child relations.' => 'STAT关联 "{name}" 不能有子关联。',
-  'The module path "{path}" is not a valid directory.' => '模块路径 "{path}" 不是一个有效的路径。',
-  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" or "ccccc".' => '星期几的格式必须是 "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" 或者 "ccccc"。',
-  'The pattern for month must be "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" or "LLLL".' => '月份的格式必须是 "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" 或者 "LLLL"。',
-  'The relation "{relation}" in active record class "{class}" is not specified correctly. The join table "{joinTable}" given in the foreign key cannot be found in the database.'=>'AR类 "{class}" 的关联 "{relation}" 的设定不正确。通过外键连接的数据表 "{joinTable}" 在数据库中找不到。',
-  'The relation "{relation}" in active record class "{class}" is specified with a foreign key "{key}" that does not point to the parent table "{table}".' => 'AR类 "{class}" 的关联 "{relation}" 设定的外键 "{key}" 没有指向父表 "{table}"。',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". There is no such column in the table "{table}".' => 'AR类 "{class}" 的关联 "{relation}" 设定了一个无效的外键 "{key}"。在数据表 "{table}" 中没有这样的列。',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The columns in the key must match the primary keys of the table "{table}".' => 'AR类 "{class}" 的关联 "{relation}" 设定了一个无效的外键 "{key}"。该键的列必须是数据表 "{table}" 的主键。',
-  'The requested view "{name}" was not found.' => '找不到请求的视图 "{name}"。',
-  'The value for the column "{column}" is not supplied when querying the table "{table}".' => '查询数据表 "{table}" 时，不会提供列 "{column}" 的值。',
-  'Unable to import "{alias}". Please check your server configuration to make sure you are allowed to change PHP include_path.' => '无法导入 "{alias}"。请检查您的服务器配置，以确保允许您的程序更改PHP的include_path设置。',
-  'Unable to resolve the request "{route}".' => '无法解析请求 "{route}"。',
-  'Unknown type "{type}".' => '未知类型 "{type}"。',
-  'Your request is invalid.' => '您的请求无效。',
-  '{attribute} "{value}" is invalid.' => '{attribute} "{value}" 无效。',
-  '{attribute} cannot accept more than {limit} files.' => '{attribute} 仅接受 {limit} 个以内的文件。',
-  '{attribute} is in the list.' => '{attribute} 在列表中',
-  '{attribute} must be either {true} or {false}.' => '{attribute} 必须为{true}或者{false}',
-  '{attribute} must be greater than "{compareValue}".' => '{attribute}必须大于 "{compareValue}"。',
-  '{attribute} must be greater than or equal to "{compareValue}".' => '{attribute}必须大于或者等于 "{compareValue}"。',
-  '{attribute} must be less than "{compareValue}".' => '{attribute}必须小于 "{compareValue}"。',
-  '{attribute} must be less than or equal to "{compareValue}".' => '{attribute}必须小于或者等于 "{compareValue}"。',
-  '{attribute} must be {value}.' => '{attribute}必须为{value}。',
-  '{attribute} must not be equal to "{compareValue}".' => '{attribute}必须不等于"{compareValue}"。',
-  '{className} does not support flushValues() functionality.' => '{className} 不支持 flushValues() 功能。',
-  '{class} does not have a method named "{name}".' => '{class} 没有名为 "{name}" 的方法。',
-  'CDbLogRoute requires database table "{table}" to store log messages.' => '@@CDbLogRoute 要求数据库 table "{table}" 储存日志讯息.@@',
-  'CMemCache requires PHP memcache extension to be loaded.' => '@@CMemCache 要求 PHP memcache extension 必须先被载入.@@',
-  'CMultiFileUpload.name is required.' => '@@CMultiFileUpload.name 是必要的.@@',
-  'CSecurityManager.validation must be either "MD5" or "SHA1".' => '@@CSecurityManager.validation 必须是 "MD5" 或 "SHA1".@@',
-  'Cache table "{tableName}" does not exist.' => '@@Cache table "{tableName}" 不存在.@@',
-  'Table "{table}" does not have a primary key defined.' => '@@Table "{table}" 没有定义主键.@@',
-  'The "view" property is required.' => '@@需要 "view" 属性@@',
-  'The asset "{asset}" to be pulished does not exist.' => '@@欲发布的 asset "{asset}" 不存在.@@',
-  'The column "{column}" is not a foreign key in table "{table}".' => '@@栏位 "{column}" 并不是 table "{table}" 中的一个 foreign key.@@',
-  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE" or "EEEEE".' => '@@代表 day of the week 的格式必须是 "E", "EE", "EEE", "EEEE" 或 "EEEEE".@@',
-  'The pattern for month must be "M", "MM", "MMM", or "MMMM".' => '@@代表月份的格式必须是 "M", "MM", "MMM", 或 "MMMM".@@',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". The foreign key does not point to either joining table.' => '@@active record class "{class}" 中的关联 "{relation}" 有一个无效的 foreign key "{key}". foreign key 未指到任一个 joining table.@@',
-  'The requested controller "{controller}" does not exist.' => '@@请求的控制器 "{controller}" 不存在.@@',
-  'The requested view "{name}" is not found.' => '@@请求的 view "{name}" 未找到.@@',
-  'The value for the primary key "{key}" is not supplied when querying the table "{table}".' => '@@查询 table "{table}" 时未提供 primary key "{key}" 的值.@@',
-  'Unable to find the decorator view "{view}".' => '@@无法找到 decorator view "{view}".@@',
-  'Unable to find the list item.' => '@@无法找到列表项目.@@',
-  '{className} does not support flush() functionality.' => '@@{className} 不支持 flush() 功能.@@',
-  '{class} does not have attribute "{name}".' => '@@{class} 中没有名为 "{name}" 的属性.@@',
-  '"{path}" is not a valid directory.' => '"{path}" 不是一个合法的目录.',
-  '&lt; Previous' => '&lt; 前页',
-  '&lt;&lt; First' => '&lt;&lt; 首页',
-  'Active Record requires a "db" CDbConnection application component.' => 'Active Record 需要一个名为 "db" 的 CDbConnection 应用程序组件.',
-  'Active record "{class}" has an invalid configuration for relation "{relation}". It must specify the relation type, the related active record class and the foreign key.' => 'Active record "{class}" 对于关联 "{relation}" 有一个无效的配置. 必须给定关联种类, 相关的 active record class 以及 foreign key.',
-  'Active record "{class}" is trying to select an invalid column "{column}". Note, the column must exist in the table or be an expression with alias.' => 'Active record "{class}" 正尝试选择一个无效的栏位 "{column}". 注意, 该栏位必须存在于 table 中或者是一个具别名的 expression.',
-  'Alias "{alias}" is invalid. Make sure it points to an existing directory or file.' => '别名 "{alias}" 是无效的. 请确定它指向一个已存在的目录或文件.',
-  'Application base path "{path}" is not a valid directory.' => '应用程序基准路径 "{path}" 是无效的目录.',
-  'Application runtime path "{path}" is not valid. Please make sure it is a directory writable by the Web server process.' => '应用程序执行时的路径 "{path}" 是无效的. 请确定它是一个可被 Web server process 写入资料的目录.',
-  'Authorization item "{item}" has already been assigned to user "{user}".' => '授权项目 "{item}" 已经被指派给使用者 "{user}".',
-  'CApcCache requires PHP apc extension to be loaded.' => 'CApcCache 要求 PHP apc extension 必须先被载入.',
-  'CAssetManager.basePath "{path}" is invalid. Please make sure the directory exists and is writable by the Web server process.' => 'CAssetManager.basePath "{path}" 是无效的. 请确定它是一个可被 Web server process 写入资料的目录.',
-  'CCacheHttpSession.cacheID is invalid. Please make sure "{id}" refers to a valid cache application component.' => 'CCacheHttpSession.cacheID 是无效的. 请确定 "{id}" 参照到一个有效的快取应用程序组件.',
-  'CCaptchaValidator.action "{id}" is invalid. Unable to find such an action in the current controller.' => 'CCaptchaValidator.action "{id}" 是无效的. 无法在目前的控制器中找到此一动作.',
-  'CDbAuthManager.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbAuthManager.connectionID "{id}" 是无效的. 请确定它参照到一个 CDbConnection 应用程序组件的 ID.',
-  'CDbCache.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbCache.connectionID "{id}" 是无效的. 请确定它参照到一个 CDbConnection 应用程序组件的 ID.',
-  'CDbCacheDependency.sql cannot be empty.' => 'CDbCacheDependency.sql 不能是空的.',
-  'CDbCommand failed to execute the SQL statement: {error}' => 'CDbCommand 无法执行 SQL 语句: {error}',
-  'CDbCommand failed to prepare the SQL statement: {error}' => 'CDbCommand 无法准备 SQL 语句: {error}',
-  'CDbConnection does not support reading schema for {driver} database.' => 'CDbConnection 不支持对 {driver} 数据库 schema 的读取.',
-  'CDbConnection failed to open the DB connection: {error}' => 'CDbConnection 无法开启数据库连线: {error}',
-  'CDbConnection is inactive and cannot perform any DB operations.' => 'CDbConnection 状态为未启用, 无法进行任何数据库动作.',
-  'CDbConnection.connectionString cannot be empty.' => 'CDbConnection.connectionString 不能是空的.',
-  'CDbDataReader cannot rewind. It is a forward-only reader.' => 'CDbDataReader 无法倒回, 只允许向前读取.',
-  'CDbHttpSession.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbHttpSession.connectionID "{id}" 是无效的. 请确定它参照到一个 CDbConnection 应用程序组件的 ID.',
-  'CDbLogRoute.connectionID "{id}" does not point to a valid CDbConnection application component.' => 'CDbLogRoute.connectionID "{id}" 未指向一个有效的 CDbConnection 应用程序组件.',
-  'CDbMessageSource.connectionID is invalid. Please make sure "{id}" refers to a valid database application component.' => 'CDbMessageSource.connectionID 是无效的. 请确定 "{id}" 参照到一个有效的数据库应用程序组件.',
-  'CDbTransaction is inactive and cannot perform commit or roll back operations.' => 'CDbTransaction 状态为未启用, 无法进行 commit 或 roll back 动作.',
-  'CDirectoryCacheDependency.directory cannot be empty.' => 'CDirectoryCacheDependency.directory 不能是空的.',
-  'CFileCacheDependency.fileName cannot be empty.' => 'CFileCacheDependency.fileName 不能是空的.',
-  'CFileLogRoute.logPath "{path}" does not point to a valid directory. Make sure the directory exists and is writable by the Web server process.' => 'CFileLogRoute.logPath "{path}" does not point to a valid directory. 请确定目录存在并且允许 Web server process 写入.',
-  'CFilterChain can only take objects implementing the IFilter interface.' => 'CFilterChain 只能取得有实现 IFilter 接口的对象.',
-  'CFlexWidget.baseUrl cannot be empty.' => 'CFlexWidget.baseUrl 不能是空的.',
-  'CFlexWidget.name cannot be empty.' => 'CFlexWidget.name 不能是空的.',
-  'CGlobalStateCacheDependency.stateName cannot be empty.' => 'CGlobalStateCacheDependency.stateName 不能是空的.',
-  'CHttpCookieCollection can only hold CHttpCookie objects.' => 'CHttpCookieCollection 只能持有 CHttpCookie 对象.',
-  'CHttpRequest is unable to determine the entry script URL.' => 'CHttpRequest 不能确认入口脚本的 URL.',
-  'CHttpRequest is unable to determine the path info of the request.' => 'CHttpRequest 不能确认请求的路径信息.',
-  'CHttpRequest is unable to determine the request URI.' => 'CHttpRequest 不能确认请求的 URI.',
-  'CHttpSession.cookieMode can only be "none", "allow" or "only".' => 'CHttpSession.cookieMode 只能是 "none", "allow" 或 "only".',
-  'CHttpSession.gcProbability "{value}" is invalid. It must be an integer between 0 and 100.' => 'CHttpSession.gcProbability "{value}" 是无效的. 它必须是介于 0 与 100之间的整数.',
-  'CHttpSession.savePath "{path}" is not a valid directory.' => 'CHttpSession.savePath "{path}" 不是一个有效的目录.',
-  'CMemCache server configuration must be an array.' => 'CMemCache 服务器配置必须是一个数组.',
-  'CMemCache server configuration must have "host" value.' => 'CMemCache 服务器配置必须有 "host" 的值.',
-  'CProfileLogRoute found a mismatching code block "{token}". Make sure the calls to Yii::beginProfile() and Yii::endProfile() be properly nested.' => 'CProfileLogRoute found a mismatching code block "{token}". 请确定对于 Yii::beginProfile() 与 Yii::endProfile() 的呼叫是适当地巢状套叠的.',
-  'CProfileLogRoute.report "{report}" is invalid. Valid values include "summary" and "callstack".' => 'CProfileLogRoute.report "{report}" 是无效的. 有效值包含 "summary" 与 "callstack".',
-  'CSecurityManager requires PHP mcrypt extension to be loaded in order to use data encryption feature.' => 'CSecurityManager 要求 PHP mcrypt extension 必须先被载入以便使用资料加密功能.',
-  'CSecurityManager.encryptionKey cannot be empty.' => 'CSecurityManager.encryptionKey 不能是空的.',
-  'CSecurityManager.validationKey cannot be empty.' => 'CSecurityManager.validationKey 不能是空的.',
-  'CTypedList<{type}> can only hold objects of {type} class.' => 'CTypedList<{type}> 只能持有 {type} 类别的对象.',
-  'CUrlManager.UrlFormat must be either "path" or "get".' => 'CUrlManager.UrlFormat 必须是 "path" 或 "get".',
-  'CXCache requires PHP XCache extension to be loaded.' => 'CXCache 要求 PHP XCache extension 必须先被载入.',
-  'Cannot add "{child}" as a child of "{name}". A loop has been detected.' => '无法新增 "{child}" 成为 "{name}" 的子项. 侦测到有迴圈产生.',
-  'Cannot add "{child}" as a child of "{parent}". A loop has been detected.' => '无法新增 "{child}" 成为 "{parent}" 的子项. 侦测到有迴圈产生.',
-  'Cannot add "{name}" as a child of itself.' => '无法新增 "{name}" 成为它自己的子项.',
-  'Cannot add an item of type "{child}" to an item of type "{parent}".' => '无法新增一个种类为 "{child}" 的项目到一个种类为 "{parent}" 的项目.',
-  'Either "{parent}" or "{child}" does not exist.' => '"{parent}" 或 "{child}" 不存在.',
-  'Error: Table "{table}" does not have a primary key.' => '错误: Table "{table}" 没有定义主键.',
-  'Error: Table "{table}" has a composite primary key which is not supported by crud command.' => '错误: Table "{table}" 有一个不被 crud 命令所支持的合成主键.',
-  'Event "{class}.{event}" is attached with an invalid handler "{handler}".' => '事件 "{class}.{event}" 附加了一个无效的 handler "{handler}".',
-  'Event "{class}.{event}" is not defined.' => '事件 "{class}.{event}" 未定义.',
-  'Failed to write the uploaded file "{file}" to disk.' => '无法将已上传的文件 "{file}" 写入磁碟.',
-  'File upload was stopped by extension.' => '文件上传被 extension 所停止.',
-  'Filter "{filter}" is invalid. Controller "{class}" does have the filter method "filter{filter}".' => '筛选器 "{filter}" 是无效的. 控制器 "{class}" 没有名为 "filter{filter}" 的筛选器方法.',
-  'Get a new code' => '取得一组新代码',
-  'Go to page: ' => '翻页: ',
-  'Invalid MO file revision: {revision}.' => '无效的 MO 文件修订: {revision}.',
-  'Invalid MO file: {file} (magic: {magic}).' => '无效的 MO 文件: {file} (magic: {magic}).',
-  'Invalid enumerable value "{value}". Please make sure it is among ({enum}).' => '无效的 enumerable 值 "{value}". 请确定它在 ({enum}) 之中.',
-  'Last &gt;&gt;' => '末页 &gt;&gt;',
-  'List data must be an array or an object implementing Traversable.' => '列表资料必须是一个数组或是有实现 Traversable 的一个对象.',
-  'List index "{index}" is out of bound.' => '列表索引 "{index}" 超出范围.',
-  'Login Required' => '需要先登入系统',
-  'Map data must be an array or an object implementing Traversable.' => '哈希表资料必须是一个数组或一个实现 Traversable 的对象.',
-  'Missing the temporary folder to store the uploaded file "{file}".' => '缺乏暂存目录来储存已上传的文件 "{file}".',
-  'Next &gt;' => '后页 &gt;',
-  'No columns are being updated for table "{table}".' => 'table "{table}" 没有任何栏位将被更新.',
-  'No counter columns are being updated for table "{table}".' => 'table "{table}" 没有任何计数器栏位将被更新.',
-  'Object configuration must be an array containing a "class" element.' => '对象配置必须是内含有一个 "class" 元素的一个数组.',
-  'Please fix the following input errors:' => '请更正下列输入错误:',
-  'Property "{class}.{property}" is not defined.' => '属性 "{class}.{property}" 未被定义.',
-  'Property "{class}.{property}" is read only.' => '属性 "{class}.{property}" 是只读的.',
-  'Queue data must be an array or an object implementing Traversable.' => '队列资料必须是一个数组或一个实现 Traversable 的对象.',
-  'Relation "{name}" is not defined in active record class "{class}".' => '关联 "{name}" 未被定义在 active record class "{class}" 中.',
-  'Stack data must be an array or an object implementing Traversable.' => '堆栈资料必须是一个数组或一个实现 Traversable 的对象.',
-  'Table "{table}" does not have a column named "{column}".' => 'Table "{table}" 没有名为 "{column}" 的栏位.',
-  'The "filter" property must be specified with a valid callback.' => '属性 "filter" 必须以一个有效的 callback 指明.',
-  'The "pattern" property must be specified with a valid regular expression.' => '属性 "pattern" 必须以一个有效的 regular expression 指明.',
-  'The CSRF token could not be verified.' => 'CSRF token 无法被验证.',
-  'The URL pattern "{pattern}" for route "{route}" is not a valid regular expression.' => 'route "{route}" 中的 URL 格式 "{pattern}" 不是有效的 regular expression.',
-  'The active record cannot be deleted because it is new.' => 'active record 由于是新的, 无法被删除.',
-  'The active record cannot be inserted to database because it is not new.' => 'active record 由于不是新的, 无法被新增到数据库.',
-  'The active record cannot be updated because it is new.' => 'active record 由于是新的, 无法被更新.',
-  'The asset "{asset}" to be published does not exist.' => 'Asset文件 "{asset}" 不存在.',
-  'The command path "{path}" is not a valid directory.' => '命令路径 "{path}" 不是一个有效的目录.',
-  'The controller path "{path}" is not a valid directory.' => '控制器路径 "{path}" 不是一个有效的目录.',
-  'The file "{file}" cannot be uploaded. Only files with these extensions are allowed: {extensions}.' => '文件 "{file}" 无法被上传. 只有附档名如下的文件是被允许的: {extensions}.',
-  'The file "{file}" is too large. Its size cannot exceed {limit} bytes.' => '文件 "{file}" 太大. 文件大小不能超过 {limit} 位元组.',
-  'The file "{file}" is too small. Its size cannot be smaller than {limit} bytes.' => '文件 "{file}" 太小. 文件大小不能少于 {limit} 位元组.',
-  'The file "{file}" was only partially uploaded.' => '文件 "{file}" 上传不完全.',
-  'The first element in a filter configuration must be the filter class.' => '筛选器配置中的第一个元素必须是筛选器类别.',
-  'The item "{name}" does not exist.' => '项目 "{name}" 不存在.',
-  'The item "{parent}" already has a child "{child}".' => '项目 "{parent}" 已有子项目 "{child}".',
-  'The layout path "{path}" is not a valid directory.' => '布局路径 "{path}" 不是一个有效的目录.',
-  'The list is read only.' => '列表是只读的.',
-  'The map is read only.' => '哈希表是只读的.',
-  'The pattern for 12 hour format must be "h" or "hh".' => '代表12小时制的格式必须是 "h" 或 "hh".',
-  'The pattern for 24 hour format must be "H" or "HH".' => '代表24小时制的格式必须是 "H" 或 "HH".',
-  'The pattern for AM/PM marker must be "a".' => '代表 AM/PM 标记的格式必须是 "a".',
-  'The pattern for day in month must be "F".' => '代表 day in month 的格式必须是 "F".',
-  'The pattern for day in year must be "D", "DD" or "DDD".' => '代表 day in year 的格式必须是 "D", "DD" 或 "DDD".',
-  'The pattern for day of the month must be "d" or "dd".' => '代表 day of the month 的格式必须是 "d" 或 "dd".',
-  'The pattern for era must be "G", "GG", "GGG", "GGGG" or "GGGGG".' => '代表年代的格式必须是 "G", "GG", "GGG", "GGGG" 或 "GGGGG".',
-  'The pattern for hour in AM/PM must be "K" or "KK".' => '代表时(AM/PM格式)的格式必须是 "K" 或 "KK".',
-  'The pattern for hour in day must be "k" or "kk".' => '代表该天第几小时的格式必须是 "k" 或 "kk".',
-  'The pattern for minutes must be "m" or "mm".' => '代表分的格式必须是 "m" 或 "mm".',
-  'The pattern for seconds must be "s" or "ss".' => '代表秒的格式必须是 "s" 或 "ss".',
-  'The pattern for time zone must be "z" or "v".' => '代表时区的格式必须是 "z" 或 "v".',
-  'The pattern for week in month must be "W".' => '代表 week in month 的格式必须是 "W".',
-  'The pattern for week in year must be "w".' => '代表 week in year 的格式必须是 "w".',
-  'The queue is empty.' => '队列状态为空.',
-  'The relation "{relation}" in active record class "{class}" is not specified correctly: the join table "{joinTable}" given in the foreign key cannot be found in the database.' => 'active record class "{class}" 中的关联 "{relation}" 未被正确指明: 数据库中无法找到 foreign key 中所给的 join table "{joinTable}".',
-  'The relation "{relation}" in active record class "{class}" is specified with an incomplete foreign key. The foreign key must consist of columns referencing both joining tables.' => 'active record class "{class}" 中的关联 "{relation}" 有一个不完整的 foreign key. foreign key 必须是参照 joining tables 中的栏位所构成.',
-  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' => 'active record class "{class}" 中的关联 "{relation}" 有一个无效的 foreign key. foreign key 的格式必须是 "joinTable(fk1,fk2,...)".',
-  'The stack is empty.' => '堆栈状态为空.',
-  'The system is unable to find the requested action "{action}".' => '系统无法找到请求的 "{action}" 动作.',
-  'The system view path "{path}" is not a valid directory.' => '系统 view 路径 "{path}" 不是一个有效的目录.',
-  'The table "{table}" for active record class "{class}" cannot be found in the database.' => '数据库中无法找到 active record class "{class}" 对应的 table "{table}".',
-  'The verification code is incorrect.' => '验证码不正确.',
-  'The view path "{path}" is not a valid directory.' => 'view 路径 "{path}" 不是一个有效的目录.',
-  'Theme directory "{directory}" does not exist.' => 'Theme 目录 "{directory}" 不存在.',
-  'This content requires the <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.' => '内容需有 <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.',
-  'Unable to add an item whose name is the same as an existing item.' => '无法新增与已存在项目名称相同的新项目.',
-  'Unable to change the item name. The name "{name}" is already used by another item.' => '无法变更项目名称. 名称 "{name}" 已被其它项目使用.',
-  'Unable to create application state file "{file}". Make sure the directory containing the file exists and is writable by the Web server process.' => '无法产生应用程序状态文件 "{file}". 请确认存放此文件的目录存在并且允许 Web server process 写入.',
-  'Unable to lock file "{file}" for reading.' => '无法锁定文件 "{file}" 进行读取.',
-  'Unable to lock file "{file}" for writing.' => '无法锁定文件 "{file}" 进行写入.',
-  'Unable to read file "{file}".' => '无法读取文件 "{file}".',
-  'Unable to replay the action "{object}.{method}". The method does not exist.' => '无法再次重演 "{object}.{method}" 动作. 这个方法不存在.',
-  'Unable to write file "{file}".' => '无法写入文件 "{file}".',
-  'Unknown authorization item "{name}".' => '未知的授权项目 "{name}".',
-  'Unrecognized locale "{locale}".' => '无法辨识的地区设定 "{locale}".',
-  'View file "{file}" does not exist.' => '名为 "{file}" 的 View 档不存在.',
-  'Yii application can only be created once.' => 'Yii 应用程序只能被产生一次.',
-  'You are not authorized to perform this action.' => '您未被授权执行这个动作',
-  'Your request is not valid.' => '您的请求无效',
-  '{attribute} "{value}" has already been taken.' => '{attribute} "{value}" 已被取用.',
-  '{attribute} cannot be blank.' => '{attribute} 不可为空白.',
-  '{attribute} is invalid.' => '{attribute} 无效.',
-  '{attribute} is not a valid URL.' => '{attribute} 不是有效的 URL.',
-  '{attribute} is not a valid email address.' => '{attribute} 不是有效的电子邮件地址.',
-  '{attribute} is not in the list.' => '{attribute} 不在列表之中.',
-  '{attribute} is of the wrong length (should be {length} characters).' => '{attribute} 长度错误 (应为 {length} 字符串).',
-  '{attribute} is too big (maximum is {max}).' => '{attribute} 数值太大 (最大值为 {max}).',
-  '{attribute} is too long (maximum is {max} characters).' => '{attribute} 太长 (最大值为 {max} 字符串).',
-  '{attribute} is too short (minimum is {min} characters).' => '{attribute} 太短 (最小值为 {min} 字符串).',
-  '{attribute} is too small (minimum is {min}).' => '{attribute} 数值太小 (最小值为 {min}).',
-  '{attribute} must be a number.' => '{attribute} 必须为数字.',
-  '{attribute} must be an integer.' => '{attribute} 必须为整数.',
-  '{attribute} must be repeated exactly.' => '{attribute} 必须被重复.',
-  '{attribute} must be {type}.' => '{attribute} 必须为 {type}.',
-  '{className} does not support add() functionality.' => '{className} 不支持 add() 功能.',
-  '{className} does not support delete() functionality.' => '{className} 不支持 delete() 功能.',
-  '{className} does not support get() functionality.' => '{className} 不支持 get() 功能.',
-  '{className} does not support set() functionality.' => '{className} 不支持 set() 功能.',
-  '{class} does not have relation "{name}".' => '{class} 中没有名为 "{name}" 的关联.',
-  '{class} does not support fetching all table names.' => '{class} 不支持撷取所有 table 名称.',
-  '{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' => '{class} 有一个无效的确认规则. 规则必须指明要被确认的属性以及确认器名称.',
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} 必须给定 "model" 与 "attribute" 或 "name" 属性值.',
-  '{class}.allowAutoLogin must be set true in order to use cookie-based authentication.' => '{class}.allowAutoLogin 必须设为 true 才能使用 cookie-based 认证.',
-  '{class}::authenticate() must be implemented.' => '{class}::authenticate() 必须被实现.',
-  '{controller} cannot find the requested view "{view}".' => '{controller} 无法找到请求的视图 "{view}".',
-  '{controller} contains improperly nested widget tags in its view "{view}". A {widget} widget does not have an endWidget() call.' => '{controller} 在它的 view "{view}" 中含有未被适当巢状套叠的 widget 标签. {widget} widget 中没有呼叫 endWidget().',
-  '{controller} has an extra endWidget({id}) call in its view.' => '{controller} 在它的视图中有一个额外的 endWidget({id}) 呼叫.',
-  '{widget} cannot find the view "{view}".' => '{widget} 无法找到这个视图 "{view}".',
+  'Active record class "{class}" does not have a scope named "{scope}".' => 'ARç±» "{class}" æ²¡æåä¸º "{scope}" çå½åèå´ã',
+  'Alias "{alias}" is invalid. Make sure it points to an existing PHP file and the file is readable.' => 'å«å "{alias}" æ æãè¯·ç¡®è®¤å®æåä¸ä¸ªå­å¨çPHPæä»¶ã',
+  'Alias "{alias}" is invalid. Make sure it points to an existing directory.' => 'å«å "{alias}" æ æãè¯·ç¡®è®¤å®æåä¸ä¸ªå­å¨çç®å½ã',
+  'Application Log' => 'ç¨åºæ¥å¿',
+  'Base path "{path}" is not a valid directory.' => 'åºåè·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½ã',
+  'CDbCacheDependency.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbCacheDependency.connectionID "{id}" æ æãè¯·ç¡®è®¤å®æåä¸ä¸ªææçCDbConnectionåºç¨ç»ä»¶çID',
+  'CDbConnection failed to open the DB connection.' => 'CDbConnectionè¿æ¥æ°æ®åºå¤±è´¥',
+  'CDbTestFixture.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbTestFixture.connectionID "{id}" æ æãè¯·ç¡®è®¤å®æåä¸ä¸ªææçCDbConnectionåºç¨ç»ä»¶çID',
+  'CEAcceleratorCache requires PHP eAccelerator extension to be loaded, enabled or compiled with the "--with-eaccelerator-shared-memory" option.' => 'CEAcceleratorCacheéè¦PHPçAcceleratoræ©å±è¢«è°ç¨ï¼å¹¶ä¸ä½¿ç¨ "--with-eaccelerator-shared-memory" éé¡¹å¯ç¨æèç¼è¯ã',
+  'CTypedMap<{type}> can only hold objects of {type} class.' => 'CTypedMap<{type}>ä»æ¯æ{type}ç±»çå¯¹è±¡ã',
+  'CWinCache requires PHP wincache extension to be loaded.' => 'CWinCacheéè¦PHPçwincacheæ©å±è¢«è°ç¨ã',
+  'CWinCache user cache is disabled. Please set wincache.ucenabled to On in your php.ini.' => 'CWinCacheç¨æ·ç¼å­åäº¬æ°¸ãè¯·å¨php.iniä¸­è®¾ç½®wincache.ucenabledå¯ç¨ã',
+  'CZendDataCache requires PHP Zend Data Cache extension to be loaded.' => 'CZendDataCacheéè¦PHPçZend Data Cacheæ©å±è¢«è°ç¨ã',
+  'Column name must be either a string or an array.' => 'ååå¿é¡»æ¯ä¸ä¸ªå­ç¬¦ä¸²æèæ°ç»',
+  'Extension path "{path}" does not exist.' => 'æ©å±è·¯å¾ "{path}" ä¸å­å¨ã',
+  'Failed to initialize the mcrypt module.' => 'åå§åmcryptæ¨¡åå¤±è´¥ã',
+  'Failed to set unsafe attribute "{attribute}".' => 'è®¾ç½®éå®å¨ï¼unsafeï¼å±æ§ "{attribute}" å¤±è´¥ã',
+  'GD and FreeType PHP extensions are required.' => 'PHPçGDåFreeTypeæ©å±éè¦è¢«è°ç¨ã',
+  'Invalid operator "{operator}".' => 'æ ææä½ç¬¦ "{operator}"ã',
+  'Resetting PK sequence is not supported.' => 'éç½®ä¸»é®ï¼PKï¼åºåä¸æ¯æã',
+  'Setting integrity check is not supported.' => 'è®¾ç½®å®æ´æ§æ£æ¥ä¸æ¯æã',
+  'Table "{table}" does not exist.' => 'æ°æ®è¡¨ "{table}" ä¸å­å¨ã',
+  'The "range" property must be specified with a list of values.' => '"range" å±æ§å¿é¡»ç¨ä¸ä¸ªåè¡¨å¼è®¾å®ã',
+  'The STAT relation "{name}" cannot have child relations.' => 'STATå³è "{name}" ä¸è½æå­å³èã',
+  'The module path "{path}" is not a valid directory.' => 'æ¨¡åè·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçè·¯å¾ã',
+  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" or "ccccc".' => 'ææå çæ ¼å¼å¿é¡»æ¯ "E", "EE", "EEE", "EEEE", "EEEEE", "e", "ee", "eee", "eeee", "eeeee", "c", "cccc" æè "ccccc"ã',
+  'The pattern for month must be "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" or "LLLL".' => 'æä»½çæ ¼å¼å¿é¡»æ¯ "M", "MM", "MMM", "MMMM", "L", "LL", "LLL" æè "LLLL"ã',
+  'The relation "{relation}" in active record class "{class}" is not specified correctly. The join table "{joinTable}" given in the foreign key cannot be found in the database.'=>'ARç±» "{class}" çå³è "{relation}" çè®¾å®ä¸æ­£ç¡®ãéè¿å¤é®è¿æ¥çæ°æ®è¡¨ "{joinTable}" å¨æ°æ®åºä¸­æ¾ä¸å°ã',
+  'The relation "{relation}" in active record class "{class}" is specified with a foreign key "{key}" that does not point to the parent table "{table}".' => 'ARç±» "{class}" çå³è "{relation}" è®¾å®çå¤é® "{key}" æ²¡ææåç¶è¡¨ "{table}"ã',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". There is no such column in the table "{table}".' => 'ARç±» "{class}" çå³è "{relation}" è®¾å®äºä¸ä¸ªæ æçå¤é® "{key}"ãå¨æ°æ®è¡¨ "{table}" ä¸­æ²¡æè¿æ ·çåã',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The columns in the key must match the primary keys of the table "{table}".' => 'ARç±» "{class}" çå³è "{relation}" è®¾å®äºä¸ä¸ªæ æçå¤é® "{key}"ãè¯¥é®çåå¿é¡»æ¯æ°æ®è¡¨ "{table}" çä¸»é®ã',
+  'The requested view "{name}" was not found.' => 'æ¾ä¸å°è¯·æ±çè§å¾ "{name}"ã',
+  'The value for the column "{column}" is not supplied when querying the table "{table}".' => 'æ¥è¯¢æ°æ®è¡¨ "{table}" æ¶ï¼ä¸ä¼æä¾å "{column}" çå¼ã',
+  'Unable to import "{alias}". Please check your server configuration to make sure you are allowed to change PHP include_path.' => 'æ æ³å¯¼å¥ "{alias}"ãè¯·æ£æ¥æ¨çæå¡å¨éç½®ï¼ä»¥ç¡®ä¿åè®¸æ¨çç¨åºæ´æ¹PHPçinclude_pathè®¾ç½®ã',
+  'Unable to resolve the request "{route}".' => 'æ æ³è§£æè¯·æ± "{route}"ã',
+  'Unknown type "{type}".' => 'æªç¥ç±»å "{type}"ã',
+  'Your request is invalid.' => 'æ¨çè¯·æ±æ æã',
+  '{attribute} "{value}" is invalid.' => '{attribute} "{value}" æ æã',
+  '{attribute} cannot accept more than {limit} files.' => '{attribute} ä»æ¥å {limit} ä¸ªä»¥åçæä»¶ã',
+  '{attribute} is in the list.' => '{attribute} å¨åè¡¨ä¸­',
+  '{attribute} must be either {true} or {false}.' => '{attribute} å¿é¡»ä¸º{true}æè{false}',
+  '{attribute} must be greater than "{compareValue}".' => '{attribute}å¿é¡»å¤§äº "{compareValue}"ã',
+  '{attribute} must be greater than or equal to "{compareValue}".' => '{attribute}å¿é¡»å¤§äºæèç­äº "{compareValue}"ã',
+  '{attribute} must be less than "{compareValue}".' => '{attribute}å¿é¡»å°äº "{compareValue}"ã',
+  '{attribute} must be less than or equal to "{compareValue}".' => '{attribute}å¿é¡»å°äºæèç­äº "{compareValue}"ã',
+  '{attribute} must be {value}.' => '{attribute}å¿é¡»ä¸º{value}ã',
+  '{attribute} must not be equal to "{compareValue}".' => '{attribute}å¿é¡»ä¸ç­äº"{compareValue}"ã',
+  '{className} does not support flushValues() functionality.' => '{className} ä¸æ¯æ flushValues() åè½ã',
+  '{class} does not have a method named "{name}".' => '{class} æ²¡æåä¸º "{name}" çæ¹æ³ã',
+  'CDbLogRoute requires database table "{table}" to store log messages.' => '@@CDbLogRoute è¦æ±æ°æ®åº table "{table}" å¨å­æ¥å¿è®¯æ¯.@@',
+  'CMemCache requires PHP memcache extension to be loaded.' => '@@CMemCache è¦æ± PHP memcache extension å¿é¡»åè¢«è½½å¥.@@',
+  'CMultiFileUpload.name is required.' => '@@CMultiFileUpload.name æ¯å¿è¦ç.@@',
+  'CSecurityManager.validation must be either "MD5" or "SHA1".' => '@@CSecurityManager.validation å¿é¡»æ¯ "MD5" æ "SHA1".@@',
+  'Cache table "{tableName}" does not exist.' => '@@Cache table "{tableName}" ä¸å­å¨.@@',
+  'Table "{table}" does not have a primary key defined.' => '@@Table "{table}" æ²¡æå®ä¹ä¸»é®.@@',
+  'The "view" property is required.' => '@@éè¦ "view" å±æ§@@',
+  'The asset "{asset}" to be pulished does not exist.' => '@@æ¬²åå¸ç asset "{asset}" ä¸å­å¨.@@',
+  'The column "{column}" is not a foreign key in table "{table}".' => '@@æ ä½ "{column}" å¹¶ä¸æ¯ table "{table}" ä¸­çä¸ä¸ª foreign key.@@',
+  'The pattern for day of the week must be "E", "EE", "EEE", "EEEE" or "EEEEE".' => '@@ä»£è¡¨ day of the week çæ ¼å¼å¿é¡»æ¯ "E", "EE", "EEE", "EEEE" æ "EEEEE".@@',
+  'The pattern for month must be "M", "MM", "MMM", or "MMMM".' => '@@ä»£è¡¨æä»½çæ ¼å¼å¿é¡»æ¯ "M", "MM", "MMM", æ "MMMM".@@',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key "{key}". The foreign key does not point to either joining table.' => '@@active record class "{class}" ä¸­çå³è "{relation}" æä¸ä¸ªæ æç foreign key "{key}". foreign key æªæå°ä»»ä¸ä¸ª joining table.@@',
+  'The requested controller "{controller}" does not exist.' => '@@è¯·æ±çæ§å¶å¨ "{controller}" ä¸å­å¨.@@',
+  'The requested view "{name}" is not found.' => '@@è¯·æ±ç view "{name}" æªæ¾å°.@@',
+  'The value for the primary key "{key}" is not supplied when querying the table "{table}".' => '@@æ¥è¯¢ table "{table}" æ¶æªæä¾ primary key "{key}" çå¼.@@',
+  'Unable to find the decorator view "{view}".' => '@@æ æ³æ¾å° decorator view "{view}".@@',
+  'Unable to find the list item.' => '@@æ æ³æ¾å°åè¡¨é¡¹ç®.@@',
+  '{className} does not support flush() functionality.' => '@@{className} ä¸æ¯æ flush() åè½.@@',
+  '{class} does not have attribute "{name}".' => '@@{class} ä¸­æ²¡æåä¸º "{name}" çå±æ§.@@',
+  '"{path}" is not a valid directory.' => '"{path}" ä¸æ¯ä¸ä¸ªåæ³çç®å½.',
+  '&lt; Previous' => '&lt; åé¡µ',
+  '&lt;&lt; First' => '&lt;&lt; é¦é¡µ',
+  'Active Record requires a "db" CDbConnection application component.' => 'Active Record éè¦ä¸ä¸ªåä¸º "db" ç CDbConnection åºç¨ç¨åºç»ä»¶.',
+  'Active record "{class}" has an invalid configuration for relation "{relation}". It must specify the relation type, the related active record class and the foreign key.' => 'Active record "{class}" å¯¹äºå³è "{relation}" æä¸ä¸ªæ æçéç½®. å¿é¡»ç»å®å³èç§ç±», ç¸å³ç active record class ä»¥å foreign key.',
+  'Active record "{class}" is trying to select an invalid column "{column}". Note, the column must exist in the table or be an expression with alias.' => 'Active record "{class}" æ­£å°è¯éæ©ä¸ä¸ªæ æçæ ä½ "{column}". æ³¨æ, è¯¥æ ä½å¿é¡»å­å¨äº table ä¸­æèæ¯ä¸ä¸ªå·å«åç expression.',
+  'Alias "{alias}" is invalid. Make sure it points to an existing directory or file.' => 'å«å "{alias}" æ¯æ æç. è¯·ç¡®å®å®æåä¸ä¸ªå·²å­å¨çç®å½ææä»¶.',
+  'Application base path "{path}" is not a valid directory.' => 'åºç¨ç¨åºåºåè·¯å¾ "{path}" æ¯æ æçç®å½.',
+  'Application runtime path "{path}" is not valid. Please make sure it is a directory writable by the Web server process.' => 'åºç¨ç¨åºæ§è¡æ¶çè·¯å¾ "{path}" æ¯æ æç. è¯·ç¡®å®å®æ¯ä¸ä¸ªå¯è¢« Web server process åå¥èµæçç®å½.',
+  'Authorization item "{item}" has already been assigned to user "{user}".' => 'ææé¡¹ç® "{item}" å·²ç»è¢«ææ´¾ç»ä½¿ç¨è "{user}".',
+  'CApcCache requires PHP apc extension to be loaded.' => 'CApcCache è¦æ± PHP apc extension å¿é¡»åè¢«è½½å¥.',
+  'CAssetManager.basePath "{path}" is invalid. Please make sure the directory exists and is writable by the Web server process.' => 'CAssetManager.basePath "{path}" æ¯æ æç. è¯·ç¡®å®å®æ¯ä¸ä¸ªå¯è¢« Web server process åå¥èµæçç®å½.',
+  'CCacheHttpSession.cacheID is invalid. Please make sure "{id}" refers to a valid cache application component.' => 'CCacheHttpSession.cacheID æ¯æ æç. è¯·ç¡®å® "{id}" åç§å°ä¸ä¸ªææçå¿«ååºç¨ç¨åºç»ä»¶.',
+  'CCaptchaValidator.action "{id}" is invalid. Unable to find such an action in the current controller.' => 'CCaptchaValidator.action "{id}" æ¯æ æç. æ æ³å¨ç®åçæ§å¶å¨ä¸­æ¾å°æ­¤ä¸å¨ä½.',
+  'CDbAuthManager.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbAuthManager.connectionID "{id}" æ¯æ æç. è¯·ç¡®å®å®åç§å°ä¸ä¸ª CDbConnection åºç¨ç¨åºç»ä»¶ç ID.',
+  'CDbCache.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbCache.connectionID "{id}" æ¯æ æç. è¯·ç¡®å®å®åç§å°ä¸ä¸ª CDbConnection åºç¨ç¨åºç»ä»¶ç ID.',
+  'CDbCacheDependency.sql cannot be empty.' => 'CDbCacheDependency.sql ä¸è½æ¯ç©ºç.',
+  'CDbCommand failed to execute the SQL statement: {error}' => 'CDbCommand æ æ³æ§è¡ SQL è¯­å¥: {error}',
+  'CDbCommand failed to prepare the SQL statement: {error}' => 'CDbCommand æ æ³åå¤ SQL è¯­å¥: {error}',
+  'CDbConnection does not support reading schema for {driver} database.' => 'CDbConnection ä¸æ¯æå¯¹ {driver} æ°æ®åº schema çè¯»å.',
+  'CDbConnection failed to open the DB connection: {error}' => 'CDbConnection æ æ³å¼å¯æ°æ®åºè¿çº¿: {error}',
+  'CDbConnection is inactive and cannot perform any DB operations.' => 'CDbConnection ç¶æä¸ºæªå¯ç¨, æ æ³è¿è¡ä»»ä½æ°æ®åºå¨ä½.',
+  'CDbConnection.connectionString cannot be empty.' => 'CDbConnection.connectionString ä¸è½æ¯ç©ºç.',
+  'CDbDataReader cannot rewind. It is a forward-only reader.' => 'CDbDataReader æ æ³åå, åªåè®¸ååè¯»å.',
+  'CDbHttpSession.connectionID "{id}" is invalid. Please make sure it refers to the ID of a CDbConnection application component.' => 'CDbHttpSession.connectionID "{id}" æ¯æ æç. è¯·ç¡®å®å®åç§å°ä¸ä¸ª CDbConnection åºç¨ç¨åºç»ä»¶ç ID.',
+  'CDbLogRoute.connectionID "{id}" does not point to a valid CDbConnection application component.' => 'CDbLogRoute.connectionID "{id}" æªæåä¸ä¸ªææç CDbConnection åºç¨ç¨åºç»ä»¶.',
+  'CDbMessageSource.connectionID is invalid. Please make sure "{id}" refers to a valid database application component.' => 'CDbMessageSource.connectionID æ¯æ æç. è¯·ç¡®å® "{id}" åç§å°ä¸ä¸ªææçæ°æ®åºåºç¨ç¨åºç»ä»¶.',
+  'CDbTransaction is inactive and cannot perform commit or roll back operations.' => 'CDbTransaction ç¶æä¸ºæªå¯ç¨, æ æ³è¿è¡ commit æ roll back å¨ä½.',
+  'CDirectoryCacheDependency.directory cannot be empty.' => 'CDirectoryCacheDependency.directory ä¸è½æ¯ç©ºç.',
+  'CFileCacheDependency.fileName cannot be empty.' => 'CFileCacheDependency.fileName ä¸è½æ¯ç©ºç.',
+  'CFileLogRoute.logPath "{path}" does not point to a valid directory. Make sure the directory exists and is writable by the Web server process.' => 'CFileLogRoute.logPath "{path}" does not point to a valid directory. è¯·ç¡®å®ç®å½å­å¨å¹¶ä¸åè®¸ Web server process åå¥.',
+  'CFilterChain can only take objects implementing the IFilter interface.' => 'CFilterChain åªè½åå¾æå®ç° IFilter æ¥å£çå¯¹è±¡.',
+  'CFlexWidget.baseUrl cannot be empty.' => 'CFlexWidget.baseUrl ä¸è½æ¯ç©ºç.',
+  'CFlexWidget.name cannot be empty.' => 'CFlexWidget.name ä¸è½æ¯ç©ºç.',
+  'CGlobalStateCacheDependency.stateName cannot be empty.' => 'CGlobalStateCacheDependency.stateName ä¸è½æ¯ç©ºç.',
+  'CHttpCookieCollection can only hold CHttpCookie objects.' => 'CHttpCookieCollection åªè½ææ CHttpCookie å¯¹è±¡.',
+  'CHttpRequest is unable to determine the entry script URL.' => 'CHttpRequest ä¸è½ç¡®è®¤å¥å£èæ¬ç URL.',
+  'CHttpRequest is unable to determine the path info of the request.' => 'CHttpRequest ä¸è½ç¡®è®¤è¯·æ±çè·¯å¾ä¿¡æ¯.',
+  'CHttpRequest is unable to determine the request URI.' => 'CHttpRequest ä¸è½ç¡®è®¤è¯·æ±ç URI.',
+  'CHttpSession.cookieMode can only be "none", "allow" or "only".' => 'CHttpSession.cookieMode åªè½æ¯ "none", "allow" æ "only".',
+  'CHttpSession.gcProbability "{value}" is invalid. It must be an integer between 0 and 100.' => 'CHttpSession.gcProbability "{value}" æ¯æ æç. å®å¿é¡»æ¯ä»äº 0 ä¸ 100ä¹é´çæ´æ°.',
+  'CHttpSession.savePath "{path}" is not a valid directory.' => 'CHttpSession.savePath "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'CMemCache server configuration must be an array.' => 'CMemCache æå¡å¨éç½®å¿é¡»æ¯ä¸ä¸ªæ°ç».',
+  'CMemCache server configuration must have "host" value.' => 'CMemCache æå¡å¨éç½®å¿é¡»æ "host" çå¼.',
+  'CProfileLogRoute found a mismatching code block "{token}". Make sure the calls to Yii::beginProfile() and Yii::endProfile() be properly nested.' => 'CProfileLogRoute found a mismatching code block "{token}". è¯·ç¡®å®å¯¹äº Yii::beginProfile() ä¸ Yii::endProfile() çå¼å«æ¯éå½å°å·¢ç¶å¥å ç.',
+  'CProfileLogRoute.report "{report}" is invalid. Valid values include "summary" and "callstack".' => 'CProfileLogRoute.report "{report}" æ¯æ æç. ææå¼åå« "summary" ä¸ "callstack".',
+  'CSecurityManager requires PHP mcrypt extension to be loaded in order to use data encryption feature.' => 'CSecurityManager è¦æ± PHP mcrypt extension å¿é¡»åè¢«è½½å¥ä»¥ä¾¿ä½¿ç¨èµæå å¯åè½.',
+  'CSecurityManager.encryptionKey cannot be empty.' => 'CSecurityManager.encryptionKey ä¸è½æ¯ç©ºç.',
+  'CSecurityManager.validationKey cannot be empty.' => 'CSecurityManager.validationKey ä¸è½æ¯ç©ºç.',
+  'CTypedList<{type}> can only hold objects of {type} class.' => 'CTypedList<{type}> åªè½ææ {type} ç±»å«çå¯¹è±¡.',
+  'CUrlManager.UrlFormat must be either "path" or "get".' => 'CUrlManager.UrlFormat å¿é¡»æ¯ "path" æ "get".',
+  'CXCache requires PHP XCache extension to be loaded.' => 'CXCache è¦æ± PHP XCache extension å¿é¡»åè¢«è½½å¥.',
+  'Cannot add "{child}" as a child of "{name}". A loop has been detected.' => 'æ æ³æ°å¢ "{child}" æä¸º "{name}" çå­é¡¹. ä¾¦æµå°æè¿´åäº§ç.',
+  'Cannot add "{child}" as a child of "{parent}". A loop has been detected.' => 'æ æ³æ°å¢ "{child}" æä¸º "{parent}" çå­é¡¹. ä¾¦æµå°æè¿´åäº§ç.',
+  'Cannot add "{name}" as a child of itself.' => 'æ æ³æ°å¢ "{name}" æä¸ºå®èªå·±çå­é¡¹.',
+  'Cannot add an item of type "{child}" to an item of type "{parent}".' => 'æ æ³æ°å¢ä¸ä¸ªç§ç±»ä¸º "{child}" çé¡¹ç®å°ä¸ä¸ªç§ç±»ä¸º "{parent}" çé¡¹ç®.',
+  'Either "{parent}" or "{child}" does not exist.' => '"{parent}" æ "{child}" ä¸å­å¨.',
+  'Error: Table "{table}" does not have a primary key.' => 'éè¯¯: Table "{table}" æ²¡æå®ä¹ä¸»é®.',
+  'Error: Table "{table}" has a composite primary key which is not supported by crud command.' => 'éè¯¯: Table "{table}" æä¸ä¸ªä¸è¢« crud å½ä»¤ææ¯æçåæä¸»é®.',
+  'Event "{class}.{event}" is attached with an invalid handler "{handler}".' => 'äºä»¶ "{class}.{event}" éå äºä¸ä¸ªæ æç handler "{handler}".',
+  'Event "{class}.{event}" is not defined.' => 'äºä»¶ "{class}.{event}" æªå®ä¹.',
+  'Failed to write the uploaded file "{file}" to disk.' => 'æ æ³å°å·²ä¸ä¼ çæä»¶ "{file}" åå¥ç£ç¢.',
+  'File upload was stopped by extension.' => 'æä»¶ä¸ä¼ è¢« extension æåæ­¢.',
+  'Filter "{filter}" is invalid. Controller "{class}" does have the filter method "filter{filter}".' => 'ç­éå¨ "{filter}" æ¯æ æç. æ§å¶å¨ "{class}" æ²¡æåä¸º "filter{filter}" çç­éå¨æ¹æ³.',
+  'Get a new code' => 'åå¾ä¸ç»æ°ä»£ç ',
+  'Go to page: ' => 'ç¿»é¡µ: ',
+  'Invalid MO file revision: {revision}.' => 'æ æç MO æä»¶ä¿®è®¢: {revision}.',
+  'Invalid MO file: {file} (magic: {magic}).' => 'æ æç MO æä»¶: {file} (magic: {magic}).',
+  'Invalid enumerable value "{value}". Please make sure it is among ({enum}).' => 'æ æç enumerable å¼ "{value}". è¯·ç¡®å®å®å¨ ({enum}) ä¹ä¸­.',
+  'Last &gt;&gt;' => 'æ«é¡µ &gt;&gt;',
+  'List data must be an array or an object implementing Traversable.' => 'åè¡¨èµæå¿é¡»æ¯ä¸ä¸ªæ°ç»ææ¯æå®ç° Traversable çä¸ä¸ªå¯¹è±¡.',
+  'List index "{index}" is out of bound.' => 'åè¡¨ç´¢å¼ "{index}" è¶åºèå´.',
+  'Login Required' => 'éè¦åç»å¥ç³»ç»',
+  'Map data must be an array or an object implementing Traversable.' => 'åå¸è¡¨èµæå¿é¡»æ¯ä¸ä¸ªæ°ç»æä¸ä¸ªå®ç° Traversable çå¯¹è±¡.',
+  'Missing the temporary folder to store the uploaded file "{file}".' => 'ç¼ºä¹æå­ç®å½æ¥å¨å­å·²ä¸ä¼ çæä»¶ "{file}".',
+  'Next &gt;' => 'åé¡µ &gt;',
+  'No columns are being updated for table "{table}".' => 'table "{table}" æ²¡æä»»ä½æ ä½å°è¢«æ´æ°.',
+  'No counter columns are being updated for table "{table}".' => 'table "{table}" æ²¡æä»»ä½è®¡æ°å¨æ ä½å°è¢«æ´æ°.',
+  'Object configuration must be an array containing a "class" element.' => 'å¯¹è±¡éç½®å¿é¡»æ¯åå«æä¸ä¸ª "class" åç´ çä¸ä¸ªæ°ç».',
+  'Please fix the following input errors:' => 'è¯·æ´æ­£ä¸åè¾å¥éè¯¯:',
+  'Property "{class}.{property}" is not defined.' => 'å±æ§ "{class}.{property}" æªè¢«å®ä¹.',
+  'Property "{class}.{property}" is read only.' => 'å±æ§ "{class}.{property}" æ¯åªè¯»ç.',
+  'Queue data must be an array or an object implementing Traversable.' => 'éåèµæå¿é¡»æ¯ä¸ä¸ªæ°ç»æä¸ä¸ªå®ç° Traversable çå¯¹è±¡.',
+  'Relation "{name}" is not defined in active record class "{class}".' => 'å³è "{name}" æªè¢«å®ä¹å¨ active record class "{class}" ä¸­.',
+  'Stack data must be an array or an object implementing Traversable.' => 'å æ èµæå¿é¡»æ¯ä¸ä¸ªæ°ç»æä¸ä¸ªå®ç° Traversable çå¯¹è±¡.',
+  'Table "{table}" does not have a column named "{column}".' => 'Table "{table}" æ²¡æåä¸º "{column}" çæ ä½.',
+  'The "filter" property must be specified with a valid callback.' => 'å±æ§ "filter" å¿é¡»ä»¥ä¸ä¸ªææç callback ææ.',
+  'The "pattern" property must be specified with a valid regular expression.' => 'å±æ§ "pattern" å¿é¡»ä»¥ä¸ä¸ªææç regular expression ææ.',
+  'The CSRF token could not be verified.' => 'CSRF token æ æ³è¢«éªè¯.',
+  'The URL pattern "{pattern}" for route "{route}" is not a valid regular expression.' => 'route "{route}" ä¸­ç URL æ ¼å¼ "{pattern}" ä¸æ¯ææç regular expression.',
+  'The active record cannot be deleted because it is new.' => 'active record ç±äºæ¯æ°ç, æ æ³è¢«å é¤.',
+  'The active record cannot be inserted to database because it is not new.' => 'active record ç±äºä¸æ¯æ°ç, æ æ³è¢«æ°å¢å°æ°æ®åº.',
+  'The active record cannot be updated because it is new.' => 'active record ç±äºæ¯æ°ç, æ æ³è¢«æ´æ°.',
+  'The asset "{asset}" to be published does not exist.' => 'Assetæä»¶ "{asset}" ä¸å­å¨.',
+  'The command path "{path}" is not a valid directory.' => 'å½ä»¤è·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'The controller path "{path}" is not a valid directory.' => 'æ§å¶å¨è·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'The file "{file}" cannot be uploaded. Only files with these extensions are allowed: {extensions}.' => 'æä»¶ "{file}" æ æ³è¢«ä¸ä¼ . åªæéæ¡£åå¦ä¸çæä»¶æ¯è¢«åè®¸ç: {extensions}.',
+  'The file "{file}" is too large. Its size cannot exceed {limit} bytes.' => 'æä»¶ "{file}" å¤ªå¤§. æä»¶å¤§å°ä¸è½è¶è¿ {limit} ä½åç».',
+  'The file "{file}" is too small. Its size cannot be smaller than {limit} bytes.' => 'æä»¶ "{file}" å¤ªå°. æä»¶å¤§å°ä¸è½å°äº {limit} ä½åç».',
+  'The file "{file}" was only partially uploaded.' => 'æä»¶ "{file}" ä¸ä¼ ä¸å®å¨.',
+  'The first element in a filter configuration must be the filter class.' => 'ç­éå¨éç½®ä¸­çç¬¬ä¸ä¸ªåç´ å¿é¡»æ¯ç­éå¨ç±»å«.',
+  'The item "{name}" does not exist.' => 'é¡¹ç® "{name}" ä¸å­å¨.',
+  'The item "{parent}" already has a child "{child}".' => 'é¡¹ç® "{parent}" å·²æå­é¡¹ç® "{child}".',
+  'The layout path "{path}" is not a valid directory.' => 'å¸å±è·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'The list is read only.' => 'åè¡¨æ¯åªè¯»ç.',
+  'The map is read only.' => 'åå¸è¡¨æ¯åªè¯»ç.',
+  'The pattern for 12 hour format must be "h" or "hh".' => 'ä»£è¡¨12å°æ¶å¶çæ ¼å¼å¿é¡»æ¯ "h" æ "hh".',
+  'The pattern for 24 hour format must be "H" or "HH".' => 'ä»£è¡¨24å°æ¶å¶çæ ¼å¼å¿é¡»æ¯ "H" æ "HH".',
+  'The pattern for AM/PM marker must be "a".' => 'ä»£è¡¨ AM/PM æ è®°çæ ¼å¼å¿é¡»æ¯ "a".',
+  'The pattern for day in month must be "F".' => 'ä»£è¡¨ day in month çæ ¼å¼å¿é¡»æ¯ "F".',
+  'The pattern for day in year must be "D", "DD" or "DDD".' => 'ä»£è¡¨ day in year çæ ¼å¼å¿é¡»æ¯ "D", "DD" æ "DDD".',
+  'The pattern for day of the month must be "d" or "dd".' => 'ä»£è¡¨ day of the month çæ ¼å¼å¿é¡»æ¯ "d" æ "dd".',
+  'The pattern for era must be "G", "GG", "GGG", "GGGG" or "GGGGG".' => 'ä»£è¡¨å¹´ä»£çæ ¼å¼å¿é¡»æ¯ "G", "GG", "GGG", "GGGG" æ "GGGGG".',
+  'The pattern for hour in AM/PM must be "K" or "KK".' => 'ä»£è¡¨æ¶(AM/PMæ ¼å¼)çæ ¼å¼å¿é¡»æ¯ "K" æ "KK".',
+  'The pattern for hour in day must be "k" or "kk".' => 'ä»£è¡¨è¯¥å¤©ç¬¬å å°æ¶çæ ¼å¼å¿é¡»æ¯ "k" æ "kk".',
+  'The pattern for minutes must be "m" or "mm".' => 'ä»£è¡¨åçæ ¼å¼å¿é¡»æ¯ "m" æ "mm".',
+  'The pattern for seconds must be "s" or "ss".' => 'ä»£è¡¨ç§çæ ¼å¼å¿é¡»æ¯ "s" æ "ss".',
+  'The pattern for time zone must be "z" or "v".' => 'ä»£è¡¨æ¶åºçæ ¼å¼å¿é¡»æ¯ "z" æ "v".',
+  'The pattern for week in month must be "W".' => 'ä»£è¡¨ week in month çæ ¼å¼å¿é¡»æ¯ "W".',
+  'The pattern for week in year must be "w".' => 'ä»£è¡¨ week in year çæ ¼å¼å¿é¡»æ¯ "w".',
+  'The queue is empty.' => 'éåç¶æä¸ºç©º.',
+  'The relation "{relation}" in active record class "{class}" is not specified correctly: the join table "{joinTable}" given in the foreign key cannot be found in the database.' => 'active record class "{class}" ä¸­çå³è "{relation}" æªè¢«æ­£ç¡®ææ: æ°æ®åºä¸­æ æ³æ¾å° foreign key ä¸­æç»ç join table "{joinTable}".',
+  'The relation "{relation}" in active record class "{class}" is specified with an incomplete foreign key. The foreign key must consist of columns referencing both joining tables.' => 'active record class "{class}" ä¸­çå³è "{relation}" æä¸ä¸ªä¸å®æ´ç foreign key. foreign key å¿é¡»æ¯åç§ joining tables ä¸­çæ ä½æææ.',
+  'The relation "{relation}" in active record class "{class}" is specified with an invalid foreign key. The format of the foreign key must be "joinTable(fk1,fk2,...)".' => 'active record class "{class}" ä¸­çå³è "{relation}" æä¸ä¸ªæ æç foreign key. foreign key çæ ¼å¼å¿é¡»æ¯ "joinTable(fk1,fk2,...)".',
+  'The stack is empty.' => 'å æ ç¶æä¸ºç©º.',
+  'The system is unable to find the requested action "{action}".' => 'ç³»ç»æ æ³æ¾å°è¯·æ±ç "{action}" å¨ä½.',
+  'The system view path "{path}" is not a valid directory.' => 'ç³»ç» view è·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'The table "{table}" for active record class "{class}" cannot be found in the database.' => 'æ°æ®åºä¸­æ æ³æ¾å° active record class "{class}" å¯¹åºç table "{table}".',
+  'The verification code is incorrect.' => 'éªè¯ç ä¸æ­£ç¡®.',
+  'The view path "{path}" is not a valid directory.' => 'view è·¯å¾ "{path}" ä¸æ¯ä¸ä¸ªææçç®å½.',
+  'Theme directory "{directory}" does not exist.' => 'Theme ç®å½ "{directory}" ä¸å­å¨.',
+  'This content requires the <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.' => 'åå®¹éæ <a href="http://www.adobe.com/go/getflash/">Adobe Flash Player</a>.',
+  'Unable to add an item whose name is the same as an existing item.' => 'æ æ³æ°å¢ä¸å·²å­å¨é¡¹ç®åç§°ç¸åçæ°é¡¹ç®.',
+  'Unable to change the item name. The name "{name}" is already used by another item.' => 'æ æ³åæ´é¡¹ç®åç§°. åç§° "{name}" å·²è¢«å¶å®é¡¹ç®ä½¿ç¨.',
+  'Unable to create application state file "{file}". Make sure the directory containing the file exists and is writable by the Web server process.' => 'æ æ³äº§çåºç¨ç¨åºç¶ææä»¶ "{file}". è¯·ç¡®è®¤å­æ¾æ­¤æä»¶çç®å½å­å¨å¹¶ä¸åè®¸ Web server process åå¥.',
+  'Unable to lock file "{file}" for reading.' => 'æ æ³éå®æä»¶ "{file}" è¿è¡è¯»å.',
+  'Unable to lock file "{file}" for writing.' => 'æ æ³éå®æä»¶ "{file}" è¿è¡åå¥.',
+  'Unable to read file "{file}".' => 'æ æ³è¯»åæä»¶ "{file}".',
+  'Unable to replay the action "{object}.{method}". The method does not exist.' => 'æ æ³åæ¬¡éæ¼ "{object}.{method}" å¨ä½. è¿ä¸ªæ¹æ³ä¸å­å¨.',
+  'Unable to write file "{file}".' => 'æ æ³åå¥æä»¶ "{file}".',
+  'Unknown authorization item "{name}".' => 'æªç¥çææé¡¹ç® "{name}".',
+  'Unrecognized locale "{locale}".' => 'æ æ³è¾¨è¯çå°åºè®¾å® "{locale}".',
+  'View file "{file}" does not exist.' => 'åä¸º "{file}" ç View æ¡£ä¸å­å¨.',
+  'Yii application can only be created once.' => 'Yii åºç¨ç¨åºåªè½è¢«äº§çä¸æ¬¡.',
+  'You are not authorized to perform this action.' => 'æ¨æªè¢«æææ§è¡è¿ä¸ªå¨ä½',
+  'Your request is not valid.' => 'æ¨çè¯·æ±æ æ',
+  '{attribute} "{value}" has already been taken.' => '{attribute} "{value}" å·²è¢«åç¨.',
+  '{attribute} cannot be blank.' => '{attribute} ä¸å¯ä¸ºç©ºç½.',
+  '{attribute} is invalid.' => '{attribute} æ æ.',
+  '{attribute} is not a valid URL.' => '{attribute} ä¸æ¯ææç URL.',
+  '{attribute} is not a valid email address.' => '{attribute} ä¸æ¯ææççµå­é®ä»¶å°å.',
+  '{attribute} is not in the list.' => '{attribute} ä¸å¨åè¡¨ä¹ä¸­.',
+  '{attribute} is of the wrong length (should be {length} characters).' => '{attribute} é¿åº¦éè¯¯ (åºä¸º {length} å­ç¬¦ä¸²).',
+  '{attribute} is too big (maximum is {max}).' => '{attribute} æ°å¼å¤ªå¤§ (æå¤§å¼ä¸º {max}).',
+  '{attribute} is too long (maximum is {max} characters).' => '{attribute} å¤ªé¿ (æå¤§å¼ä¸º {max} å­ç¬¦ä¸²).',
+  '{attribute} is too short (minimum is {min} characters).' => '{attribute} å¤ªç­ (æå°å¼ä¸º {min} å­ç¬¦ä¸²).',
+  '{attribute} is too small (minimum is {min}).' => '{attribute} æ°å¼å¤ªå° (æå°å¼ä¸º {min}).',
+  '{attribute} must be a number.' => '{attribute} å¿é¡»ä¸ºæ°å­.',
+  '{attribute} must be an integer.' => '{attribute} å¿é¡»ä¸ºæ´æ°.',
+  '{attribute} must be repeated exactly.' => '{attribute} å¿é¡»è¢«éå¤.',
+  '{attribute} must be {type}.' => '{attribute} å¿é¡»ä¸º {type}.',
+  '{className} does not support add() functionality.' => '{className} ä¸æ¯æ add() åè½.',
+  '{className} does not support delete() functionality.' => '{className} ä¸æ¯æ delete() åè½.',
+  '{className} does not support get() functionality.' => '{className} ä¸æ¯æ get() åè½.',
+  '{className} does not support set() functionality.' => '{className} ä¸æ¯æ set() åè½.',
+  '{class} does not have relation "{name}".' => '{class} ä¸­æ²¡æåä¸º "{name}" çå³è.',
+  '{class} does not support fetching all table names.' => '{class} ä¸æ¯ææ·åææ table åç§°.',
+  '{class} has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' => '{class} æä¸ä¸ªæ æçç¡®è®¤è§å. è§åå¿é¡»ææè¦è¢«ç¡®è®¤çå±æ§ä»¥åç¡®è®¤å¨åç§°.',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} å¿é¡»ç»å® "model" ä¸ "attribute" æ "name" å±æ§å¼.',
+  '{class}.allowAutoLogin must be set true in order to use cookie-based authentication.' => '{class}.allowAutoLogin å¿é¡»è®¾ä¸º true æè½ä½¿ç¨ cookie-based è®¤è¯.',
+  '{class}::authenticate() must be implemented.' => '{class}::authenticate() å¿é¡»è¢«å®ç°.',
+  '{controller} cannot find the requested view "{view}".' => '{controller} æ æ³æ¾å°è¯·æ±çè§å¾ "{view}".',
+  '{controller} contains improperly nested widget tags in its view "{view}". A {widget} widget does not have an endWidget() call.' => '{controller} å¨å®ç view "{view}" ä¸­å«ææªè¢«éå½å·¢ç¶å¥å ç widget æ ç­¾. {widget} widget ä¸­æ²¡æå¼å« endWidget().',
+  '{controller} has an extra endWidget({id}) call in its view.' => '{controller} å¨å®çè§å¾ä¸­æä¸ä¸ªé¢å¤ç endWidget({id}) å¼å«.',
+  '{widget} cannot find the view "{view}".' => '{widget} æ æ³æ¾å°è¿ä¸ªè§å¾ "{view}".',
 );

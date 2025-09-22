@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Usługa niedostępna</title>
+<title>UsÅuga niedostÄpna</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Usługa niedostępna</h1>
+<h1>UsÅuga niedostÄpna</h1>
 <p>
-Nasz system jest obecnie w trakcie konserwacji. Proszę spróbuj ponownie później.
+Nasz system jest obecnie w trakcie konserwacji. ProszÄ sprÃ³buj ponownie pÃ³Åºniej.
 </p>
 <p>
-Dziękujemy.
+DziÄkujemy.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

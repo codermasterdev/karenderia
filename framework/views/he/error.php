@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>שגיאה <?php echo $data['code']; ?></title>
+<title>×©×××× <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -20,16 +20,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>שגיאה <?php echo $data['code']; ?></h1>
+<h1>×©×××× <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-השגיאה המוצגת למעלה התרחשה בעת שהשרת ניסה לעבד את הבקשה שלך.
+××©×××× ××××¦××ª ×××¢×× ××ª×¨××©× ××¢×ª ×©××©×¨×ª × ××¡× ××¢×× ××ª ×××§×©× ×©××.
 </p>
 <p>
-אם הינך חושב שזוהי בעית שרת אנא צור קשר עם, <?php echo $data['admin']; ?>.
+×× ××× × ×××©× ×©×××× ××¢××ª ×©×¨×ª ×× × ×¦××¨ ×§×©×¨ ×¢×, <?php echo $data['admin']; ?>.
 </p>
 <p>
-תודה.
+×ª×××.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

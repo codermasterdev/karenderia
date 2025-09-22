@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("程序概要分析 - 报告概述");
-	console.log("  数量    总计     平均    最小     最大   ");
+	console.group("ç¨åºæ¦è¦åæ - æ¥åæ¦è¿°");
+	console.log("  æ°é    æ»è®¡     å¹³å    æå°     æå¤§   ");
 <?php
 foreach($data as $index=>$entry)
 {

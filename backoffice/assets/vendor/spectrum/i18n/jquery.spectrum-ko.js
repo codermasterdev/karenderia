@@ -5,12 +5,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ko"] = {
-        cancelText: "취소",
-        chooseText: "선택",
-        clearText: "선택 초기화",
-        noColorSelectedText: "선택된 색상 없음",
-        togglePaletteMoreText: "더보기",
-        togglePaletteLessText: "줄이기"
+        cancelText: "ì·¨ì",
+        chooseText: "ì í",
+        clearText: "ì í ì´ê¸°í",
+        noColorSelectedText: "ì íë ìì ìì",
+        togglePaletteMoreText: "ëë³´ê¸°",
+        togglePaletteLessText: "ì¤ì´ê¸°"
     };
 
 })( jQuery );

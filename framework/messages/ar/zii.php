@@ -17,25 +17,25 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} يجب تحديد قيم خصائص "model" و "attribute" أو "name".',
-  'Are you sure you want to delete this item?' => 'هل أنت متأكد أنك تريد حذف هذا العنصر؟',
-  'Delete' => 'حذف',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'عرض {start}-{end} من {count} نتيجة.',
-  'Either "name" or "value" must be specified for CDataColumn.' => 'يجب تحديد إما "name" أو "value" لـ CDataColumn.',
-  'Home' => 'الرئيسية',
-  'No results found.' => 'لا توجد نتائج.',
-  'Not set' => 'لم يتم ضبطه',
-  'Please specify the "attributes" property.' => 'يرجى تحديد خاصية "attributes".',
-  'Please specify the "data" property.' => 'يرجى تحديد خاصية "data".',
-  'Sort by: ' => 'فرز حسب:',
-  'The "dataProvider" property cannot be empty.' => 'لايمكن ترك خاصية "dataProvider" فارغة.',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'يجب تحديد السمة في التنسيق "Name:Type:Label"، حيث أن "Type" و "Label" اختيارية.',
-  'The button type "{type}" is not supported.' => 'نوع الزر "{type}" غير مدعوم.',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'يجب تحديد العمود في التنسيق "Name:Type:Label"، حيث أن "Type" و "Label" اختيارية.',
-  'The property "itemView" cannot be empty.' => 'لايمكن ترك خاصية "itemView" فارغة.',
-  'The property filterSelector should be defined.' => 'الخاصية filterSelector يجب أن تكون معرّفة.',
-  'The property updateSelector should be defined.' => 'الخاصية updateSelector يجب أن تكون معرّفة.',
-  'Total 1 result.|Total {count} results.' => 'مجموع {count} نتيجة/نتائج.',
-  'Update' => 'تحديث',
-  'View' => 'عرض',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} ÙØ¬Ø¨ ØªØ­Ø¯ÙØ¯ ÙÙÙ Ø®ØµØ§Ø¦Øµ "model" Ù "attribute" Ø£Ù "name".',
+  'Are you sure you want to delete this item?' => 'ÙÙ Ø£ÙØª ÙØªØ£ÙØ¯ Ø£ÙÙ ØªØ±ÙØ¯ Ø­Ø°Ù ÙØ°Ø§ Ø§ÙØ¹ÙØµØ±Ø',
+  'Delete' => 'Ø­Ø°Ù',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Ø¹Ø±Ø¶ {start}-{end} ÙÙ {count} ÙØªÙØ¬Ø©.',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'ÙØ¬Ø¨ ØªØ­Ø¯ÙØ¯ Ø¥ÙØ§ "name" Ø£Ù "value" ÙÙ CDataColumn.',
+  'Home' => 'Ø§ÙØ±Ø¦ÙØ³ÙØ©',
+  'No results found.' => 'ÙØ§ ØªÙØ¬Ø¯ ÙØªØ§Ø¦Ø¬.',
+  'Not set' => 'ÙÙ ÙØªÙ Ø¶Ø¨Ø·Ù',
+  'Please specify the "attributes" property.' => 'ÙØ±Ø¬Ù ØªØ­Ø¯ÙØ¯ Ø®Ø§ØµÙØ© "attributes".',
+  'Please specify the "data" property.' => 'ÙØ±Ø¬Ù ØªØ­Ø¯ÙØ¯ Ø®Ø§ØµÙØ© "data".',
+  'Sort by: ' => 'ÙØ±Ø² Ø­Ø³Ø¨:',
+  'The "dataProvider" property cannot be empty.' => 'ÙØ§ÙÙÙÙ ØªØ±Ù Ø®Ø§ØµÙØ© "dataProvider" ÙØ§Ø±ØºØ©.',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'ÙØ¬Ø¨ ØªØ­Ø¯ÙØ¯ Ø§ÙØ³ÙØ© ÙÙ Ø§ÙØªÙØ³ÙÙ "Name:Type:Label"Ø Ø­ÙØ« Ø£Ù "Type" Ù "Label" Ø§Ø®ØªÙØ§Ø±ÙØ©.',
+  'The button type "{type}" is not supported.' => 'ÙÙØ¹ Ø§ÙØ²Ø± "{type}" ØºÙØ± ÙØ¯Ø¹ÙÙ.',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'ÙØ¬Ø¨ ØªØ­Ø¯ÙØ¯ Ø§ÙØ¹ÙÙØ¯ ÙÙ Ø§ÙØªÙØ³ÙÙ "Name:Type:Label"Ø Ø­ÙØ« Ø£Ù "Type" Ù "Label" Ø§Ø®ØªÙØ§Ø±ÙØ©.',
+  'The property "itemView" cannot be empty.' => 'ÙØ§ÙÙÙÙ ØªØ±Ù Ø®Ø§ØµÙØ© "itemView" ÙØ§Ø±ØºØ©.',
+  'The property filterSelector should be defined.' => 'Ø§ÙØ®Ø§ØµÙØ© filterSelector ÙØ¬Ø¨ Ø£Ù ØªÙÙÙ ÙØ¹Ø±ÙÙØ©.',
+  'The property updateSelector should be defined.' => 'Ø§ÙØ®Ø§ØµÙØ© updateSelector ÙØ¬Ø¨ Ø£Ù ØªÙÙÙ ÙØ¹Ø±ÙÙØ©.',
+  'Total 1 result.|Total {count} results.' => 'ÙØ¬ÙÙØ¹ {count} ÙØªÙØ¬Ø©/ÙØªØ§Ø¦Ø¬.',
+  'Update' => 'ØªØ­Ø¯ÙØ«',
+  'View' => 'Ø¹Ø±Ø¶',
 );

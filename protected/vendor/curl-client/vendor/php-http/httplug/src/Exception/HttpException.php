@@ -10,7 +10,7 @@ use Psr\Http\Message\ResponseInterface;
  *
  * In addition to the request, this exception always provides access to the response object.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 class HttpException extends RequestException
 {

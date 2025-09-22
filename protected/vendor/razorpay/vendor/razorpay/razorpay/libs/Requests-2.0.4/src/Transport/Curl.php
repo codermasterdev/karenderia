@@ -237,7 +237,7 @@ final class Curl implements Transport {
 	 * @throws \WpOrg\Requests\Exception\InvalidArgument When the passed $options argument is not an array.
 	 */
 	public function request_multiple($requests, $options) {
-		// If you're not requesting, we can't get any responses ¯\_(ツ)_/¯
+		// If you're not requesting, we can't get any responses Â¯\_(ã)_/Â¯
 		if (empty($requests)) {
 			return [];
 		}

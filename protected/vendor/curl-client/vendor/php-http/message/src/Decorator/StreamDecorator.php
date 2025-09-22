@@ -7,7 +7,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Decorates a stream.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 trait StreamDecorator
 {

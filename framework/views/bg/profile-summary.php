@@ -2,18 +2,18 @@
 <table width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			Обобщен доклад от профилирането
-			(Време: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>с,
-			Памет: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			ÐÐ±Ð¾Ð±ÑÐµÐ½ Ð´Ð¾ÐºÐ»Ð°Ð´ Ð¾Ñ Ð¿ÑÐ¾ÑÐ¸Ð»Ð¸ÑÐ°Ð½ÐµÑÐ¾
+			(ÐÑÐµÐ¼Ðµ: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>Ñ,
+			ÐÐ°Ð¼ÐµÑ: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Процедура</th>
-		<th>Брой</th>
-		<th>Общо (s)</th>
-		<th>Средно (s)</th>
-		<th>Минимално (s)</th>
-		<th>Максимално (s)</th>
+	    <th>ÐÑÐ¾ÑÐµÐ´ÑÑÐ°</th>
+		<th>ÐÑÐ¾Ð¹</th>
+		<th>ÐÐ±ÑÐ¾ (s)</th>
+		<th>Ð¡ÑÐµÐ´Ð½Ð¾ (s)</th>
+		<th>ÐÐ¸Ð½Ð¸Ð¼Ð°Ð»Ð½Ð¾ (s)</th>
+		<th>ÐÐ°ÐºÑÐ¸Ð¼Ð°Ð»Ð½Ð¾ (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

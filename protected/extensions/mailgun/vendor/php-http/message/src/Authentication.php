@@ -7,7 +7,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Add authentication information to a PSR-7 Request.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface Authentication
 {

@@ -117,19 +117,19 @@ return /******/ (function(modules) { // webpackBootstrap
       font: {
         bold: 'Podebljano',
         italic: 'Kurziv',
-        underline: 'Podvučeno',
+        underline: 'PodvuÄeno',
         clear: 'Ukloni stilove fonta',
         height: 'Visina linije',
         name: 'Font Family',
         strikethrough: 'Precrtano',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Veličina fonta'
+        size: 'VeliÄina fonta'
       },
       image: {
         image: 'Slika',
         insert: 'Umetni sliku',
-        resizeFull: 'Puna veličina',
+        resizeFull: 'Puna veliÄina',
         resizeHalf: 'Umanji na 50%',
         resizeQuarter: 'Umanji na 25%',
         floatLeft: 'Uz levu ivicu',
@@ -190,18 +190,18 @@ return /******/ (function(modules) { // webpackBootstrap
         h6: 'Zaglavlje 6'
       },
       lists: {
-        unordered: 'Obična lista',
+        unordered: 'ObiÄna lista',
         ordered: 'Numerisana lista'
       },
       options: {
-        help: 'Pomoć',
+        help: 'PomoÄ',
         fullscreen: 'Preko celog ekrana',
         codeview: 'Izvorni kod'
       },
       paragraph: {
         paragraph: 'Paragraf',
-        outdent: 'Smanji uvlačenje',
-        indent: 'Povečaj uvlačenje',
+        outdent: 'Smanji uvlaÄenje',
+        indent: 'PoveÄaj uvlaÄenje',
         left: 'Poravnaj u levo',
         center: 'Centrirano',
         right: 'Poravnaj u desno',
@@ -209,7 +209,7 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       color: {
         recent: 'Poslednja boja',
-        more: 'Više boja',
+        more: 'ViÅ¡e boja',
         background: 'Boja pozadine',
         foreground: 'Boja teksta',
         transparent: 'Providna',
@@ -218,7 +218,7 @@ return /******/ (function(modules) { // webpackBootstrap
         resetToDefault: 'Podrazumevana'
       },
       shortcut: {
-        shortcuts: 'Prečice sa tastature',
+        shortcuts: 'PreÄice sa tastature',
         close: 'Zatvori',
         textFormatting: 'Formatiranje teksta',
         action: 'Akcija',
@@ -256,7 +256,7 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Poništi',
+        undo: 'PoniÅ¡ti',
         redo: 'Ponovi'
       },
       specialChar: {

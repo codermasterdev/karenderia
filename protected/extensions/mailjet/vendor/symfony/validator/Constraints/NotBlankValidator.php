@@ -17,7 +17,7 @@ use Symfony\Component\Validator\Exception\UnexpectedTypeException;
 
 /**
  * @author Bernhard Schussek <bschussek@gmail.com>
- * @author Kévin Dunglas <dunglas@gmail.com>
+ * @author KÃ©vin Dunglas <dunglas@gmail.com>
  */
 class NotBlankValidator extends ConstraintValidator
 {

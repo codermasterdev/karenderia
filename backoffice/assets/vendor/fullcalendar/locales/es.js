@@ -13,14 +13,14 @@ FullCalendar.globalLocales.push(function () {
       today: 'Hoy',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Agenda',
     },
     buttonHints: {
       prev: '$0 antes',
       next: '$0 siguiente',
       today(buttonText) {
-        return (buttonText === 'Día') ? 'Hoy' :
+        return (buttonText === 'DÃ­a') ? 'Hoy' :
           ((buttonText === 'Semana') ? 'Esta' : 'Este') + ' ' + buttonText.toLocaleLowerCase()
       },
     },
@@ -29,10 +29,10 @@ FullCalendar.globalLocales.push(function () {
     },
     weekText: 'Sm',
     weekTextLong: 'Semana',
-    allDayText: 'Todo el día',
-    moreLinkText: 'más',
+    allDayText: 'Todo el dÃ­a',
+    moreLinkText: 'mÃ¡s',
     moreLinkHint(eventCnt) {
-      return `Mostrar ${eventCnt} eventos más`
+      return `Mostrar ${eventCnt} eventos mÃ¡s`
     },
     noEventsText: 'No hay eventos para mostrar',
     navLinkHint: 'Ir al $0',

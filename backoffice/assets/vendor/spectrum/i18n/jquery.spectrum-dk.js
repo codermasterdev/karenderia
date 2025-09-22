@@ -6,7 +6,7 @@
 
     var localization = $.spectrum.localization["dk"] = {
 		cancelText: "annuller",
-		chooseText: "Vælg"
+		chooseText: "VÃ¦lg"
     };
 
 })( jQuery );

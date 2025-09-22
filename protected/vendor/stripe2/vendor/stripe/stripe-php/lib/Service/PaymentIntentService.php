@@ -43,17 +43,17 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * You can cancel a PaymentIntent object when it’s in one of these statuses:
+     * You can cancel a PaymentIntent object when itâs in one of these statuses:
      * <code>requires_payment_method</code>, <code>requires_capture</code>,
      * <code>requires_confirmation</code>, <code>requires_action</code> or, <a
      * href="/docs/payments/intents">in rare cases</a>, <code>processing</code>.
      *
-     * After it’s canceled, no additional charges are made by the PaymentIntent and any
+     * After itâs canceled, no additional charges are made by the PaymentIntent and any
      * operations on the PaymentIntent fail with an error. For PaymentIntents with a
      * <code>status</code> of <code>requires_capture</code>, the remaining
      * <code>amount_capturable</code> is automatically refunded.
      *
-     * You can’t cancel the PaymentIntent for a Checkout Session. <a
+     * You canât cancel the PaymentIntent for a Checkout Session. <a
      * href="/docs/api/checkout/sessions/expire">Expire the Checkout Session</a>
      * instead.
      *
@@ -107,7 +107,7 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      * <code>confirmation_method</code> is <code>automatic</code>, payment may be
      * attempted using our <a
      * href="/docs/stripe-js/reference#stripe-handle-card-payment">client SDKs</a> and
-     * the PaymentIntent’s <a
+     * the PaymentIntentâs <a
      * href="#payment_intent_object-client_secret">client_secret</a>. After
      * <code>next_action</code>s are handled by the client, no additional confirmation
      * is required to complete the payment. If the <code>confirmation_method</code> is
@@ -138,7 +138,7 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      * Learn more about <a href="/docs/payments/payment-intents">the available payment
      * flows with the Payment Intents API</a>.
      *
-     * When you use <code>confirm=true</code> during creation, it’s equivalent to
+     * When you use <code>confirm=true</code> during creation, itâs equivalent to
      * creating and confirming the PaymentIntent in the same call. You can use any
      * parameters available in the <a href="/docs/api/payment_intents/confirm">confirm
      * API</a> when you supply <code>confirm=true</code>.
@@ -158,12 +158,12 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
     /**
      * Perform an incremental authorization on an eligible <a
      * href="/docs/api/payment_intents/object">PaymentIntent</a>. To be eligible, the
-     * PaymentIntent’s status must be <code>requires_capture</code> and <a
+     * PaymentIntentâs status must be <code>requires_capture</code> and <a
      * href="/docs/api/charges/object#charge_object-payment_method_details-card_present-incremental_authorization_supported">incremental_authorization_supported</a>
      * must be <code>true</code>.
      *
      * Incremental authorizations attempt to increase the authorized amount on your
-     * customer’s card to the new, higher <code>amount</code> provided. Similar to the
+     * customerâs card to the new, higher <code>amount</code> provided. Similar to the
      * initial authorization, incremental authorizations can be declined. A single
      * PaymentIntent can call this endpoint multiple times to further increase the
      * authorized amount.
@@ -177,7 +177,7 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      * remains capturable for the previously authorized amount.
      *
      * Each PaymentIntent can have a maximum of 10 incremental authorization attempts,
-     * including declines. After it’s captured, a PaymentIntent can no longer be
+     * including declines. After itâs captured, a PaymentIntent can no longer be
      * incremented.
      *
      * Learn more about <a
@@ -221,8 +221,8 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Search for PaymentIntents you’ve previously created using Stripe’s <a
-     * href="/docs/search#search-query-language">Search Query Language</a>. Don’t use
+     * Search for PaymentIntents youâve previously created using Stripeâs <a
+     * href="/docs/search#search-query-language">Search Query Language</a>. Donât use
      * search in read-after-write flows where strict consistency is necessary. Under
      * normal operating conditions, data is searchable in less than a minute.
      * Occasionally, propagation of new or updated data can be up to an hour behind

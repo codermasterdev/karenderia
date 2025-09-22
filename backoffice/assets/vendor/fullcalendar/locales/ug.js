@@ -4,12 +4,12 @@ FullCalendar.globalLocales.push(function () {
   var ug = {
     code: 'ug',
     buttonText: {
-      month: 'ئاي',
-      week: 'ھەپتە',
-      day: 'كۈن',
-      list: 'كۈنتەرتىپ',
+      month: 'Ø¦Ø§Ù',
+      week: 'Ú¾ÛÙ¾ØªÛ',
+      day: 'ÙÛÙ',
+      list: 'ÙÛÙØªÛØ±ØªÙÙ¾',
     },
-    allDayText: 'پۈتۈن كۈن',
+    allDayText: 'Ù¾ÛØªÛÙ ÙÛÙ',
   };
 
   return ug;

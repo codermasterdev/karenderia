@@ -4,20 +4,20 @@ FullCalendar.globalLocales.push(function () {
   var mk = {
     code: 'mk',
     buttonText: {
-      prev: 'претходно',
-      next: 'следно',
-      today: 'Денес',
-      month: 'Месец',
-      week: 'Недела',
-      day: 'Ден',
-      list: 'График',
+      prev: 'Ð¿ÑÐµÑÑÐ¾Ð´Ð½Ð¾',
+      next: 'ÑÐ»ÐµÐ´Ð½Ð¾',
+      today: 'ÐÐµÐ½ÐµÑ',
+      month: 'ÐÐµÑÐµÑ',
+      week: 'ÐÐµÐ´ÐµÐ»Ð°',
+      day: 'ÐÐµÐ½',
+      list: 'ÐÑÐ°ÑÐ¸Ðº',
     },
-    weekText: 'Сед',
-    allDayText: 'Цел ден',
+    weekText: 'Ð¡ÐµÐ´',
+    allDayText: 'Ð¦ÐµÐ» Ð´ÐµÐ½',
     moreLinkText: function(n) {
-      return '+повеќе ' + n
+      return '+Ð¿Ð¾Ð²ÐµÑÐµ ' + n
     },
-    noEventsText: 'Нема настани за прикажување',
+    noEventsText: 'ÐÐµÐ¼Ð° Ð½Ð°ÑÑÐ°Ð½Ð¸ Ð·Ð° Ð¿ÑÐ¸ÐºÐ°Ð¶ÑÐ²Ð°ÑÐµ',
   };
 
   return mk;

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>目前服务不可用</title>
+<title>ç®åæå¡ä¸å¯ç¨</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>目前服务不可用</h1>
+<h1>ç®åæå¡ä¸å¯ç¨</h1>
 <p>
-系统目前正在维护中,请稍候再试.
+ç³»ç»ç®åæ­£å¨ç»´æ¤ä¸­,è¯·ç¨ååè¯.
 </p>
 <p>
-对此带来的不便,深感歉意.
+å¯¹æ­¤å¸¦æ¥çä¸ä¾¿,æ·±ææ­æ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

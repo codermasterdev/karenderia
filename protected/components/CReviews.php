@@ -382,7 +382,7 @@ class CReviews
 			case 2:	
 				$data = [
 					'title'=>t("We Appreciate Your Feedback!"),
-					'subtitle'=>t("We understand this wasn't the best experience. Thanks for sharing your thoughts—we’ll strive to do better!")
+					'subtitle'=>t("We understand this wasn't the best experience. Thanks for sharing your thoughtsâweâll strive to do better!")
 				];				
 				break;
 			case 3:			

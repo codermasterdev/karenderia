@@ -33,7 +33,7 @@ use Symfony\Component\Validator\Mapping\TraversalStrategy;
 /**
  * A console command to debug Validators information.
  *
- * @author Loïc Frémont <lc.fremont@gmail.com>
+ * @author LoÃ¯c FrÃ©mont <lc.fremont@gmail.com>
  */
 #[AsCommand(name: 'debug:validator', description: 'Display validation constraints for classes')]
 class DebugCommand extends Command

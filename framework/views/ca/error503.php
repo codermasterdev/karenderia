@@ -19,10 +19,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Servei No Disponible</h1>
 <p>
-Actualment, el nostre sistema actualment es troba en manteniment. Si us plau, provi-ho més tard.
+Actualment, el nostre sistema actualment es troba en manteniment. Si us plau, provi-ho mÃ©s tard.
 </p>
 <p>
-Gràcies.
+GrÃ cies.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

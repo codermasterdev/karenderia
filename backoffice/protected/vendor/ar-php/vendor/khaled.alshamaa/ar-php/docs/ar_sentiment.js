@@ -28,16 +28,16 @@ function arSentiment(str, debug = false) {
     str = str.replace(/#\\S+/gu, '');
     
     // normalise Alef
-    str = str.replace(/[أإآى]/gu, 'ا');
+    str = str.replace(/[Ø£Ø¥Ø¢Ù]/gu, 'Ø§');
     
     // normalise Hamza
-    str = str.replace(/[ؤئء]/gu, 'ء');
+    str = str.replace(/[Ø¤Ø¦Ø¡]/gu, 'Ø¡');
     
     // normalise Taa
-    str = str.replace(/ة/gu, 'ه');
+    str = str.replace(/Ø©/gu, 'Ù');
     
     // filter only Arabic text (white list)
-    str = str.replace(/[^ ءابتثجحخدذرزسشصضطظعغفقكلمنهوي]+/gu, ' ');
+    str = str.replace(/[^ Ø¡Ø§Ø¨ØªØ«Ø¬Ø­Ø®Ø¯Ø°Ø±Ø²Ø³Ø´ØµØ¶Ø·Ø¸Ø¹ØºÙÙÙÙÙÙÙÙÙ]+/gu, ' ');
     
     // exclude one letter words
     str = str.replace(/\\b\\S{1}\\b/gu, ' ');
@@ -50,9 +50,9 @@ function arSentiment(str, debug = false) {
     // split string to words
     var words = str.split(/\s+/u);
 
-    var negationWords = ['لا', 'ليس', 'غير', 'ما', 'لم', 'لن',
-                        'لست', 'ليست', 'ليسا', 'ليستا', 'لستما',
-                        'لسنا', 'لستم', 'ليسوا', 'لسن', 'لستن'];
+    var negationWords = ['ÙØ§', 'ÙÙØ³', 'ØºÙØ±', 'ÙØ§', 'ÙÙ', 'ÙÙ',
+                        'ÙØ³Øª', 'ÙÙØ³Øª', 'ÙÙØ³Ø§', 'ÙÙØ³ØªØ§', 'ÙØ³ØªÙØ§',
+                        'ÙØ³ÙØ§', 'ÙØ³ØªÙ', 'ÙÙØ³ÙØ§', 'ÙØ³Ù', 'ÙØ³ØªÙ'];
     var negationFlag  = false;
   
     // for each word

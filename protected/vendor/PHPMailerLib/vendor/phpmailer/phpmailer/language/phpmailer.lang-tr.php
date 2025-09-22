@@ -3,36 +3,36 @@
 /**
  * Turkish PHPMailer language file: refer to English translation for definitive list
  * @package PHPMailer
- * @author Elçin Özel
- * @author Can Yılmaz
- * @author Mehmet Benlioğlu
+ * @author ElÃ§in Ãzel
+ * @author Can YÄ±lmaz
+ * @author Mehmet BenlioÄlu
  * @author @yasinaydin
- * @author Ogün Karakuş
+ * @author OgÃ¼n KarakuÅ
  */
 
-$PHPMAILER_LANG['authenticate']         = 'SMTP Hatası: Oturum açılamadı.';
-$PHPMAILER_LANG['buggy_php']            = 'PHP sürümünüz iletilerin bozulmasına neden olabilecek bir hatadan etkileniyor. Bunu düzeltmek için, SMTP kullanarak göndermeye geçin, mail.add_x_header seçeneğini devre dışı bırakın php.ini dosyanızdaki mail.add_x_header seçeneğini devre dışı bırakın, MacOS veya Linux geçin veya PHP sürümünü 7.0.17+ veya 7.1.3+ sürümüne yükseltin,';
-$PHPMAILER_LANG['connect_host']         = 'SMTP Hatası: SMTP sunucusuna bağlanılamadı.';
-$PHPMAILER_LANG['data_not_accepted']    = 'SMTP Hatası: Veri kabul edilmedi.';
-$PHPMAILER_LANG['empty_message']        = 'Mesajın içeriği boş';
+$PHPMAILER_LANG['authenticate']         = 'SMTP HatasÄ±: Oturum aÃ§Ä±lamadÄ±.';
+$PHPMAILER_LANG['buggy_php']            = 'PHP sÃ¼rÃ¼mÃ¼nÃ¼z iletilerin bozulmasÄ±na neden olabilecek bir hatadan etkileniyor. Bunu dÃ¼zeltmek iÃ§in, SMTP kullanarak gÃ¶ndermeye geÃ§in, mail.add_x_header seÃ§eneÄini devre dÄ±ÅÄ± bÄ±rakÄ±n php.ini dosyanÄ±zdaki mail.add_x_header seÃ§eneÄini devre dÄ±ÅÄ± bÄ±rakÄ±n, MacOS veya Linux geÃ§in veya PHP sÃ¼rÃ¼mÃ¼nÃ¼ 7.0.17+ veya 7.1.3+ sÃ¼rÃ¼mÃ¼ne yÃ¼kseltin,';
+$PHPMAILER_LANG['connect_host']         = 'SMTP HatasÄ±: SMTP sunucusuna baÄlanÄ±lamadÄ±.';
+$PHPMAILER_LANG['data_not_accepted']    = 'SMTP HatasÄ±: Veri kabul edilmedi.';
+$PHPMAILER_LANG['empty_message']        = 'MesajÄ±n iÃ§eriÄi boÅ';
 $PHPMAILER_LANG['encoding']             = 'Bilinmeyen karakter kodlama: ';
-$PHPMAILER_LANG['execute']              = 'Çalıştırılamadı: ';
-$PHPMAILER_LANG['extension_missing']    = 'Eklenti bulunamadı: ';
-$PHPMAILER_LANG['file_access']          = 'Dosyaya erişilemedi: ';
-$PHPMAILER_LANG['file_open']            = 'Dosya Hatası: Dosya açılamadı: ';
-$PHPMAILER_LANG['from_failed']          = 'Belirtilen adreslere gönderme başarısız: ';
-$PHPMAILER_LANG['instantiate']          = 'Örnek e-posta fonksiyonu oluşturulamadı.';
-$PHPMAILER_LANG['invalid_address']      = 'Geçersiz e-posta adresi: ';
-$PHPMAILER_LANG['invalid_header']       = 'Geçersiz başlık adı veya değeri: ';
-$PHPMAILER_LANG['invalid_hostentry']    = 'Geçersiz ana bilgisayar girişi: ';
-$PHPMAILER_LANG['invalid_host']         = 'Geçersiz ana bilgisayar: ';
-$PHPMAILER_LANG['mailer_not_supported'] = ' e-posta kütüphanesi desteklenmiyor.';
-$PHPMAILER_LANG['provide_address']      = 'En az bir alıcı e-posta adresi belirtmelisiniz.';
-$PHPMAILER_LANG['recipients_failed']    = 'SMTP Hatası: Belirtilen alıcılara ulaşılamadı: ';
-$PHPMAILER_LANG['signing']              = 'İmzalama hatası: ';
+$PHPMAILER_LANG['execute']              = 'ÃalÄ±ÅtÄ±rÄ±lamadÄ±: ';
+$PHPMAILER_LANG['extension_missing']    = 'Eklenti bulunamadÄ±: ';
+$PHPMAILER_LANG['file_access']          = 'Dosyaya eriÅilemedi: ';
+$PHPMAILER_LANG['file_open']            = 'Dosya HatasÄ±: Dosya aÃ§Ä±lamadÄ±: ';
+$PHPMAILER_LANG['from_failed']          = 'Belirtilen adreslere gÃ¶nderme baÅarÄ±sÄ±z: ';
+$PHPMAILER_LANG['instantiate']          = 'Ãrnek e-posta fonksiyonu oluÅturulamadÄ±.';
+$PHPMAILER_LANG['invalid_address']      = 'GeÃ§ersiz e-posta adresi: ';
+$PHPMAILER_LANG['invalid_header']       = 'GeÃ§ersiz baÅlÄ±k adÄ± veya deÄeri: ';
+$PHPMAILER_LANG['invalid_hostentry']    = 'GeÃ§ersiz ana bilgisayar giriÅi: ';
+$PHPMAILER_LANG['invalid_host']         = 'GeÃ§ersiz ana bilgisayar: ';
+$PHPMAILER_LANG['mailer_not_supported'] = ' e-posta kÃ¼tÃ¼phanesi desteklenmiyor.';
+$PHPMAILER_LANG['provide_address']      = 'En az bir alÄ±cÄ± e-posta adresi belirtmelisiniz.';
+$PHPMAILER_LANG['recipients_failed']    = 'SMTP HatasÄ±: Belirtilen alÄ±cÄ±lara ulaÅÄ±lamadÄ±: ';
+$PHPMAILER_LANG['signing']              = 'Ä°mzalama hatasÄ±: ';
 $PHPMAILER_LANG['smtp_code']            = 'SMTP kodu: ';
 $PHPMAILER_LANG['smtp_code_ex']         = 'ek SMTP bilgileri: ';
-$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP connect() fonksiyonu başarısız.';
-$PHPMAILER_LANG['smtp_detail']          = 'SMTP SMTP Detayı: ';
-$PHPMAILER_LANG['smtp_error']           = 'SMTP sunucu hatası: ';
-$PHPMAILER_LANG['variable_set']         = 'Değişken ayarlanamadı ya da sıfırlanamadı: ';
+$PHPMAILER_LANG['smtp_connect_failed']  = 'SMTP connect() fonksiyonu baÅarÄ±sÄ±z.';
+$PHPMAILER_LANG['smtp_detail']          = 'SMTP SMTP DetayÄ±: ';
+$PHPMAILER_LANG['smtp_error']           = 'SMTP sunucu hatasÄ±: ';
+$PHPMAILER_LANG['variable_set']         = 'DeÄiÅken ayarlanamadÄ± ya da sÄ±fÄ±rlanamadÄ±: ';

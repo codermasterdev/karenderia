@@ -22,7 +22,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Intern serverfejl</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Det opstod en fejl, og serveren kan ikke fuldføre forespørgslen.
+Det opstod en fejl, og serveren kan ikke fuldfÃ¸re forespÃ¸rgslen.
 Kontakt venligst <?php echo $data['admin']; ?> for at rapportere problemet.
 </p>
 <p>

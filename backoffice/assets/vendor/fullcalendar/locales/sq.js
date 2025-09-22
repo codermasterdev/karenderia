@@ -9,19 +9,19 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'mbrapa',
-      next: 'Përpara',
+      next: 'PÃ«rpara',
       today: 'sot',
       month: 'Muaj',
-      week: 'Javë',
-      day: 'Ditë',
-      list: 'Listë',
+      week: 'JavÃ«',
+      day: 'DitÃ«',
+      list: 'ListÃ«',
     },
     weekText: 'Ja',
-    allDayText: 'Gjithë ditën',
+    allDayText: 'GjithÃ« ditÃ«n',
     moreLinkText: function(n) {
-      return '+më tepër ' + n
+      return '+mÃ« tepÃ«r ' + n
     },
-    noEventsText: 'Nuk ka evente për të shfaqur',
+    noEventsText: 'Nuk ka evente pÃ«r tÃ« shfaqur',
   };
 
   return sq;

@@ -68,7 +68,7 @@ final class ApnsConfig implements JsonSerializable
     }
 
     /**
-     * The name of a sound file in your app’s main bundle or in the Library/Sounds folder of your app’s
+     * The name of a sound file in your appâs main bundle or in the Library/Sounds folder of your appâs
      * container directory. Specify the string "default" to play the system sound.
      */
     public function withSound(string $sound): self
@@ -83,7 +83,7 @@ final class ApnsConfig implements JsonSerializable
     }
 
     /**
-     * The number to display in a badge on your app’s icon. Specify 0 to remove the current badge, if any.
+     * The number to display in a badge on your appâs icon. Specify 0 to remove the current badge, if any.
      */
     public function withBadge(int $number): self
     {

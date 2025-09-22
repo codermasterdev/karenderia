@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>לא פעיל</title>
+<title>×× ×¤×¢××</title>
 <style type="text/css">
 /*<![CDATA[*/
 html { direction:rtl; text-align:right; }
@@ -18,12 +18,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>השירות לא פעיל כרגע</h1>
+<h1>××©××¨××ª ×× ×¤×¢×× ××¨××¢</h1>
 <p>
-המערכת שלנו עוברת תהליך שדרוג. אנא נסה שוב מאוחר יותר.
+×××¢×¨××ª ×©×× × ×¢×××¨×ª ×ª×××× ×©××¨××. ×× × × ×¡× ×©×× ×××××¨ ×××ª×¨.
 </p>
 <p>
-תודה.
+×ª×××.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

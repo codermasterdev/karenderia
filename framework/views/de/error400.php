@@ -20,8 +20,8 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Fehlerhafte Anfrage</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Der Request wurde vom Server aufgrund einer ungültigen Syntax nicht verstanden.
-Bitte wiederholen Sie die Anfrage nicht unverändert.
+Der Request wurde vom Server aufgrund einer ungÃ¼ltigen Syntax nicht verstanden.
+Bitte wiederholen Sie die Anfrage nicht unverÃ¤ndert.
 </p>
 <p>
 Wenn Sie der Meinung sind, dass es sich um einen Serverfehler handelt, kontaktieren Sie bitte

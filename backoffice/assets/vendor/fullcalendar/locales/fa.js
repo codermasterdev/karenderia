@@ -9,20 +9,20 @@ FullCalendar.globalLocales.push(function () {
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'قبلی',
-      next: 'بعدی',
-      today: 'امروز',
-      month: 'ماه',
-      week: 'هفته',
-      day: 'روز',
-      list: 'برنامه',
+      prev: 'ÙØ¨ÙÛ',
+      next: 'Ø¨Ø¹Ø¯Û',
+      today: 'Ø§ÙØ±ÙØ²',
+      month: 'ÙØ§Ù',
+      week: 'ÙÙØªÙ',
+      day: 'Ø±ÙØ²',
+      list: 'Ø¨Ø±ÙØ§ÙÙ',
     },
-    weekText: 'هف',
-    allDayText: 'تمام روز',
+    weekText: 'ÙÙ',
+    allDayText: 'ØªÙØ§Ù Ø±ÙØ²',
     moreLinkText: function(n) {
-      return 'بیش از ' + n
+      return 'Ø¨ÛØ´ Ø§Ø² ' + n
     },
-    noEventsText: 'هیچ رویدادی به نمایش',
+    noEventsText: 'ÙÛÚ Ø±ÙÛØ¯Ø§Ø¯Û Ø¨Ù ÙÙØ§ÛØ´',
   };
 
   return fa;

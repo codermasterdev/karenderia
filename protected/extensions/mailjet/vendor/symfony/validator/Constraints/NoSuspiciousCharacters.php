@@ -44,13 +44,13 @@ class NoSuspiciousCharacters extends Constraint
 
     /**
      * Check that a string does not mix numbers from different numbering systems;
-     * for example “8” (Digit Eight) and “৪” (Bengali Digit Four).
+     * for example â8â (Digit Eight) and âà§ªâ (Bengali Digit Four).
      */
     public const CHECK_MIXED_NUMBERS = 128;
 
     /**
      * Check that a string does not have a combining character following a character in which it would be hidden;
-     * for example “i” (Latin Small Letter I) followed by a U+0307 (Combining Dot Above).
+     * for example âiâ (Latin Small Letter I) followed by a U+0307 (Combining Dot Above).
      */
     public const CHECK_HIDDEN_OVERLAY = 256;
 

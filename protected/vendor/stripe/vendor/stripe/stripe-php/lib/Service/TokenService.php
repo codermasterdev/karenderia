@@ -7,7 +7,7 @@ namespace Stripe\Service;
 class TokenService extends \Stripe\Service\AbstractService
 {
     /**
-     * Creates a single-use token that represents a bank account’s details. This token
+     * Creates a single-use token that represents a bank accountâs details. This token
      * can be used with any API method in place of a bank account dictionary. This
      * token can be used only once, by attaching it to a <a href="#accounts">Custom
      * account</a>.

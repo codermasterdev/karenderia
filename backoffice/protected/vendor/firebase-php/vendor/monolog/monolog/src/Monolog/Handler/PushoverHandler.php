@@ -18,7 +18,7 @@ use Psr\Log\LogLevel;
 /**
  * Sends notifications through the pushover api to mobile phones
  *
- * @author Sebastian Göttschkes <sebastian.goettschkes@googlemail.com>
+ * @author Sebastian GÃ¶ttschkes <sebastian.goettschkes@googlemail.com>
  * @see    https://www.pushover.net/api
  *
  * @phpstan-import-type FormattedRecord from AbstractProcessingHandler

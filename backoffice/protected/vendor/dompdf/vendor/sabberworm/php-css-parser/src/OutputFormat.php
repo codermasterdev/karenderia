@@ -84,7 +84,7 @@ class OutputFormat
     public $sAfterAtRuleBlock = '';
 
     /**
-     * This is what’s printed before and after the comma if a declaration block contains multiple selectors.
+     * This is whatâs printed before and after the comma if a declaration block contains multiple selectors.
      *
      * @var string
      */
@@ -96,7 +96,7 @@ class OutputFormat
     public $sSpaceAfterSelectorSeparator = ' ';
 
     /**
-     * This is what’s printed after the comma of value lists
+     * This is whatâs printed after the comma of value lists
      *
      * @var string
      */

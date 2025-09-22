@@ -10,7 +10,7 @@ use Http\Client\HttpClient;
 /**
  * Emulates a synchronous HTTP client with the help of an asynchronous client.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class EmulatedHttpClient implements HttpClient, HttpAsyncClient
 {

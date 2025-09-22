@@ -40,7 +40,7 @@ class ExportConfigurationList extends ListResource
     /**
      * Constructs a ExportConfigurationContext
      *
-     * @param string $resourceType The type of communication – Messages, Calls, Conferences, and Participants
+     * @param string $resourceType The type of communication â Messages, Calls, Conferences, and Participants
      */
     public function getContext(
         string $resourceType

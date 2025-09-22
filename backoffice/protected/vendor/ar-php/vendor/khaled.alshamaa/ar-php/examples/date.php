@@ -90,7 +90,7 @@ $correction = $Arabic->dateCorrection($time);
 echo $Arabic->date('l j F Y h:i:s A', $time, $correction);
 
 $day = $Arabic->date('j', $time, $correction);
-echo ' [<a href="moon.php?day='.$day.'" target=_blank>القمر الليلة</a>]';
+echo ' [<a href="moon.php?day='.$day.'" target=_blank>Ø§ÙÙÙØ± Ø§ÙÙÙÙØ©</a>]';
 echo '<br /><br />';
 
 $Arabic->setDateMode(8);

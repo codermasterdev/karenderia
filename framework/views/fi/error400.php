@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Pyyntö ei kelpaa</title>
+<title>PyyntÃ¶ ei kelpaa</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Pyyntö ei kelpaa</h1>
+<h1>PyyntÃ¶ ei kelpaa</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Palvelin ei voinut käsitellä pyyntöä virheellisen syntaksin johdosta.
-Älä toista pyyntöä ilman muutoksia.
+Palvelin ei voinut kÃ¤sitellÃ¤ pyyntÃ¶Ã¤ virheellisen syntaksin johdosta.
+ÃlÃ¤ toista pyyntÃ¶Ã¤ ilman muutoksia.
 </p>
 <p>
-Mikäli uskot tämän olevan palvelimen virhe, ota yhteyttä <?php echo $data['admin']; ?>.
+MikÃ¤li uskot tÃ¤mÃ¤n olevan palvelimen virhe, ota yhteyttÃ¤ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

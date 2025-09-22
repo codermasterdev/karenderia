@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Ej auktoriserad</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Otillräckliga rättigheter för åtkomst till denna sida.
+OtillrÃ¤ckliga rÃ¤ttigheter fÃ¶r Ã¥tkomst till denna sida.
 </p>
 <p>
 Vid misstanke om serverfel, kontakta <?php echo $data['admin']; ?>.

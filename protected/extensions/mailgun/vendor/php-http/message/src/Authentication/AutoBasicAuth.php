@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Authenticate a PSR-7 Request using Basic Auth based on credentials in the URI.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class AutoBasicAuth implements Authentication
 {

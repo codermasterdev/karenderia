@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Sol·licitud Incorrecta</title>
+<title>SolÂ·licitud Incorrecta</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Sol·licitud incorrecta</h1>
+<h1>SolÂ·licitud incorrecta</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-El servidor no ha pogut entendre la sol·licitud per un error de sintaxis.
-Si us plau, no intenti realitzar aquesta sol·licitud sense realitzar modificacions.
+El servidor no ha pogut entendre la solÂ·licitud per un error de sintaxis.
+Si us plau, no intenti realitzar aquesta solÂ·licitud sense realitzar modificacions.
 </p>
 <p>
-Si creu que aquest error és del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
+Si creu que aquest error Ã©s del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

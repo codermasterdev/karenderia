@@ -57,7 +57,7 @@ class FeatureService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Update a feature’s metadata or permanently deactivate it.
+     * Update a featureâs metadata or permanently deactivate it.
      *
      * @param string $id
      * @param null|array $params

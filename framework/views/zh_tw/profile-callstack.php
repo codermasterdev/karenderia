@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Profiling Callstack 報告
+			Profiling Callstack å ±å
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>程序</th>
-		<th>時間 (秒)</th>
+	    <th>ç¨åº</th>
+		<th>æé (ç§)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

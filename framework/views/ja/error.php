@@ -4,11 +4,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>エラー <?php echo $data['code']; ?></title>
+<title>ã¨ã©ã¼ <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
-body {font-family:Verdana, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight:normal; color:black; background-color:white;}
+body {font-family:Verdana, 'ã¡ã¤ãªãª', Meiryo, 'ï¼­ï¼³ ï¼°ã´ã·ãã¯', 'ãã©ã®ãè§ã´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif; font-weight:normal; color:black; background-color:white;}
 h1 {font-weight:normal;font-size:18pt;color:red }
 h2 {font-weight:normal;font-size:14pt;color:maroon }
 h3 {font-weight:bold;font-size:11pt}
@@ -19,16 +19,16 @@ p {font-weight:normal;color:black;font-size:9pt;margin-top: -5px}
 </head>
 
 <body>
-<h1>エラー <?php echo $data['code']; ?></h1>
+<h1>ã¨ã©ã¼ <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-ウェブサーバがリクエストを処理しているときに、上記のエラーが発生しました。
+ã¦ã§ããµã¼ãããªã¯ã¨ã¹ããå¦çãã¦ããã¨ãã«ãä¸è¨ã®ã¨ã©ã¼ãçºçãã¾ããã
 </p>
 <p>
-これがサーバの不具合であると思われる場合は、<?php echo $data['admin']; ?>にご連絡ください。
+ããããµã¼ãã®ä¸å·åã§ããã¨æãããå ´åã¯ã<?php echo $data['admin']; ?>ã«ãé£çµ¡ãã ããã
 </p>
 <p>
-ありがとうございます。
+ãããã¨ããããã¾ãã
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -20,11 +20,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Lapa nav atrasta</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Jūsu pieprasītā lapa netika atrasta uz servera.
-Ja Jūs ievadījāt URL adresi manuāli, lūdzu, pārbaudiet to un mēģiniet vēlreiz.
+JÅ«su pieprasÄ«tÄ lapa netika atrasta uz servera.
+Ja JÅ«s ievadÄ«jÄt URL adresi manuÄli, lÅ«dzu, pÄrbaudiet to un mÄÄ£iniet vÄlreiz.
 </p>
 <p>
-Ja Jūs uzskatāt, ka šī ir servera kļūda, lūdzu sazinieties ar <?php echo $data['admin']; ?>.
+Ja JÅ«s uzskatÄt, ka Å¡Ä« ir servera kÄ¼Å«da, lÅ«dzu sazinieties ar <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('d.m.Y H:i:s',$data['time']) .' '. $data['version']; ?>

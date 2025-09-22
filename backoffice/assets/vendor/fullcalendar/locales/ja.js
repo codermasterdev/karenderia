@@ -4,20 +4,20 @@ FullCalendar.globalLocales.push(function () {
   var ja = {
     code: 'ja',
     buttonText: {
-      prev: '前',
-      next: '次',
-      today: '今日',
-      month: '月',
-      week: '週',
-      day: '日',
-      list: '予定リスト',
+      prev: 'å',
+      next: 'æ¬¡',
+      today: 'ä»æ¥',
+      month: 'æ',
+      week: 'é±',
+      day: 'æ¥',
+      list: 'äºå®ãªã¹ã',
     },
-    weekText: '週',
-    allDayText: '終日',
+    weekText: 'é±',
+    allDayText: 'çµæ¥',
     moreLinkText: function(n) {
-      return '他 ' + n + ' 件'
+      return 'ä» ' + n + ' ä»¶'
     },
-    noEventsText: '表示する予定はありません',
+    noEventsText: 'è¡¨ç¤ºããäºå®ã¯ããã¾ãã',
   };
 
   return ja;

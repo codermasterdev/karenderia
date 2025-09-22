@@ -1,5 +1,5 @@
 /*! Bootstrap 5 integration for DataTables' Responsive
- * ©2021 SpryMedia Ltd - datatables.net/license
+ * Â©2021 SpryMedia Ltd - datatables.net/license
  */
 
 (function( factory ){

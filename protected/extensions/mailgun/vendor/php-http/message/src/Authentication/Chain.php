@@ -8,7 +8,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Authenticate a PSR-7 Request with a multiple authentication methods.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class Chain implements Authentication
 {

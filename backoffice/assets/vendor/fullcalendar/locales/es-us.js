@@ -13,12 +13,12 @@ FullCalendar.globalLocales.push(function () {
       today: 'Hoy',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Agenda',
     },
     weekText: 'Sm',
-    allDayText: 'Todo el día',
-    moreLinkText: 'más',
+    allDayText: 'Todo el dÃ­a',
+    moreLinkText: 'mÃ¡s',
     noEventsText: 'No hay eventos para mostrar',
   };
 

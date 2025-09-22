@@ -115,57 +115,57 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'he-IL': {
       font: {
-        bold: 'מודגש',
-        italic: 'נטוי',
-        underline: 'קו תחתון',
-        clear: 'נקה עיצוב',
-        height: 'גובה',
-        name: 'גופן',
-        strikethrough: 'קו חוצה',
-        subscript: 'כתב תחתי',
-        superscript: 'כתב עילי',
-        size: 'גודל גופן'
+        bold: '×××××©',
+        italic: '× ×××',
+        underline: '×§× ×ª××ª××',
+        clear: '× ×§× ×¢××¦××',
+        height: '××××',
+        name: '×××¤×',
+        strikethrough: '×§× ×××¦×',
+        subscript: '××ª× ×ª××ª×',
+        superscript: '××ª× ×¢×××',
+        size: '×××× ×××¤×'
       },
       image: {
-        image: 'תמונה',
-        insert: 'הוסף תמונה',
-        resizeFull: 'גודל מלא',
-        resizeHalf: 'להקטין לחצי',
-        resizeQuarter: 'להקטין לרבע',
-        floatLeft: 'יישור לשמאל',
-        floatRight: 'יישור לימין',
-        floatNone: 'ישר',
+        image: '×ª××× ×',
+        insert: '×××¡×£ ×ª××× ×',
+        resizeFull: '×××× ×××',
+        resizeHalf: '×××§××× ×××¦×',
+        resizeQuarter: '×××§××× ××¨××¢',
+        floatLeft: '×××©××¨ ××©×××',
+        floatRight: '×××©××¨ ×××××',
+        floatNone: '××©×¨',
         shapeRounded: 'Shape: Rounded',
         shapeCircle: 'Shape: Circle',
         shapeThumbnail: 'Shape: Thumbnail',
         shapeNone: 'Shape: None',
-        dragImageHere: 'גרור תמונה לכאן',
+        dragImageHere: '××¨××¨ ×ª××× × ××××',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'בחר מתוך קבצים',
+        selectFromFiles: '×××¨ ××ª×× ×§××¦××',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        url: 'נתיב לתמונה',
-        remove: 'הסר תמונה',
+        url: '× ×ª×× ××ª××× ×',
+        remove: '××¡×¨ ×ª××× ×',
         original: 'Original'
       },
       video: {
-        video: 'סרטון',
-        videoLink: 'קישור לסרטון',
-        insert: 'הוסף סרטון',
-        url: 'קישור לסרטון',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion או Youku)'
+        video: '×¡×¨×××',
+        videoLink: '×§××©××¨ ××¡×¨×××',
+        insert: '×××¡×£ ×¡×¨×××',
+        url: '×§××©××¨ ××¡×¨×××',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ×× Youku)'
       },
       link: {
-        link: 'קישור',
-        insert: 'הוסף קישור',
-        unlink: 'הסר קישור',
-        edit: 'ערוך',
-        textToDisplay: 'טקסט להציג',
-        url: 'קישור',
-        openInNewWindow: 'פתח בחלון חדש'
+        link: '×§××©××¨',
+        insert: '×××¡×£ ×§××©××¨',
+        unlink: '××¡×¨ ×§××©××¨',
+        edit: '×¢×¨××',
+        textToDisplay: '××§×¡× ×××¦××',
+        url: '×§××©××¨',
+        openInNewWindow: '×¤×ª× ××××× ×××©'
       },
       table: {
-        table: 'טבלה',
+        table: '××××',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -175,56 +175,56 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'הוסף קו'
+        insert: '×××¡×£ ×§×'
       },
       style: {
-        style: 'עיצוב',
-        p: 'טקסט רגיל',
-        blockquote: 'ציטוט',
-        pre: 'קוד',
-        h1: 'כותרת 1',
-        h2: 'כותרת 2',
-        h3: 'כותרת 3',
-        h4: 'כותרת 4',
-        h5: 'כותרת 5',
-        h6: 'כותרת 6'
+        style: '×¢××¦××',
+        p: '××§×¡× ×¨×××',
+        blockquote: '×¦××××',
+        pre: '×§××',
+        h1: '×××ª×¨×ª 1',
+        h2: '×××ª×¨×ª 2',
+        h3: '×××ª×¨×ª 3',
+        h4: '×××ª×¨×ª 4',
+        h5: '×××ª×¨×ª 5',
+        h6: '×××ª×¨×ª 6'
       },
       lists: {
-        unordered: 'רשימת תבליטים',
-        ordered: 'רשימה ממוספרת'
+        unordered: '×¨×©×××ª ×ª××××××',
+        ordered: '×¨×©××× ××××¡×¤×¨×ª'
       },
       options: {
-        help: 'עזרה',
-        fullscreen: 'מסך מלא',
-        codeview: 'תצוגת קוד'
+        help: '×¢××¨×',
+        fullscreen: '××¡× ×××',
+        codeview: '×ª×¦×××ª ×§××'
       },
       paragraph: {
-        paragraph: 'פסקה',
-        outdent: 'הקטן כניסה',
-        indent: 'הגדל כניסה',
-        left: 'יישור לשמאל',
-        center: 'יישור למרכז',
-        right: 'יישור לימין',
-        justify: 'מיושר'
+        paragraph: '×¤×¡×§×',
+        outdent: '××§×× ×× ××¡×',
+        indent: '×××× ×× ××¡×',
+        left: '×××©××¨ ××©×××',
+        center: '×××©××¨ ×××¨××',
+        right: '×××©××¨ ×××××',
+        justify: '××××©×¨'
       },
       color: {
-        recent: 'צבע טקסט אחרון',
-        more: 'עוד צבעים',
-        background: 'צבע רקע',
-        foreground: 'צבע טקסט',
-        transparent: 'שקוף',
-        setTransparent: 'קבע כשקוף',
-        reset: 'איפוס',
-        resetToDefault: 'אפס לברירת מחדל'
+        recent: '×¦××¢ ××§×¡× ×××¨××',
+        more: '×¢×× ×¦××¢××',
+        background: '×¦××¢ ×¨×§×¢',
+        foreground: '×¦××¢ ××§×¡×',
+        transparent: '×©×§××£',
+        setTransparent: '×§××¢ ××©×§××£',
+        reset: '×××¤××¡',
+        resetToDefault: '××¤×¡ ×××¨××¨×ª ××××'
       },
       shortcut: {
-        shortcuts: 'קיצורי מקלדת',
-        close: 'סגור',
-        textFormatting: 'עיצוב הטקסט',
-        action: 'פעולה',
-        paragraphFormatting: 'סגנונות פסקה',
-        documentStyle: 'עיצוב המסמך',
-        extraKeys: 'קיצורים נוספים'
+        shortcuts: '×§××¦××¨× ××§×××ª',
+        close: '×¡×××¨',
+        textFormatting: '×¢××¦×× ×××§×¡×',
+        action: '×¤×¢×××',
+        paragraphFormatting: '×¡×× ×× ××ª ×¤×¡×§×',
+        documentStyle: '×¢××¦×× ×××¡××',
+        extraKeys: '×§××¦××¨×× × ××¡×¤××'
       },
       help: {
         'insertParagraph': 'Insert Paragraph',
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'בטל פעולה',
-        redo: 'בצע שוב'
+        undo: '××× ×¤×¢×××',
+        redo: '××¦×¢ ×©××'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

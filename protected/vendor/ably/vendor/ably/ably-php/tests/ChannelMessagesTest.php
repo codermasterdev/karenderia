@@ -36,7 +36,7 @@ class ChannelMessagesTest extends \PHPUnit\Framework\TestCase {
        
         // first publish some messages
         $data = [
-            'utf' => 'This is a UTF-8 string message payload. äôč ビール',
+            'utf' => 'This is a UTF-8 string message payload. Ã¤Ã´Ä ãã¼ã«',
             'binary' => hex2bin('00102030405060708090a0b0c0d0e0f0ff'),
             'object' => (object)[ 'test' => 'This is a JSONObject message payload' ],
             'array' => [ 'This is a JSONarray message payload', 'Test' ],
@@ -430,7 +430,7 @@ class ChannelMessagesTest extends \PHPUnit\Framework\TestCase {
     public function testMessageEncodings() {
         $msg = new Message();
 
-        $msg->data = 'This is a UTF-8 string message payload. äôč ビール';
+        $msg->data = 'This is a UTF-8 string message payload. Ã¤Ã´Ä ãã¼ã«';
         $this->assertEquals( '', $this->getMessageEncoding( $msg ), 'Expected empty message encoding' );
 
         $msg->data = (object)[ 'test' => 'This is a JSONObject message payload' ];
@@ -441,7 +441,7 @@ class ChannelMessagesTest extends \PHPUnit\Framework\TestCase {
 
         $msg->setCipherParams( Crypto::getDefaultParams( [ 'key' => Crypto::generateRandomKey( 128 ) ] ) );
 
-        $msg->data = 'This is a UTF-8 string message payload. äôč ビール';
+        $msg->data = 'This is a UTF-8 string message payload. Ã¤Ã´Ä ãã¼ã«';
         $this->assertEquals( 'utf-8/cipher+aes-128-cbc/base64', $this->getMessageEncoding( $msg ), 'Expected empty message encoding' );
 
         $msg->data = (object)[ 'test' => 'This is a JSONObject message payload' ];

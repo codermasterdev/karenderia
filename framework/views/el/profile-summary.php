@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			Αναφορά Περίληψης Προφίλ
-			(Χρόνος: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
-			Μνήμη: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			ÎÎ½Î±ÏÎ¿ÏÎ¬ Î ÎµÏÎ¯Î»Î·ÏÎ·Ï Î ÏÎ¿ÏÎ¯Î»
+			(Î§ÏÏÎ½Î¿Ï: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
+			ÎÎ½Î®Î¼Î·: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Διαδικασία</th>
-		<th>Αριθμός</th>
-		<th>Σύνολο (δευτ.)</th>
-		<th>Μέση τιμή (δευτ.)</th>
-		<th>Ελάχ. (δευτ.)</th>
-		<th>Μέγ. (δευτ.)</th>
+	    <th>ÎÎ¹Î±Î´Î¹ÎºÎ±ÏÎ¯Î±</th>
+		<th>ÎÏÎ¹Î¸Î¼ÏÏ</th>
+		<th>Î£ÏÎ½Î¿Î»Î¿ (Î´ÎµÏÏ.)</th>
+		<th>ÎÎ­ÏÎ· ÏÎ¹Î¼Î® (Î´ÎµÏÏ.)</th>
+		<th>ÎÎ»Î¬Ï. (Î´ÎµÏÏ.)</th>
+		<th>ÎÎ­Î³. (Î´ÎµÏÏ.)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

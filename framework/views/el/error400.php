@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Λανθασμένη Αίτηση</title>
+<title>ÎÎ±Î½Î¸Î±ÏÎ¼Î­Î½Î· ÎÎ¯ÏÎ·ÏÎ·</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Λανθασμένη Αίτηση</h1>
+<h1>ÎÎ±Î½Î¸Î±ÏÎ¼Î­Î½Î· ÎÎ¯ÏÎ·ÏÎ·</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Ήταν αδύνατη η αναγνώριση της αίτησης από το διακομιστή λόγω λανθασμένης σύνταξης.
-Μην επαναλάβετε την αίτηση χωρίς πρώτα να την τροποποιήσετε.
+ÎÏÎ±Î½ Î±Î´ÏÎ½Î±ÏÎ· Î· Î±Î½Î±Î³Î½ÏÏÎ¹ÏÎ· ÏÎ·Ï Î±Î¯ÏÎ·ÏÎ·Ï Î±ÏÏ ÏÎ¿ Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® Î»ÏÎ³Ï Î»Î±Î½Î¸Î±ÏÎ¼Î­Î½Î·Ï ÏÏÎ½ÏÎ±Î¾Î·Ï.
+ÎÎ·Î½ ÎµÏÎ±Î½Î±Î»Î¬Î²ÎµÏÎµ ÏÎ·Î½ Î±Î¯ÏÎ·ÏÎ· ÏÏÏÎ¯Ï ÏÏÏÏÎ± Î½Î± ÏÎ·Î½ ÏÏÎ¿ÏÎ¿ÏÎ¿Î¹Î®ÏÎµÏÎµ.
 </p>
 <p>
-Αν πιστεύετε ότι αυτό είναι λάθος του διακομιστή, παρακαλούμε επικοινωνήστε με <?php echo $data['admin']; ?>.
+ÎÎ½ ÏÎ¹ÏÏÎµÏÎµÏÎµ ÏÏÎ¹ Î±ÏÏÏ ÎµÎ¯Î½Î±Î¹ Î»Î¬Î¸Î¿Ï ÏÎ¿Ï Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ®, ÏÎ±ÏÎ±ÎºÎ±Î»Î¿ÏÎ¼Îµ ÎµÏÎ¹ÎºÎ¿Î¹Î½ÏÎ½Î®ÏÏÎµ Î¼Îµ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

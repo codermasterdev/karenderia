@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Neplatná požiadavka</title>
+<title>NeplatnÃ¡ poÅ¾iadavka</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Neplatná požiadavka</h1>
+<h1>NeplatnÃ¡ poÅ¾iadavka</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Server nedokázal zpracovať požiadavku v dôsledku jej nesprávnej syntaxe (formátu).
-Neopakujte prosím požiadavku bez jej modifikácie.
+Server nedokÃ¡zal zpracovaÅ¥ poÅ¾iadavku v dÃ´sledku jej nesprÃ¡vnej syntaxe (formÃ¡tu).
+Neopakujte prosÃ­m poÅ¾iadavku bez jej modifikÃ¡cie.
 </p>
 <p>
-Ak sa domnievate, že príčinou chyby je webový server, kontaktujte prosím <?php echo $data['admin']; ?>.
+Ak sa domnievate, Å¾e prÃ­Äinou chyby je webovÃ½ server, kontaktujte prosÃ­m <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

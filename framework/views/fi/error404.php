@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Sivua ei löydy</title>
+<title>Sivua ei lÃ¶ydy</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Sivua ei löydy</h1>
+<h1>Sivua ei lÃ¶ydy</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Hakemaasi sivua ei löytynyt tältä palvelimelta.
-Mikäli syötit URL-osoitteen käsin, tarkista oikeinkirjoitus ja yritä uudelleen.
+Hakemaasi sivua ei lÃ¶ytynyt tÃ¤ltÃ¤ palvelimelta.
+MikÃ¤li syÃ¶tit URL-osoitteen kÃ¤sin, tarkista oikeinkirjoitus ja yritÃ¤ uudelleen.
 </p>
 <p>
-Mikäli uskot tämän olevan palvelimen virhe, ota yhteyttä <?php echo $data['admin']; ?>.
+MikÃ¤li uskot tÃ¤mÃ¤n olevan palvelimen virhe, ota yhteyttÃ¤ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

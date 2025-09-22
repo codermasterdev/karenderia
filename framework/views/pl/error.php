@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Błąd <?php echo $data['code']; ?></title>
+<title>BÅÄd <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Błąd <?php echo $data['code']; ?></h1>
+<h1>BÅÄd <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Powyższy błąd wystąpił podczas przetwarzania przez serwer Twojego żądania.
+PowyÅ¼szy bÅÄd wystÄpiÅ podczas przetwarzania przez serwer Twojego Å¼Ädania.
 </p>
 <p>
-Jeśli myślisz, że jest to błąd serwera proszę skontaktuj się z <?php echo $data['admin']; ?>.
+JeÅli myÅlisz, Å¼e jest to bÅÄd serwera proszÄ skontaktuj siÄ z <?php echo $data['admin']; ?>.
 </p>
 <p>
-Dziękujemy!
+DziÄkujemy!
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

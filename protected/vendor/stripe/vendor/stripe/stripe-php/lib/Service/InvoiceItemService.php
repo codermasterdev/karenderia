@@ -41,7 +41,7 @@ class InvoiceItemService extends \Stripe\Service\AbstractService
 
     /**
      * Deletes an invoice item, removing it from an invoice. Deleting invoice items is
-     * only possible when they’re not attached to invoices, or if it’s attached to a
+     * only possible when theyâre not attached to invoices, or if itâs attached to a
      * draft invoice.
      *
      * @param string $id
@@ -75,7 +75,7 @@ class InvoiceItemService extends \Stripe\Service\AbstractService
 
     /**
      * Updates the amount or description of an invoice item on an upcoming invoice.
-     * Updating an invoice item is only possible before the invoice it’s attached to is
+     * Updating an invoice item is only possible before the invoice itâs attached to is
      * closed.
      *
      * @param string $id

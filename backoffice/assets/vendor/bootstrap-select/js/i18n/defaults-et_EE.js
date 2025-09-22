@@ -35,8 +35,8 @@
         'Globaalne limiit on {n} max'
       ];
     },
-    selectAllText: 'Vali kõik',
-    deselectAllText: 'Tühista kõik',
+    selectAllText: 'Vali kÃµik',
+    deselectAllText: 'TÃ¼hista kÃµik',
     multipleSeparator: ', '
   };
 })(jQuery);

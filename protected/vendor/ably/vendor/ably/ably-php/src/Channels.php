@@ -38,7 +38,7 @@ class Channels {
     }
 
     /**
-     * Releases the channel resource i.e. it’s deleted and can then be garbage collected
+     * Releases the channel resource i.e. itâs deleted and can then be garbage collected
      * @param string $name Name of the channel
      */
     public function release( $name ) {

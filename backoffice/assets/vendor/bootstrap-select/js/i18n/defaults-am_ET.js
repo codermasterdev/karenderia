@@ -24,20 +24,20 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'ምንም አልተመረጠም',
-    noneResultsText: 'ከ{0} ጋር ተመሳሳይ ውጤት የለም',
+    noneSelectedText: 'ááá á áá°áá¨á á',
+    noneResultsText: 'á¨{0} áá­ á°áá³á³á­ áá¤áµ á¨áá',
     countSelectedText: function (numSelected, numTotal) {
-      return (numSelected == 1) ? '{0} ምርጫ ተመርጧል' : '{0} ምርጫዎች ተመርጠዋል';
+      return (numSelected == 1) ? '{0} áá­á« á°áá­á§á' : '{0} áá­á«áá½ á°áá­á áá';
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
-        (numAll == 1) ? 'ገደብ ላይ ተደርሷል  (ቢበዛ {n} ምርጫ)' : 'ገደብ ላይ ተደርሷል  (ቢበዛ {n} ምርጫዎች)',
-        (numGroup == 1) ? 'የቡድን ገደብ ላይ ተደርሷል (ቢበዛ {n} ምርጫ)' : 'የቡድን ገደብ ላይ ተደርሷል (ቢበዛ {n} ምርጫዎች)'
+        (numAll == 1) ? 'áá°á¥ áá­ á°á°á­á·á  (á¢á á {n} áá­á«)' : 'áá°á¥ áá­ á°á°á­á·á  (á¢á á {n} áá­á«áá½)',
+        (numGroup == 1) ? 'á¨á¡áµá áá°á¥ áá­ á°á°á­á·á (á¢á á {n} áá­á«)' : 'á¨á¡áµá áá°á¥ áá­ á°á°á­á·á (á¢á á {n} áá­á«áá½)'
       ];
     },
-    selectAllText: 'ሁሉም ይመረጥ',
-    deselectAllText: 'ሁሉም አይመረጥ',
-    multipleSeparator: ' ፣ '
+    selectAllText: 'ááá á­áá¨á¥',
+    deselectAllText: 'ááá á á­áá¨á¥',
+    multipleSeparator: ' á£ '
   };
 })(jQuery);
 

@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profilešanas izsaukumu steka atskaite");
+	console.group("ProfileÅ¡anas izsaukumu steka atskaite");
 <?php
 foreach($data as $index=>$entry)
 {

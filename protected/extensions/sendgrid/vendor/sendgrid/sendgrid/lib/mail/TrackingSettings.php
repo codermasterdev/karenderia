@@ -147,7 +147,7 @@ class TrackingSettings implements \JsonSerializable
      *                                                    and html parameters. The
      *                                                    URL of the link will be
      *                                                    placed at the substitution
-     *                                                    tag’s location, with no
+     *                                                    tagâs location, with no
      *                                                    additional formatting
      *
      * @throws TypeException

@@ -50,7 +50,7 @@ class TransferService extends \Stripe\Service\AbstractService
     /**
      * To send funds from your Stripe account to a connected account, you create a new
      * transfer object. Your <a href="#balance">Stripe balance</a> must be able to
-     * cover the transfer amount, or you’ll receive an “Insufficient Funds” error.
+     * cover the transfer amount, or youâll receive an âInsufficient Fundsâ error.
      *
      * @param null|array $params
      * @param null|RequestOptionsArray|\Stripe\Util\RequestOptions $opts
@@ -70,7 +70,7 @@ class TransferService extends \Stripe\Service\AbstractService
      * When reversing transfers, you can optionally reverse part of the transfer. You
      * can do so as many times as you wish until the entire transfer has been reversed.
      *
-     * Once entirely reversed, a transfer can’t be reversed again. This method will
+     * Once entirely reversed, a transfer canât be reversed again. This method will
      * return an error when called on an already-reversed transfer, or when trying to
      * reverse more money than is left on a transfer.
      *

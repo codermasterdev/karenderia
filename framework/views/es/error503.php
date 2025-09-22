@@ -19,7 +19,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Servicio No Disponible</h1>
 <p>
-Nuestro sistema está actualmente en mantenimiento. Por favor regrese más tarde.
+Nuestro sistema estÃ¡ actualmente en mantenimiento. Por favor regrese mÃ¡s tarde.
 </p>
 <p>
 Gracias.

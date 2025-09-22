@@ -15,7 +15,7 @@ use Sabberworm\CSS\Value\Value;
 /**
  * `Rule`s just have a string key (the rule) and a 'Value'.
  *
- * In CSS, `Rule`s are expressed as follows: “key: value[0][0] value[0][1], value[1][0] value[1][1];”
+ * In CSS, `Rule`s are expressed as follows: âkey: value[0][0] value[0][1], value[1][0] value[1][1];â
  */
 class Rule implements Renderable, Commentable
 {

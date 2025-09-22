@@ -81,7 +81,7 @@ class Feature extends \Stripe\ApiResource
     }
 
     /**
-     * Update a feature’s metadata or permanently deactivate it.
+     * Update a featureâs metadata or permanently deactivate it.
      *
      * @param string $id the ID of the resource to update
      * @param null|array $params

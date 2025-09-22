@@ -62,7 +62,7 @@ class SessionService extends \Stripe\Service\AbstractService
     /**
      * A Session can be expired when it is in one of these statuses: <code>open</code>.
      *
-     * After it expires, a customer can’t complete a Session and customers loading the
+     * After it expires, a customer canât complete a Session and customers loading the
      * Session see a message saying the Session is expired.
      *
      * @param string $id

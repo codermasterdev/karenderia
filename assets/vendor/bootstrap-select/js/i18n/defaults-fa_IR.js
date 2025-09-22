@@ -24,12 +24,12 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'چیزی انتخاب نشده است',
-    noneResultsText: 'هیج مشابهی برای {0} پیدا نشد',
-    countSelectedText: '{0} از {1} مورد انتخاب شده',
-    maxOptionsText: ['بیشتر ممکن نیست {حداکثر {n} عدد}', 'بیشتر ممکن نیست {حداکثر {n} عدد}'],
-    selectAllText: 'انتخاب همه',
-    deselectAllText: 'انتخاب هیچ کدام',
+    noneSelectedText: 'ÚÛØ²Û Ø§ÙØªØ®Ø§Ø¨ ÙØ´Ø¯Ù Ø§Ø³Øª',
+    noneResultsText: 'ÙÛØ¬ ÙØ´Ø§Ø¨ÙÛ Ø¨Ø±Ø§Û {0} Ù¾ÛØ¯Ø§ ÙØ´Ø¯',
+    countSelectedText: '{0} Ø§Ø² {1} ÙÙØ±Ø¯ Ø§ÙØªØ®Ø§Ø¨ Ø´Ø¯Ù',
+    maxOptionsText: ['Ø¨ÛØ´ØªØ± ÙÙÚ©Ù ÙÛØ³Øª {Ø­Ø¯Ø§Ú©Ø«Ø± {n} Ø¹Ø¯Ø¯}', 'Ø¨ÛØ´ØªØ± ÙÙÚ©Ù ÙÛØ³Øª {Ø­Ø¯Ø§Ú©Ø«Ø± {n} Ø¹Ø¯Ø¯}'],
+    selectAllText: 'Ø§ÙØªØ®Ø§Ø¨ ÙÙÙ',
+    deselectAllText: 'Ø§ÙØªØ®Ø§Ø¨ ÙÛÚ Ú©Ø¯Ø§Ù',
     multipleSeparator: ', '
   };
 })(jQuery);

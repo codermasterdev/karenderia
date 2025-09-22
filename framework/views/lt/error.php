@@ -22,13 +22,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Klaida <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Apdorojant užklausą, įvyko aukščiau nurodyta klaida.
+Apdorojant uÅ¾klausÄ, Ä¯vyko aukÅ¡Äiau nurodyta klaida.
 </p>
 <p>
-Jeigu manote, kad tai serverio klaida, prašytume apie ją pranešti <?php echo $data['admin']; ?>.
+Jeigu manote, kad tai serverio klaida, praÅ¡ytume apie jÄ praneÅ¡ti <?php echo $data['admin']; ?>.
 </p>
 <p>
-Ačiū.
+AÄiÅ«.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

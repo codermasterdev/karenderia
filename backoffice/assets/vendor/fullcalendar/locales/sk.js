@@ -8,20 +8,20 @@ FullCalendar.globalLocales.push(function () {
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Predchádzajúci',
-      next: 'Nasledujúci',
+      prev: 'PredchÃ¡dzajÃºci',
+      next: 'NasledujÃºci',
       today: 'Dnes',
       month: 'Mesiac',
-      week: 'Týždeň',
-      day: 'Deň',
+      week: 'TÃ½Å¾deÅ',
+      day: 'DeÅ',
       list: 'Rozvrh',
     },
     weekText: 'Ty',
-    allDayText: 'Celý deň',
+    allDayText: 'CelÃ½ deÅ',
     moreLinkText: function(n) {
-      return '+ďalšie: ' + n
+      return '+ÄalÅ¡ie: ' + n
     },
-    noEventsText: 'Žiadne akcie na zobrazenie',
+    noEventsText: 'Å½iadne akcie na zobrazenie',
   };
 
   return sk;

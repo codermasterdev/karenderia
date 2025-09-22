@@ -10,7 +10,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Decorates an HTTP Async Client.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 trait HttpAsyncClientDecorator
 {

@@ -39,37 +39,37 @@ echo '<br /><br />';
 require '../src/Arabic.php';
 $Arabic = new \ArPHP\I18N\Arabic();
 
-$str  = 'الخميس القادم';
+$str  = 'Ø§ÙØ®ÙÙØ³ Ø§ÙÙØ§Ø¯Ù';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = 'الأحد الماضي';
+$str  = 'Ø§ÙØ£Ø­Ø¯ Ø§ÙÙØ§Ø¶Ù';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = 'بعد أسبوع و ثلاثة أيام';
+$str  = 'Ø¨Ø¹Ø¯ Ø£Ø³Ø¨ÙØ¹ Ù Ø«ÙØ§Ø«Ø© Ø£ÙØ§Ù';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = 'منذ تسعة أيام';
+$str  = 'ÙÙØ° ØªØ³Ø¹Ø© Ø£ÙØ§Ù';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = 'قبل إسبوعين';
+$str  = 'ÙØ¨Ù Ø¥Ø³Ø¨ÙØ¹ÙÙ';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = '2 آب 1975';
+$str  = '2 Ø¢Ø¨ 1975';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
 
-$str  = '1 رمضان 1429';
+$str  = '1 Ø±ÙØ¶Ø§Ù 1429';
 $int  = $Arabic->strtotime($str, $time);
 $date = date('l dS F Y', $int);
 echo "$str - $int - $date<br /><br />";
@@ -88,37 +88,37 @@ $code = <<< END
 
 	\$Arabic = new \\ArPHP\\I18N\\Arabic();
 
-    \$str  = 'الخميس القادم';
+    \$str  = 'Ø§ÙØ®ÙÙØ³ Ø§ÙÙØ§Ø¯Ù';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
     
-    \$str  = 'الأحد الماضي';
+    \$str  = 'Ø§ÙØ£Ø­Ø¯ Ø§ÙÙØ§Ø¶Ù';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
     
-    \$str  = 'بعد أسبوع و ثلاثة أيام';
+    \$str  = 'Ø¨Ø¹Ø¯ Ø£Ø³Ø¨ÙØ¹ Ù Ø«ÙØ§Ø«Ø© Ø£ÙØ§Ù';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
     
-    \$str  = 'منذ تسعة أيام';
+    \$str  = 'ÙÙØ° ØªØ³Ø¹Ø© Ø£ÙØ§Ù';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
     
-    \$str  = 'قبل إسبوعين';
+    \$str  = 'ÙØ¨Ù Ø¥Ø³Ø¨ÙØ¹ÙÙ';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
     
-    \$str  = '2 آب 1975';
+    \$str  = '2 Ø¢Ø¨ 1975';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";
 
-    \$str  = '1 رمضان 1429';
+    \$str  = '1 Ø±ÙØ¶Ø§Ù 1429';
     \$int  = \$Arabic->strtotime(\$str, \$time);
     \$date = date('l dS F Y', \$int);
     echo "\$str - \$int - \$date<br /><br />";

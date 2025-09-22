@@ -26,7 +26,7 @@ class CreditNoteService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * When retrieving a credit note, you’ll get a <strong>lines</strong> property
+     * When retrieving a credit note, youâll get a <strong>lines</strong> property
      * containing the first handful of those items. There is also a URL where you can
      * retrieve the full (paginated) list of line items.
      *
@@ -52,8 +52,8 @@ class CreditNoteService extends \Stripe\Service\AbstractService
      *
      * <ul> <li>Refund: create a new refund (using <code>refund_amount</code>) or link
      * an existing refund (using <code>refund</code>).</li> <li>Customer balance
-     * credit: credit the customer’s balance (using <code>credit_amount</code>) which
-     * will be automatically applied to their next invoice when it’s finalized.</li>
+     * credit: credit the customerâs balance (using <code>credit_amount</code>) which
+     * will be automatically applied to their next invoice when itâs finalized.</li>
      * <li>Outside of Stripe credit: record the amount that is or will be credited
      * outside of Stripe (using <code>out_of_band_amount</code>).</li> </ul>
      *
@@ -61,7 +61,7 @@ class CreditNoteService extends \Stripe\Service\AbstractService
      * Stripe amounts must equal the credit note total.
      *
      * You may issue multiple credit notes for an invoice. Each credit note will
-     * increment the invoice’s <code>pre_payment_credit_notes_amount</code> or
+     * increment the invoiceâs <code>pre_payment_credit_notes_amount</code> or
      * <code>post_payment_credit_notes_amount</code> depending on its
      * <code>status</code> at the time of credit note creation.
      *
@@ -93,7 +93,7 @@ class CreditNoteService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * When retrieving a credit note preview, you’ll get a <strong>lines</strong>
+     * When retrieving a credit note preview, youâll get a <strong>lines</strong>
      * property containing the first handful of those items. This URL you can retrieve
      * the full (paginated) list of line items.
      *

@@ -72,7 +72,7 @@ final class MessageData implements \JsonSerializable
     private static function assertValidKey(string $value): void
     {
         $value = \mb_strtolower($value);
-        // According to the docs, "notification" is reserved, but it's still accepted ¯\_(ツ)_/¯
+        // According to the docs, "notification" is reserved, but it's still accepted Â¯\_(ã)_/Â¯
         $reservedWords = ['from', /*'notification',*/ 'message_type'];
         $reservedPrefixes = ['google', 'gcm'];
 

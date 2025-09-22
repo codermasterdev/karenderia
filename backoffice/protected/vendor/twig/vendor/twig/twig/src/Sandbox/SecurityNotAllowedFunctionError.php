@@ -14,7 +14,7 @@ namespace Twig\Sandbox;
 /**
  * Exception thrown when a not allowed function is used in a template.
  *
- * @author Martin Hasoň <martin.hason@gmail.com>
+ * @author Martin HasoÅ <martin.hason@gmail.com>
  */
 final class SecurityNotAllowedFunctionError extends SecurityError
 {

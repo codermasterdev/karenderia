@@ -45,7 +45,7 @@ class SetupIntentService extends \Stripe\Service\AbstractService
     /**
      * Confirm that your customer intends to set up the current or provided payment
      * method. For example, you would confirm a SetupIntent when a customer hits the
-     * “Save” button on a payment method management page on your website.
+     * âSaveâ button on a payment method management page on your website.
      *
      * If the selected payment method does not require any additional steps from the
      * customer, the SetupIntent will transition to the <code>succeeded</code> status.

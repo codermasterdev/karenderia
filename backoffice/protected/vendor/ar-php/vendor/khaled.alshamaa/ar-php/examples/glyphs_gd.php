@@ -20,7 +20,7 @@ $path = substr(
 $font = $path.'/fonts/Amiri-Regular.ttf';
 
 // UTF-8 charset
-$text = 'بسم الله الرحمن الرحيم';
+$text = 'Ø¨Ø³Ù Ø§ÙÙÙ Ø§ÙØ±Ø­ÙÙ Ø§ÙØ±Ø­ÙÙ';
 imagefill($im, 0, 0, $white);
 imagettftext($im, 20, 0, 10, 50, $blue, $font, 'UTF-8:');
 imagettftext($im, 20, 0, 250, 50, $black, $font, $text);
@@ -33,7 +33,7 @@ imagettftext($im, 20, 0, 250, 50, $black, $font, $text);
 require '../src/Arabic.php';
 $Arabic = new \ArPHP\I18N\Arabic();
 
-$text = 'بسم الله الرحمن الرحيم';
+$text = 'Ø¨Ø³Ù Ø§ÙÙÙ Ø§ÙØ±Ø­ÙÙ Ø§ÙØ±Ø­ÙÙ';
 $text = $Arabic->utf8Glyphs($text);
 
 imagettftext($im, 20, 0, 10, 120, $blue, $font, 'Arabic Glyphs:');

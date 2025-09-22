@@ -1,5 +1,5 @@
 /*! jQuery UI integration for DataTables' Responsive
- * ©2015 SpryMedia Ltd - datatables.net/license
+ * Â©2015 SpryMedia Ltd - datatables.net/license
  */
 
 (function( factory ){

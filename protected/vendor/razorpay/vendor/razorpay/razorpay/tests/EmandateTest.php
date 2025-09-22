@@ -39,7 +39,7 @@ class EmandateTest extends TestCase
      */
     public function testCreateOrderEmandate()
     {
-        $data = $this->api->order->create(array('amount' => 100,'currency' => 'INR','method' => 'emandate','customer_id' => $this->customerId,'receipt' => 'Receipt No. '.time(), 'notes' => array('notes_key_1' => 'Beam me up Scotty','notes_key_2' => 'Engage'),'token' => array('auth_type' => 'netbanking','max_amount' => 9999900,'expire_at' => 4102444799,'notes' => array('notes_key_1' => 'Tea, Earl Grey, Hot','notes_key_2' => 'Tea, Earl Grey… decaf.'),'bank_account' => array('beneficiary_name' => 'Gaurav Kumar','account_number' => '1121431121541121','account_type' => 'savings','ifsc_code' => 'HDFC0000001'))));
+        $data = $this->api->order->create(array('amount' => 100,'currency' => 'INR','method' => 'emandate','customer_id' => $this->customerId,'receipt' => 'Receipt No. '.time(), 'notes' => array('notes_key_1' => 'Beam me up Scotty','notes_key_2' => 'Engage'),'token' => array('auth_type' => 'netbanking','max_amount' => 9999900,'expire_at' => 4102444799,'notes' => array('notes_key_1' => 'Tea, Earl Grey, Hot','notes_key_2' => 'Tea, Earl Greyâ¦ decaf.'),'bank_account' => array('beneficiary_name' => 'Gaurav Kumar','account_number' => '1121431121541121','account_type' => 'savings','ifsc_code' => 'HDFC0000001'))));
      
         $this->assertTrue(is_array($data->toArray()));
         

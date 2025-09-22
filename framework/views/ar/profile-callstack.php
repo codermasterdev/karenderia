@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			تقرير تنميط استدعاءات المكدس
+			ØªÙØ±ÙØ± ØªÙÙÙØ· Ø§Ø³ØªØ¯Ø¹Ø§Ø¡Ø§Øª Ø§ÙÙÙØ¯Ø³
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>الإجراء</th>
-		<th>الزمن (ث)</th>
+	    <th>Ø§ÙØ¥Ø¬Ø±Ø§Ø¡</th>
+		<th>Ø§ÙØ²ÙÙ (Ø«)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

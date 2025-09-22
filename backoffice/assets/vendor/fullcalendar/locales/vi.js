@@ -8,20 +8,20 @@ FullCalendar.globalLocales.push(function () {
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Trước',
-      next: 'Tiếp',
-      today: 'Hôm nay',
-      month: 'Tháng',
-      week: 'Tuần',
-      day: 'Ngày',
-      list: 'Lịch biểu',
+      prev: 'TrÆ°á»c',
+      next: 'Tiáº¿p',
+      today: 'HÃ´m nay',
+      month: 'ThÃ¡ng',
+      week: 'TuÃ¢Ìn',
+      day: 'NgÃ y',
+      list: 'Lá»ch biá»u',
     },
     weekText: 'Tu',
-    allDayText: 'Cả ngày',
+    allDayText: 'Cáº£ ngÃ y',
     moreLinkText: function(n) {
-      return '+ thêm ' + n
+      return '+ thÃªm ' + n
     },
-    noEventsText: 'Không có sự kiện để hiển thị',
+    noEventsText: 'KhÃ´ng cÃ³ sá»± kiá»n Äá» hiá»n thá»',
   };
 
   return vi;

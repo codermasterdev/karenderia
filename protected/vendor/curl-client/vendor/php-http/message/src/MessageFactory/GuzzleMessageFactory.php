@@ -13,7 +13,7 @@ if (!interface_exists(MessageFactory::class)) {
 /**
  * Creates Guzzle messages.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  *
  * @deprecated This will be removed in php-http/message2.0. Consider using the official Guzzle PSR-17 factory
  */

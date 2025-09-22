@@ -1,7 +1,7 @@
 <template v-if="hasSearch">
 
     <template v-if="!hasResults">
-      <h4><?php echo t("No results for")?> “{{q}}”</h4>
+      <h4><?php echo t("No results for")?> â{{q}}â</h4>
       <p><?php echo t("Sorry, no product matched for your search. Please try again")?>.</p> 
     </template>
     <template v-else>

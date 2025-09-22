@@ -10,16 +10,16 @@ FullCalendar.globalLocales.push(function () {
     buttonText: {
       prev: 'geri',
       next: 'ileri',
-      today: 'bugün',
+      today: 'bugÃ¼n',
       month: 'Ay',
       week: 'Hafta',
-      day: 'Gün',
+      day: 'GÃ¼n',
       list: 'Ajanda',
     },
     weekText: 'Hf',
-    allDayText: 'Tüm gün',
+    allDayText: 'TÃ¼m gÃ¼n',
     moreLinkText: 'daha fazla',
-    noEventsText: 'Gösterilecek etkinlik yok',
+    noEventsText: 'GÃ¶sterilecek etkinlik yok',
   };
 
   return tr;

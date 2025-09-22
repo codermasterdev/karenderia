@@ -33,7 +33,7 @@ class CouponService extends \Stripe\Service\AbstractService
      *
      * A coupon has either a <code>percent_off</code> or an <code>amount_off</code> and
      * <code>currency</code>. If you set an <code>amount_off</code>, that amount will
-     * be subtracted from any invoice’s subtotal. For example, an invoice with a
+     * be subtracted from any invoiceâs subtotal. For example, an invoice with a
      * subtotal of <currency>100</currency> will have a final total of
      * <currency>0</currency> if a coupon with an <code>amount_off</code> of
      * <amount>200</amount> is applied to it and an invoice with a subtotal of
@@ -57,7 +57,7 @@ class CouponService extends \Stripe\Service\AbstractService
      * You can delete coupons via the <a
      * href="https://dashboard.stripe.com/coupons">coupon management</a> page of the
      * Stripe dashboard. However, deleting a coupon does not affect any customers who
-     * have already applied the coupon; it means that new customers can’t redeem the
+     * have already applied the coupon; it means that new customers canât redeem the
      * coupon. You can also delete coupons via the API.
      *
      * @param string $id

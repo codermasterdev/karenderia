@@ -191,7 +191,7 @@ pre span.error-ln {
 				<div class="trace-file">
 					<?php if($hasCode): ?>
 						<div class="plus">+</div>
-						<div class="minus">–</div>
+						<div class="minus">â</div>
 					<?php endif; ?>
 					<?php
 						echo '&nbsp;';

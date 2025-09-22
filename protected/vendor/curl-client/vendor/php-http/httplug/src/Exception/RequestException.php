@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
  * This could be due to an invalid request, or one of the extending exceptions
  * for network errors or HTTP error responses.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 class RequestException extends TransferException implements PsrRequestException
 {

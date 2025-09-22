@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Грешка <?php echo $data['code']; ?></title>
+<title>ÐÑÐµÑÐºÐ° <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Грешка <?php echo $data['code']; ?></h1>
+<h1>ÐÑÐµÑÐºÐ° <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Горната греша възникна, когато уеб сървърът се опита да обработи вашата заявка.
+ÐÐ¾ÑÐ½Ð°ÑÐ° Ð³ÑÐµÑÐ° Ð²ÑÐ·Ð½Ð¸ÐºÐ½Ð°, ÐºÐ¾Ð³Ð°ÑÐ¾ ÑÐµÐ± ÑÑÑÐ²ÑÑÑÑ ÑÐµ Ð¾Ð¿Ð¸ÑÐ° Ð´Ð° Ð¾Ð±ÑÐ°Ð±Ð¾ÑÐ¸ Ð²Ð°ÑÐ°ÑÐ° Ð·Ð°ÑÐ²ÐºÐ°.
 </p>
 <p>
-Ако мислите, че това е грешка в сървъра, моля свържете се с администратора <?php echo $data['admin']; ?>.
+ÐÐºÐ¾ Ð¼Ð¸ÑÐ»Ð¸ÑÐµ, ÑÐµ ÑÐ¾Ð²Ð° Ðµ Ð³ÑÐµÑÐºÐ° Ð² ÑÑÑÐ²ÑÑÐ°, Ð¼Ð¾Ð»Ñ ÑÐ²ÑÑÐ¶ÐµÑÐµ ÑÐµ Ñ Ð°Ð´Ð¼Ð¸Ð½Ð¸ÑÑÑÐ°ÑÐ¾ÑÐ° <?php echo $data['admin']; ?>.
 </p>
 <p>
-Благодарим ви.
+ÐÐ»Ð°Ð³Ð¾Ð´Ð°ÑÐ¸Ð¼ Ð²Ð¸.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

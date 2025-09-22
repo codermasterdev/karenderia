@@ -21,7 +21,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Erreur <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-L'erreur ci-dessus est apparue pendant que le serveur Web traitait votre requête.
+L'erreur ci-dessus est apparue pendant que le serveur Web traitait votre requÃªte.
 </p>
 <p>
 Si vous pensez qu'il s'agit d'une erreur du serveur, veuillez contacter <?php echo $data['admin']; ?>.

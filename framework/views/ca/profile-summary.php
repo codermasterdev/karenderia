@@ -4,7 +4,7 @@
 		<th style="background:black;color:white;" colspan="6">
 			Reportatge Perfilat Resumit (Profiling Summary Report)
 			(Temps: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
-			Memòria: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			MemÃ²ria: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
@@ -13,7 +13,7 @@
 		<th>Total (es)</th>
 		<th>Mitjana (s)</th>
 		<th>Min. (s)</th>
-		<th>Máx. (s)</th>
+		<th>MÃ¡x. (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

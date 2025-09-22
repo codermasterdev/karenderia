@@ -9,17 +9,17 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Poprzedni',
-      next: 'Następny',
-      today: 'Dziś',
-      month: 'Miesiąc',
-      week: 'Tydzień',
-      day: 'Dzień',
+      next: 'NastÄpny',
+      today: 'DziÅ',
+      month: 'MiesiÄc',
+      week: 'TydzieÅ',
+      day: 'DzieÅ',
       list: 'Plan dnia',
     },
     weekText: 'Tydz',
-    allDayText: 'Cały dzień',
-    moreLinkText: 'więcej',
-    noEventsText: 'Brak wydarzeń do wyświetlenia',
+    allDayText: 'CaÅy dzieÅ',
+    moreLinkText: 'wiÄcej',
+    noEventsText: 'Brak wydarzeÅ do wyÅwietlenia',
   };
 
   return pl;

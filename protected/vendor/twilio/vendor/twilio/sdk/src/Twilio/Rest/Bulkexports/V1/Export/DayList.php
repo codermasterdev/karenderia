@@ -28,7 +28,7 @@ class DayList extends ListResource
      * Construct the DayList
      *
      * @param Version $version Version that contains the resource
-     * @param string $resourceType The type of communication – Messages, Calls, Conferences, and Participants
+     * @param string $resourceType The type of communication â Messages, Calls, Conferences, and Participants
      */
     public function __construct(
         Version $version,

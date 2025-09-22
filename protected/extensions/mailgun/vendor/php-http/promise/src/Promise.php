@@ -11,7 +11,7 @@ namespace Http\Promise;
  * @see https://promisesaplus.com/
  *
  * @author Joel Wurtz <joel.wurtz@gmail.com>
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface Promise
 {

@@ -268,16 +268,16 @@ class Arabic
     private $salatView   = 'Sunni';
 
     /** @var array<string> */
-    private $arNormalizeAlef = array('أ','إ','آ');
+    private $arNormalizeAlef = array('Ø£','Ø¥','Ø¢');
 
     /** @var array<string> */
-    private $arNormalizeDiacritics = array('َ','ً','ُ','ٌ','ِ','ٍ','ْ','ّ');
+    private $arNormalizeDiacritics = array('Ù','Ù','Ù','Ù','Ù','Ù','Ù','Ù');
 
     /** @var array<string> */
-    private $arSeparators = array('.',"\n",'،','؛','(','[','{',')',']','}',',',';');
+    private $arSeparators = array('.',"\n",'Ø','Ø','(','[','{',')',']','}',',',';');
 
     /** @var array<string> */
-    private $arCommonChars = array('ة','ه','ي','ن','و','ت','ل','ا','س','م',
+    private $arCommonChars = array('Ø©','Ù','Ù','Ù','Ù','Øª','Ù','Ø§','Ø³','Ù',
                                    'e', 't', 'a', 'o', 'i', 'n', 's');
 
     /** @var array<string> */
@@ -329,10 +329,10 @@ class Arabic
     private $normaliseTaa = true;
 
     /** @var array<string> */
-    private $numeralHindu = array('٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩');
+    private $numeralHindu = array('Ù ', 'Ù¡', 'Ù¢', 'Ù£', 'Ù¤', 'Ù¥', 'Ù¦', 'Ù§', 'Ù¨', 'Ù©');
 
     /** @var array<string> */
-    private $numeralPersian = array('۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹');
+    private $numeralPersian = array('Û°', 'Û±', 'Û²', 'Û³', 'Û´', 'Ûµ', 'Û¶', 'Û·', 'Û¸', 'Û¹');
 
     /** @var array<string> */
     private $numeralArabic = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
@@ -375,26 +375,26 @@ class Arabic
         $this->arStandardReplacements[] = "\n###\n";
         
         /**
-         * النقطة، الفاصلة، الفاصلة المنقوطة،
-         * النقطتان، علامتي الاستفهام والتعجب،
-         * النقاط الثلاث المتتالية
-         * يترك فراغ واحد بعدها جميعا
-         * دون أي فراغ قبلها
+         * Ø§ÙÙÙØ·Ø©Ø Ø§ÙÙØ§ØµÙØ©Ø Ø§ÙÙØ§ØµÙØ© Ø§ÙÙÙÙÙØ·Ø©Ø
+         * Ø§ÙÙÙØ·ØªØ§ÙØ Ø¹ÙØ§ÙØªÙ Ø§ÙØ§Ø³ØªÙÙØ§Ù ÙØ§ÙØªØ¹Ø¬Ø¨Ø
+         * Ø§ÙÙÙØ§Ø· Ø§ÙØ«ÙØ§Ø« Ø§ÙÙØªØªØ§ÙÙØ©
+         * ÙØªØ±Ù ÙØ±Ø§Øº ÙØ§Ø­Ø¯ Ø¨Ø¹Ø¯ÙØ§ Ø¬ÙÙØ¹Ø§
+         * Ø¯ÙÙ Ø£Ù ÙØ±Ø§Øº ÙØ¨ÙÙØ§
          */
-        $this->arStandardPatterns[] = '/\s*([\.\،\؛\:\!\؟])\s*/u';
+        $this->arStandardPatterns[] = '/\s*([\.\Ø\Ø\:\!\Ø])\s*/u';
         $this->arStandardReplacements[] = '\\1 ';
         
         /**
-         * النقاط المتتالية عددها 3 فقط
-         * (ليست نقطتان وليست أربع أو أكثر)
+         * Ø§ÙÙÙØ§Ø· Ø§ÙÙØªØªØ§ÙÙØ© Ø¹Ø¯Ø¯ÙØ§ 3 ÙÙØ·
+         * (ÙÙØ³Øª ÙÙØ·ØªØ§Ù ÙÙÙØ³Øª Ø£Ø±Ø¨Ø¹ Ø£Ù Ø£ÙØ«Ø±)
          */
         $this->arStandardPatterns[] = '/(\. ){2,}/u';
         $this->arStandardReplacements[] = '...';
         
         /**
-         * الأقواس ( ) [ ] { } يترك قبلها وبعدها فراغ
-         * وحيد، فيما لا يوجد بينها وبين ما بداخلها
-         * أي فراغ
+         * Ø§ÙØ£ÙÙØ§Ø³ ( ) [ ] { } ÙØªØ±Ù ÙØ¨ÙÙØ§ ÙØ¨Ø¹Ø¯ÙØ§ ÙØ±Ø§Øº
+         * ÙØ­ÙØ¯Ø ÙÙÙØ§ ÙØ§ ÙÙØ¬Ø¯ Ø¨ÙÙÙØ§ ÙØ¨ÙÙ ÙØ§ Ø¨Ø¯Ø§Ø®ÙÙØ§
+         * Ø£Ù ÙØ±Ø§Øº
          */
         $this->arStandardPatterns[] = '/\s*([\(\{\[])\s*/u';
         $this->arStandardPatterns[] = '/\s*([\)\}\]])\s*/u';
@@ -403,34 +403,34 @@ class Arabic
         $this->arStandardReplacements[] = '\\1 ';
         
         /**
-         * علامات الاقتباس "..."
-         * يترك قبلها وبعدها فراغ
-         * وحيد، فيما لا يوجد بينها
-         * وبين ما بداخلها أي فراغ
+         * Ø¹ÙØ§ÙØ§Øª Ø§ÙØ§ÙØªØ¨Ø§Ø³ "..."
+         * ÙØªØ±Ù ÙØ¨ÙÙØ§ ÙØ¨Ø¹Ø¯ÙØ§ ÙØ±Ø§Øº
+         * ÙØ­ÙØ¯Ø ÙÙÙØ§ ÙØ§ ÙÙØ¬Ø¯ Ø¨ÙÙÙØ§
+         * ÙØ¨ÙÙ ÙØ§ Ø¨Ø¯Ø§Ø®ÙÙØ§ Ø£Ù ÙØ±Ø§Øº
          */
         $this->arStandardPatterns[] = '/\s*\"\s*(.+)((?<!\s)\"|\s+\")\s*/u';
         $this->arStandardReplacements[] = ' "\\1" ';
         
         /**
-         * علامات الإعتراض -...-
-         * يترك قبلها وبعدها فراغ
-         * وحيد، فيما لا يوجد بينها
-         * وبين ما بداخلها أي فراغ
+         * Ø¹ÙØ§ÙØ§Øª Ø§ÙØ¥Ø¹ØªØ±Ø§Ø¶ -...-
+         * ÙØªØ±Ù ÙØ¨ÙÙØ§ ÙØ¨Ø¹Ø¯ÙØ§ ÙØ±Ø§Øº
+         * ÙØ­ÙØ¯Ø ÙÙÙØ§ ÙØ§ ÙÙØ¬Ø¯ Ø¨ÙÙÙØ§
+         * ÙØ¨ÙÙ ÙØ§ Ø¨Ø¯Ø§Ø®ÙÙØ§ Ø£Ù ÙØ±Ø§Øº
          */
         $this->arStandardPatterns[] = '/\s*\-\s*(.+)((?<!\s)\-|\s+\-)\s*/u';
         $this->arStandardReplacements[] = ' -\\1- ';
         
         /**
-         * لا يترك فراغ بين حرف العطف الواو وبين
-         * الكلمة التي تليه
-         * إلا إن كانت تبدأ بحرف الواو
+         * ÙØ§ ÙØªØ±Ù ÙØ±Ø§Øº Ø¨ÙÙ Ø­Ø±Ù Ø§ÙØ¹Ø·Ù Ø§ÙÙØ§Ù ÙØ¨ÙÙ
+         * Ø§ÙÙÙÙØ© Ø§ÙØªÙ ØªÙÙÙ
+         * Ø¥ÙØ§ Ø¥Ù ÙØ§ÙØª ØªØ¨Ø¯Ø£ Ø¨Ø­Ø±Ù Ø§ÙÙØ§Ù
          */
-        $this->arStandardPatterns[] = '/\sو\s+([^و])/u';
-        $this->arStandardReplacements[] = ' و\\1';
+        $this->arStandardPatterns[] = '/\sÙ\s+([^Ù])/u';
+        $this->arStandardReplacements[] = ' Ù\\1';
         
         /**
-         * الواحدات الإنجليزية توضع
-         * على يمين الرقم مع ترك فراغ
+         * Ø§ÙÙØ§Ø­Ø¯Ø§Øª Ø§ÙØ¥ÙØ¬ÙÙØ²ÙØ© ØªÙØ¶Ø¹
+         * Ø¹ÙÙ ÙÙÙÙ Ø§ÙØ±ÙÙ ÙØ¹ ØªØ±Ù ÙØ±Ø§Øº
          */
         $this->arStandardPatterns[] = '/\s+(\w+)\s*(\d+)\s+/';
         $this->arStandardPatterns[] = '/\s+(\d+)\s*(\w+)\s+/';
@@ -439,8 +439,8 @@ class Arabic
         $this->arStandardReplacements[] = ' <span dir="ltr">\\1 \\2</span> ';
         
         /**
-         * النسبة المؤية دائما إلى يسار الرقم
-         * وبدون أي فراغ يفصل بينهما 40% مثلا
+         * Ø§ÙÙØ³Ø¨Ø© Ø§ÙÙØ¤ÙØ© Ø¯Ø§Ø¦ÙØ§ Ø¥ÙÙ ÙØ³Ø§Ø± Ø§ÙØ±ÙÙ
+         * ÙØ¨Ø¯ÙÙ Ø£Ù ÙØ±Ø§Øº ÙÙØµÙ Ø¨ÙÙÙÙØ§ 40% ÙØ«ÙØ§
          */
         $this->arStandardPatterns[] = '/\s+(\d+)\s*\%\s+/u';
         $this->arStandardPatterns[] = '/\n?@@@\n?/u';
@@ -463,9 +463,9 @@ class Arabic
             $this->hj[] = (string)$month;
         }
         
-        $this->strToTimePatterns[] = '/َ|ً|ُ|ٌ|ِ|ٍ|ْ|ّ/';
-        $this->strToTimePatterns[] = '/\s*ال(\S{3,})\s+ال(\S{3,})/';
-        $this->strToTimePatterns[] = '/\s*ال(\S{3,})/';
+        $this->strToTimePatterns[] = '/Ù|Ù|Ù|Ù|Ù|Ù|Ù|Ù/';
+        $this->strToTimePatterns[] = '/\s*Ø§Ù(\S{3,})\s+Ø§Ù(\S{3,})/';
+        $this->strToTimePatterns[] = '/\s*Ø§Ù(\S{3,})/';
         
         $this->strToTimeReplacements[] = '';
         $this->strToTimeReplacements[] = ' \\2 \\1';
@@ -571,20 +571,20 @@ class Arabic
 
         foreach ($json['individual']['male'] as $num) {
             if ($num['value'] < 11) {
-                $str = strtr((string)$num['text'], array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا'));
+                $str = strtr((string)$num['text'], array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§'));
                 $this->arNumberSpell[$str] = (int)$num['value'];
             }
         }
         
         foreach ($json['individual']['female'] as $num) {
             if ($num['value'] < 11) {
-                $str = strtr((string)$num['text'], array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا'));
+                $str = strtr((string)$num['text'], array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§'));
                 $this->arNumberSpell[$str] = (int)$num['value'];
             }
         }
         
         foreach ($json['individual']['gt19'] as $num) {
-            $str = strtr((string)$num['text'], array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا'));
+            $str = strtr((string)$num['text'], array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§'));
             $this->arNumberSpell[$str] = (int)$num['value'];
         }
         
@@ -648,7 +648,7 @@ class Arabic
     /** @return void */
     private function arGlyphsInit()
     {
-        $this->arGlyphsVowel     = 'ًٌٍَُِّْ';
+        $this->arGlyphsVowel     = 'ÙÙÙÙÙÙÙÙ';
         
         // Arabic Presentation Forms-B (https://en.wikipedia.org/wiki/Arabic_Presentation_Forms-B)
         // Contextual forms (https://en.wikipedia.org/wiki/Arabic_script_in_Unicode#Contextual_forms)
@@ -738,21 +738,21 @@ class Arabic
         $words  = explode(' ', $str);
         $str    = $words[0];
 
-        $str = strtr($str, array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا'));
+        $str = strtr($str, array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§'));
 
         $last       = mb_substr($str, -1, 1);
         $beforeLast = mb_substr($str, -2, 1);
 
-        if ($last == 'ا' || $last == 'ة' || $last == 'ه' || $last == 'ى' || ($last == 'ء' && $beforeLast == 'ا')) {
+        if ($last == 'Ø§' || $last == 'Ø©' || $last == 'Ù' || $last == 'Ù' || ($last == 'Ø¡' && $beforeLast == 'Ø§')) {
             $female = true;
-        } elseif (preg_match("/^[اإ].{2}ا.$/u", $str) || preg_match("/^[إا].ت.ا.+$/u", $str)) {
-            // الأسماء على وزن إفتعال و إفعال
+        } elseif (preg_match("/^[Ø§Ø¥].{2}Ø§.$/u", $str) || preg_match("/^[Ø¥Ø§].Øª.Ø§.+$/u", $str)) {
+            // Ø§ÙØ£Ø³ÙØ§Ø¡ Ø¹ÙÙ ÙØ²Ù Ø¥ÙØªØ¹Ø§Ù Ù Ø¥ÙØ¹Ø§Ù
             $female = true;
         } elseif (array_search($str, $this->arFemaleNames) > 0) {
             $female = true;
         }
         
-        // إستثناء الأسماء المذكرة المؤنثة تأنيث لفظي
+        // Ø¥Ø³ØªØ«ÙØ§Ø¡ Ø§ÙØ£Ø³ÙØ§Ø¡ Ø§ÙÙØ°ÙØ±Ø© Ø§ÙÙØ¤ÙØ«Ø© ØªØ£ÙÙØ« ÙÙØ¸Ù
         if (array_search($str, $this->arMaleNames) > 0) {
             $female = false;
         }
@@ -799,7 +799,7 @@ class Arabic
             $text = preg_replace($this->strToTimePatterns, $this->strToTimeReplacements, $text);
             $text = str_replace($this->strToTimeSearch, $this->strToTimeReplace, $text);
 
-            $pattern = '[ابتثجحخدذرزسشصضطظعغفقكلمنهوي]';
+            $pattern = '[Ø§Ø¨ØªØ«Ø¬Ø­Ø®Ø¯Ø°Ø±Ø²Ø³Ø´ØµØ¶Ø·Ø¸Ø¹ØºÙÙÙÙÙÙÙÙÙ]';
             $text    = preg_replace("/$pattern/", '', $text);
 
             $int = strtotime($text, $now);
@@ -982,12 +982,12 @@ class Arabic
      */
     public function ar2en($string, $standard = 'UNGEGN')
     {
-        //$string = strtr($string, array('ة ال' => 'tul'));
+        //$string = strtr($string, array('Ø© Ø§Ù' => 'tul'));
         $words  = explode(' ', $string);
         $string = '';
 
         for ($i = 0; $i < count($words) - 1; $i++) {
-            $words[$i] = strtr($words[$i], 'ة', 'ت');
+            $words[$i] = strtr($words[$i], 'Ø©', 'Øª');
         }
 
         foreach ($words as $word) {
@@ -1463,13 +1463,13 @@ class Arabic
     {
         if ($number == 1 && $this->arNumberOrder == 2) {
             if ($this->arNumberFeminine == 1) {
-                $string = 'الأول';
+                $string = 'Ø§ÙØ£ÙÙ';
             } else {
-                $string = 'الأولى';
+                $string = 'Ø§ÙØ£ÙÙÙ';
             }
         } else {
             if ($number < 0) {
-                $string = 'سالب ';
+                $string = 'Ø³Ø§ÙØ¨ ';
                 $number = (string) (-1 * $number);
             } else {
                 $string = '';
@@ -1481,7 +1481,7 @@ class Arabic
 
             if (!empty($temp[1])) {
                 $dec     = $this->arNumbersSubStr($temp[1]);
-                $string .= ' فاصلة ' . $dec;
+                $string .= ' ÙØ§ØµÙØ© ' . $dec;
             }
         }
 
@@ -1541,7 +1541,7 @@ class Arabic
         if (!empty($temp[1]) && $temp[1] != 0) {
             if ($string != '') {
                 if ($lang == 'ar') {
-                    $string .= ' و';
+                    $string .= ' Ù';
                 } else {
                     $string .= ' and ';
                 }
@@ -1568,20 +1568,20 @@ class Arabic
     public function str2int($str)
     {
         // Normalization phase
-        $str = strtr($str, array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا'));
-        $str = strtr($str, array('ه' => 'ة'));
+        $str = strtr($str, array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§'));
+        $str = strtr($str, array('Ù' => 'Ø©'));
         $str = preg_replace('/\s+/', ' ', $str);
-        $ptr = array('ـ' => '', 'َ' => '', 'ً' => '', 'ُ' => '', 'ٌ' => '', 'ِ' => '', 'ٍ' => '', 'ْ' => '', 'ّ' => '');
+        $ptr = array('Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '', 'Ù' => '');
         $str = strtr($str, $ptr);
-        $str = strtr($str, array('مائة' => 'مئة'));
-        $ptr = array('/احدى\s/u','/احد\s/u');
-        $str = preg_replace($ptr, 'واحد ', $str);
-        $ptr = array('/اثنا\s/u','/اثني\s/u','/اثنتا\s/u', '/اثنتي\s/u','/اثنين\s/u','/اثنتان\s/u', '/اثنتين\s/u');
-        $str = preg_replace($ptr, 'اثنان ', $str);
+        $str = strtr($str, array('ÙØ§Ø¦Ø©' => 'ÙØ¦Ø©'));
+        $ptr = array('/Ø§Ø­Ø¯Ù\s/u','/Ø§Ø­Ø¯\s/u');
+        $str = preg_replace($ptr, 'ÙØ§Ø­Ø¯ ', $str);
+        $ptr = array('/Ø§Ø«ÙØ§\s/u','/Ø§Ø«ÙÙ\s/u','/Ø§Ø«ÙØªØ§\s/u', '/Ø§Ø«ÙØªÙ\s/u','/Ø§Ø«ÙÙÙ\s/u','/Ø§Ø«ÙØªØ§Ù\s/u', '/Ø§Ø«ÙØªÙÙ\s/u');
+        $str = preg_replace($ptr, 'Ø§Ø«ÙØ§Ù ', $str);
 
         $str = trim($str);
 
-        if (strpos($str, 'ناقص') === false && strpos($str, 'سالب') === false) {
+        if (strpos($str, 'ÙØ§ÙØµ') === false && strpos($str, 'Ø³Ø§ÙØ¨') === false) {
             $negative = false;
         } else {
             $negative = true;
@@ -1594,7 +1594,7 @@ class Arabic
         for ($scale = $max; $scale > 0; $scale--) {
             $key = pow(1000, $scale);
 
-            $pattern = array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا');
+            $pattern = array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§');
             $format1 = strtr($this->arNumberComplications[$scale][1], $pattern);
             $format2 = strtr($this->arNumberComplications[$scale][2], $pattern);
             $format3 = strtr($this->arNumberComplications[$scale][3], $pattern);
@@ -1602,16 +1602,16 @@ class Arabic
 
             if (strpos($str, $format1) !== false) {
                 list($temp, $str) = explode($format1, $str);
-                $segment[$key]    = 'اثنان';
+                $segment[$key]    = 'Ø§Ø«ÙØ§Ù';
             } elseif (strpos($str, $format2) !== false) {
                 list($temp, $str) = explode($format2, $str);
-                $segment[$key]    = 'اثنان';
+                $segment[$key]    = 'Ø§Ø«ÙØ§Ù';
             } elseif (strpos($str, $format3) !== false) {
                 list($segment[$key], $str) = explode($format3, $str);
             } elseif (strpos($str, $format4) !== false) {
                 list($segment[$key], $str) = explode($format4, $str);
                 if ($segment[$key] == '') {
-                    $segment[$key] = 'واحد';
+                    $segment[$key] = 'ÙØ§Ø­Ø¯';
                 }
             }
 
@@ -1670,7 +1670,7 @@ class Arabic
             if ($zero != false) {
                 $fulnum = $number;
                 while (($fulnum[0]) == '0') {
-                    $zeros = 'صفر ' . $zeros;
+                    $zeros = 'ØµÙØ± ' . $zeros;
                     $fulnum = substr($fulnum, 1, strlen($fulnum));
                 };
                 $zeros = trim($zeros);
@@ -1701,7 +1701,7 @@ class Arabic
                     }
                     
                     if ($this->arNumberOrder == 2 && ($number > 1 && $number < 11)) {
-                        $text = 'ال' . $text;
+                        $text = 'Ø§Ù' . $text;
                     }
 
                     //--- by Jnom: handle left zero
@@ -1715,9 +1715,9 @@ class Arabic
                 }
             }
 
-            $string = implode(' و', $items);
+            $string = implode(' Ù', $items);
         } else {
-            $string = 'صفر';
+            $string = 'ØµÙØ±';
         }
 
         return $string;
@@ -1741,7 +1741,7 @@ class Arabic
             $number  = $number % 100;
 
             if ($this->arNumberOrder == 2) {
-                $pre = 'ال';
+                $pre = 'Ø§Ù';
             } else {
                 $pre = '';
             }
@@ -1759,12 +1759,12 @@ class Arabic
                     $items[] = $this->arNumberOrdering[$number][$this->arNumberFeminine];
                 } elseif ($number < 20) {
                     $number -= 10;
-                    $item    = 'ال' . $this->arNumberOrdering[$number][$this->arNumberFeminine];
+                    $item    = 'Ø§Ù' . $this->arNumberOrdering[$number][$this->arNumberFeminine];
 
                     if ($this->arNumberFeminine == 1) {
-                        $item .= ' عشر';
+                        $item .= ' Ø¹Ø´Ø±';
                     } else {
-                        $item .= ' عشرة';
+                        $item .= ' Ø¹Ø´Ø±Ø©';
                     }
 
                     $items[] = $item;
@@ -1773,9 +1773,9 @@ class Arabic
                     $tens = floor($number / 10) * 10;
 
                     if ($ones > 0) {
-                        $items[] = 'ال' . $this->arNumberOrdering[$ones][$this->arNumberFeminine];
+                        $items[] = 'Ø§Ù' . $this->arNumberOrdering[$ones][$this->arNumberFeminine];
                     }
-                    $items[] = 'ال' . $this->arNumberIndividual[$tens][$this->arNumberFormat];
+                    $items[] = 'Ø§Ù' . $this->arNumberIndividual[$tens][$this->arNumberFormat];
                 }
             } else {
                 if ($number == 2 || $number == 12) {
@@ -1798,7 +1798,7 @@ class Arabic
         }
 
         $items  = array_diff($items, array(''));
-        $string = implode(' و', $items);
+        $string = implode(' Ù', $items);
 
         return $string;
     }
@@ -1832,7 +1832,7 @@ class Arabic
      */
     public function swapAe($text)
     {
-        $pieces = explode('لا', $text);
+        $pieces = explode('ÙØ§', $text);
         
         $max = count($pieces);
 
@@ -2386,8 +2386,8 @@ class Arabic
 
             // if the current char is LAM followed by ALEF, use ALEF-LAM character, then step to the next char
             if (
-                $crntChar == 'ل' && isset($nextChar)
-                && (mb_strpos('آأإا', $nextChar) !== false)
+                $crntChar == 'Ù' && isset($nextChar)
+                && (mb_strpos('Ø¢Ø£Ø¥Ø§', $nextChar) !== false)
             ) {
                 $output = substr($output, 0, strlen($output) - 8);
                 if (isset($this->arGlyphs[$prevChar]['prevLink']) && $this->arGlyphs[$prevChar]['prevLink'] == true) {
@@ -2395,7 +2395,7 @@ class Arabic
                 } else {
                     $output .= '&#x' . $this->arGlyphs[$crntChar . $nextChar][0] . ';';
                 }
-                if ($prevChar == 'ل') {
+                if ($prevChar == 'Ù') {
                     $tmp_form = (isset($this->arGlyphs[$chars[$i - 2]]['prevLink']) &&
                                  $this->arGlyphs[$chars[$i - 2]]['prevLink'] == true) ? 3 : 2;
                     $output .= '&#x' . $this->arGlyphs[$prevChar][$tmp_form] . ';';
@@ -2406,7 +2406,7 @@ class Arabic
 
             // handle the case of HARAKAT
             if (mb_strpos($this->arGlyphsVowel, $crntChar) !== false) {
-                if ($crntChar == 'ّ') {
+                if ($crntChar == 'Ù') {
                     if (mb_strpos($this->arGlyphsVowel, $chars[$i - 1]) !== false) {
                         // check if the SHADDA & HARAKA in the middle of connected letters (form 3)
                         if (
@@ -2418,22 +2418,22 @@ class Arabic
 
                         // handle the case of HARAKAT after SHADDA
                         switch ($chars[$i - 1]) {
-                            case 'ً':
+                            case 'Ù':
                                 $output .= '&#x0651;&#x064B;';
                                 break;
-                            case 'ٌ':
+                            case 'Ù':
                                 $output .= '&#xFC5E;';
                                 break;
-                            case 'ٍ':
+                            case 'Ù':
                                 $output .= '&#xFC5F;';
                                 break;
-                            case 'َ':
+                            case 'Ù':
                                 $output .= ($form == 3) ? '&#xFCF2;' : '&#xFC60;';
                                 break;
-                            case 'ُ':
+                            case 'Ù':
                                 $output .= ($form == 3) ? '&#xFCF3;' : '&#xFC61;';
                                 break;
-                            case 'ِ':
+                            case 'Ù':
                                 $output .= ($form == 3) ? '&#xFCF4;' : '&#xFC62;';
                                 break;
                         }
@@ -2441,27 +2441,27 @@ class Arabic
                         $output .= '&#x0651;';
                     }
                 // else show HARAKAT if it is not combined with SHADDA (which processed above)
-                } elseif (!isset($chars[$i + 1]) || $chars[$i + 1] != 'ّ') {
+                } elseif (!isset($chars[$i + 1]) || $chars[$i + 1] != 'Ù') {
                     switch ($crntChar) {
-                        case 'ً':
+                        case 'Ù':
                             $output .= '&#x064B;';
                             break;
-                        case 'ٌ':
+                        case 'Ù':
                             $output .= '&#x064C;';
                             break;
-                        case 'ٍ':
+                        case 'Ù':
                             $output .= '&#x064D;';
                             break;
-                        case 'َ':
+                        case 'Ù':
                             $output .= '&#x064E;';
                             break;
-                        case 'ُ':
+                        case 'Ù':
                             $output .= '&#x064F;';
                             break;
-                        case 'ِ':
+                        case 'Ù':
                             $output .= '&#x0650;';
                             break;
-                        case 'ْ':
+                        case 'Ù':
                             $output .= '&#x0652;';
                             break;
                     }
@@ -2516,9 +2516,9 @@ class Arabic
         $lines = array();
         $pairs = array();
 
-        $harakat = array('َ', 'ً', 'ُ', 'ٌ', 'ِ', 'ٍ');
+        $harakat = array('Ù', 'Ù', 'Ù', 'Ù', 'Ù', 'Ù');
         foreach ($harakat as $haraka) {
-            $pairs["ّ$haraka"] = "{$haraka}ّ";
+            $pairs["Ù$haraka"] = "{$haraka}Ù";
         }
 
         $text = strtr($text, $pairs);
@@ -2842,7 +2842,7 @@ class Arabic
             //if (is_numeric($word) || strlen($word) > 2) {
                 // Take off all the punctuation
                 //$word = preg_replace("/\p{P}/", '', $word);
-                $exclude = array('(', ')', '[', ']', '{', '}', ',', ';', ':', '?', '!', '،', '؛', '؟');
+                $exclude = array('(', ')', '[', ']', '{', '}', ',', ';', ':', '?', '!', 'Ø', 'Ø', 'Ø');
                 $word    = strtr($word, array_fill_keys($exclude, ''));
 
                 $wordCondition[] = $this->getWordRegExp($word);
@@ -2873,8 +2873,8 @@ class Arabic
     {
         $arg = $this->arQueryLex($arg);
         //$sql = implode(" REGEXP '$arg' OR ", $this->_fields) . " REGEXP '$arg'";
-        $sql = ' REPLACE(' . implode(", 'ـ', '') REGEXP '$arg' OR REPLACE(", $this->arQueryFields) .
-               ", 'ـ', '') REGEXP '$arg'";
+        $sql = ' REPLACE(' . implode(", 'Ù', '') REGEXP '$arg' OR REPLACE(", $this->arQueryFields) .
+               ", 'Ù', '') REGEXP '$arg'";
 
         return $sql;
     }
@@ -2966,10 +2966,10 @@ class Arabic
     {
         $wordForms = array($word);
 
-        $postfix1 = array('كم', 'كن', 'نا', 'ها', 'هم', 'هن');
-        $postfix2 = array('ين', 'ون', 'ان', 'ات', 'وا');
+        $postfix1 = array('ÙÙ', 'ÙÙ', 'ÙØ§', 'ÙØ§', 'ÙÙ', 'ÙÙ');
+        $postfix2 = array('ÙÙ', 'ÙÙ', 'Ø§Ù', 'Ø§Øª', 'ÙØ§');
 
-        if (mb_substr($word, 0, 2) == 'ال') {
+        if (mb_substr($word, 0, 2) == 'Ø§Ù') {
             $word = mb_substr($word, 2, mb_strlen($word));
         }
 
@@ -2985,22 +2985,22 @@ class Arabic
         $last2 = mb_substr($word, -2, $len);
         $last3 = mb_substr($word, -3, $len);
 
-        if ($len >= 6 && $last3 == 'تين') {
+        if ($len >= 6 && $last3 == 'ØªÙÙ') {
             $wordForms[] = $str3;
-            $wordForms[] = $str3 . 'ة';
-            $wordForms[] = $word . 'ة';
+            $wordForms[] = $str3 . 'Ø©';
+            $wordForms[] = $word . 'Ø©';
         }
 
-        if ($len >= 6 && ($last3 == 'كما' || $last3 == 'هما')) {
+        if ($len >= 6 && ($last3 == 'ÙÙØ§' || $last3 == 'ÙÙØ§')) {
             $wordForms[] = $str3;
-            $wordForms[] = $str3 . 'كما';
-            $wordForms[] = $str3 . 'هما';
+            $wordForms[] = $str3 . 'ÙÙØ§';
+            $wordForms[] = $str3 . 'ÙÙØ§';
         }
 
         if ($len >= 5 && in_array($last2, $postfix2)) {
             $wordForms[] = $str2;
-            $wordForms[] = $str2 . 'ة';
-            $wordForms[] = $str2 . 'تين';
+            $wordForms[] = $str2 . 'Ø©';
+            $wordForms[] = $str2 . 'ØªÙÙ';
 
             foreach ($postfix2 as $postfix) {
                 $wordForms[] = $str2 . $postfix;
@@ -3009,43 +3009,43 @@ class Arabic
 
         if ($len >= 5 && in_array($last2, $postfix1)) {
             $wordForms[] = $str2;
-            $wordForms[] = $str2 . 'ي';
-            $wordForms[] = $str2 . 'ك';
-            $wordForms[] = $str2 . 'كما';
-            $wordForms[] = $str2 . 'هما';
+            $wordForms[] = $str2 . 'Ù';
+            $wordForms[] = $str2 . 'Ù';
+            $wordForms[] = $str2 . 'ÙÙØ§';
+            $wordForms[] = $str2 . 'ÙÙØ§';
 
             foreach ($postfix1 as $postfix) {
                 $wordForms[] = $str2 . $postfix;
             }
         }
 
-        if ($len >= 5 && $last2 == 'ية') {
+        if ($len >= 5 && $last2 == 'ÙØ©') {
             $wordForms[] = $str1;
             $wordForms[] = $str2;
         }
 
         if (
-            ($len >= 4 && ($last1 == 'ة' || $last1 == 'ه' || $last1 == 'ت'))
-            || ($len >= 5 && $last2 == 'ات')
+            ($len >= 4 && ($last1 == 'Ø©' || $last1 == 'Ù' || $last1 == 'Øª'))
+            || ($len >= 5 && $last2 == 'Ø§Øª')
         ) {
             $wordForms[] = $str1;
-            $wordForms[] = $str1 . 'ة';
-            $wordForms[] = $str1 . 'ه';
-            $wordForms[] = $str1 . 'ت';
-            $wordForms[] = $str1 . 'ات';
+            $wordForms[] = $str1 . 'Ø©';
+            $wordForms[] = $str1 . 'Ù';
+            $wordForms[] = $str1 . 'Øª';
+            $wordForms[] = $str1 . 'Ø§Øª';
         }
 
-        if ($len >= 4 && $last1 == 'ى') {
-            $wordForms[] = $str1 . 'ا';
+        if ($len >= 4 && $last1 == 'Ù') {
+            $wordForms[] = $str1 . 'Ø§';
         }
         
-        if (preg_match("/(\\S{1,})ئ(\\S{1,})/", $word) != false) {
+        if (preg_match("/(\\S{1,})Ø¦(\\S{1,})/", $word) != false) {
             foreach ($wordForms as $form) {
-                $wordForms[] = preg_replace("/(\\S{1,})ئ(\\S{1,})/", "\\1ي\\2", $form);
+                $wordForms[] = preg_replace("/(\\S{1,})Ø¦(\\S{1,})/", "\\1Ù\\2", $form);
             }
         }
 
-        $trans = array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا');
+        $trans = array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§');
         foreach ($wordForms as $form) {
             $normWord = strtr($form, $trans);
             if ($normWord != $form) {
@@ -3284,7 +3284,7 @@ class Arabic
         // Sunrise & Sunset
         // If the observer's location is higher than the surrounding terrain, we
         // can consider this elevation into consideration by increasing the above
-        // constant 0.833 by 0.0347 × sqrt(elevation), where elevation is the
+        // constant 0.833 by 0.0347 Ã sqrt(elevation), where elevation is the
         // observer's height in meters.
         $alpha = -1 * $this->salatAB2 + 0.0347 * sqrt($this->salatElevation);
         $n     = -1 * sin(deg2rad($alpha)) - sin(deg2rad($this->salatLat)) * sin(deg2rad($D));
@@ -3413,17 +3413,17 @@ class Arabic
 
     /**
      * Convert coordinates presented in degrees, minutes and seconds
-     * (e.g. 12°34'56"S formula) into usual float number in degree unit scale
+     * (e.g. 12Â°34'56"S formula) into usual float number in degree unit scale
      * (e.g. -12.5822 value)
      *
-     * @param string $value Coordinate presented in degrees, minutes and seconds (e.g. 12°34'56"S formula)
+     * @param string $value Coordinate presented in degrees, minutes and seconds (e.g. 12Â°34'56"S formula)
      *
      * @return float Equivalent float number in degree unit scale (e.g. -12.5822 value)
      * @author Khaled Al-Sham'aa <khaled@ar-php.org>
      */
     public function dms2dd($value)
     {
-        $pattern = "/(\d{1,2})°((\d{1,2})')?((\d{1,2})\")?([NSEW])/i";
+        $pattern = "/(\d{1,2})Â°((\d{1,2})')?((\d{1,2})\")?([NSEW])/i";
 
         preg_match($pattern, $value, $matches);
 
@@ -3440,11 +3440,11 @@ class Arabic
 
     /**
      * Convert coordinates presented in float number in degree unit scale
-     * (e.g. -12.5822 value) into degrees, minutes and seconds (e.g. -12°34'56" formula)
+     * (e.g. -12.5822 value) into degrees, minutes and seconds (e.g. -12Â°34'56" formula)
      *
      * @param float $value Coordinate presented in float number in degree unit scale (e.g. -12.5822 value)
      *
-     * @return string Equivalent coordinate presented in degrees, minutes and seconds (e.g. -12°34'56" formula)
+     * @return string Equivalent coordinate presented in degrees, minutes and seconds (e.g. -12Â°34'56" formula)
      * @author Khaled Al-Sham'aa <khaled@ar-php.org>
      */
     public function dd2dms($value)
@@ -3461,7 +3461,7 @@ class Arabic
         $seconds = round(((($value - $degrees) * 60) - $minutes) * 60, 4);
 
         if ($degrees > 0) {
-            $dd .= $degrees . '°';
+            $dd .= $degrees . 'Â°';
         }
         
         if ($minutes >= 10) {
@@ -3510,7 +3510,7 @@ class Arabic
      */
     public function arSummary($str, $keywords, $int, $mode, $output)
     {
-        preg_match_all("/[^\.\n\،\؛\,\;](.+?)[\.\n\،\؛\,\;]/u", $str, $sentences);
+        preg_match_all("/[^\.\n\Ø\Ø\,\;](.+?)[\.\n\Ø\Ø\,\;]/u", $str, $sentences);
         $_sentences = $sentences[0];
 
         if ($mode == 1) {
@@ -3531,7 +3531,7 @@ class Arabic
         $cleanedStr    = $this->arCleanCommon($normalizedStr);
         $stemStr       = $this->arDraftStem($cleanedStr);
 
-        preg_match_all("/[^\.\n\،\؛\,\;](.+?)[\.\n\،\؛\,\;]/u", $stemStr, $sentences);
+        preg_match_all("/[^\.\n\Ø\Ø\,\;](.+?)[\.\n\Ø\Ø\,\;]/u", $stemStr, $sentences);
         $_stemmedSentences = $sentences[0];
 
         $wordRanks = $this->arSummaryRankWords($stemStr);
@@ -3587,7 +3587,7 @@ class Arabic
         $replacements = array();
         $metaKeywords = '';
 
-        $patterns[]     = '/\.|\n|\،|\؛|\(|\[|\{|\)|\]|\}|\,|\;/u';
+        $patterns[]     = '/\.|\n|\Ø|\Ø|\(|\[|\{|\)|\]|\}|\,|\;/u';
         $replacements[] = ' ';
         
         $str = preg_replace($patterns, $replacements, $str);
@@ -3595,27 +3595,27 @@ class Arabic
         $normalizedStr = $this->arNormalize($str);
         $cleanedStr    = $this->arCleanCommon($normalizedStr);
 
-        $str = preg_replace('/(\W)ال(\w{3,})/u', '\\1\\2', $cleanedStr);
-        $str = preg_replace('/(\W)وال(\w{3,})/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})هما(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})كما(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})تين(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})هم(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})هن(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ها(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})نا(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ني(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})كم(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})تم(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})كن(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ات(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ين(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})تن(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ون(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ان(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})تا(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})وا(\W)/u', '\\1\\2', $str);
-        $str = preg_replace('/(\w{3,})ة(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\W)Ø§Ù(\w{3,})/u', '\\1\\2', $cleanedStr);
+        $str = preg_replace('/(\W)ÙØ§Ù(\w{3,})/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ØªÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ØªÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})Ø§Øª(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ØªÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙÙ(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})Ø§Ù(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ØªØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})ÙØ§(\W)/u', '\\1\\2', $str);
+        $str = preg_replace('/(\w{3,})Ø©(\W)/u', '\\1\\2', $str);
 
         $stemStr = preg_replace('/(\W)\w{1,3}(\W)/u', '\\2', $str);
 
@@ -3626,7 +3626,7 @@ class Arabic
         $i = 1;
         foreach ($wordRanks as $key => $value) {
             if ($this->arSummaryAcceptedWord($key)) {
-                $metaKeywords .= $key . '، ';
+                $metaKeywords .= $key . 'Ø ';
                 $i++;
             }
             if ($i > $int) {
@@ -3649,7 +3649,7 @@ class Arabic
      */
     private function arNormalize($str)
     {
-        $str = strtr($str, array_fill_keys($this->arNormalizeAlef, 'ا'));
+        $str = strtr($str, array_fill_keys($this->arNormalizeAlef, 'Ø§'));
         $str = strtr($str, array_fill_keys($this->arNormalizeDiacritics, ''));
         $str = strtr($str, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz');
 
@@ -4091,11 +4091,11 @@ class Arabic
      * - Form for numbers that end with a number between 11 and 99 (like: 1099, 278)
      * - Form for numbers above 100 ending with 0, 1 or 2 (like: 100, 232, 3001)
      *
-     * @param string  $singular Singular word (e.g., عنصر).
+     * @param string  $singular Singular word (e.g., Ø¹ÙØµØ±).
      * @param integer $count    The number (e.g. item count) to determine the proper plural form.
-     * @param string  $plural2  Plural form 2 (e.g., عنصران). If NULL [default] retrive from internal JSON dataset.
-     * @param string  $plural3  Plural form 3 (e.g., عناصر). If NULL [default] retrive from internal JSON dataset.
-     * @param string  $plural4  Plural form 4 (e.g., عنصرا). If NULL [default] retrive from internal JSON dataset.
+     * @param string  $plural2  Plural form 2 (e.g., Ø¹ÙØµØ±Ø§Ù). If NULL [default] retrive from internal JSON dataset.
+     * @param string  $plural3  Plural form 3 (e.g., Ø¹ÙØ§ØµØ±). If NULL [default] retrive from internal JSON dataset.
+     * @param string  $plural4  Plural form 4 (e.g., Ø¹ÙØµØ±Ø§). If NULL [default] retrive from internal JSON dataset.
      *
      * @return string Proper plural form of the given singular form
      * @author Khaled Al-Sham'aa <khaled@ar-php.org>
@@ -4103,11 +4103,11 @@ class Arabic
     public function arPlural($singular, $count, $plural2 = null, $plural3 = null, $plural4 = null)
     {
         if ($count == 0) {
-            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][0] : "لا $plural3";
+            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][0] : "ÙØ§ $plural3";
         } elseif ($count == 1 && $this->isFemale($singular)) {
-            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][1] : "$singular واحدة";
+            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][1] : "$singular ÙØ§Ø­Ø¯Ø©";
         } elseif ($count == 1 && !$this->isFemale($singular)) {
-            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][1] : "$singular واحد";
+            $plural = is_null($plural2) ? $this->arPluralsForms[$singular][1] : "$singular ÙØ§Ø­Ø¯";
         } elseif ($count == 2) {
             $plural = is_null($plural2) ? $this->arPluralsForms[$singular][2] : $plural2;
         } elseif ($count % 100 >= 3 && $count % 100 <= 10) {
@@ -4174,7 +4174,7 @@ class Arabic
                      ->arNormalizeText($text);
 
         # filter only Arabic text (white list)
-        $text = preg_replace('/[^ ءابتثجحخدذرزسشصضطظعغفقكلمنهوي]+/u', ' ', $text);
+        $text = preg_replace('/[^ Ø¡Ø§Ø¨ØªØ«Ø¬Ø­Ø®Ø¯Ø°Ø±Ø²Ø³Ø´ØµØ¶Ø·Ø¸Ø¹ØºÙÙÙÙÙÙÙÙÙ]+/u', ' ', $text);
 
         # exclude one letter words
         $text = preg_replace('/\\b\\S{1}\\b/u', ' ', $text);
@@ -4191,9 +4191,9 @@ class Arabic
         $score = 0;
 
         # add a simple rule-based mechanism to handle the negation words
-        $negationWords = array('لا', 'ليس', 'غير', 'ما', 'لم', 'لن',
-                               'لست', 'ليست', 'ليسا', 'ليستا', 'لستما',
-                               'لسنا', 'لستم', 'ليسوا', 'لسن', 'لستن');
+        $negationWords = array('ÙØ§', 'ÙÙØ³', 'ØºÙØ±', 'ÙØ§', 'ÙÙ', 'ÙÙ',
+                               'ÙØ³Øª', 'ÙÙØ³Øª', 'ÙÙØ³Ø§', 'ÙÙØ³ØªØ§', 'ÙØ³ØªÙØ§',
+                               'ÙØ³ÙØ§', 'ÙØ³ØªÙ', 'ÙÙØ³ÙØ§', 'ÙØ³Ù', 'ÙØ³ØªÙ');
         $negationFlag  = false;
 
         # for each word
@@ -4259,15 +4259,15 @@ class Arabic
      */
     public function noDots($text)
     {
-        $text = preg_replace('/ن(\b)/u', 'ں$1', $text);
-        $text = preg_replace('/ك(\b)/u', 'ک$1', $text);
+        $text = preg_replace('/Ù(\b)/u', 'Úº$1', $text);
+        $text = preg_replace('/Ù(\b)/u', 'Ú©$1', $text);
         
-        $text = strtr($text, array('ب' => 'ٮ', 'ت' => 'ٮ', 'ث' => 'ٮ', 'ن' => 'ٮ',
-                                   'ي' => 'ى', 'ف' => 'ڡ', 'ق' => 'ٯ', 'ش' => 'س',
-                                   'غ' => 'ع', 'ذ' => 'د', 'ز' => 'ر', 'ض' => 'ص',
-                                   'ظ' => 'ط', 'ة' => 'ه', 'ج' => 'ح', 'خ' => 'ح',
-                                   'أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا', 'ؤ' => 'و',
-                                   'ئ' => 'ى'));
+        $text = strtr($text, array('Ø¨' => 'Ù®', 'Øª' => 'Ù®', 'Ø«' => 'Ù®', 'Ù' => 'Ù®',
+                                   'Ù' => 'Ù', 'Ù' => 'Ú¡', 'Ù' => 'Ù¯', 'Ø´' => 'Ø³',
+                                   'Øº' => 'Ø¹', 'Ø°' => 'Ø¯', 'Ø²' => 'Ø±', 'Ø¶' => 'Øµ',
+                                   'Ø¸' => 'Ø·', 'Ø©' => 'Ù', 'Ø¬' => 'Ø­', 'Ø®' => 'Ø­',
+                                   'Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§', 'Ø¤' => 'Ù',
+                                   'Ø¦' => 'Ù'));
         
         return $text;
     }
@@ -4397,44 +4397,44 @@ class Arabic
     public function arNormalizeText($text, $numeral = null)
     {
         if ($this->stripWordHarakat) {
-            $bodyHarakat = array('/َ(\S)/u', '/ُ(\S)/u', '/ِ(\S)/u', '/ْ(\S)/u');
+            $bodyHarakat = array('/Ù(\S)/u', '/Ù(\S)/u', '/Ù(\S)/u', '/Ù(\S)/u');
             $text = preg_replace($bodyHarakat, '\\1', $text);
         }
 
         if ($this->stripLastHarakat) {
-            $lastHarakat = array('/َ(\s)/u', '/ُ(\s)/u', '/ِ(\s)/u', '/ْ(\s)/u', '/[َُِْ]$/u');
+            $lastHarakat = array('/Ù(\s)/u', '/Ù(\s)/u', '/Ù(\s)/u', '/Ù(\s)/u', '/[ÙÙÙÙ]$/u');
             $text = preg_replace($lastHarakat, '\\1', $text);
         }
 
         if ($this->stripTatweel) {
-            $text = strtr($text, array('ـ' => ''));
+            $text = strtr($text, array('Ù' => ''));
         }
 
         if ($this->stripTanween) {
-            $allTanwen = array('ً' => '', 'ٍ' => '', 'ٌ' => '');
+            $allTanwen = array('Ù' => '', 'Ù' => '', 'Ù' => '');
             $text = strtr($text, $allTanwen);
         }
 
         if ($this->stripShadda) {
-            $text = strtr($text, array('ّ' => ''));
+            $text = strtr($text, array('Ù' => ''));
         }
 
         if ($this->normaliseLamAlef) {
-            $search  = array('لا', 'لآ', 'لأ', 'لإ');
-            $replace = array('لا', 'لآ', 'لأ', 'لإ');
+            $search  = array('ÙØ§', 'ÙØ¢', 'ÙØ£', 'ÙØ¥');
+            $replace = array('ÙØ§', 'ÙØ¢', 'ÙØ£', 'ÙØ¥');
             $text    = str_replace($search, $replace, $text);
         }
 
         if ($this->normaliseAlef) {
-            $text = strtr($text, array('أ' => 'ا', 'إ' => 'ا', 'آ' => 'ا', 'ى' => 'ا'));
+            $text = strtr($text, array('Ø£' => 'Ø§', 'Ø¥' => 'Ø§', 'Ø¢' => 'Ø§', 'Ù' => 'Ø§'));
         }
 
         if ($this->normaliseHamza) {
-            $text = strtr($text, array('ؤ' => 'ء', 'ئ' => 'ء'));
+            $text = strtr($text, array('Ø¤' => 'Ø¡', 'Ø¦' => 'Ø¡'));
         }
 
         if ($this->normaliseTaa) {
-            $text = strtr($text, array('ة' => 'ه'));
+            $text = strtr($text, array('Ø©' => 'Ù'));
         }
         
         if ($numeral == 'Hindu') {
@@ -4469,9 +4469,9 @@ class Arabic
         $diff = $others == null ? $time - time() : $time - $others;
 
         if ($diff < 0) {
-            $when = $others == null ? 'منذ' : 'قبل';
+            $when = $others == null ? 'ÙÙØ°' : 'ÙØ¨Ù';
         } else {
-            $when = $others == null ? 'باقي' : 'بعد';
+            $when = $others == null ? 'Ø¨Ø§ÙÙ' : 'Ø¨Ø¹Ø¯';
         }
 
         $diff = abs($diff);
@@ -4492,10 +4492,10 @@ class Arabic
                     $value = ceil($diff / $year);
                 }
 
-                $text = $this->arPlural('سنة', (int)$value);
+                $text = $this->arPlural('Ø³ÙØ©', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $year;
                 $parts = --$parts;
@@ -4506,10 +4506,10 @@ class Arabic
                     $value = ceil($diff / $month);
                 }
 
-                $text = $this->arPlural('شهر', (int)$value);
+                $text = $this->arPlural('Ø´ÙØ±', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $month;
                 $parts = --$parts;
@@ -4520,10 +4520,10 @@ class Arabic
                     $value = ceil($diff / $week);
                 }
 
-                $text = $this->arPlural('إسبوع', (int)$value);
+                $text = $this->arPlural('Ø¥Ø³Ø¨ÙØ¹', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $week;
                 $parts = --$parts;
@@ -4534,10 +4534,10 @@ class Arabic
                     $value = ceil($diff / $day);
                 }
 
-                $text = $this->arPlural('يوم', (int)$value);
+                $text = $this->arPlural('ÙÙÙ', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $day;
                 $parts = --$parts;
@@ -4548,10 +4548,10 @@ class Arabic
                     $value = ceil($diff / $hour);
                 }
 
-                $text = $this->arPlural('ساعة', (int)$value);
+                $text = $this->arPlural('Ø³Ø§Ø¹Ø©', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $hour;
                 $parts = --$parts;
@@ -4562,19 +4562,19 @@ class Arabic
                     $value = ceil($diff / $minute);
                 }
 
-                $text = $this->arPlural('دقيقة', (int)$value);
+                $text = $this->arPlural('Ø¯ÙÙÙØ©', (int)$value);
                 $text = str_replace('%d', (string)$value, $text);
 
-                $string = $string == '' ? $text : $string . ' و ' . $text;
+                $string = $string == '' ? $text : $string . ' Ù ' . $text;
 
                 $diff  = $diff % $minute;
                 $parts = --$parts;
             } else {
                 if ($diff > 0) {
-                    $text = $this->arPlural('ثانية', (int)$diff);
+                    $text = $this->arPlural('Ø«Ø§ÙÙØ©', (int)$diff);
                     $text = str_replace('%d', (string)$diff, $text);
 
-                    $string = $string == '' ? $text : $string . ' و ' . $text;
+                    $string = $string == '' ? $text : $string . ' Ù ' . $text;
                 }
 
                 $parts = 0;

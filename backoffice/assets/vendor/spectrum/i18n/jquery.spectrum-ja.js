@@ -5,8 +5,8 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["ja"] = {
-        cancelText: "中止",
-        chooseText: "選択"
+        cancelText: "ä¸­æ­¢",
+        chooseText: "é¸æ"
     };
 
 })( jQuery );

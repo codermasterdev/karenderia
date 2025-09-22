@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("דוח ניתוח פרופילים");
+	console.group("××× × ××ª×× ×¤×¨××¤××××");
 <?php
 foreach($data as $index=>$entry)
 {

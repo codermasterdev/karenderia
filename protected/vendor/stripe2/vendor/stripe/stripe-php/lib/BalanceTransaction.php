@@ -76,7 +76,7 @@ class BalanceTransaction extends ApiResource
      * balance (e.g., charges, transfers, and so forth). The transactions are returned
      * in sorted order, with the most recent transactions appearing first.
      *
-     * Note that this endpoint was previously called “Balance history” and used the
+     * Note that this endpoint was previously called âBalance historyâ and used the
      * path <code>/v1/balance/history</code>.
      *
      * @param null|array $params

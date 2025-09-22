@@ -6,7 +6,7 @@
  * - Fixed IE8 problems (mario.ffranco).
  * - Fixed compatibility for jQuery 1.9+ (.browser is deprecated)
  *
- * Copyright (c) 2009 Jörn Zaefferer
+ * Copyright (c) 2009 JÃ¶rn Zaefferer
  *
  * Dual licensed under the MIT and GPL licenses:
  *   https://www.opensource.org/licenses/mit-license.php

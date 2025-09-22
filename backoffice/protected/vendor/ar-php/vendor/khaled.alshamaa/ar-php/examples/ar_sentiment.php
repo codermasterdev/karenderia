@@ -20,7 +20,7 @@ that can determine the tone (positive, negative) of the text (e.g., product revi
 and combines 100k Arabic reviews from hotels, books, movies, products, and a few airlines. 
 Text (reviews) were cleaned by removing Arabic diacritics and non-Arabic characters. 
 Predictions are calculated using the log-odds statistics, and method accuracy exceeds 75% 
-which is not a bad performance for a model sized 28.2 KB.</p>
+which is not a bad performance for a model sized 28.2Â KB.</p>
 
 <i>It has been tested also with the <a href="" target="_blank">HARD: Hotel Arabic-Reviews Dataset</a>, 
 and it was able to achieve 82% on the balanced reviews dataset (in total 105,698 reviews).</i>
@@ -46,12 +46,12 @@ error_reporting(E_STRICT);
 require '../src/Arabic.php';
 $Arabic = new \ArPHP\I18N\Arabic();
 
-$reviews = array('الخدمة كانت بطيئة',
-                 'الإطلالة رائعة والطعام لذيذ',
-                 'التبريد لا يعمل والواي فاي ضعيفة',
-                 'النظافة مميزة وموظفي الاستقبال متعاونين',
-                 'جاءت القطعة مكسورة والعلبة مفتوحة',
-                 'المنتج مطابق للمواصفات والتسليم سريع');
+$reviews = array('Ø§ÙØ®Ø¯ÙØ© ÙØ§ÙØª Ø¨Ø·ÙØ¦Ø©',
+                 'Ø§ÙØ¥Ø·ÙØ§ÙØ© Ø±Ø§Ø¦Ø¹Ø© ÙØ§ÙØ·Ø¹Ø§Ù ÙØ°ÙØ°',
+                 'Ø§ÙØªØ¨Ø±ÙØ¯ ÙØ§ ÙØ¹ÙÙ ÙØ§ÙÙØ§Ù ÙØ§Ù Ø¶Ø¹ÙÙØ©',
+                 'Ø§ÙÙØ¸Ø§ÙØ© ÙÙÙØ²Ø© ÙÙÙØ¸ÙÙ Ø§ÙØ§Ø³ØªÙØ¨Ø§Ù ÙØªØ¹Ø§ÙÙÙÙ',
+                 'Ø¬Ø§Ø¡Øª Ø§ÙÙØ·Ø¹Ø© ÙÙØ³ÙØ±Ø© ÙØ§ÙØ¹ÙØ¨Ø© ÙÙØªÙØ­Ø©',
+                 'Ø§ÙÙÙØªØ¬ ÙØ·Ø§Ø¨Ù ÙÙÙÙØ§ØµÙØ§Øª ÙØ§ÙØªØ³ÙÙÙ Ø³Ø±ÙØ¹');
 
 echo <<< END
 <center>
@@ -99,12 +99,12 @@ $code = <<< ENDALL
 <?php
 	\$Arabic = new \\ArPHP\\I18N\\Arabic();
 
-    \$reviews = array('الخدمة كانت بطيئة',
-                     'الإطلالة رائعة والطعام لذيذ',
-                     'التبريد لا يعمل والواي فاي ضعيفة',
-                     'النظافة مميزة وموظفي الاستقبال متعاونين',
-                     'جاءت القطعة مكسورة والعلبة مفتوحة',
-                     'المنتج مطابق للمواصفات والتسليم سريع');
+    \$reviews = array('Ø§ÙØ®Ø¯ÙØ© ÙØ§ÙØª Ø¨Ø·ÙØ¦Ø©',
+                     'Ø§ÙØ¥Ø·ÙØ§ÙØ© Ø±Ø§Ø¦Ø¹Ø© ÙØ§ÙØ·Ø¹Ø§Ù ÙØ°ÙØ°',
+                     'Ø§ÙØªØ¨Ø±ÙØ¯ ÙØ§ ÙØ¹ÙÙ ÙØ§ÙÙØ§Ù ÙØ§Ù Ø¶Ø¹ÙÙØ©',
+                     'Ø§ÙÙØ¸Ø§ÙØ© ÙÙÙØ²Ø© ÙÙÙØ¸ÙÙ Ø§ÙØ§Ø³ØªÙØ¨Ø§Ù ÙØªØ¹Ø§ÙÙÙÙ',
+                     'Ø¬Ø§Ø¡Øª Ø§ÙÙØ·Ø¹Ø© ÙÙØ³ÙØ±Ø© ÙØ§ÙØ¹ÙØ¨Ø© ÙÙØªÙØ­Ø©',
+                     'Ø§ÙÙÙØªØ¬ ÙØ·Ø§Ø¨Ù ÙÙÙÙØ§ØµÙØ§Øª ÙØ§ÙØªØ³ÙÙÙ Ø³Ø±ÙØ¹');
 
     echo <<< END
 <center>

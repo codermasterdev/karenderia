@@ -16,7 +16,7 @@ use Monolog\ResettableInterface;
 /**
  * Adds a unique identifier into records
  *
- * @author Simon Mönch <sm@webfactory.de>
+ * @author Simon MÃ¶nch <sm@webfactory.de>
  */
 class UidProcessor implements ProcessorInterface, ResettableInterface
 {

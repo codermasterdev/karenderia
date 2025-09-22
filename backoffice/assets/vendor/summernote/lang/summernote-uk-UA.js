@@ -115,57 +115,57 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'uk-UA': {
       font: {
-        bold: 'Напівжирний',
-        italic: 'Курсив',
-        underline: 'Підкреслений',
-        clear: 'Прибрати стилі шрифту',
-        height: 'Висота лінії',
-        name: 'Шрифт',
-        strikethrough: 'Закреслений',
-        subscript: 'Нижній індекс',
-        superscript: 'Верхній індекс',
-        size: 'Розмір шрифту'
+        bold: 'ÐÐ°Ð¿ÑÐ²Ð¶Ð¸ÑÐ½Ð¸Ð¹',
+        italic: 'ÐÑÑÑÐ¸Ð²',
+        underline: 'ÐÑÐ´ÐºÑÐµÑÐ»ÐµÐ½Ð¸Ð¹',
+        clear: 'ÐÑÐ¸Ð±ÑÐ°ÑÐ¸ ÑÑÐ¸Ð»Ñ ÑÑÐ¸ÑÑÑ',
+        height: 'ÐÐ¸ÑÐ¾ÑÐ° Ð»ÑÐ½ÑÑ',
+        name: 'Ð¨ÑÐ¸ÑÑ',
+        strikethrough: 'ÐÐ°ÐºÑÐµÑÐ»ÐµÐ½Ð¸Ð¹',
+        subscript: 'ÐÐ¸Ð¶Ð½ÑÐ¹ ÑÐ½Ð´ÐµÐºÑ',
+        superscript: 'ÐÐµÑÑÐ½ÑÐ¹ ÑÐ½Ð´ÐµÐºÑ',
+        size: 'Ð Ð¾Ð·Ð¼ÑÑ ÑÑÐ¸ÑÑÑ'
       },
       image: {
-        image: 'Картинка',
-        insert: 'Вставити картинку',
-        resizeFull: 'Відновити розмір',
-        resizeHalf: 'Зменшити до 50%',
-        resizeQuarter: 'Зменшити до 25%',
-        floatLeft: 'Розташувати ліворуч',
-        floatRight: 'Розташувати праворуч',
-        floatNone: 'Початкове розташування',
-        shapeRounded: 'Форма: Заокруглена',
-        shapeCircle: 'Форма: Коло',
-        shapeThumbnail: 'Форма: Мініатюра',
-        shapeNone: 'Форма: Немає',
-        dragImageHere: 'Перетягніть сюди картинку',
-        dropImage: 'Перетягніть картинку',
-        selectFromFiles: 'Вибрати з файлів',
+        image: 'ÐÐ°ÑÑÐ¸Ð½ÐºÐ°',
+        insert: 'ÐÑÑÐ°Ð²Ð¸ÑÐ¸ ÐºÐ°ÑÑÐ¸Ð½ÐºÑ',
+        resizeFull: 'ÐÑÐ´Ð½Ð¾Ð²Ð¸ÑÐ¸ ÑÐ¾Ð·Ð¼ÑÑ',
+        resizeHalf: 'ÐÐ¼ÐµÐ½ÑÐ¸ÑÐ¸ Ð´Ð¾ 50%',
+        resizeQuarter: 'ÐÐ¼ÐµÐ½ÑÐ¸ÑÐ¸ Ð´Ð¾ 25%',
+        floatLeft: 'Ð Ð¾Ð·ÑÐ°ÑÑÐ²Ð°ÑÐ¸ Ð»ÑÐ²Ð¾ÑÑÑ',
+        floatRight: 'Ð Ð¾Ð·ÑÐ°ÑÑÐ²Ð°ÑÐ¸ Ð¿ÑÐ°Ð²Ð¾ÑÑÑ',
+        floatNone: 'ÐÐ¾ÑÐ°ÑÐºÐ¾Ð²Ðµ ÑÐ¾Ð·ÑÐ°ÑÑÐ²Ð°Ð½Ð½Ñ',
+        shapeRounded: 'Ð¤Ð¾ÑÐ¼Ð°: ÐÐ°Ð¾ÐºÑÑÐ³Ð»ÐµÐ½Ð°',
+        shapeCircle: 'Ð¤Ð¾ÑÐ¼Ð°: ÐÐ¾Ð»Ð¾',
+        shapeThumbnail: 'Ð¤Ð¾ÑÐ¼Ð°: ÐÑÐ½ÑÐ°ÑÑÑÐ°',
+        shapeNone: 'Ð¤Ð¾ÑÐ¼Ð°: ÐÐµÐ¼Ð°Ñ',
+        dragImageHere: 'ÐÐµÑÐµÑÑÐ³Ð½ÑÑÑ ÑÑÐ´Ð¸ ÐºÐ°ÑÑÐ¸Ð½ÐºÑ',
+        dropImage: 'ÐÐµÑÐµÑÑÐ³Ð½ÑÑÑ ÐºÐ°ÑÑÐ¸Ð½ÐºÑ',
+        selectFromFiles: 'ÐÐ¸Ð±ÑÐ°ÑÐ¸ Ð· ÑÐ°Ð¹Ð»ÑÐ²',
         maximumFileSize: 'Maximum file size',
         maximumFileSizeError: 'Maximum file size exceeded.',
-        url: 'URL картинки',
-        remove: 'Видалити картинку',
+        url: 'URL ÐºÐ°ÑÑÐ¸Ð½ÐºÐ¸',
+        remove: 'ÐÐ¸Ð´Ð°Ð»Ð¸ÑÐ¸ ÐºÐ°ÑÑÐ¸Ð½ÐºÑ',
         original: 'Original'
       },
       video: {
-        video: 'Відео',
-        videoLink: 'Посилання на відео',
-        insert: 'Вставити відео',
-        url: 'URL відео',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion чи Youku)'
+        video: 'ÐÑÐ´ÐµÐ¾',
+        videoLink: 'ÐÐ¾ÑÐ¸Ð»Ð°Ð½Ð½Ñ Ð½Ð° Ð²ÑÐ´ÐµÐ¾',
+        insert: 'ÐÑÑÐ°Ð²Ð¸ÑÐ¸ Ð²ÑÐ´ÐµÐ¾',
+        url: 'URL Ð²ÑÐ´ÐµÐ¾',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion ÑÐ¸ Youku)'
       },
       link: {
-        link: 'Посилання',
-        insert: 'Вставити посилання',
-        unlink: 'Прибрати посилання',
-        edit: 'Редагувати',
-        textToDisplay: 'Текст, що відображається',
-        url: 'URL для переходу',
-        openInNewWindow: 'Відкривати у новому вікні'
+        link: 'ÐÐ¾ÑÐ¸Ð»Ð°Ð½Ð½Ñ',
+        insert: 'ÐÑÑÐ°Ð²Ð¸ÑÐ¸ Ð¿Ð¾ÑÐ¸Ð»Ð°Ð½Ð½Ñ',
+        unlink: 'ÐÑÐ¸Ð±ÑÐ°ÑÐ¸ Ð¿Ð¾ÑÐ¸Ð»Ð°Ð½Ð½Ñ',
+        edit: 'Ð ÐµÐ´Ð°Ð³ÑÐ²Ð°ÑÐ¸',
+        textToDisplay: 'Ð¢ÐµÐºÑÑ, ÑÐ¾ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶Ð°ÑÑÑÑÑ',
+        url: 'URL Ð´Ð»Ñ Ð¿ÐµÑÐµÑÐ¾Ð´Ñ',
+        openInNewWindow: 'ÐÑÐ´ÐºÑÐ¸Ð²Ð°ÑÐ¸ Ñ Ð½Ð¾Ð²Ð¾Ð¼Ñ Ð²ÑÐºÐ½Ñ'
       },
       table: {
-        table: 'Таблиця',
+        table: 'Ð¢Ð°Ð±Ð»Ð¸ÑÑ',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -175,55 +175,55 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Вставити горизонтальну лінію'
+        insert: 'ÐÑÑÐ°Ð²Ð¸ÑÐ¸ Ð³Ð¾ÑÐ¸Ð·Ð¾Ð½ÑÐ°Ð»ÑÐ½Ñ Ð»ÑÐ½ÑÑ'
       },
       style: {
-        style: 'Стиль',
-        p: 'Нормальний',
-        blockquote: 'Цитата',
-        pre: 'Код',
-        h1: 'Заголовок 1',
-        h2: 'Заголовок 2',
-        h3: 'Заголовок 3',
-        h4: 'Заголовок 4',
-        h5: 'Заголовок 5',
-        h6: 'Заголовок 6'
+        style: 'Ð¡ÑÐ¸Ð»Ñ',
+        p: 'ÐÐ¾ÑÐ¼Ð°Ð»ÑÐ½Ð¸Ð¹',
+        blockquote: 'Ð¦Ð¸ÑÐ°ÑÐ°',
+        pre: 'ÐÐ¾Ð´',
+        h1: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 1',
+        h2: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 2',
+        h3: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 3',
+        h4: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 4',
+        h5: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 5',
+        h6: 'ÐÐ°Ð³Ð¾Ð»Ð¾Ð²Ð¾Ðº 6'
       },
       lists: {
-        unordered: 'Маркований список',
-        ordered: 'Нумерований список'
+        unordered: 'ÐÐ°ÑÐºÐ¾Ð²Ð°Ð½Ð¸Ð¹ ÑÐ¿Ð¸ÑÐ¾Ðº',
+        ordered: 'ÐÑÐ¼ÐµÑÐ¾Ð²Ð°Ð½Ð¸Ð¹ ÑÐ¿Ð¸ÑÐ¾Ðº'
       },
       options: {
-        help: 'Допомога',
-        fullscreen: 'На весь екран',
-        codeview: 'Початковий код'
+        help: 'ÐÐ¾Ð¿Ð¾Ð¼Ð¾Ð³Ð°',
+        fullscreen: 'ÐÐ° Ð²ÐµÑÑ ÐµÐºÑÐ°Ð½',
+        codeview: 'ÐÐ¾ÑÐ°ÑÐºÐ¾Ð²Ð¸Ð¹ ÐºÐ¾Ð´'
       },
       paragraph: {
-        paragraph: 'Параграф',
-        outdent: 'Зменшити відступ',
-        indent: 'Збільшити відступ',
-        left: 'Вирівняти по лівому краю',
-        center: 'Вирівняти по центру',
-        right: 'Вирівняти по правому краю',
-        justify: 'Розтягнути по ширині'
+        paragraph: 'ÐÐ°ÑÐ°Ð³ÑÐ°Ñ',
+        outdent: 'ÐÐ¼ÐµÐ½ÑÐ¸ÑÐ¸ Ð²ÑÐ´ÑÑÑÐ¿',
+        indent: 'ÐÐ±ÑÐ»ÑÑÐ¸ÑÐ¸ Ð²ÑÐ´ÑÑÑÐ¿',
+        left: 'ÐÐ¸ÑÑÐ²Ð½ÑÑÐ¸ Ð¿Ð¾ Ð»ÑÐ²Ð¾Ð¼Ñ ÐºÑÐ°Ñ',
+        center: 'ÐÐ¸ÑÑÐ²Ð½ÑÑÐ¸ Ð¿Ð¾ ÑÐµÐ½ÑÑÑ',
+        right: 'ÐÐ¸ÑÑÐ²Ð½ÑÑÐ¸ Ð¿Ð¾ Ð¿ÑÐ°Ð²Ð¾Ð¼Ñ ÐºÑÐ°Ñ',
+        justify: 'Ð Ð¾Ð·ÑÑÐ³Ð½ÑÑÐ¸ Ð¿Ð¾ ÑÐ¸ÑÐ¸Ð½Ñ'
       },
       color: {
-        recent: 'Останній колір',
-        more: 'Ще кольори',
-        background: 'Колір фону',
-        foreground: 'Колір шрифту',
-        transparent: 'Прозорий',
-        setTransparent: 'Зробити прозорим',
-        reset: 'Відновити',
-        resetToDefault: 'Відновити початкові'
+        recent: 'ÐÑÑÐ°Ð½Ð½ÑÐ¹ ÐºÐ¾Ð»ÑÑ',
+        more: 'Ð©Ðµ ÐºÐ¾Ð»ÑÐ¾ÑÐ¸',
+        background: 'ÐÐ¾Ð»ÑÑ ÑÐ¾Ð½Ñ',
+        foreground: 'ÐÐ¾Ð»ÑÑ ÑÑÐ¸ÑÑÑ',
+        transparent: 'ÐÑÐ¾Ð·Ð¾ÑÐ¸Ð¹',
+        setTransparent: 'ÐÑÐ¾Ð±Ð¸ÑÐ¸ Ð¿ÑÐ¾Ð·Ð¾ÑÐ¸Ð¼',
+        reset: 'ÐÑÐ´Ð½Ð¾Ð²Ð¸ÑÐ¸',
+        resetToDefault: 'ÐÑÐ´Ð½Ð¾Ð²Ð¸ÑÐ¸ Ð¿Ð¾ÑÐ°ÑÐºÐ¾Ð²Ñ'
       },
       shortcut: {
-        shortcuts: 'Комбінації клавіш',
-        close: 'Закрити',
-        textFormatting: 'Форматування тексту',
-        action: 'Дія',
-        paragraphFormatting: 'Форматування параграфу',
-        documentStyle: 'Стиль документу',
+        shortcuts: 'ÐÐ¾Ð¼Ð±ÑÐ½Ð°ÑÑÑ ÐºÐ»Ð°Ð²ÑÑ',
+        close: 'ÐÐ°ÐºÑÐ¸ÑÐ¸',
+        textFormatting: 'Ð¤Ð¾ÑÐ¼Ð°ÑÑÐ²Ð°Ð½Ð½Ñ ÑÐµÐºÑÑÑ',
+        action: 'ÐÑÑ',
+        paragraphFormatting: 'Ð¤Ð¾ÑÐ¼Ð°ÑÑÐ²Ð°Ð½Ð½Ñ Ð¿Ð°ÑÐ°Ð³ÑÐ°ÑÑ',
+        documentStyle: 'Ð¡ÑÐ¸Ð»Ñ Ð´Ð¾ÐºÑÐ¼ÐµÐ½ÑÑ',
         extraKeys: 'Extra keys'
       },
       help: {
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Відмінити',
-        redo: 'Повторити'
+        undo: 'ÐÑÐ´Ð¼ÑÐ½Ð¸ÑÐ¸',
+        redo: 'ÐÐ¾Ð²ÑÐ¾ÑÐ¸ÑÐ¸'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

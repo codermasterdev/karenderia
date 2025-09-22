@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Αναφορά Προφίλ Κλήσεων Στοίβας
+			ÎÎ½Î±ÏÎ¿ÏÎ¬ Î ÏÎ¿ÏÎ¯Î» ÎÎ»Î®ÏÎµÏÎ½ Î£ÏÎ¿Î¯Î²Î±Ï
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Διαδικασία</th>
-		<th>Χρόνος (δευτ.)</th>
+	    <th>ÎÎ¹Î±Î´Î¹ÎºÎ±ÏÎ¯Î±</th>
+		<th>Î§ÏÏÎ½Î¿Ï (Î´ÎµÏÏ.)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

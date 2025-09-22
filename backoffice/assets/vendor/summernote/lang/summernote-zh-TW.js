@@ -115,57 +115,57 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'zh-TW': {
       font: {
-        bold: '粗體',
-        italic: '斜體',
-        underline: '底線',
-        clear: '清除格式',
-        height: '行高',
-        name: '字體',
-        strikethrough: '刪除線',
-        subscript: '下標',
-        superscript: '上標',
-        size: '字號'
+        bold: 'ç²é«',
+        italic: 'æé«',
+        underline: 'åºç·',
+        clear: 'æ¸é¤æ ¼å¼',
+        height: 'è¡é«',
+        name: 'å­é«',
+        strikethrough: 'åªé¤ç·',
+        subscript: 'ä¸æ¨',
+        superscript: 'ä¸æ¨',
+        size: 'å­è'
       },
       image: {
-        image: '圖片',
-        insert: '插入圖片',
-        resizeFull: '縮放至100%',
-        resizeHalf: '縮放至 50%',
-        resizeQuarter: '縮放至 25%',
-        floatLeft: '靠左浮動',
-        floatRight: '靠右浮動',
-        floatNone: '取消浮動',
-        shapeRounded: '形狀: 圓角',
-        shapeCircle: '形狀: 圓',
-        shapeThumbnail: '形狀: 縮略圖',
-        shapeNone: '形狀: 無',
-        dragImageHere: '將圖片拖曳至此處',
+        image: 'åç',
+        insert: 'æå¥åç',
+        resizeFull: 'ç¸®æ¾è³100%',
+        resizeHalf: 'ç¸®æ¾è³ 50%',
+        resizeQuarter: 'ç¸®æ¾è³ 25%',
+        floatLeft: 'é å·¦æµ®å',
+        floatRight: 'é å³æµ®å',
+        floatNone: 'åæ¶æµ®å',
+        shapeRounded: 'å½¢ç: åè§',
+        shapeCircle: 'å½¢ç: å',
+        shapeThumbnail: 'å½¢ç: ç¸®ç¥å',
+        shapeNone: 'å½¢ç: ç¡',
+        dragImageHere: 'å°åçææ³è³æ­¤è',
         dropImage: 'Drop image or Text',
-        selectFromFiles: '從本機上傳',
-        maximumFileSize: '文件大小最大值',
-        maximumFileSizeError: '文件大小超出最大值。',
-        url: '圖片網址',
-        remove: '移除圖片',
+        selectFromFiles: 'å¾æ¬æ©ä¸å³',
+        maximumFileSize: 'æä»¶å¤§å°æå¤§å¼',
+        maximumFileSizeError: 'æä»¶å¤§å°è¶åºæå¤§å¼ã',
+        url: 'åçç¶²å',
+        remove: 'ç§»é¤åç',
         original: 'Original'
       },
       video: {
-        video: '影片',
-        videoLink: '影片連結',
-        insert: '插入影片',
-        url: '影片網址',
-        providers: '(優酷, Instagram, DailyMotion, Youtube等)'
+        video: 'å½±ç',
+        videoLink: 'å½±çé£çµ',
+        insert: 'æå¥å½±ç',
+        url: 'å½±çç¶²å',
+        providers: '(åªé·, Instagram, DailyMotion, Youtubeç­)'
       },
       link: {
-        link: '連結',
-        insert: '插入連結',
-        unlink: '取消連結',
-        edit: '編輯連結',
-        textToDisplay: '顯示文字',
-        url: '連結網址',
-        openInNewWindow: '在新視窗開啟'
+        link: 'é£çµ',
+        insert: 'æå¥é£çµ',
+        unlink: 'åæ¶é£çµ',
+        edit: 'ç·¨è¼¯é£çµ',
+        textToDisplay: 'é¡¯ç¤ºæå­',
+        url: 'é£çµç¶²å',
+        openInNewWindow: 'å¨æ°è¦çªéå'
       },
       table: {
-        table: '表格',
+        table: 'è¡¨æ ¼',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -175,56 +175,56 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: '水平線'
+        insert: 'æ°´å¹³ç·'
       },
       style: {
-        style: '樣式',
-        p: '一般',
-        blockquote: '引用區塊',
-        pre: '程式碼區塊',
-        h1: '標題 1',
-        h2: '標題 2',
-        h3: '標題 3',
-        h4: '標題 4',
-        h5: '標題 5',
-        h6: '標題 6'
+        style: 'æ¨£å¼',
+        p: 'ä¸è¬',
+        blockquote: 'å¼ç¨åå¡',
+        pre: 'ç¨å¼ç¢¼åå¡',
+        h1: 'æ¨é¡ 1',
+        h2: 'æ¨é¡ 2',
+        h3: 'æ¨é¡ 3',
+        h4: 'æ¨é¡ 4',
+        h5: 'æ¨é¡ 5',
+        h6: 'æ¨é¡ 6'
       },
       lists: {
-        unordered: '項目清單',
-        ordered: '編號清單'
+        unordered: 'é ç®æ¸å®',
+        ordered: 'ç·¨èæ¸å®'
       },
       options: {
-        help: '幫助',
-        fullscreen: '全螢幕',
-        codeview: '原始碼'
+        help: 'å¹«å©',
+        fullscreen: 'å¨è¢å¹',
+        codeview: 'åå§ç¢¼'
       },
       paragraph: {
-        paragraph: '段落',
-        outdent: '取消縮排',
-        indent: '增加縮排',
-        left: '靠右對齊',
-        center: '靠中對齊',
-        right: '靠右對齊',
-        justify: '左右對齊'
+        paragraph: 'æ®µè½',
+        outdent: 'åæ¶ç¸®æ',
+        indent: 'å¢å ç¸®æ',
+        left: 'é å³å°é½',
+        center: 'é ä¸­å°é½',
+        right: 'é å³å°é½',
+        justify: 'å·¦å³å°é½'
       },
       color: {
-        recent: '字型顏色',
-        more: '更多',
-        background: '背景',
-        foreground: '前景',
-        transparent: '透明',
-        setTransparent: '透明',
-        reset: '重設',
-        resetToDefault: '默認'
+        recent: 'å­åé¡è²',
+        more: 'æ´å¤',
+        background: 'èæ¯',
+        foreground: 'åæ¯',
+        transparent: 'éæ',
+        setTransparent: 'éæ',
+        reset: 'éè¨­',
+        resetToDefault: 'é»èª'
       },
       shortcut: {
-        shortcuts: '快捷鍵',
-        close: '關閉',
-        textFormatting: '文字格式',
-        action: '動作',
-        paragraphFormatting: '段落格式',
-        documentStyle: '文件格式',
-        extraKeys: '額外按鍵'
+        shortcuts: 'å¿«æ·éµ',
+        close: 'éé',
+        textFormatting: 'æå­æ ¼å¼',
+        action: 'åä½',
+        paragraphFormatting: 'æ®µè½æ ¼å¼',
+        documentStyle: 'æä»¶æ ¼å¼',
+        extraKeys: 'é¡å¤æéµ'
       },
       help: {
         'insertParagraph': 'Insert Paragraph',
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: '復原',
-        redo: '取消復原'
+        undo: 'å¾©å',
+        redo: 'åæ¶å¾©å'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

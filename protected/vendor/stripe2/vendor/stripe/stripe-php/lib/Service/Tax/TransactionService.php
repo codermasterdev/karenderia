@@ -27,7 +27,7 @@ class TransactionService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Creates a Tax Transaction from a calculation, if that calculation hasn’t
+     * Creates a Tax Transaction from a calculation, if that calculation hasnât
      * expired. Calculations expire after 90 days.
      *
      * @param null|array $params

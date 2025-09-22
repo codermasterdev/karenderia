@@ -223,8 +223,8 @@ class StreamedPartTest extends TestCase
         $parts = $part->getParts();
         $header = $parts[2]->getHeader('Content-Disposition');
 
-        self::assertEquals('£ rates', StreamedPart::getHeaderOption($header, 'text1'));
-        self::assertEquals('£ and € rates', StreamedPart::getHeaderOption($header, 'text2'));
+        self::assertEquals('Â£ rates', StreamedPart::getHeaderOption($header, 'text1'));
+        self::assertEquals('Â£ and â¬ rates', StreamedPart::getHeaderOption($header, 'text2'));
     }
 
     /**
@@ -277,13 +277,13 @@ class StreamedPartTest extends TestCase
         $part = new StreamedPart(fopen(__DIR__ . '/_data/email_base64.txt', 'r'));
 
         self::assertTrue($part->isMultiPart());
-        self::assertEquals('This is thé subject', $part->getHeader('Subject'));
+        self::assertEquals('This is thÃ© subject', $part->getHeader('Subject'));
 
         /** @var Part[] $parts */
         $parts = $part->getParts();
 
         self::assertEquals('This is the content', $parts[0]->getBody());
-        self::assertEquals('This is the côntént', $parts[1]->getBody());
+        self::assertEquals('This is the cÃ´ntÃ©nt', $parts[1]->getBody());
     }
 
     /**
@@ -294,12 +294,12 @@ class StreamedPartTest extends TestCase
         $part = new StreamedPart(fopen(__DIR__ . '/_data/quoted_printable.txt', 'r'));
 
         self::assertTrue($part->isMultiPart());
-        self::assertEquals('Добро_пожаловать_на Site.ru', $part->getHeader('Subject'));
+        self::assertEquals('ÐÐ¾Ð±ÑÐ¾_Ð¿Ð¾Ð¶Ð°Ð»Ð¾Ð²Ð°ÑÑ_Ð½Ð° Site.ru', $part->getHeader('Subject'));
 
         /** @var Part[] $parts */
         $parts = $part->getParts();
 
         self::assertEquals('This is the content', $parts[0]->getBody());
-        self::assertEquals('This is the côntént', $parts[1]->getBody());
+        self::assertEquals('This is the cÃ´ntÃ©nt', $parts[1]->getBody());
     }
 }

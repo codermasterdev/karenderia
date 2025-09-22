@@ -81,7 +81,7 @@ try{
 
 	send_response(['qrcode' => $qrcode]);
 }
-// Pokémon exception handler
+// PokÃ©mon exception handler
 catch(\Exception $e){
 	header('HTTP/1.1 500 Internal Server Error');
 	send_response(['error' => $e->getMessage()]);

@@ -118,63 +118,63 @@ return /******/ (function(modules) { // webpackBootstrap
         bold: 'Lihavointi',
         italic: 'Kursivointi',
         underline: 'Alleviivaus',
-        clear: 'Tyhjennä muotoilu',
-        height: 'Riviväli',
+        clear: 'TyhjennÃ¤ muotoilu',
+        height: 'RivivÃ¤li',
         name: 'Kirjasintyyppi',
         strikethrough: 'Yliviivaus',
         subscript: 'Alaindeksi',
-        superscript: 'Yläindeksi',
+        superscript: 'YlÃ¤indeksi',
         size: 'Kirjasinkoko'
       },
       image: {
         image: 'Kuva',
-        insert: 'Lisää kuva',
+        insert: 'LisÃ¤Ã¤ kuva',
         resizeFull: 'Koko leveys',
         resizeHalf: 'Puolikas leveys',
-        resizeQuarter: 'Neljäsosa leveys',
+        resizeQuarter: 'NeljÃ¤sosa leveys',
         floatLeft: 'Sijoita vasemmalle',
         floatRight: 'Sijoita oikealle',
         floatNone: 'Ei sijoitusta',
-        shapeRounded: 'Muoto: Pyöristetty',
-        shapeCircle: 'Muoto: Ympyrä',
+        shapeRounded: 'Muoto: PyÃ¶ristetty',
+        shapeCircle: 'Muoto: YmpyrÃ¤',
         shapeThumbnail: 'Muoto: Esikatselukuva',
         shapeNone: 'Muoto: Ei muotoilua',
-        dragImageHere: 'Vedä kuva tähän',
+        dragImageHere: 'VedÃ¤ kuva tÃ¤hÃ¤n',
         selectFromFiles: 'Valitse tiedostoista',
         maximumFileSize: 'Maksimi tiedosto koko',
         maximumFileSizeError: 'Maksimi tiedosto koko ylitetty.',
         url: 'URL-osoitteen mukaan',
         remove: 'Poista kuva',
-        original: 'Alkuperäinen'
+        original: 'AlkuperÃ¤inen'
       },
       video: {
         video: 'Video',
         videoLink: 'Linkki videoon',
-        insert: 'Lisää video',
+        insert: 'LisÃ¤Ã¤ video',
         url: 'Videon URL-osoite',
         providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion tai Youku)'
       },
       link: {
         link: 'Linkki',
-        insert: 'Lisää linkki',
+        insert: 'LisÃ¤Ã¤ linkki',
         unlink: 'Poista linkki',
         edit: 'Muokkaa',
-        textToDisplay: 'Näytettävä teksti',
+        textToDisplay: 'NÃ¤ytettÃ¤vÃ¤ teksti',
         url: 'Linkin URL-osoite',
         openInNewWindow: 'Avaa uudessa ikkunassa'
       },
       table: {
         table: 'Taulukko',
-        addRowAbove: 'Lisää rivi yläpuolelle',
-        addRowBelow: 'Lisää rivi alapuolelle',
-        addColLeft: 'Lisää sarake vasemmalle puolelle',
-        addColRight: 'Lisää sarake oikealle puolelle',
+        addRowAbove: 'LisÃ¤Ã¤ rivi ylÃ¤puolelle',
+        addRowBelow: 'LisÃ¤Ã¤ rivi alapuolelle',
+        addColLeft: 'LisÃ¤Ã¤ sarake vasemmalle puolelle',
+        addColRight: 'LisÃ¤Ã¤ sarake oikealle puolelle',
         delRow: 'Poista rivi',
         delCol: 'Poista sarake',
         delTable: 'Poista taulukko'
       },
       hr: {
-        insert: 'Lisää vaakaviiva'
+        insert: 'LisÃ¤Ã¤ vaakaviiva'
       },
       style: {
         style: 'Tyyli',
@@ -194,30 +194,30 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       options: {
         help: 'Ohje',
-        fullscreen: 'Koko näyttö',
-        codeview: 'HTML-näkymä'
+        fullscreen: 'Koko nÃ¤yttÃ¶',
+        codeview: 'HTML-nÃ¤kymÃ¤'
       },
       paragraph: {
         paragraph: 'Kappale',
-        outdent: 'Pienennä sisennystä',
-        indent: 'Suurenna sisennystä',
+        outdent: 'PienennÃ¤ sisennystÃ¤',
+        indent: 'Suurenna sisennystÃ¤',
         left: 'Tasaa vasemmalle',
-        center: 'Keskitä',
+        center: 'KeskitÃ¤',
         right: 'Tasaa oikealle',
         justify: 'Tasaa'
       },
       color: {
-        recent: 'Viimeisin väri',
-        more: 'Lisää värejä',
-        background: 'Korostusväri',
-        foreground: 'Tekstin väri',
-        transparent: 'Läpinäkyvä',
-        setTransparent: 'Aseta läpinäkyväksi',
+        recent: 'Viimeisin vÃ¤ri',
+        more: 'LisÃ¤Ã¤ vÃ¤rejÃ¤',
+        background: 'KorostusvÃ¤ri',
+        foreground: 'Tekstin vÃ¤ri',
+        transparent: 'LÃ¤pinÃ¤kyvÃ¤',
+        setTransparent: 'Aseta lÃ¤pinÃ¤kyvÃ¤ksi',
         reset: 'Palauta',
         resetToDefault: 'Palauta oletusarvoksi'
       },
       shortcut: {
-        shortcuts: 'Pikanäppäimet',
+        shortcuts: 'PikanÃ¤ppÃ¤imet',
         close: 'Sulje',
         textFormatting: 'Tekstin muotoilu',
         action: 'Toiminto',
@@ -225,7 +225,7 @@ return /******/ (function(modules) { // webpackBootstrap
         documentStyle: 'Asiakirjan tyyli'
       },
       help: {
-        'insertParagraph': 'Lisää kappale',
+        'insertParagraph': 'LisÃ¤Ã¤ kappale',
         'undo': 'Kumoa viimeisin komento',
         'redo': 'Tee uudelleen kumottu komento',
         'tab': 'Sarkain',
@@ -236,13 +236,13 @@ return /******/ (function(modules) { // webpackBootstrap
         'strikethrough': 'Yliviivaus',
         'removeFormat': 'Poista asetetut tyylit',
         'justifyLeft': 'Tasaa vasemmalle',
-        'justifyCenter': 'Keskitä',
+        'justifyCenter': 'KeskitÃ¤',
         'justifyRight': 'Tasaa oikealle',
         'justifyFull': 'Tasaa',
-        'insertUnorderedList': 'Luettelomerkillä varustettu lista',
+        'insertUnorderedList': 'LuettelomerkillÃ¤ varustettu lista',
         'insertOrderedList': 'Numeroitu lista',
-        'outdent': 'Pienennä sisennystä',
-        'indent': 'Suurenna sisennystä',
+        'outdent': 'PienennÃ¤ sisennystÃ¤',
+        'indent': 'Suurenna sisennystÃ¤',
         'formatPara': 'Muuta kappaleen formaatti p',
         'formatH1': 'Muuta kappaleen formaatti H1',
         'formatH2': 'Muuta kappaleen formaatti H2',
@@ -250,8 +250,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'formatH4': 'Muuta kappaleen formaatti H4',
         'formatH5': 'Muuta kappaleen formaatti H5',
         'formatH6': 'Muuta kappaleen formaatti H6',
-        'insertHorizontalRule': 'Lisää vaakaviiva',
-        'linkDialog.show': 'Lisää linkki'
+        'insertHorizontalRule': 'LisÃ¤Ã¤ vaakaviiva',
+        'linkDialog.show': 'LisÃ¤Ã¤ linkki'
       },
       history: {
         undo: 'Kumoa',

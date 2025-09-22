@@ -9,10 +9,10 @@
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th>Proseduuri</th>
-		<th>Lukumäärä</th>
-		<th>Yhteensä (s)</th>
+		<th>LukumÃ¤Ã¤rÃ¤</th>
+		<th>YhteensÃ¤ (s)</th>
 		<th>Keskim. (s)</th>
-		<th>Väh. (s)</th>
+		<th>VÃ¤h. (s)</th>
 		<th>Enint. (s)</th>
 	</tr>
 <?php

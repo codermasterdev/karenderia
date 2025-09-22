@@ -15,22 +15,22 @@
  */
 return array (
   'Home' => 'Start',
-  'The button type "{type}" is not supported.' => 'Typ przycisku "{type}" nie jest obsługiwany.',
-  'Are you sure you want to delete this item?' => 'Czy na pewno usunąć ten element?',
-  'Delete' => 'Usuń',
-  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'Wyświetlono rezultaty {start}-{end} z {count}.',
-  'Either "name" or "value" must be specified for CDataColumn.' => 'W CDataColumn pole "name" lub "value" musi być zadeklarowane.',
-  'No results found.' => 'Nie znaleziono wyników.',
+  'The button type "{type}" is not supported.' => 'Typ przycisku "{type}" nie jest obsÅugiwany.',
+  'Are you sure you want to delete this item?' => 'Czy na pewno usunÄÄ ten element?',
+  'Delete' => 'UsuÅ',
+  'Displaying {start}-{end} of 1 result.|Displaying {start}-{end} of {count} results.' => 'WyÅwietlono rezultaty {start}-{end} z {count}.',
+  'Either "name" or "value" must be specified for CDataColumn.' => 'W CDataColumn pole "name" lub "value" musi byÄ zadeklarowane.',
+  'No results found.' => 'Nie znaleziono wynikÃ³w.',
   'Not set' => 'Nie ustawiony',
-  'Please specify the "attributes" property.' => 'Proszę określić pole "attributes".',
-  'Please specify the "data" property.' => 'Proszę określić pole "data".',
+  'Please specify the "attributes" property.' => 'ProszÄ okreÅliÄ pole "attributes".',
+  'Please specify the "data" property.' => 'ProszÄ okreÅliÄ pole "data".',
   'Sort by: ' => 'Sortuj wg:',
-  'The "dataProvider" property cannot be empty.' => 'Pole "dataProvider" nie może być puste.',
-  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Atrybut musi być określony w formacie "Name:Type:Label", gdzie "Type" i "Label" są opcjonalne.',
-  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Kolumna musi być określona w formacie "Name:Type:Label", gdzie "Type" i "Label" są opcjonalne.',
-  'The property "itemView" cannot be empty.' => 'Pole "itemView" nie może być puste.',
-  'Total 1 result.|Total {count} results.' => 'Znaleziono {count} wynik(ów)',
+  'The "dataProvider" property cannot be empty.' => 'Pole "dataProvider" nie moÅ¼e byÄ puste.',
+  'The attribute must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Atrybut musi byÄ okreÅlony w formacie "Name:Type:Label", gdzie "Type" i "Label" sÄ opcjonalne.',
+  'The column must be specified in the format of "Name:Type:Label", where "Type" and "Label" are optional.' => 'Kolumna musi byÄ okreÅlona w formacie "Name:Type:Label", gdzie "Type" i "Label" sÄ opcjonalne.',
+  'The property "itemView" cannot be empty.' => 'Pole "itemView" nie moÅ¼e byÄ puste.',
+  'Total 1 result.|Total {count} results.' => 'Znaleziono {count} wynik(Ã³w)',
   'Update' => 'Aktualizuj',
-  'View' => 'Podgląd',
-  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} musi określać pola "model" i "attribute" lub "name".',
+  'View' => 'PodglÄd',
+  '{class} must specify "model" and "attribute" or "name" property values.' => '{class} musi okreÅlaÄ pola "model" i "attribute" lub "name".',
 );

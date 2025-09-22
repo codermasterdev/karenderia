@@ -10,7 +10,7 @@ use Psr\Http\Message\RequestInterface;
  *
  * There is no response object as this exception is thrown when no response has been received.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 class NetworkException extends TransferException implements PsrNetworkException
 {

@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Izvješće profiliranja - stog za pozive");
+	console.group("IzvjeÅ¡Äe profiliranja - stog za pozive");
 <?php
 foreach($data as $index=>$entry)
 {

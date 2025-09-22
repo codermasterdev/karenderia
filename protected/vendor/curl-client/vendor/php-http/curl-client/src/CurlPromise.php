@@ -15,7 +15,7 @@ use Http\Promise\Promise;
  * Reason is replaced by an object where its class implement a Http\Client\Exception.
  *
  * @license http://opensource.org/licenses/MIT MIT
- * @author  Михаил Красильников <m.krasilnikov@yandex.ru>
+ * @author  ÐÐ¸ÑÐ°Ð¸Ð» ÐÑÐ°ÑÐ¸Ð»ÑÐ½Ð¸ÐºÐ¾Ð² <m.krasilnikov@yandex.ru>
  */
 class CurlPromise implements Promise
 {

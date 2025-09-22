@@ -44,7 +44,7 @@ final class CustomerClientUnitTest extends BaseClient
 
         $this->assertSame("1322811505", $customer->address->id);
         $this->assertSame("02675031", $customer->address->zip_code);
-        $this->assertSame("Av. das Nações Unidas", $customer->address->street_name);
+        $this->assertSame("Av. das NaÃ§Ãµes Unidas", $customer->address->street_name);
         $this->assertSame("3000", $customer->address->street_number);
     }
 
@@ -104,7 +104,7 @@ final class CustomerClientUnitTest extends BaseClient
 
         $this->assertSame("1322811505", $customer->address->id);
         $this->assertSame("02675031", $customer->address->zip_code);
-        $this->assertSame("Av. das Nações Unidas", $customer->address->street_name);
+        $this->assertSame("Av. das NaÃ§Ãµes Unidas", $customer->address->street_name);
         $this->assertSame("3000", $customer->address->street_number);
     }
 
@@ -141,7 +141,7 @@ final class CustomerClientUnitTest extends BaseClient
 
         $this->assertSame("1322811505", $customer->address->id);
         $this->assertSame("02675031", $customer->address->zip_code);
-        $this->assertSame("Av. das Nações Unidas", $customer->address->street_name);
+        $this->assertSame("Av. das NaÃ§Ãµes Unidas", $customer->address->street_name);
         $this->assertSame("3000", $customer->address->street_number);
     }
 
@@ -206,7 +206,7 @@ final class CustomerClientUnitTest extends BaseClient
             "address" => [
                 "id" => "Casa",
                 "zip_code" => "02675031",
-                "street_name" => "Av. das Nações Unidas",
+                "street_name" => "Av. das NaÃ§Ãµes Unidas",
                 "street_number" => 3003,
                 "city" => [
                     "name" => "Osasco",

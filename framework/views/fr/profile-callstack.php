@@ -7,7 +7,7 @@
 	</tr>
 	<tr style="background-color: #ccc;">
 	    <th>Fonction</th>
-		<th>Durée (s)</th>
+		<th>DurÃ©e (s)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

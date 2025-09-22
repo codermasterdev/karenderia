@@ -4010,7 +4010,7 @@ class Style
         // Using a value of `none` in the shorthand is potentially ambiguous, as
         // `none` is a valid value for both `list-style-image` and `list-style-type`.
         // To resolve this ambiguity, a value of `none` in the shorthand must be
-        // applied to whichever of the two properties aren’t otherwise set by
+        // applied to whichever of the two properties arenât otherwise set by
         // the shorthand.
         if ($none === 2) {
             if ($image !== null || $type !== null) {

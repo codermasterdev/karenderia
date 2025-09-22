@@ -20,10 +20,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>No No Autoritzat</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-No té els permisos necessàris per accedir a aquesta pàgina.
+No tÃ© els permisos necessÃ ris per accedir a aquesta pÃ gina.
 </p>
 <p>
-Si creu que aquest error és del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
+Si creu que aquest error Ã©s del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

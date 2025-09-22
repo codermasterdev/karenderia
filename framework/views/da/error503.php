@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="no" lang="no">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Tjenesten er utilgængelig</title>
+<title>Tjenesten er utilgÃ¦ngelig</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,9 +17,9 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Tjenesten er utilgængelig</h1>
+<h1>Tjenesten er utilgÃ¦ngelig</h1>
 <p>
-Serveren er utilgængelig i øjeblikket grundet vedligeholdelse. Prøv venligst igen senere.
+Serveren er utilgÃ¦ngelig i Ã¸jeblikket grundet vedligeholdelse. PrÃ¸v venligst igen senere.
 </p>
 <p>
 Tak!

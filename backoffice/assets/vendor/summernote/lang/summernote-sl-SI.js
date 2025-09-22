@@ -116,12 +116,12 @@ return /******/ (function(modules) { // webpackBootstrap
     'sl-SI': {
       font: {
         bold: 'Krepko',
-        italic: 'Ležeče',
-        underline: 'Podčrtano',
-        clear: 'Počisti oblikovanje izbire',
+        italic: 'LeÅ¾eÄe',
+        underline: 'PodÄrtano',
+        clear: 'PoÄisti oblikovanje izbire',
         height: 'Razmik med vrsticami',
         name: 'Pisava',
-        strikethrough: 'Prečrtano',
+        strikethrough: 'PreÄrtano',
         subscript: 'Podpisano',
         superscript: 'Nadpisano',
         size: 'Velikost pisave'
@@ -129,9 +129,9 @@ return /******/ (function(modules) { // webpackBootstrap
       image: {
         image: 'Slika',
         insert: 'Vstavi sliko',
-        resizeFull: 'Razširi na polno velikost',
-        resizeHalf: 'Razširi na polovico velikosti',
-        resizeQuarter: 'Razširi na četrtino velikosti',
+        resizeFull: 'RazÅ¡iri na polno velikost',
+        resizeHalf: 'RazÅ¡iri na polovico velikosti',
+        resizeQuarter: 'RazÅ¡iri na Äetrtino velikosti',
         floatLeft: 'Leva poravnava',
         floatRight: 'Desna poravnava',
         floatNone: 'Brez poravnave',
@@ -175,7 +175,7 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Vstavi horizontalno črto'
+        insert: 'Vstavi horizontalno Ärto'
       },
       style: {
         style: 'Slogi',
@@ -190,18 +190,18 @@ return /******/ (function(modules) { // webpackBootstrap
         h6: 'Naslov 6'
       },
       lists: {
-        unordered: 'Označen seznam',
-        ordered: 'Oštevilčen seznam'
+        unordered: 'OznaÄen seznam',
+        ordered: 'OÅ¡tevilÄen seznam'
       },
       options: {
-        help: 'Pomoč',
-        fullscreen: 'Celozaslonski način',
+        help: 'PomoÄ',
+        fullscreen: 'Celozaslonski naÄin',
         codeview: 'Pregled HTML kode'
       },
       paragraph: {
         paragraph: 'Slogi odstavka',
-        outdent: 'Zmanjšaj odmik',
-        indent: 'Povečaj odmik',
+        outdent: 'ZmanjÅ¡aj odmik',
+        indent: 'PoveÄaj odmik',
         left: 'Leva poravnava',
         center: 'Desna poravnava',
         right: 'Sredinska poravnava',
@@ -209,7 +209,7 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       color: {
         recent: 'Uporabi zadnjo barvo',
-        more: 'Več barv',
+        more: 'VeÄ barv',
         background: 'Barva ozadja',
         foreground: 'Barva besedila',
         transparent: 'Brez barve',
@@ -218,7 +218,7 @@ return /******/ (function(modules) { // webpackBootstrap
         resetToDefault: 'Ponastavi na privzeto'
       },
       shortcut: {
-        shortcuts: 'Bljižnice',
+        shortcuts: 'BljiÅ¾nice',
         close: 'Zapri',
         textFormatting: 'Oblikovanje besedila',
         action: 'Dejanja',

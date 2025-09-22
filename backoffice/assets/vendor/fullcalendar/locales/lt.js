@@ -10,16 +10,16 @@ FullCalendar.globalLocales.push(function () {
     buttonText: {
       prev: 'Atgal',
       next: 'Pirmyn',
-      today: 'Šiandien',
-      month: 'Mėnuo',
-      week: 'Savaitė',
+      today: 'Å iandien',
+      month: 'MÄnuo',
+      week: 'SavaitÄ',
       day: 'Diena',
-      list: 'Darbotvarkė',
+      list: 'DarbotvarkÄ',
     },
     weekText: 'SAV',
-    allDayText: 'Visą dieną',
+    allDayText: 'VisÄ dienÄ',
     moreLinkText: 'daugiau',
-    noEventsText: 'Nėra įvykių rodyti',
+    noEventsText: 'NÄra Ä¯vykiÅ³ rodyti',
   };
 
   return lt;

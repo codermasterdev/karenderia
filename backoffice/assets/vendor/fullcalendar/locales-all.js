@@ -30,18 +30,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l2 = {
@@ -52,18 +52,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l3 = {
@@ -74,18 +74,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l4 = {
@@ -96,18 +96,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l5 = {
@@ -118,18 +118,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l6 = {
@@ -140,18 +140,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l7 = {
@@ -162,18 +162,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'السابق',
-      next: 'التالي',
-      today: 'اليوم',
-      month: 'شهر',
-      week: 'أسبوع',
-      day: 'يوم',
-      list: 'أجندة',
+      prev: 'Ø§ÙØ³Ø§Ø¨Ù',
+      next: 'Ø§ÙØªØ§ÙÙ',
+      today: 'Ø§ÙÙÙÙ',
+      month: 'Ø´ÙØ±',
+      week: 'Ø£Ø³Ø¨ÙØ¹',
+      day: 'ÙÙÙ',
+      list: 'Ø£Ø¬ÙØ¯Ø©',
     },
-    weekText: 'أسبوع',
-    allDayText: 'اليوم كله',
-    moreLinkText: 'أخرى',
-    noEventsText: 'أي أحداث لعرض',
+    weekText: 'Ø£Ø³Ø¨ÙØ¹',
+    allDayText: 'Ø§ÙÙÙÙ ÙÙÙ',
+    moreLinkText: 'Ø£Ø®Ø±Ù',
+    noEventsText: 'Ø£Ù Ø£Ø­Ø¯Ø§Ø« ÙØ¹Ø±Ø¶',
   };
 
   var l8 = {
@@ -183,20 +183,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Əvvəl',
+      prev: 'ÆvvÉl',
       next: 'Sonra',
-      today: 'Bu Gün',
+      today: 'Bu GÃ¼n',
       month: 'Ay',
-      week: 'Həftə',
-      day: 'Gün',
-      list: 'Gündəm',
+      week: 'HÉftÉ',
+      day: 'GÃ¼n',
+      list: 'GÃ¼ndÉm',
     },
-    weekText: 'Həftə',
-    allDayText: 'Bütün Gün',
+    weekText: 'HÉftÉ',
+    allDayText: 'BÃ¼tÃ¼n GÃ¼n',
     moreLinkText: function(n) {
-      return '+ daha çox ' + n
+      return '+ daha Ã§ox ' + n
     },
-    noEventsText: 'Göstərmək üçün hadisə yoxdur',
+    noEventsText: 'GÃ¶stÉrmÉk Ã¼Ã§Ã¼n hadisÉ yoxdur',
   };
 
   var l9 = {
@@ -206,19 +206,19 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'назад',
-      next: 'напред',
-      today: 'днес',
-      month: 'Месец',
-      week: 'Седмица',
-      day: 'Ден',
-      list: 'График',
+      prev: 'Ð½Ð°Ð·Ð°Ð´',
+      next: 'Ð½Ð°Ð¿ÑÐµÐ´',
+      today: 'Ð´Ð½ÐµÑ',
+      month: 'ÐÐµÑÐµÑ',
+      week: 'Ð¡ÐµÐ´Ð¼Ð¸ÑÐ°',
+      day: 'ÐÐµÐ½',
+      list: 'ÐÑÐ°ÑÐ¸Ðº',
     },
-    allDayText: 'Цял ден',
+    allDayText: 'Ð¦ÑÐ» Ð´ÐµÐ½',
     moreLinkText: function(n) {
-      return '+още ' + n
+      return '+Ð¾ÑÐµ ' + n
     },
-    noEventsText: 'Няма събития за показване',
+    noEventsText: 'ÐÑÐ¼Ð° ÑÑÐ±Ð¸ÑÐ¸Ñ Ð·Ð° Ð¿Ð¾ÐºÐ°Ð·Ð²Ð°Ð½Ðµ',
   };
 
   var l10 = {
@@ -228,20 +228,20 @@
       doy: 6, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'পেছনে',
-      next: 'সামনে',
-      today: 'আজ',
-      month: 'মাস',
-      week: 'সপ্তাহ',
-      day: 'দিন',
-      list: 'তালিকা',
+      prev: 'à¦ªà§à¦à¦¨à§',
+      next: 'à¦¸à¦¾à¦®à¦¨à§',
+      today: 'à¦à¦',
+      month: 'à¦®à¦¾à¦¸',
+      week: 'à¦¸à¦ªà§à¦¤à¦¾à¦¹',
+      day: 'à¦¦à¦¿à¦¨',
+      list: 'à¦¤à¦¾à¦²à¦¿à¦à¦¾',
     },
-    weekText: 'সপ্তাহ',
-    allDayText: 'সারাদিন',
+    weekText: 'à¦¸à¦ªà§à¦¤à¦¾à¦¹',
+    allDayText: 'à¦¸à¦¾à¦°à¦¾à¦¦à¦¿à¦¨',
     moreLinkText: function(n) {
-      return '+অন্যান্য ' + n
+      return '+à¦à¦¨à§à¦¯à¦¾à¦¨à§à¦¯ ' + n
     },
-    noEventsText: 'কোনো ইভেন্ট নেই',
+    noEventsText: 'à¦à§à¦¨à§ à¦à¦­à§à¦¨à§à¦ à¦¨à§à¦',
   };
 
   var l11 = {
@@ -251,8 +251,8 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Prošli',
-      next: 'Sljedeći',
+      prev: 'ProÅ¡li',
+      next: 'SljedeÄi',
       today: 'Danas',
       month: 'Mjesec',
       week: 'Sedmica',
@@ -262,9 +262,9 @@
     weekText: 'Sed',
     allDayText: 'Cijeli dan',
     moreLinkText: function(n) {
-      return '+ još ' + n
+      return '+ joÅ¡ ' + n
     },
-    noEventsText: 'Nema događaja za prikazivanje',
+    noEventsText: 'Nema dogaÄaja za prikazivanje',
   };
 
   var l12 = {
@@ -275,7 +275,7 @@
     },
     buttonText: {
       prev: 'Anterior',
-      next: 'Següent',
+      next: 'SegÃ¼ent',
       today: 'Avui',
       month: 'Mes',
       week: 'Setmana',
@@ -284,7 +284,7 @@
     },
     weekText: 'Set',
     allDayText: 'Tot el dia',
-    moreLinkText: 'més',
+    moreLinkText: 'mÃ©s',
     noEventsText: 'No hi ha esdeveniments per mostrar',
   };
 
@@ -295,20 +295,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Dříve',
-      next: 'Později',
-      today: 'Nyní',
-      month: 'Měsíc',
-      week: 'Týden',
+      prev: 'DÅÃ­ve',
+      next: 'PozdÄji',
+      today: 'NynÃ­',
+      month: 'MÄsÃ­c',
+      week: 'TÃ½den',
       day: 'Den',
       list: 'Agenda',
     },
-    weekText: 'Týd',
-    allDayText: 'Celý den',
+    weekText: 'TÃ½d',
+    allDayText: 'CelÃ½ den',
     moreLinkText: function(n) {
-      return '+další: ' + n
+      return '+dalÅ¡Ã­: ' + n
     },
-    noEventsText: 'Žádné akce k zobrazení',
+    noEventsText: 'Å½Ã¡dnÃ© akce k zobrazenÃ­',
   };
 
   var l14 = {
@@ -341,9 +341,9 @@
     },
     buttonText: {
       prev: 'Forrige',
-      next: 'Næste',
+      next: 'NÃ¦ste',
       today: 'I dag',
-      month: 'Måned',
+      month: 'MÃ¥ned',
       week: 'Uge',
       day: 'Dag',
       list: 'Agenda',
@@ -366,18 +366,18 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Zurück',
+      prev: 'ZurÃ¼ck',
       next: 'Vor',
       today: 'Heute',
       year: 'Jahr',
       month: 'Monat',
       week: 'Woche',
       day: 'Tag',
-      list: 'Terminübersicht',
+      list: 'TerminÃ¼bersicht',
     },
     weekText: 'KW',
     weekTextLong: 'Woche',
-    allDayText: 'Ganztägig',
+    allDayText: 'GanztÃ¤gig',
     moreLinkText: function(n) {
       return '+ weitere ' + n
     },
@@ -387,10 +387,10 @@
         return `Vorherige${affix$1(buttonText)} ${buttonText}`
       },
       next(buttonText) {
-        return `Nächste${affix$1(buttonText)} ${buttonText}`
+        return `NÃ¤chste${affix$1(buttonText)} ${buttonText}`
       },
       today(buttonText) {
-        // → Heute, Diese Woche, Dieser Monat, Dieses Jahr
+        // â Heute, Diese Woche, Dieser Monat, Dieses Jahr
         if (buttonText === 'Tag') {
           return 'Heute'
         }
@@ -398,7 +398,7 @@
       },
     },
     viewHint(buttonText) {
-      // → Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
+      // â Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
       const glue = buttonText === 'Woche' ? 'n' : buttonText === 'Monat' ? 's' : 'es';
       return buttonText + glue + 'ansicht'
     },
@@ -408,7 +408,7 @@
         'ein weiteres Ereignis' :
         eventCnt + ' weitere Ereignisse')
     },
-    closeHint: 'Schließen',
+    closeHint: 'SchlieÃen',
     timeHint: 'Uhrzeit',
     eventHint: 'Ereignis',
   };
@@ -425,18 +425,18 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Zurück',
+      prev: 'ZurÃ¼ck',
       next: 'Vor',
       today: 'Heute',
       year: 'Jahr',
       month: 'Monat',
       week: 'Woche',
       day: 'Tag',
-      list: 'Terminübersicht',
+      list: 'TerminÃ¼bersicht',
     },
     weekText: 'KW',
     weekTextLong: 'Woche',
-    allDayText: 'Ganztägig',
+    allDayText: 'GanztÃ¤gig',
     moreLinkText: function(n) {
       return '+ weitere ' + n
     },
@@ -446,10 +446,10 @@
         return `Vorherige${affix(buttonText)} ${buttonText}`
       },
       next(buttonText) {
-        return `Nächste${affix(buttonText)} ${buttonText}`
+        return `NÃ¤chste${affix(buttonText)} ${buttonText}`
       },
       today(buttonText) {
-        // → Heute, Diese Woche, Dieser Monat, Dieses Jahr
+        // â Heute, Diese Woche, Dieser Monat, Dieses Jahr
         if (buttonText === 'Tag') {
           return 'Heute'
         }
@@ -457,7 +457,7 @@
       },
     },
     viewHint(buttonText) {
-      // → Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
+      // â Tagesansicht, Wochenansicht, Monatsansicht, Jahresansicht
       const glue = buttonText === 'Woche' ? 'n' : buttonText === 'Monat' ? 's' : 'es';
       return buttonText + glue + 'ansicht'
     },
@@ -467,7 +467,7 @@
         'ein weiteres Ereignis' :
         eventCnt + ' weitere Ereignisse')
     },
-    closeHint: 'Schließen',
+    closeHint: 'SchlieÃen',
     timeHint: 'Uhrzeit',
     eventHint: 'Ereignis',
   };
@@ -479,18 +479,18 @@
       doy: 4, // The week that contains Jan 4st is the first week of the year.
     },
     buttonText: {
-      prev: 'Προηγούμενος',
-      next: 'Επόμενος',
-      today: 'Σήμερα',
-      month: 'Μήνας',
-      week: 'Εβδομάδα',
-      day: 'Ημέρα',
-      list: 'Ατζέντα',
+      prev: 'Î ÏÎ¿Î·Î³Î¿ÏÎ¼ÎµÎ½Î¿Ï',
+      next: 'ÎÏÏÎ¼ÎµÎ½Î¿Ï',
+      today: 'Î£Î®Î¼ÎµÏÎ±',
+      month: 'ÎÎ®Î½Î±Ï',
+      week: 'ÎÎ²Î´Î¿Î¼Î¬Î´Î±',
+      day: 'ÎÎ¼Î­ÏÎ±',
+      list: 'ÎÏÎ¶Î­Î½ÏÎ±',
     },
-    weekText: 'Εβδ',
-    allDayText: 'Ολοήμερο',
-    moreLinkText: 'περισσότερα',
-    noEventsText: 'Δεν υπάρχουν γεγονότα προς εμφάνιση',
+    weekText: 'ÎÎ²Î´',
+    allDayText: 'ÎÎ»Î¿Î®Î¼ÎµÏÎ¿',
+    moreLinkText: 'ÏÎµÏÎ¹ÏÏÏÏÎµÏÎ±',
+    noEventsText: 'ÎÎµÎ½ ÏÏÎ¬ÏÏÎ¿ÏÎ½ Î³ÎµÎ³Î¿Î½ÏÏÎ± ÏÏÎ¿Ï ÎµÎ¼ÏÎ¬Î½Î¹ÏÎ·',
   };
 
   var l19 = {
@@ -554,9 +554,9 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Antaŭa',
+      prev: 'AntaÅ­a',
       next: 'Sekva',
-      today: 'Hodiaŭ',
+      today: 'HodiaÅ­',
       month: 'Monato',
       week: 'Semajno',
       day: 'Tago',
@@ -580,12 +580,12 @@
       today: 'Hoy',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Agenda',
     },
     weekText: 'Sm',
-    allDayText: 'Todo el día',
-    moreLinkText: 'más',
+    allDayText: 'Todo el dÃ­a',
+    moreLinkText: 'mÃ¡s',
     noEventsText: 'No hay eventos para mostrar',
   };
 
@@ -601,14 +601,14 @@
       today: 'Hoy',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Agenda',
     },
     buttonHints: {
       prev: '$0 antes',
       next: '$0 siguiente',
       today(buttonText) {
-        return (buttonText === 'Día') ? 'Hoy' :
+        return (buttonText === 'DÃ­a') ? 'Hoy' :
           ((buttonText === 'Semana') ? 'Esta' : 'Este') + ' ' + buttonText.toLocaleLowerCase()
       },
     },
@@ -617,10 +617,10 @@
     },
     weekText: 'Sm',
     weekTextLong: 'Semana',
-    allDayText: 'Todo el día',
-    moreLinkText: 'más',
+    allDayText: 'Todo el dÃ­a',
+    moreLinkText: 'mÃ¡s',
     moreLinkHint(eventCnt) {
-      return `Mostrar ${eventCnt} eventos más`
+      return `Mostrar ${eventCnt} eventos mÃ¡s`
     },
     noEventsText: 'No hay eventos para mostrar',
     navLinkHint: 'Ir al $0',
@@ -637,19 +637,19 @@
     },
     buttonText: {
       prev: 'Eelnev',
-      next: 'Järgnev',
-      today: 'Täna',
+      next: 'JÃ¤rgnev',
+      today: 'TÃ¤na',
       month: 'Kuu',
-      week: 'Nädal',
-      day: 'Päev',
-      list: 'Päevakord',
+      week: 'NÃ¤dal',
+      day: 'PÃ¤ev',
+      list: 'PÃ¤evakord',
     },
-    weekText: 'näd',
-    allDayText: 'Kogu päev',
+    weekText: 'nÃ¤d',
+    allDayText: 'Kogu pÃ¤ev',
     moreLinkText: function(n) {
       return '+ veel ' + n
     },
-    noEventsText: 'Kuvamiseks puuduvad sündmused',
+    noEventsText: 'Kuvamiseks puuduvad sÃ¼ndmused',
   };
 
   var l26 = {
@@ -681,20 +681,20 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'قبلی',
-      next: 'بعدی',
-      today: 'امروز',
-      month: 'ماه',
-      week: 'هفته',
-      day: 'روز',
-      list: 'برنامه',
+      prev: 'ÙØ¨ÙÛ',
+      next: 'Ø¨Ø¹Ø¯Û',
+      today: 'Ø§ÙØ±ÙØ²',
+      month: 'ÙØ§Ù',
+      week: 'ÙÙØªÙ',
+      day: 'Ø±ÙØ²',
+      list: 'Ø¨Ø±ÙØ§ÙÙ',
     },
-    weekText: 'هف',
-    allDayText: 'تمام روز',
+    weekText: 'ÙÙ',
+    allDayText: 'ØªÙØ§Ù Ø±ÙØ²',
     moreLinkText: function(n) {
-      return 'بیش از ' + n
+      return 'Ø¨ÛØ´ Ø§Ø² ' + n
     },
-    noEventsText: 'هیچ رویدادی به نمایش',
+    noEventsText: 'ÙÛÚ Ø±ÙÛØ¯Ø§Ø¯Û Ø¨Ù ÙÙØ§ÛØ´',
   };
 
   var l28 = {
@@ -706,34 +706,34 @@
     buttonText: {
       prev: 'Edellinen',
       next: 'Seuraava',
-      today: 'Tänään',
+      today: 'TÃ¤nÃ¤Ã¤n',
       month: 'Kuukausi',
       week: 'Viikko',
-      day: 'Päivä',
+      day: 'PÃ¤ivÃ¤',
       list: 'Tapahtumat',
     },
     weekText: 'Vk',
-    allDayText: 'Koko päivä',
-    moreLinkText: 'lisää',
-    noEventsText: 'Ei näytettäviä tapahtumia',
+    allDayText: 'Koko pÃ¤ivÃ¤',
+    moreLinkText: 'lisÃ¤Ã¤',
+    noEventsText: 'Ei nÃ¤ytettÃ¤viÃ¤ tapahtumia',
   };
 
   var l29 = {
     code: 'fr',
     buttonText: {
-      prev: 'Précédent',
+      prev: 'PrÃ©cÃ©dent',
       next: 'Suivant',
       today: "Aujourd'hui",
-      year: 'Année',
+      year: 'AnnÃ©e',
       month: 'Mois',
       week: 'Semaine',
       day: 'Jour',
       list: 'Mon planning',
     },
     weekText: 'Sem.',
-    allDayText: 'Toute la journée',
+    allDayText: 'Toute la journÃ©e',
     moreLinkText: 'en plus',
-    noEventsText: 'Aucun événement à afficher',
+    noEventsText: 'Aucun Ã©vÃ©nement Ã  afficher',
   };
 
   var l30 = {
@@ -743,19 +743,19 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Précédent',
+      prev: 'PrÃ©cÃ©dent',
       next: 'Suivant',
       today: 'Courant',
-      year: 'Année',
+      year: 'AnnÃ©e',
       month: 'Mois',
       week: 'Semaine',
       day: 'Jour',
       list: 'Mon planning',
     },
     weekText: 'Sm',
-    allDayText: 'Toute la journée',
+    allDayText: 'Toute la journÃ©e',
     moreLinkText: 'en plus',
-    noEventsText: 'Aucun événement à afficher',
+    noEventsText: 'Aucun Ã©vÃ©nement Ã  afficher',
   };
 
   var l31 = {
@@ -765,19 +765,19 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Précédent',
+      prev: 'PrÃ©cÃ©dent',
       next: 'Suivant',
       today: "Aujourd'hui",
-      year: 'Année',
+      year: 'AnnÃ©e',
       month: 'Mois',
       week: 'Semaine',
       day: 'Jour',
       list: 'Planning',
     },
     weekText: 'Sem.',
-    allDayText: 'Toute la journée',
+    allDayText: 'Toute la journÃ©e',
     moreLinkText: 'en plus',
-    noEventsText: 'Aucun événement à afficher',
+    noEventsText: 'Aucun Ã©vÃ©nement Ã  afficher',
   };
 
   var l32 = {
@@ -792,12 +792,12 @@
       today: 'Hoxe',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Axenda',
     },
     weekText: 'Sm',
-    allDayText: 'Todo o día',
-    moreLinkText: 'máis',
+    allDayText: 'Todo o dÃ­a',
+    moreLinkText: 'mÃ¡is',
     noEventsText: 'Non hai eventos para amosar',
   };
 
@@ -805,18 +805,18 @@
     code: 'he',
     direction: 'rtl',
     buttonText: {
-      prev: 'הקודם',
-      next: 'הבא',
-      today: 'היום',
-      month: 'חודש',
-      week: 'שבוע',
-      day: 'יום',
-      list: 'סדר יום',
+      prev: '××§×××',
+      next: '×××',
+      today: '××××',
+      month: '××××©',
+      week: '×©×××¢',
+      day: '×××',
+      list: '×¡××¨ ×××',
     },
-    allDayText: 'כל היום',
-    moreLinkText: 'אחר',
-    noEventsText: 'אין אירועים להצגה',
-    weekText: 'שבוע',
+    allDayText: '×× ××××',
+    moreLinkText: '×××¨',
+    noEventsText: '××× ×××¨××¢×× ×××¦××',
+    weekText: '×©×××¢',
   };
 
   var l34 = {
@@ -826,20 +826,20 @@
       doy: 6, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'पिछला',
-      next: 'अगला',
-      today: 'आज',
-      month: 'महीना',
-      week: 'सप्ताह',
-      day: 'दिन',
-      list: 'कार्यसूची',
+      prev: 'à¤ªà¤¿à¤à¤²à¤¾',
+      next: 'à¤à¤à¤²à¤¾',
+      today: 'à¤à¤',
+      month: 'à¤®à¤¹à¥à¤¨à¤¾',
+      week: 'à¤¸à¤ªà¥à¤¤à¤¾à¤¹',
+      day: 'à¤¦à¤¿à¤¨',
+      list: 'à¤à¤¾à¤°à¥à¤¯à¤¸à¥à¤à¥',
     },
-    weekText: 'हफ्ता',
-    allDayText: 'सभी दिन',
+    weekText: 'à¤¹à¤«à¥à¤¤à¤¾',
+    allDayText: 'à¤¸à¤­à¥ à¤¦à¤¿à¤¨',
     moreLinkText: function(n) {
-      return '+अधिक ' + n
+      return '+à¤à¤§à¤¿à¤ ' + n
     },
-    noEventsText: 'कोई घटनाओं को प्रदर्शित करने के लिए',
+    noEventsText: 'à¤à¥à¤ à¤à¤à¤¨à¤¾à¤à¤ à¤à¥ à¤ªà¥à¤°à¤¦à¤°à¥à¤¶à¤¿à¤¤ à¤à¤°à¤¨à¥ à¤à¥ à¤²à¤¿à¤',
   };
 
   var l35 = {
@@ -849,8 +849,8 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Prijašnji',
-      next: 'Sljedeći',
+      prev: 'PrijaÅ¡nji',
+      next: 'SljedeÄi',
       today: 'Danas',
       month: 'Mjesec',
       week: 'Tjedan',
@@ -860,9 +860,9 @@
     weekText: 'Tje',
     allDayText: 'Cijeli dan',
     moreLinkText: function(n) {
-      return '+ još ' + n
+      return '+ joÅ¡ ' + n
     },
-    noEventsText: 'Nema događaja za prikaz',
+    noEventsText: 'Nema dogaÄaja za prikaz',
   };
 
   var l36 = {
@@ -873,17 +873,17 @@
     },
     buttonText: {
       prev: 'vissza',
-      next: 'előre',
+      next: 'elÅre',
       today: 'ma',
-      month: 'Hónap',
-      week: 'Hét',
+      month: 'HÃ³nap',
+      week: 'HÃ©t',
       day: 'Nap',
       list: 'Lista',
     },
-    weekText: 'Hét',
-    allDayText: 'Egész nap',
-    moreLinkText: 'további',
-    noEventsText: 'Nincs megjeleníthető esemény',
+    weekText: 'HÃ©t',
+    allDayText: 'EgÃ©sz nap',
+    moreLinkText: 'tovÃ¡bbi',
+    noEventsText: 'Nincs megjelenÃ­thetÅ esemÃ©ny',
   };
 
   var l37 = {
@@ -893,20 +893,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Նախորդ',
-      next: 'Հաջորդ',
-      today: 'Այսօր',
-      month: 'Ամիս',
-      week: 'Շաբաթ',
-      day: 'Օր',
-      list: 'Օրվա ցուցակ',
+      prev: 'ÕÕ¡Õ­Õ¸ÖÕ¤',
+      next: 'ÕÕ¡Õ»Õ¸ÖÕ¤',
+      today: 'Ô±ÕµÕ½ÖÖ',
+      month: 'Ô±Õ´Õ«Õ½',
+      week: 'ÕÕ¡Õ¢Õ¡Õ©',
+      day: 'ÕÖ',
+      list: 'ÕÖÕ¾Õ¡ ÖÕ¸ÖÖÕ¡Õ¯',
     },
-    weekText: 'Շաբ',
-    allDayText: 'Ամբողջ օր',
+    weekText: 'ÕÕ¡Õ¢',
+    allDayText: 'Ô±Õ´Õ¢Õ¸Õ²Õ» ÖÖ',
     moreLinkText: function(n) {
-      return '+ ևս ' + n
+      return '+ ÖÕ½ ' + n
     },
-    noEventsText: 'Բացակայում է իրադարձությունը ցուցադրելու',
+    noEventsText: 'Ô²Õ¡ÖÕ¡Õ¯Õ¡ÕµÕ¸ÖÕ´ Õ§ Õ«ÖÕ¡Õ¤Õ¡ÖÕ±Õ¸ÖÕ©ÕµÕ¸ÖÕ¶Õ¨ ÖÕ¸ÖÖÕ¡Õ¤ÖÕ¥Õ¬Õ¸Ö',
   };
 
   var l38 = {
@@ -938,17 +938,17 @@
     },
     buttonText: {
       prev: 'Fyrri',
-      next: 'Næsti',
-      today: 'Í dag',
-      month: 'Mánuður',
+      next: 'NÃ¦sti',
+      today: 'Ã dag',
+      month: 'MÃ¡nuÃ°ur',
       week: 'Vika',
       day: 'Dagur',
-      list: 'Dagskrá',
+      list: 'DagskrÃ¡',
     },
     weekText: 'Vika',
     allDayText: 'Allan daginn',
     moreLinkText: 'meira',
-    noEventsText: 'Engir viðburðir til að sýna',
+    noEventsText: 'Engir viÃ°burÃ°ir til aÃ° sÃ½na',
   };
 
   var l40 = {
@@ -977,20 +977,20 @@
   var l41 = {
     code: 'ja',
     buttonText: {
-      prev: '前',
-      next: '次',
-      today: '今日',
-      month: '月',
-      week: '週',
-      day: '日',
-      list: '予定リスト',
+      prev: 'å',
+      next: 'æ¬¡',
+      today: 'ä»æ¥',
+      month: 'æ',
+      week: 'é±',
+      day: 'æ¥',
+      list: 'äºå®ãªã¹ã',
     },
-    weekText: '週',
-    allDayText: '終日',
+    weekText: 'é±',
+    allDayText: 'çµæ¥',
     moreLinkText: function(n) {
-      return '他 ' + n + ' 件'
+      return 'ä» ' + n + ' ä»¶'
     },
-    noEventsText: '表示する予定はありません',
+    noEventsText: 'è¡¨ç¤ºããäºå®ã¯ããã¾ãã',
   };
 
   var l42 = {
@@ -1000,20 +1000,20 @@
       doy: 7,
     },
     buttonText: {
-      prev: 'წინა',
-      next: 'შემდეგი',
-      today: 'დღეს',
-      month: 'თვე',
-      week: 'კვირა',
-      day: 'დღე',
-      list: 'დღის წესრიგი',
+      prev: 'á¬ááá',
+      next: 'á¨áááááá',
+      today: 'áá¦áá¡',
+      month: 'ááá',
+      week: 'áááá á',
+      day: 'áá¦á',
+      list: 'áá¦áá¡ á¬áá¡á ááá',
     },
-    weekText: 'კვ',
-    allDayText: 'მთელი დღე',
+    weekText: 'áá',
+    allDayText: 'ááááá áá¦á',
     moreLinkText: function(n) {
-      return '+ კიდევ ' + n
+      return '+ ááááá ' + n
     },
-    noEventsText: 'ღონისძიებები არ არის',
+    noEventsText: 'á¦áááá¡á«áááááá áá  áá áá¡',
   };
 
   var l43 = {
@@ -1023,20 +1023,20 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Алдыңғы',
-      next: 'Келесі',
-      today: 'Бүгін',
-      month: 'Ай',
-      week: 'Апта',
-      day: 'Күн',
-      list: 'Күн тәртібі',
+      prev: 'ÐÐ»Ð´ÑÒ£ÒÑ',
+      next: 'ÐÐµÐ»ÐµÑÑ',
+      today: 'ÐÒ¯Ð³ÑÐ½',
+      month: 'ÐÐ¹',
+      week: 'ÐÐ¿ÑÐ°',
+      day: 'ÐÒ¯Ð½',
+      list: 'ÐÒ¯Ð½ ÑÓÑÑÑÐ±Ñ',
     },
-    weekText: 'Не',
-    allDayText: 'Күні бойы',
+    weekText: 'ÐÐµ',
+    allDayText: 'ÐÒ¯Ð½Ñ Ð±Ð¾Ð¹Ñ',
     moreLinkText: function(n) {
-      return '+ тағы ' + n
+      return '+ ÑÐ°ÒÑ ' + n
     },
-    noEventsText: 'Көрсету үшін оқиғалар жоқ',
+    noEventsText: 'ÐÓ©ÑÑÐµÑÑ Ò¯ÑÑÐ½ Ð¾ÒÐ¸ÒÐ°Ð»Ð°Ñ Ð¶Ð¾Ò',
   };
 
   var l44 = {
@@ -1046,36 +1046,36 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'មុន',
-      next: 'បន្ទាប់',
-      today: 'ថ្ងៃនេះ',
-      year: 'ឆ្នាំ',
-      month: 'ខែ',
-      week: 'សប្តាហ៍',
-      day: 'ថ្ងៃ',
-      list: 'បញ្ជី',
+      prev: 'áá»á',
+      next: 'ááááá¶áá',
+      today: 'ááááááá',
+      year: 'áááá¶á',
+      month: 'áá',
+      week: 'ááááá¶á á',
+      day: 'áááá',
+      list: 'ááááá¸',
     },
-    weekText: 'សប្តាហ៍',
-    allDayText: 'ពេញមួយថ្ងៃ',
-    moreLinkText: 'ច្រើនទៀត',
-    noEventsText: 'គ្មានព្រឹត្តិការណ៍ត្រូវបង្ហាញ',
+    weekText: 'ááááá¶á á',
+    allDayText: 'ááááá½ááááá',
+    moreLinkText: 'áááá¾áááá',
+    noEventsText: 'áááá¶ááááá¹áááá·áá¶ááááááá¼ááááá á¶á',
   };
 
   var l45 = {
     code: 'ko',
     buttonText: {
-      prev: '이전달',
-      next: '다음달',
-      today: '오늘',
-      month: '월',
-      week: '주',
-      day: '일',
-      list: '일정목록',
+      prev: 'ì´ì ë¬',
+      next: 'ë¤ìë¬',
+      today: 'ì¤ë',
+      month: 'ì',
+      week: 'ì£¼',
+      day: 'ì¼',
+      list: 'ì¼ì ëª©ë¡',
     },
-    weekText: '주',
-    allDayText: '종일',
-    moreLinkText: '개',
-    noEventsText: '일정이 없습니다',
+    weekText: 'ì£¼',
+    allDayText: 'ì¢ì¼',
+    moreLinkText: 'ê°',
+    noEventsText: 'ì¼ì ì´ ììµëë¤',
   };
 
   var l46 = {
@@ -1086,18 +1086,18 @@
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'پێشتر',
-      next: 'دواتر',
-      today: 'ئەمڕو',
-      month: 'مانگ',
-      week: 'هەفتە',
-      day: 'ڕۆژ',
-      list: 'بەرنامە',
+      prev: 'Ù¾ÛØ´ØªØ±',
+      next: 'Ø¯ÙØ§ØªØ±',
+      today: 'Ø¦ÛÙÚÙ',
+      month: 'ÙØ§ÙÚ¯',
+      week: 'ÙÛÙØªÛ',
+      day: 'ÚÛÚ',
+      list: 'Ø¨ÛØ±ÙØ§ÙÛ',
     },
-    weekText: 'هەفتە',
-    allDayText: 'هەموو ڕۆژەکە',
-    moreLinkText: 'زیاتر',
-    noEventsText: 'هیچ ڕووداوێك نیە',
+    weekText: 'ÙÛÙØªÛ',
+    allDayText: 'ÙÛÙÙÙ ÚÛÚÛÚ©Û',
+    moreLinkText: 'Ø²ÛØ§ØªØ±',
+    noEventsText: 'ÙÛÚ ÚÙÙØ¯Ø§ÙÛÙ ÙÛÛ',
   };
 
   var l47 = {
@@ -1107,7 +1107,7 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Zréck',
+      prev: 'ZrÃ©ck',
       next: 'Weider',
       today: 'Haut',
       month: 'Mount',
@@ -1117,8 +1117,8 @@
     },
     weekText: 'W',
     allDayText: 'Ganzen Dag',
-    moreLinkText: 'méi',
-    noEventsText: 'Nee Evenementer ze affichéieren',
+    moreLinkText: 'mÃ©i',
+    noEventsText: 'Nee Evenementer ze affichÃ©ieren',
   };
 
   var l48 = {
@@ -1130,16 +1130,16 @@
     buttonText: {
       prev: 'Atgal',
       next: 'Pirmyn',
-      today: 'Šiandien',
-      month: 'Mėnuo',
-      week: 'Savaitė',
+      today: 'Å iandien',
+      month: 'MÄnuo',
+      week: 'SavaitÄ',
       day: 'Diena',
-      list: 'Darbotvarkė',
+      list: 'DarbotvarkÄ',
     },
     weekText: 'SAV',
-    allDayText: 'Visą dieną',
+    allDayText: 'VisÄ dienÄ',
     moreLinkText: 'daugiau',
-    noEventsText: 'Nėra įvykių rodyti',
+    noEventsText: 'NÄra Ä¯vykiÅ³ rodyti',
   };
 
   var l49 = {
@@ -1150,17 +1150,17 @@
     },
     buttonText: {
       prev: 'Iepr.',
-      next: 'Nāk.',
-      today: 'Šodien',
-      month: 'Mēnesis',
-      week: 'Nedēļa',
+      next: 'NÄk.',
+      today: 'Å odien',
+      month: 'MÄnesis',
+      week: 'NedÄÄ¼a',
       day: 'Diena',
-      list: 'Dienas kārtība',
+      list: 'Dienas kÄrtÄ«ba',
     },
     weekText: 'Ned.',
     allDayText: 'Visu dienu',
     moreLinkText: function(n) {
-      return '+vēl ' + n
+      return '+vÄl ' + n
     },
     noEventsText: 'Nav notikumu',
   };
@@ -1168,20 +1168,20 @@
   var l50 = {
     code: 'mk',
     buttonText: {
-      prev: 'претходно',
-      next: 'следно',
-      today: 'Денес',
-      month: 'Месец',
-      week: 'Недела',
-      day: 'Ден',
-      list: 'График',
+      prev: 'Ð¿ÑÐµÑÑÐ¾Ð´Ð½Ð¾',
+      next: 'ÑÐ»ÐµÐ´Ð½Ð¾',
+      today: 'ÐÐµÐ½ÐµÑ',
+      month: 'ÐÐµÑÐµÑ',
+      week: 'ÐÐµÐ´ÐµÐ»Ð°',
+      day: 'ÐÐµÐ½',
+      list: 'ÐÑÐ°ÑÐ¸Ðº',
     },
-    weekText: 'Сед',
-    allDayText: 'Цел ден',
+    weekText: 'Ð¡ÐµÐ´',
+    allDayText: 'Ð¦ÐµÐ» Ð´ÐµÐ½',
     moreLinkText: function(n) {
-      return '+повеќе ' + n
+      return '+Ð¿Ð¾Ð²ÐµÑÐµ ' + n
     },
-    noEventsText: 'Нема настани за прикажување',
+    noEventsText: 'ÐÐµÐ¼Ð° Ð½Ð°ÑÑÐ°Ð½Ð¸ Ð·Ð° Ð¿ÑÐ¸ÐºÐ°Ð¶ÑÐ²Ð°ÑÐµ',
   };
 
   var l51 = {
@@ -1217,7 +1217,7 @@
       prev: 'Forrige',
       next: 'Neste',
       today: 'I dag',
-      month: 'Måned',
+      month: 'MÃ¥ned',
       week: 'Uke',
       day: 'Dag',
       list: 'Agenda',
@@ -1226,14 +1226,14 @@
     weekTextLong: 'Uke',
     allDayText: 'Hele dagen',
     moreLinkText: 'til',
-    noEventsText: 'Ingen hendelser å vise',
+    noEventsText: 'Ingen hendelser Ã¥ vise',
     buttonHints: {
       prev: 'Forrige $0',
       next: 'Neste $0',
-      today: 'Nåværende $0',
+      today: 'NÃ¥vÃ¦rende $0',
     },
     viewHint: '$0 visning',
-    navLinkHint: 'Gå til $0',
+    navLinkHint: 'GÃ¥ til $0',
     moreLinkHint(eventCnt) {
       return `Vis ${eventCnt} flere hendelse${eventCnt === 1 ? '' : 'r'}`
     },
@@ -1246,18 +1246,18 @@
       doy: 1, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'अघिल्लो',
-      next: 'अर्को',
-      today: 'आज',
-      month: 'महिना',
-      week: 'हप्ता',
-      day: 'दिन',
-      list: 'सूची',
+      prev: 'à¤à¤à¤¿à¤²à¥à¤²à¥',
+      next: 'à¤à¤°à¥à¤à¥',
+      today: 'à¤à¤',
+      month: 'à¤®à¤¹à¤¿à¤¨à¤¾',
+      week: 'à¤¹à¤ªà¥à¤¤à¤¾',
+      day: 'à¤¦à¤¿à¤¨',
+      list: 'à¤¸à¥à¤à¥',
     },
-    weekText: 'हप्ता',
-    allDayText: 'दिनभरि',
-    moreLinkText: 'थप लिंक',
-    noEventsText: 'देखाउनको लागि कुनै घटनाहरू छैनन्',
+    weekText: 'à¤¹à¤ªà¥à¤¤à¤¾',
+    allDayText: 'à¤¦à¤¿à¤¨à¤­à¤°à¤¿',
+    moreLinkText: 'à¤¥à¤ª à¤²à¤¿à¤à¤',
+    noEventsText: 'à¤¦à¥à¤à¤¾à¤à¤¨à¤à¥ à¤²à¤¾à¤à¤¿ à¤à¥à¤¨à¥ à¤à¤à¤¨à¤¾à¤¹à¤°à¥ à¤à¥à¤¨à¤¨à¥',
   };
 
   var l54 = {
@@ -1288,10 +1288,10 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Førre',
+      prev: 'FÃ¸rre',
       next: 'Neste',
       today: 'I dag',
-      month: 'Månad',
+      month: 'MÃ¥nad',
       week: 'Veke',
       day: 'Dag',
       list: 'Agenda',
@@ -1299,7 +1299,7 @@
     weekText: 'Veke',
     allDayText: 'Heile dagen',
     moreLinkText: 'til',
-    noEventsText: 'Ingen hendelser å vise',
+    noEventsText: 'Ingen hendelser Ã¥ vise',
   };
 
   var l56 = {
@@ -1310,26 +1310,26 @@
     },
     buttonText: {
       prev: 'Poprzedni',
-      next: 'Następny',
-      today: 'Dziś',
-      month: 'Miesiąc',
-      week: 'Tydzień',
-      day: 'Dzień',
+      next: 'NastÄpny',
+      today: 'DziÅ',
+      month: 'MiesiÄc',
+      week: 'TydzieÅ',
+      day: 'DzieÅ',
       list: 'Plan dnia',
     },
     weekText: 'Tydz',
-    allDayText: 'Cały dzień',
-    moreLinkText: 'więcej',
-    noEventsText: 'Brak wydarzeń do wyświetlenia',
+    allDayText: 'CaÅy dzieÅ',
+    moreLinkText: 'wiÄcej',
+    noEventsText: 'Brak wydarzeÅ do wyÅwietlenia',
   };
 
   var l57 = {
     code: 'pt-br',
     buttonText: {
       prev: 'Anterior',
-      next: 'Próximo',
+      next: 'PrÃ³ximo',
       today: 'Hoje',
-      month: 'Mês',
+      month: 'MÃªs',
       week: 'Semana',
       day: 'Dia',
       list: 'Lista',
@@ -1339,7 +1339,7 @@
     moreLinkText: function(n) {
       return 'mais +' + n
     },
-    noEventsText: 'Não há eventos para mostrar',
+    noEventsText: 'NÃ£o hÃ¡ eventos para mostrar',
   };
 
   var l58 = {
@@ -1352,7 +1352,7 @@
       prev: 'Anterior',
       next: 'Seguinte',
       today: 'Hoje',
-      month: 'Mês',
+      month: 'MÃªs',
       week: 'Semana',
       day: 'Dia',
       list: 'Agenda',
@@ -1360,7 +1360,7 @@
     weekText: 'Sem',
     allDayText: 'Todo o dia',
     moreLinkText: 'mais',
-    noEventsText: 'Não há eventos para mostrar',
+    noEventsText: 'NÃ£o hÃ¡ eventos para mostrar',
   };
 
   var l59 = {
@@ -1370,20 +1370,20 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'precedentă',
-      next: 'următoare',
+      prev: 'precedentÄ',
+      next: 'urmÄtoare',
       today: 'Azi',
-      month: 'Lună',
-      week: 'Săptămână',
+      month: 'LunÄ',
+      week: 'SÄptÄmÃ¢nÄ',
       day: 'Zi',
-      list: 'Agendă',
+      list: 'AgendÄ',
     },
-    weekText: 'Săpt',
-    allDayText: 'Toată ziua',
+    weekText: 'SÄpt',
+    allDayText: 'ToatÄ ziua',
     moreLinkText: function(n) {
       return '+alte ' + n
     },
-    noEventsText: 'Nu există evenimente de afișat',
+    noEventsText: 'Nu existÄ evenimente de afiÈat',
   };
 
   var l60 = {
@@ -1393,20 +1393,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Пред',
-      next: 'След',
-      today: 'Сегодня',
-      month: 'Месяц',
-      week: 'Неделя',
-      day: 'День',
-      list: 'Повестка дня',
+      prev: 'ÐÑÐµÐ´',
+      next: 'Ð¡Ð»ÐµÐ´',
+      today: 'Ð¡ÐµÐ³Ð¾Ð´Ð½Ñ',
+      month: 'ÐÐµÑÑÑ',
+      week: 'ÐÐµÐ´ÐµÐ»Ñ',
+      day: 'ÐÐµÐ½Ñ',
+      list: 'ÐÐ¾Ð²ÐµÑÑÐºÐ° Ð´Ð½Ñ',
     },
-    weekText: 'Нед',
-    allDayText: 'Весь день',
+    weekText: 'ÐÐµÐ´',
+    allDayText: 'ÐÐµÑÑ Ð´ÐµÐ½Ñ',
     moreLinkText: function(n) {
-      return '+ ещё ' + n
+      return '+ ÐµÑÑ ' + n
     },
-    noEventsText: 'Нет событий для отображения',
+    noEventsText: 'ÐÐµÑ ÑÐ¾Ð±ÑÑÐ¸Ð¹ Ð´Ð»Ñ Ð¾ÑÐ¾Ð±ÑÐ°Ð¶ÐµÐ½Ð¸Ñ',
   };
 
   var l61 = {
@@ -1416,18 +1416,18 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'පෙර',
-      next: 'පසු',
-      today: 'අද',
-      month: 'මාසය',
-      week: 'සතිය',
-      day: 'දවස',
-      list: 'ලැයිස්තුව',
+      prev: 'à¶´à·à¶»',
+      next: 'à¶´à·à·',
+      today: 'à¶à¶¯',
+      month: 'à¶¸à·à·à¶º',
+      week: 'à·à¶­à·à¶º',
+      day: 'à¶¯à·à·',
+      list: 'à¶½à·à¶ºà·à·à·à¶­à·à·',
     },
-    weekText: 'සති',
-    allDayText: 'සියලු',
-    moreLinkText: 'තවත්',
-    noEventsText: 'මුකුත් නැත',
+    weekText: 'à·à¶­à·',
+    allDayText: 'à·à·à¶ºà¶½à·',
+    moreLinkText: 'à¶­à·à¶­à·',
+    noEventsText: 'à¶¸à·à¶à·à¶­à· à¶±à·à¶­',
   };
 
   var l62 = {
@@ -1437,20 +1437,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Predchádzajúci',
-      next: 'Nasledujúci',
+      prev: 'PredchÃ¡dzajÃºci',
+      next: 'NasledujÃºci',
       today: 'Dnes',
       month: 'Mesiac',
-      week: 'Týždeň',
-      day: 'Deň',
+      week: 'TÃ½Å¾deÅ',
+      day: 'DeÅ',
       list: 'Rozvrh',
     },
     weekText: 'Ty',
-    allDayText: 'Celý deň',
+    allDayText: 'CelÃ½ deÅ',
     moreLinkText: function(n) {
-      return '+ďalšie: ' + n
+      return '+ÄalÅ¡ie: ' + n
     },
-    noEventsText: 'Žiadne akcie na zobrazenie',
+    noEventsText: 'Å½iadne akcie na zobrazenie',
   };
 
   var l63 = {
@@ -1460,7 +1460,7 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Prejšnji',
+      prev: 'PrejÅ¡nji',
       next: 'Naslednji',
       today: 'Trenutni',
       month: 'Mesec',
@@ -1470,7 +1470,7 @@
     },
     weekText: 'Teden',
     allDayText: 'Ves dan',
-    moreLinkText: 'več',
+    moreLinkText: 'veÄ',
     noEventsText: 'Ni dogodkov za prikaz',
   };
 
@@ -1499,19 +1499,19 @@
     },
     buttonText: {
       prev: 'mbrapa',
-      next: 'Përpara',
+      next: 'PÃ«rpara',
       today: 'sot',
       month: 'Muaj',
-      week: 'Javë',
-      day: 'Ditë',
-      list: 'Listë',
+      week: 'JavÃ«',
+      day: 'DitÃ«',
+      list: 'ListÃ«',
     },
     weekText: 'Ja',
-    allDayText: 'Gjithë ditën',
+    allDayText: 'GjithÃ« ditÃ«n',
     moreLinkText: function(n) {
-      return '+më tepër ' + n
+      return '+mÃ« tepÃ«r ' + n
     },
-    noEventsText: 'Nuk ka evente për të shfaqur',
+    noEventsText: 'Nuk ka evente pÃ«r tÃ« shfaqur',
   };
 
   var l66 = {
@@ -1521,20 +1521,20 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Претходна',
-      next: 'следећи',
-      today: 'Данас',
-      month: 'Месец',
-      week: 'Недеља',
-      day: 'Дан',
-      list: 'Планер',
+      prev: 'ÐÑÐµÑÑÐ¾Ð´Ð½Ð°',
+      next: 'ÑÐ»ÐµÐ´ÐµÑÐ¸',
+      today: 'ÐÐ°Ð½Ð°Ñ',
+      month: 'ÐÐµÑÐµÑ',
+      week: 'ÐÐµÐ´ÐµÑÐ°',
+      day: 'ÐÐ°Ð½',
+      list: 'ÐÐ»Ð°Ð½ÐµÑ',
     },
-    weekText: 'Сед',
-    allDayText: 'Цео дан',
+    weekText: 'Ð¡ÐµÐ´',
+    allDayText: 'Ð¦ÐµÐ¾ Ð´Ð°Ð½',
     moreLinkText: function(n) {
-      return '+ још ' + n
+      return '+ ÑÐ¾Ñ ' + n
     },
-    noEventsText: 'Нема догађаја за приказ',
+    noEventsText: 'ÐÐµÐ¼Ð° Ð´Ð¾Ð³Ð°ÑÐ°ÑÐ° Ð·Ð° Ð¿ÑÐ¸ÐºÐ°Ð·',
   };
 
   var l67 = {
@@ -1545,19 +1545,19 @@
     },
     buttonText: {
       prev: 'Prethodna',
-      next: 'Sledeći',
+      next: 'SledecÌi',
       today: 'Danas',
-      month: 'Mеsеc',
-      week: 'Nеdеlja',
+      month: 'MÐµsÐµc',
+      week: 'NÐµdÐµlja',
       day: 'Dan',
-      list: 'Planеr',
+      list: 'PlanÐµr',
     },
     weekText: 'Sed',
-    allDayText: 'Cеo dan',
+    allDayText: 'CÐµo dan',
     moreLinkText: function(n) {
-      return '+ još ' + n
+      return '+ joÅ¡ ' + n
     },
-    noEventsText: 'Nеma događaja za prikaz',
+    noEventsText: 'NÐµma dogaÄaja za prikaz',
   };
 
   var l68 = {
@@ -1567,38 +1567,38 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Förra',
-      next: 'Nästa',
+      prev: 'FÃ¶rra',
+      next: 'NÃ¤sta',
       today: 'Idag',
-      month: 'Månad',
+      month: 'MÃ¥nad',
       week: 'Vecka',
       day: 'Dag',
       list: 'Program',
     },
     buttonHints: {
       prev(buttonText) {
-        return `Föregående ${buttonText.toLocaleLowerCase()}`
+        return `FÃ¶regÃ¥ende ${buttonText.toLocaleLowerCase()}`
       },
       next(buttonText) {
-        return `Nästa ${buttonText.toLocaleLowerCase()}`
+        return `NÃ¤sta ${buttonText.toLocaleLowerCase()}`
       },
       today(buttonText) {
         return (buttonText === 'Program' ? 'Detta' : 'Denna') + ' ' + buttonText.toLocaleLowerCase()
       },
     },
     viewHint: '$0 vy',
-    navLinkHint: 'Gå till $0',
+    navLinkHint: 'GÃ¥ till $0',
     moreLinkHint(eventCnt) {
-      return `Visa ytterligare ${eventCnt} händelse${eventCnt === 1 ? '' : 'r'}`
+      return `Visa ytterligare ${eventCnt} hÃ¤ndelse${eventCnt === 1 ? '' : 'r'}`
     },
     weekText: 'v.',
     weekTextLong: 'Vecka',
     allDayText: 'Heldag',
     moreLinkText: 'till',
-    noEventsText: 'Inga händelser att visa',
-    closeHint: 'Stäng',
+    noEventsText: 'Inga hÃ¤ndelser att visa',
+    closeHint: 'StÃ¤ng',
     timeHint: 'Klockan',
-    eventHint: 'Händelse',
+    eventHint: 'HÃ¤ndelse',
   };
 
   var l69 = {
@@ -1608,20 +1608,20 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'முந்தைய',
-      next: 'அடுத்தது',
-      today: 'இன்று',
-      month: 'மாதம்',
-      week: 'வாரம்',
-      day: 'நாள்',
-      list: 'தினசரி அட்டவணை',
+      prev: 'à®®à¯à®¨à¯à®¤à¯à®¯',
+      next: 'à®à®à¯à®¤à¯à®¤à®¤à¯',
+      today: 'à®à®©à¯à®±à¯',
+      month: 'à®®à®¾à®¤à®®à¯',
+      week: 'à®µà®¾à®°à®®à¯',
+      day: 'à®¨à®¾à®³à¯',
+      list: 'à®¤à®¿à®©à®à®°à®¿ à®à®à¯à®à®µà®£à¯',
     },
-    weekText: 'வாரம்',
-    allDayText: 'நாள் முழுவதும்',
+    weekText: 'à®µà®¾à®°à®®à¯',
+    allDayText: 'à®¨à®¾à®³à¯ à®®à¯à®´à¯à®µà®¤à¯à®®à¯',
     moreLinkText: function(n) {
-      return '+ மேலும் ' + n
+      return '+ à®®à¯à®²à¯à®®à¯ ' + n
     },
-    noEventsText: 'காண்பிக்க நிகழ்வுகள் இல்லை',
+    noEventsText: 'à®à®¾à®£à¯à®ªà®¿à®à¯à® à®¨à®¿à®à®´à¯à®µà¯à®à®³à¯ à®à®²à¯à®²à¯',
   };
 
   var l70 = {
@@ -1631,21 +1631,21 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'ก่อนหน้า',
-      next: 'ถัดไป',
-      prevYear: 'ปีก่อนหน้า',
-      nextYear: 'ปีถัดไป',
-      year: 'ปี',
-      today: 'วันนี้',
-      month: 'เดือน',
-      week: 'สัปดาห์',
-      day: 'วัน',
-      list: 'กำหนดการ',
+      prev: 'à¸à¹à¸­à¸à¸«à¸à¹à¸²',
+      next: 'à¸à¸±à¸à¹à¸',
+      prevYear: 'à¸à¸µà¸à¹à¸­à¸à¸«à¸à¹à¸²',
+      nextYear: 'à¸à¸µà¸à¸±à¸à¹à¸',
+      year: 'à¸à¸µ',
+      today: 'à¸§à¸±à¸à¸à¸µà¹',
+      month: 'à¹à¸à¸·à¸­à¸',
+      week: 'à¸ªà¸±à¸à¸à¸²à¸«à¹',
+      day: 'à¸§à¸±à¸',
+      list: 'à¸à¸³à¸«à¸à¸à¸à¸²à¸£',
     },
-    weekText: 'สัปดาห์',
-    allDayText: 'ตลอดวัน',
-    moreLinkText: 'เพิ่มเติม',
-    noEventsText: 'ไม่มีกิจกรรมที่จะแสดง',
+    weekText: 'à¸ªà¸±à¸à¸à¸²à¸«à¹',
+    allDayText: 'à¸à¸¥à¸­à¸à¸§à¸±à¸',
+    moreLinkText: 'à¹à¸à¸´à¹à¸¡à¹à¸à¸´à¸¡',
+    noEventsText: 'à¹à¸¡à¹à¸¡à¸µà¸à¸´à¸à¸à¸£à¸£à¸¡à¸à¸µà¹à¸à¸°à¹à¸ªà¸à¸',
   };
 
   var l71 = {
@@ -1657,27 +1657,27 @@
     buttonText: {
       prev: 'geri',
       next: 'ileri',
-      today: 'bugün',
+      today: 'bugÃ¼n',
       month: 'Ay',
       week: 'Hafta',
-      day: 'Gün',
+      day: 'GÃ¼n',
       list: 'Ajanda',
     },
     weekText: 'Hf',
-    allDayText: 'Tüm gün',
+    allDayText: 'TÃ¼m gÃ¼n',
     moreLinkText: 'daha fazla',
-    noEventsText: 'Gösterilecek etkinlik yok',
+    noEventsText: 'GÃ¶sterilecek etkinlik yok',
   };
 
   var l72 = {
     code: 'ug',
     buttonText: {
-      month: 'ئاي',
-      week: 'ھەپتە',
-      day: 'كۈن',
-      list: 'كۈنتەرتىپ',
+      month: 'Ø¦Ø§Ù',
+      week: 'Ú¾ÛÙ¾ØªÛ',
+      day: 'ÙÛÙ',
+      list: 'ÙÛÙØªÛØ±ØªÙÙ¾',
     },
-    allDayText: 'پۈتۈن كۈن',
+    allDayText: 'Ù¾ÛØªÛÙ ÙÛÙ',
   };
 
   var l73 = {
@@ -1687,20 +1687,20 @@
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Попередній',
-      next: 'далі',
-      today: 'Сьогодні',
-      month: 'Місяць',
-      week: 'Тиждень',
-      day: 'День',
-      list: 'Порядок денний',
+      prev: 'ÐÐ¾Ð¿ÐµÑÐµÐ´Ð½ÑÐ¹',
+      next: 'Ð´Ð°Ð»Ñ',
+      today: 'Ð¡ÑÐ¾Ð³Ð¾Ð´Ð½Ñ',
+      month: 'ÐÑÑÑÑÑ',
+      week: 'Ð¢Ð¸Ð¶Ð´ÐµÐ½Ñ',
+      day: 'ÐÐµÐ½Ñ',
+      list: 'ÐÐ¾ÑÑÐ´Ð¾Ðº Ð´ÐµÐ½Ð½Ð¸Ð¹',
     },
-    weekText: 'Тиж',
-    allDayText: 'Увесь день',
+    weekText: 'Ð¢Ð¸Ð¶',
+    allDayText: 'Ð£Ð²ÐµÑÑ Ð´ÐµÐ½Ñ',
     moreLinkText: function(n) {
-      return '+ще ' + n + '...'
+      return '+ÑÐµ ' + n + '...'
     },
-    noEventsText: 'Немає подій для відображення',
+    noEventsText: 'ÐÐµÐ¼Ð°Ñ Ð¿Ð¾Ð´ÑÐ¹ Ð´Ð»Ñ Ð²ÑÐ´Ð¾Ð±ÑÐ°Ð¶ÐµÐ½Ð½Ñ',
   };
 
   var l74 = {
@@ -1725,61 +1725,61 @@
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: 'Trước',
-      next: 'Tiếp',
-      today: 'Hôm nay',
-      month: 'Tháng',
-      week: 'Tuần',
-      day: 'Ngày',
-      list: 'Lịch biểu',
+      prev: 'TrÆ°á»c',
+      next: 'Tiáº¿p',
+      today: 'HÃ´m nay',
+      month: 'ThÃ¡ng',
+      week: 'TuÃ¢Ìn',
+      day: 'NgÃ y',
+      list: 'Lá»ch biá»u',
     },
     weekText: 'Tu',
-    allDayText: 'Cả ngày',
+    allDayText: 'Cáº£ ngÃ y',
     moreLinkText: function(n) {
-      return '+ thêm ' + n
+      return '+ thÃªm ' + n
     },
-    noEventsText: 'Không có sự kiện để hiển thị',
+    noEventsText: 'KhÃ´ng cÃ³ sá»± kiá»n Äá» hiá»n thá»',
   };
 
   var l76 = {
     code: 'zh-cn',
     week: {
-      // GB/T 7408-1994《数据元和交换格式·信息交换·日期和时间表示法》与ISO 8601:1988等效
+      // GB/T 7408-1994ãæ°æ®ååäº¤æ¢æ ¼å¼Â·ä¿¡æ¯äº¤æ¢Â·æ¥æåæ¶é´è¡¨ç¤ºæ³ãä¸ISO 8601:1988ç­æ
       dow: 1, // Monday is the first day of the week.
       doy: 4, // The week that contains Jan 4th is the first week of the year.
     },
     buttonText: {
-      prev: '上月',
-      next: '下月',
-      today: '今天',
-      month: '月',
-      week: '周',
-      day: '日',
-      list: '日程',
+      prev: 'ä¸æ',
+      next: 'ä¸æ',
+      today: 'ä»å¤©',
+      month: 'æ',
+      week: 'å¨',
+      day: 'æ¥',
+      list: 'æ¥ç¨',
     },
-    weekText: '周',
-    allDayText: '全天',
+    weekText: 'å¨',
+    allDayText: 'å¨å¤©',
     moreLinkText: function(n) {
-      return '另外 ' + n + ' 个'
+      return 'å¦å¤ ' + n + ' ä¸ª'
     },
-    noEventsText: '没有事件显示',
+    noEventsText: 'æ²¡æäºä»¶æ¾ç¤º',
   };
 
   var l77 = {
     code: 'zh-tw',
     buttonText: {
-      prev: '上月',
-      next: '下月',
-      today: '今天',
-      month: '月',
-      week: '週',
-      day: '天',
-      list: '活動列表',
+      prev: 'ä¸æ',
+      next: 'ä¸æ',
+      today: 'ä»å¤©',
+      month: 'æ',
+      week: 'é±',
+      day: 'å¤©',
+      list: 'æ´»ååè¡¨',
     },
-    weekText: '周',
-    allDayText: '整天',
-    moreLinkText: '顯示更多',
-    noEventsText: '没有任何活動',
+    weekText: 'å¨',
+    allDayText: 'æ´å¤©',
+    moreLinkText: 'é¡¯ç¤ºæ´å¤',
+    noEventsText: 'æ²¡æä»»ä½æ´»å',
   };
 
   /* eslint max-len: off */

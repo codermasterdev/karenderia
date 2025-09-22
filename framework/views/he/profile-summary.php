@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			תקציר דוח פרופילים
-			(זמן: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>,
-			זכרון: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?> קילובייט)
+			×ª×§×¦××¨ ××× ×¤×¨××¤××××
+			(×××: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>,
+			×××¨××: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?> ×§×××××××)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>פרוצדורה</th>
-		<th>כמות</th>
-		<th>סך הכל</th>
-		<th>ממוצע</th>
-		<th>מינימום</th>
-		<th>מקסימום</th>
+	    <th>×¤×¨××¦×××¨×</th>
+		<th>××××ª</th>
+		<th>×¡× ×××</th>
+		<th>××××¦×¢</th>
+		<th>××× ××××</th>
+		<th>××§×¡××××</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

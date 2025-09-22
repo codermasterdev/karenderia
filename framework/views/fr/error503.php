@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Service non disponible</h1>
 <p>
-Notre système est momentanément indisponible. Merci de réessayer plus tard.
+Notre systÃ¨me est momentanÃ©ment indisponible. Merci de rÃ©essayer plus tard.
 </p>
 <p>
 Merci.

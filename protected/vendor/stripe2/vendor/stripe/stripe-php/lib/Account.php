@@ -60,13 +60,13 @@ class Account extends ApiResource
 
     /**
      * With <a href="/docs/connect">Connect</a>, you can create Stripe accounts for
-     * your users. To do this, you’ll first need to <a
+     * your users. To do this, youâll first need to <a
      * href="https://dashboard.stripe.com/account/applications/settings">register your
      * platform</a>.
      *
-     * If you’ve already collected information for your connected accounts, you <a
+     * If youâve already collected information for your connected accounts, you <a
      * href="/docs/connect/best-practices#onboarding">can prefill that information</a>
-     * when creating the account. Connect Onboarding won’t ask for the prefilled
+     * when creating the account. Connect Onboarding wonât ask for the prefilled
      * information during account onboarding. You can prefill any information on the
      * account.
      *
@@ -124,7 +124,7 @@ class Account extends ApiResource
 
     /**
      * Returns a list of accounts connected to your platform via <a
-     * href="/docs/connect">Connect</a>. If you’re not a platform, the list is empty.
+     * href="/docs/connect">Connect</a>. If youâre not a platform, the list is empty.
      *
      * @param null|array $params
      * @param null|array|string $opts

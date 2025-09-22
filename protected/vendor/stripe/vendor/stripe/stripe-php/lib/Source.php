@@ -19,7 +19,7 @@ namespace Stripe;
  * @property \Stripe\StripeObject $ach_debit
  * @property \Stripe\StripeObject $acss_debit
  * @property \Stripe\StripeObject $alipay
- * @property null|int $amount A positive integer in the smallest currency unit (that is, 100 cents for $1.00, or 1 for ¥1, Japanese Yen being a zero-decimal currency) representing the total amount associated with the source. This is the amount for which the source will be chargeable once ready. Required for <code>single_use</code> sources.
+ * @property null|int $amount A positive integer in the smallest currency unit (that is, 100 cents for $1.00, or 1 for Â¥1, Japanese Yen being a zero-decimal currency) representing the total amount associated with the source. This is the amount for which the source will be chargeable once ready. Required for <code>single_use</code> sources.
  * @property \Stripe\StripeObject $au_becs_debit
  * @property \Stripe\StripeObject $bancontact
  * @property \Stripe\StripeObject $card

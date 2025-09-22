@@ -19,7 +19,7 @@ del{text-decoration:line-through;}
 table{border-collapse:collapse;border-spacing:0;}
 
 body {
-    font-family: Verdana, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
+    font-family: Verdana, 'ã¡ã¤ãªãª', Meiryo, 'ï¼­ï¼³ ï¼°ã´ã·ãã¯', 'ãã©ã®ãè§ã´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;
 	font-weight:normal;
     font-size:9pt;
 	color: #000;
@@ -46,7 +46,7 @@ h3 {
 }
 
 pre {
-    font-family: Menlo, Consolas, "Lucida Console", 'ＭＳ Ｐゴシック', Monospace;
+    font-family: Menlo, Consolas, "Lucida Console", 'ï¼­ï¼³ ï¼°ã´ã·ãã¯', Monospace;
     font-weight:bold;
 	font-size: 11pt;
 }
@@ -198,7 +198,7 @@ pre span.error-ln {
 				<div class="trace-file">
 					<?php if($hasCode): ?>
 						<div class="plus">+</div>
-						<div class="minus">–</div>
+						<div class="minus">â</div>
 					<?php endif; ?>
 					<?php
 						echo '&nbsp;';

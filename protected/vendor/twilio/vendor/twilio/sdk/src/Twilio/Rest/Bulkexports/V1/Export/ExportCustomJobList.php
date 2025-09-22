@@ -30,7 +30,7 @@ class ExportCustomJobList extends ListResource
      * Construct the ExportCustomJobList
      *
      * @param Version $version Version that contains the resource
-     * @param string $resourceType The type of communication – Messages or Calls, Conferences, and Participants
+     * @param string $resourceType The type of communication â Messages or Calls, Conferences, and Participants
      */
     public function __construct(
         Version $version,

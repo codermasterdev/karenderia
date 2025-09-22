@@ -35,13 +35,13 @@ class UnexpectedTokenException extends SourceException
         $this->sExpected = $sExpected;
         $this->sFound = $sFound;
         $this->sMatchType = $sMatchType;
-        $sMessage = "Token “{$sExpected}” ({$sMatchType}) not found. Got “{$sFound}”.";
+        $sMessage = "Token â{$sExpected}â ({$sMatchType}) not found. Got â{$sFound}â.";
         if ($this->sMatchType === 'search') {
-            $sMessage = "Search for “{$sExpected}” returned no results. Context: “{$sFound}”.";
+            $sMessage = "Search for â{$sExpected}â returned no results. Context: â{$sFound}â.";
         } elseif ($this->sMatchType === 'count') {
-            $sMessage = "Next token was expected to have {$sExpected} chars. Context: “{$sFound}”.";
+            $sMessage = "Next token was expected to have {$sExpected} chars. Context: â{$sFound}â.";
         } elseif ($this->sMatchType === 'identifier') {
-            $sMessage = "Identifier expected. Got “{$sFound}”";
+            $sMessage = "Identifier expected. Got â{$sFound}â";
         } elseif ($this->sMatchType === 'custom') {
             $sMessage = trim("$sExpected $sFound");
         }

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Neoprávnený prístup</title>
+<title>NeoprÃ¡vnenÃ½ prÃ­stup</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Neoprávnený prístup</h1>
+<h1>NeoprÃ¡vnenÃ½ prÃ­stup</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Nemáte prístupové oprávnenie na zobrazenie požadovanej stránky.
+NemÃ¡te prÃ­stupovÃ© oprÃ¡vnenie na zobrazenie poÅ¾adovanej strÃ¡nky.
 </p>
 <p>
-Ak sa domnievate, že príčinou chyby je webový server, kontaktujte prosím <?php echo $data['admin']; ?>.
+Ak sa domnievate, Å¾e prÃ­Äinou chyby je webovÃ½ server, kontaktujte prosÃ­m <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

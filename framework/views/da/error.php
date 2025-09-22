@@ -22,7 +22,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Fejl <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Ovenstående fejl opstod da webserveren behandlede din forespørgsel.
+OvenstÃ¥ende fejl opstod da webserveren behandlede din forespÃ¸rgsel.
 </p>
 <p>
 Hvis du tror at dette er en server-fejl, kontakt venligst <?php echo $data['admin']; ?>.

@@ -16,7 +16,7 @@ use Symfony\Component\Validator\Constraint;
 /**
  * Checks that at least one of the given constraint is satisfied.
  *
- * @author Przemysław Bogusz <przemyslaw.bogusz@tubotax.pl>
+ * @author PrzemysÅaw Bogusz <przemyslaw.bogusz@tubotax.pl>
  */
 #[\Attribute(\Attribute::TARGET_PROPERTY | \Attribute::TARGET_METHOD | \Attribute::IS_REPEATABLE)]
 class AtLeastOneOf extends Composite

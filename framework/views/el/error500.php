@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Εσωτερικό Σφάλμα Διακομιστή</title>
+<title>ÎÏÏÏÎµÏÎ¹ÎºÏ Î£ÏÎ¬Î»Î¼Î± ÎÎ¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ®</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Εσωτερικό Σφάλμα Διακομιστή</h1>
+<h1>ÎÏÏÏÎµÏÎ¹ÎºÏ Î£ÏÎ¬Î»Î¼Î± ÎÎ¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ®</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Υπήρξε ένα εσωτερικό σφάλμα στο διακομιστή κατά την επεξεργασία της αίτησής σας.
-Παρακαλούμε επικοινωνήστε με <?php echo $data['admin']; ?> για να αναφέρετε το πρόβλημα.
+Î¥ÏÎ®ÏÎ¾Îµ Î­Î½Î± ÎµÏÏÏÎµÏÎ¹ÎºÏ ÏÏÎ¬Î»Î¼Î± ÏÏÎ¿ Î´Î¹Î±ÎºÎ¿Î¼Î¹ÏÏÎ® ÎºÎ±ÏÎ¬ ÏÎ·Î½ ÎµÏÎµÎ¾ÎµÏÎ³Î±ÏÎ¯Î± ÏÎ·Ï Î±Î¯ÏÎ·ÏÎ®Ï ÏÎ±Ï.
+Î Î±ÏÎ±ÎºÎ±Î»Î¿ÏÎ¼Îµ ÎµÏÎ¹ÎºÎ¿Î¹Î½ÏÎ½Î®ÏÏÎµ Î¼Îµ <?php echo $data['admin']; ?> Î³Î¹Î± Î½Î± Î±Î½Î±ÏÎ­ÏÎµÏÎµ ÏÎ¿ ÏÏÏÎ²Î»Î·Î¼Î±.
 </p>
 <p>
-Ευχαριστούμε.
+ÎÏÏÎ±ÏÎ¹ÏÏÎ¿ÏÎ¼Îµ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

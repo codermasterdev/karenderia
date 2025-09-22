@@ -5,12 +5,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["fa"] = {
-        cancelText: "لغو",
-        chooseText: "انتخاب",
-        clearText: "تنظیم مجدد رنگ",
-        noColorSelectedText: "هیچ رنگی انتخاب نشده است!",
-        togglePaletteMoreText: "بیشتر",
-        togglePaletteLessText: "کمتر"
+        cancelText: "ÙØºÙ",
+        chooseText: "Ø§ÙØªØ®Ø§Ø¨",
+        clearText: "ØªÙØ¸ÛÙ ÙØ¬Ø¯Ø¯ Ø±ÙÚ¯",
+        noColorSelectedText: "ÙÛÚ Ø±ÙÚ¯Û Ø§ÙØªØ®Ø§Ø¨ ÙØ´Ø¯Ù Ø§Ø³Øª!",
+        togglePaletteMoreText: "Ø¨ÛØ´ØªØ±",
+        togglePaletteLessText: "Ú©ÙØªØ±"
     };
 
 })( jQuery );

@@ -227,7 +227,7 @@ class Color
             return null;
         }
 
-        // rgb( r g b [/α] ) / rgb( r,g,b[,α] ) format and alias rgba()
+        // rgb( r g b [/Î±] ) / rgb( r,g,b[,Î±] ) format and alias rgba()
         // https://www.w3.org/TR/css-color-4/#rgb-functions
         if (mb_substr($color, 0, 4) === "rgb(" || mb_substr($color, 0, 5) === "rgba(") {
             $i = mb_strpos($color, "(");
@@ -241,12 +241,12 @@ class Color
             $value_decl = trim(mb_substr($color, $i + 1, $j - $i - 1));
 
             if (mb_strpos($value_decl, ",") === false) {
-                // Space-separated values syntax `r g b` or `r g b / α`
+                // Space-separated values syntax `r g b` or `r g b / Î±`
                 $parts = preg_split("/\s*\/\s*/", $value_decl);
                 $triplet = preg_split("/\s+/", $parts[0]);
                 $alpha = $parts[1] ?? 1.0;
             } else {
-                // Comma-separated values syntax `r, g, b` or `r, g, b, α`
+                // Comma-separated values syntax `r, g, b` or `r, g, b, Î±`
                 $parts = preg_split("/\s*,\s*/", $value_decl);
                 $triplet = array_slice($parts, 0, 3);
                 $alpha = $parts[3] ?? 1.0;

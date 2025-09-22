@@ -14,10 +14,10 @@
  * NOTE, this file must be saved in UTF-8 encoding.
  */
 return array (
-  'Home' => 'Početna',
-  'The button type "{type}" is not supported.' => 'Dugme tipa "{type}" nije podržano.',
-  'Are you sure you want to delete this item?' => 'Da li ste sigurni da želite da obrišete ovu stavku?',
-  'Delete' => 'Obriši',
+  'Home' => 'PoÄetna',
+  'The button type "{type}" is not supported.' => 'Dugme tipa "{type}" nije podrÅ¾ano.',
+  'Are you sure you want to delete this item?' => 'Da li ste sigurni da Å¾elite da obriÅ¡ete ovu stavku?',
+  'Delete' => 'ObriÅ¡i',
   'Displaying {start}-{end} of {count} result(s).' => 'Prikazano {start}-{end} od {count} rezultata.',
   'Either "name" or "value" must be specified for CDataColumn.' => 'Morate postaviti vrednost "name" ili "value" promenjive za CDataColumn.',
   'No results found.' => 'Nema rezultata.',

@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
  * Note: Although in some cases it can be useful, we do not recommend using query parameters for authentication.
  * Credentials in the URL is generally unsafe as they are not encrypted, anyone can see them.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class QueryParam implements Authentication
 {

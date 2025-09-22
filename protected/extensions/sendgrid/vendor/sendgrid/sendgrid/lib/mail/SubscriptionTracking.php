@@ -39,7 +39,7 @@ class SubscriptionTracking implements \JsonSerializable
      * unsubscribe URL. for example: [unsubscribe_url]. If
      * this parameter is used, it will override both the text
      * and html parameters. The URL of the link will be placed
-     * at the substitution tag’s location, with no additional
+     * at the substitution tagâs location, with no additional
      * formatting
      */
     private $substitution_tag;
@@ -61,7 +61,7 @@ class SubscriptionTracking implements \JsonSerializable
      *                                      [unsubscribe_url]. If this parameter
      *                                      is used, it will override both the text
      *                                      and html parameters. The URL of the link
-     *                                      will be placed at the substitution tag’s
+     *                                      will be placed at the substitution tagâs
      *                                      location, with no additional formatting
      * @throws \SendGrid\Mail\TypeException
      */
@@ -171,7 +171,7 @@ class SubscriptionTracking implements \JsonSerializable
      *                                 [unsubscribe_url]. If this parameter
      *                                 is used, it will override both the text
      *                                 and html parameters. The URL of the link
-     *                                 will be placed at the substitution tag’s
+     *                                 will be placed at the substitution tagâs
      *                                 location, with no additional formatting %>
      *
      * @throws \SendGrid\Mail\TypeException

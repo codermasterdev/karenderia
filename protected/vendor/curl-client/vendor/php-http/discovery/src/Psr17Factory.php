@@ -31,7 +31,7 @@ use Psr\Http\Message\UriInterface;
  *
  * Copyright (c) 2004-2023 Fabien Potencier <fabien@symfony.com>
  * Copyright (c) 2015 Michael Dowling <mtdowling@gmail.com>
- * Copyright (c) 2015 Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * Copyright (c) 2015 MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  * Copyright (c) 2015 Graham Campbell <hello@gjcampbell.co.uk>
  * Copyright (c) 2016 Tobias Schultze <webmaster@tubo-world.de>
  * Copyright (c) 2016 George Mponos <gmponos@gmail.com>

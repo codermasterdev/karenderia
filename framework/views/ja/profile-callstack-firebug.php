@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("プロファイリングコールスタックレポート");
+	console.group("ãã­ãã¡ã¤ãªã³ã°ã³ã¼ã«ã¹ã¿ãã¯ã¬ãã¼ã");
 <?php
 foreach($data as $index=>$entry)
 {

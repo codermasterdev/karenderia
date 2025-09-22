@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>找不到網頁</h1>
+<h1>æ¾ä¸å°ç¶²é </h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-伺服器無法找到請求的 URL 對應的網頁.
-如果您是手動輸入 URL, 請檢查是否有拼寫錯誤後再重試.
+ä¼ºæå¨ç¡æ³æ¾å°è«æ±ç URL å°æçç¶²é .
+å¦ææ¨æ¯æåè¼¸å¥ URL, è«æª¢æ¥æ¯å¦ææ¼å¯«é¯èª¤å¾åéè©¦.
 </p>
 <p>
-如果您認為是伺服器錯誤所造成, 請聯絡<?php echo $data[ 'admin']; ?>.
+å¦ææ¨èªçºæ¯ä¼ºæå¨é¯èª¤æé æ, è«è¯çµ¡<?php echo $data[ 'admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

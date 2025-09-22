@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>الخدمة غير متوفرة</title>
+<title>Ø§ÙØ®Ø¯ÙØ© ØºÙØ± ÙØªÙÙØ±Ø©</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,11 +17,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>الخدمة غير متوفرة</h1>
+<h1>Ø§ÙØ®Ø¯ÙØ© ØºÙØ± ÙØªÙÙØ±Ø©</h1>
 <p>
-النظام حاليا تحت الصيانة. يرجى العودة في وقت لاحق.</p>
+Ø§ÙÙØ¸Ø§Ù Ø­Ø§ÙÙØ§ ØªØ­Øª Ø§ÙØµÙØ§ÙØ©. ÙØ±Ø¬Ù Ø§ÙØ¹ÙØ¯Ø© ÙÙ ÙÙØª ÙØ§Ø­Ù.</p>
 <p>
-شكرا لك.
+Ø´ÙØ±Ø§ ÙÙ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

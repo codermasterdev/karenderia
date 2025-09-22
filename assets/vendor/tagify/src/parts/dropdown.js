@@ -34,7 +34,7 @@ export default {
         // if text still exists in the input, and `show` method has no argument, then the input's text should be used
         value = value === undefined ? this.state.inputText : value
 
-        // ⚠️ Do not render suggestions list  if:
+        // â ï¸ Do not render suggestions list  if:
         // 1. there's no whitelist (can happen while async loading) AND new tags arn't allowed
         // 2. dropdown is disabled
         // 3. loader is showing (controlled outside of this code)

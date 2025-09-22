@@ -9,17 +9,17 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'vissza',
-      next: 'előre',
+      next: 'elÅre',
       today: 'ma',
-      month: 'Hónap',
-      week: 'Hét',
+      month: 'HÃ³nap',
+      week: 'HÃ©t',
       day: 'Nap',
       list: 'Lista',
     },
-    weekText: 'Hét',
-    allDayText: 'Egész nap',
-    moreLinkText: 'további',
-    noEventsText: 'Nincs megjeleníthető esemény',
+    weekText: 'HÃ©t',
+    allDayText: 'EgÃ©sz nap',
+    moreLinkText: 'tovÃ¡bbi',
+    noEventsText: 'Nincs megjelenÃ­thetÅ esemÃ©ny',
   };
 
   return hu;

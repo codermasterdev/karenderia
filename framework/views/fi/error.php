@@ -20,10 +20,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Virhe <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Ylläoleva virhe ilmeni palvelimen käsitellessä pyyntöä.
+YllÃ¤oleva virhe ilmeni palvelimen kÃ¤sitellessÃ¤ pyyntÃ¶Ã¤.
 </p>
 <p>
-Mikäli uskot tämän olevan palvelimen virhe, ota yhteyttä <?php echo $data['admin']; ?>.
+MikÃ¤li uskot tÃ¤mÃ¤n olevan palvelimen virhe, ota yhteyttÃ¤ <?php echo $data['admin']; ?>.
 </p>
 <p>
 Kiitos.

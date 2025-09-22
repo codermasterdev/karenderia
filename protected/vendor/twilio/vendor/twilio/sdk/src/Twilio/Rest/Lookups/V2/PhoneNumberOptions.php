@@ -23,16 +23,16 @@ abstract class PhoneNumberOptions
     /**
      * @param string $fields A comma-separated list of fields to return. Possible values are validation, caller_name, sim_swap, call_forwarding, line_status, line_type_intelligence, identity_match, reassigned_number, sms_pumping_risk, phone_number_quality_score, pre_fill.
      * @param string $countryCode The [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) used if the phone number provided is in national format.
-     * @param string $firstName User’s first name. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $lastName User’s last name. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressLine1 User’s first address line. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressLine2 User’s second address line. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $city User’s city. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $state User’s country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $postalCode User’s postal zip code. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressCountryCode User’s country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $nationalId User’s national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $dateOfBirth User’s date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $firstName Userâs first name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $lastName Userâs last name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine1 Userâs first address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine2 Userâs second address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $city Userâs city. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $state Userâs country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $postalCode Userâs postal zip code. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressCountryCode Userâs country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $nationalId Userâs national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $dateOfBirth Userâs date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
      * @param string $lastVerifiedDate The date you obtained consent to call or text the end-user of the phone number or a date on which you are reasonably certain that the end-user could still be reached at that number. This query parameter is only used (optionally) for reassigned_number package requests.
      * @param string $verificationSid The unique identifier associated with a verification process through verify API. This query parameter is only used (optionally) for pre_fill package requests.
      * @return FetchPhoneNumberOptions Options builder
@@ -81,16 +81,16 @@ class FetchPhoneNumberOptions extends Options
     /**
      * @param string $fields A comma-separated list of fields to return. Possible values are validation, caller_name, sim_swap, call_forwarding, line_status, line_type_intelligence, identity_match, reassigned_number, sms_pumping_risk, phone_number_quality_score, pre_fill.
      * @param string $countryCode The [country code](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) used if the phone number provided is in national format.
-     * @param string $firstName User’s first name. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $lastName User’s last name. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressLine1 User’s first address line. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressLine2 User’s second address line. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $city User’s city. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $state User’s country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $postalCode User’s postal zip code. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $addressCountryCode User’s country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $nationalId User’s national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
-     * @param string $dateOfBirth User’s date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $firstName Userâs first name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $lastName Userâs last name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine1 Userâs first address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine2 Userâs second address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $city Userâs city. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $state Userâs country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $postalCode Userâs postal zip code. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressCountryCode Userâs country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $nationalId Userâs national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $dateOfBirth Userâs date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
      * @param string $lastVerifiedDate The date you obtained consent to call or text the end-user of the phone number or a date on which you are reasonably certain that the end-user could still be reached at that number. This query parameter is only used (optionally) for reassigned_number package requests.
      * @param string $verificationSid The unique identifier associated with a verification process through verify API. This query parameter is only used (optionally) for pre_fill package requests.
      */
@@ -153,9 +153,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s first name. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs first name. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $firstName User’s first name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $firstName Userâs first name. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setFirstName(string $firstName): self
@@ -165,9 +165,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s last name. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs last name. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $lastName User’s last name. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $lastName Userâs last name. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setLastName(string $lastName): self
@@ -177,9 +177,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s first address line. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs first address line. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $addressLine1 User’s first address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine1 Userâs first address line. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setAddressLine1(string $addressLine1): self
@@ -189,9 +189,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s second address line. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs second address line. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $addressLine2 User’s second address line. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressLine2 Userâs second address line. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setAddressLine2(string $addressLine2): self
@@ -201,9 +201,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s city. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs city. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $city User’s city. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $city Userâs city. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setCity(string $city): self
@@ -213,9 +213,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $state User’s country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $state Userâs country subdivision, such as state, province, or locality. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setState(string $state): self
@@ -225,9 +225,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s postal zip code. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs postal zip code. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $postalCode User’s postal zip code. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $postalCode Userâs postal zip code. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setPostalCode(string $postalCode): self
@@ -237,9 +237,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $addressCountryCode User’s country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $addressCountryCode Userâs country, up to two characters. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setAddressCountryCode(string $addressCountryCode): self
@@ -249,9 +249,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $nationalId User’s national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $nationalId Userâs national ID, such as SSN or Passport ID. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setNationalId(string $nationalId): self
@@ -261,9 +261,9 @@ class FetchPhoneNumberOptions extends Options
     }
 
     /**
-     * User’s date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
+     * Userâs date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
      *
-     * @param string $dateOfBirth User’s date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
+     * @param string $dateOfBirth Userâs date of birth, in YYYYMMDD format. This query parameter is only used (optionally) for identity_match package requests.
      * @return $this Fluent Builder
      */
     public function setDateOfBirth(string $dateOfBirth): self

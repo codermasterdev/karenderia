@@ -7,7 +7,7 @@ namespace Stripe\Service;
 class RefundService extends \Stripe\Service\AbstractService
 {
     /**
-     * Returns a list of all refunds you’ve previously created. The refunds are
+     * Returns a list of all refunds youâve previously created. The refunds are
      * returned in sorted order, with the most recent refunds appearing first. For
      * convenience, the 10 most recent refunds are always available by default on the
      * charge object.

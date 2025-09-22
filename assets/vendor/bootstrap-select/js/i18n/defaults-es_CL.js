@@ -24,10 +24,10 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'No hay selección',
+    noneSelectedText: 'No hay selecciÃ³n',
     noneResultsText: 'No hay resultados {0}',
     countSelectedText: 'Seleccionados {0} de {1}',
-    maxOptionsText: ['Límite alcanzado ({n} {var} max)', 'Límite del grupo alcanzado({n} {var} max)', ['elementos', 'element']],
+    maxOptionsText: ['LÃ­mite alcanzado ({n} {var} max)', 'LÃ­mite del grupo alcanzado({n} {var} max)', ['elementos', 'element']],
     multipleSeparator: ', ',
     selectAllText: 'Seleccionar Todos',
     deselectAllText: 'Desmarcar Todos'

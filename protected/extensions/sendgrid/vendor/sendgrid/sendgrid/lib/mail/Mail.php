@@ -1884,7 +1884,7 @@ class Mail implements \JsonSerializable
      *                                                    override both the text and
      *                                                    html parameters. The URL
      *                                                    of the link will be placed
-     *                                                    at the substitution tag’s
+     *                                                    at the substitution tagâs
      *                                                    location, with no
      *                                                    additional formatting
      */

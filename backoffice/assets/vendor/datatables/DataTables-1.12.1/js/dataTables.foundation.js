@@ -1,5 +1,5 @@
 /*! DataTables Foundation integration
- * ©2011-2015 SpryMedia Ltd - datatables.net/license
+ * Â©2011-2015 SpryMedia Ltd - datatables.net/license
  */
 
 /**

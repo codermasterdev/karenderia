@@ -12,7 +12,7 @@ class CalculationService extends \Stripe\Service\AbstractService
 {
     /**
      * Retrieves the line items of a tax calculation as a collection, if the
-     * calculation hasn’t expired.
+     * calculation hasnât expired.
      *
      * @param string $id
      * @param null|array $params

@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Стек вызовов");
+	console.group("Ð¡ÑÐµÐº Ð²ÑÐ·Ð¾Ð²Ð¾Ð²");
 <?php
 foreach($data as $index=>$entry)
 {

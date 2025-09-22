@@ -26,7 +26,7 @@ use Symfony\Contracts\HttpClient\HttpClientInterface;
  *
  * @see https://haveibeenpwned.com/API/v2#SearchingPwnedPasswordsByRange
  *
- * @author Kévin Dunglas <dunglas@gmail.com>
+ * @author KÃ©vin Dunglas <dunglas@gmail.com>
  */
 class NotCompromisedPasswordValidator extends ConstraintValidator
 {

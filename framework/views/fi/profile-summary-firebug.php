@@ -3,7 +3,7 @@
 if(typeof(console)=='object')
 {
 	console.group("Profiloinnin yhteenvetoraportti");
-	console.log(" lukum.  yht.    keskim.    väh.     enint.");
+	console.log(" lukum.  yht.    keskim.    vÃ¤h.     enint.");
 <?php
 foreach($data as $index=>$entry)
 {

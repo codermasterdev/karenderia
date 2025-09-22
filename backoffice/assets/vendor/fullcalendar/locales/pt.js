@@ -11,7 +11,7 @@ FullCalendar.globalLocales.push(function () {
       prev: 'Anterior',
       next: 'Seguinte',
       today: 'Hoje',
-      month: 'Mês',
+      month: 'MÃªs',
       week: 'Semana',
       day: 'Dia',
       list: 'Agenda',
@@ -19,7 +19,7 @@ FullCalendar.globalLocales.push(function () {
     weekText: 'Sem',
     allDayText: 'Todo o dia',
     moreLinkText: 'mais',
-    noEventsText: 'Não há eventos para mostrar',
+    noEventsText: 'NÃ£o hÃ¡ eventos para mostrar',
   };
 
   return pt;

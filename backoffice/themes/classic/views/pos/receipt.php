@@ -167,7 +167,7 @@ persistent
                 <template v-for="(addons, index_addon) in items.addons" >
                 <div class="row">
                    <div class="col-2"></div>
-                   <div class="col"><span class="circle-symbol">●</span> {{addons.subcategory_name}}</div>
+                   <div class="col"><span class="circle-symbol">â</span> {{addons.subcategory_name}}</div>
                 </div>                
                 <template v-for="addon_items in addons.addon_items">
                 <div class="row">                    

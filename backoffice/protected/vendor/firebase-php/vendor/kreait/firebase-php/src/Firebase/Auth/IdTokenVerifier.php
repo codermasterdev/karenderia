@@ -44,7 +44,7 @@ final class IdTokenVerifier implements Verifier
 
     public function verifyIdToken($token): Token
     {
-        // We get $now now™ so that it doesn't change while processing
+        // We get $now nowâ¢ so that it doesn't change while processing
         $now = $this->clock->now();
 
         $token = $this->ensureToken($token);

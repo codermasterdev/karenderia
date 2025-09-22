@@ -285,11 +285,11 @@ class TranslatorTest extends TestCase
 
             // Negative values
             ['-1 degree', '%count% degree|%count% degrees', -1],
-            ['-1 degré', '%count% degré|%count% degrés', -1],
+            ['-1 degrÃ©', '%count% degrÃ©|%count% degrÃ©s', -1],
             ['-1.5 degrees', '%count% degree|%count% degrees', -1.5],
-            ['-1.5 degré', '%count% degré|%count% degrés', -1.5, 'fr'],
+            ['-1.5 degrÃ©', '%count% degrÃ©|%count% degrÃ©s', -1.5, 'fr'],
             ['-2 degrees', '%count% degree|%count% degrees', -2],
-            ['-2 degrés', '%count% degré|%count% degrés', -2],
+            ['-2 degrÃ©s', '%count% degrÃ©|%count% degrÃ©s', -2],
         ];
     }
 

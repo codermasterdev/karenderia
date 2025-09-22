@@ -11,7 +11,7 @@ class Address
     /** The city where the user is located. */
     public ?string $city;
 
-    /** The state code where the user is located (e.g., "BR-SP" for São Paulo, Brazil). */
+    /** The state code where the user is located (e.g., "BR-SP" for SÃ£o Paulo, Brazil). */
     public ?string $state;
 
     /** The ZIP code of the user's location. */

@@ -7,7 +7,7 @@ namespace Stripe\Service;
 class ApplicationFeeService extends \Stripe\Service\AbstractService
 {
     /**
-     * Returns a list of application fees you’ve previously collected. The application
+     * Returns a list of application fees youâve previously collected. The application
      * fees are returned in sorted order, with the most recent fees appearing first.
      *
      * @param null|array $params
@@ -50,7 +50,7 @@ class ApplicationFeeService extends \Stripe\Service\AbstractService
      * You can optionally refund only part of an application fee. You can do so
      * multiple times, until the entire fee has been refunded.
      *
-     * Once entirely refunded, an application fee can’t be refunded again. This method
+     * Once entirely refunded, an application fee canât be refunded again. This method
      * will raise an error when called on an already-refunded application fee, or when
      * trying to refund more money than is left on an application fee.
      *

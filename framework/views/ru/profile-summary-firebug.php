@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Общий отчет");
-	console.log(" номер   всего   среднее    мин      макс  ");
+	console.group("ÐÐ±ÑÐ¸Ð¹ Ð¾ÑÑÐµÑ");
+	console.log(" Ð½Ð¾Ð¼ÐµÑ   Ð²ÑÐµÐ³Ð¾   ÑÑÐµÐ´Ð½ÐµÐµ    Ð¼Ð¸Ð½      Ð¼Ð°ÐºÑ  ");
 <?php
 foreach($data as $index=>$entry)
 {

@@ -116,57 +116,57 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'mn-MN': {
       font: {
-        bold: 'Тод',
-        italic: 'Налуу',
-        underline: 'Доогуур зураас',
-        clear: 'Цэвэрлэх',
-        height: 'Өндөр',
-        name: 'Фонт',
-        superscript: 'Дээд илтгэгч',
-        subscript: 'Доод илтгэгч',
-        strikethrough: 'Дарах',
-        size: 'Хэмжээ'
+        bold: 'Ð¢Ð¾Ð´',
+        italic: 'ÐÐ°Ð»ÑÑ',
+        underline: 'ÐÐ¾Ð¾Ð³ÑÑÑ Ð·ÑÑÐ°Ð°Ñ',
+        clear: 'Ð¦ÑÐ²ÑÑÐ»ÑÑ',
+        height: 'Ó¨Ð½Ð´Ó©Ñ',
+        name: 'Ð¤Ð¾Ð½Ñ',
+        superscript: 'ÐÑÑÐ´ Ð¸Ð»ÑÐ³ÑÐ³Ñ',
+        subscript: 'ÐÐ¾Ð¾Ð´ Ð¸Ð»ÑÐ³ÑÐ³Ñ',
+        strikethrough: 'ÐÐ°ÑÐ°Ñ',
+        size: 'Ð¥ÑÐ¼Ð¶ÑÑ'
       },
       image: {
-        image: 'Зураг',
-        insert: 'Оруулах',
-        resizeFull: 'Хэмжээ бүтэн',
-        resizeHalf: 'Хэмжээ 1/2',
-        resizeQuarter: 'Хэмжээ 1/4',
-        floatLeft: 'Зүүн талд байрлуулах',
-        floatRight: 'Баруун талд байрлуулах',
-        floatNone: 'Анхдагч байрлалд аваачих',
-        shapeRounded: 'Хүрээ: Дугуй',
-        shapeCircle: 'Хүрээ: Тойрог',
-        shapeThumbnail: 'Хүрээ: Хураангуй',
-        shapeNone: 'Хүрээгүй',
-        dragImageHere: 'Зургийг энд чирч авчирна уу',
+        image: 'ÐÑÑÐ°Ð³',
+        insert: 'ÐÑÑÑÐ»Ð°Ñ',
+        resizeFull: 'Ð¥ÑÐ¼Ð¶ÑÑ Ð±Ò¯ÑÑÐ½',
+        resizeHalf: 'Ð¥ÑÐ¼Ð¶ÑÑ 1/2',
+        resizeQuarter: 'Ð¥ÑÐ¼Ð¶ÑÑ 1/4',
+        floatLeft: 'ÐÒ¯Ò¯Ð½ ÑÐ°Ð»Ð´ Ð±Ð°Ð¹ÑÐ»ÑÑÐ»Ð°Ñ',
+        floatRight: 'ÐÐ°ÑÑÑÐ½ ÑÐ°Ð»Ð´ Ð±Ð°Ð¹ÑÐ»ÑÑÐ»Ð°Ñ',
+        floatNone: 'ÐÐ½ÑÐ´Ð°Ð³Ñ Ð±Ð°Ð¹ÑÐ»Ð°Ð»Ð´ Ð°Ð²Ð°Ð°ÑÐ¸Ñ',
+        shapeRounded: 'Ð¥Ò¯ÑÑÑ: ÐÑÐ³ÑÐ¹',
+        shapeCircle: 'Ð¥Ò¯ÑÑÑ: Ð¢Ð¾Ð¹ÑÐ¾Ð³',
+        shapeThumbnail: 'Ð¥Ò¯ÑÑÑ: Ð¥ÑÑÐ°Ð°Ð½Ð³ÑÐ¹',
+        shapeNone: 'Ð¥Ò¯ÑÑÑÐ³Ò¯Ð¹',
+        dragImageHere: 'ÐÑÑÐ³Ð¸Ð¹Ð³ ÑÐ½Ð´ ÑÐ¸ÑÑ Ð°Ð²ÑÐ¸ÑÐ½Ð° ÑÑ',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'Файлуудаас сонгоно уу',
-        maximumFileSize: 'Файлын дээд хэмжээ',
-        maximumFileSizeError: 'Файлын дээд хэмжээ хэтэрсэн',
-        url: 'Зургийн URL',
-        remove: 'Зургийг устгах',
+        selectFromFiles: 'Ð¤Ð°Ð¹Ð»ÑÑÐ´Ð°Ð°Ñ ÑÐ¾Ð½Ð³Ð¾Ð½Ð¾ ÑÑ',
+        maximumFileSize: 'Ð¤Ð°Ð¹Ð»ÑÐ½ Ð´ÑÑÐ´ ÑÑÐ¼Ð¶ÑÑ',
+        maximumFileSizeError: 'Ð¤Ð°Ð¹Ð»ÑÐ½ Ð´ÑÑÐ´ ÑÑÐ¼Ð¶ÑÑ ÑÑÑÑÑÑÑÐ½',
+        url: 'ÐÑÑÐ³Ð¸Ð¹Ð½ URL',
+        remove: 'ÐÑÑÐ³Ð¸Ð¹Ð³ ÑÑÑÐ³Ð°Ñ',
         original: 'Original'
       },
       video: {
-        video: 'Видео',
-        videoLink: 'Видео холбоос',
-        insert: 'Видео оруулах',
-        url: 'Видео URL?',
-        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion болон Youku)'
+        video: 'ÐÐ¸Ð´ÐµÐ¾',
+        videoLink: 'ÐÐ¸Ð´ÐµÐ¾ ÑÐ¾Ð»Ð±Ð¾Ð¾Ñ',
+        insert: 'ÐÐ¸Ð´ÐµÐ¾ Ð¾ÑÑÑÐ»Ð°Ñ',
+        url: 'ÐÐ¸Ð´ÐµÐ¾ URL?',
+        providers: '(YouTube, Vimeo, Vine, Instagram, DailyMotion Ð±Ð¾Ð»Ð¾Ð½ Youku)'
       },
       link: {
-        link: 'Холбоос',
-        insert: 'Холбоос оруулах',
-        unlink: 'Холбоос арилгах',
-        edit: 'Засварлах',
-        textToDisplay: 'Харуулах бичвэр',
-        url: 'Энэ холбоос хаашаа очих вэ?',
-        openInNewWindow: 'Шинэ цонхонд нээх'
+        link: 'Ð¥Ð¾Ð»Ð±Ð¾Ð¾Ñ',
+        insert: 'Ð¥Ð¾Ð»Ð±Ð¾Ð¾Ñ Ð¾ÑÑÑÐ»Ð°Ñ',
+        unlink: 'Ð¥Ð¾Ð»Ð±Ð¾Ð¾Ñ Ð°ÑÐ¸Ð»Ð³Ð°Ñ',
+        edit: 'ÐÐ°ÑÐ²Ð°ÑÐ»Ð°Ñ',
+        textToDisplay: 'Ð¥Ð°ÑÑÑÐ»Ð°Ñ Ð±Ð¸ÑÐ²ÑÑ',
+        url: 'Ð­Ð½Ñ ÑÐ¾Ð»Ð±Ð¾Ð¾Ñ ÑÐ°Ð°ÑÐ°Ð° Ð¾ÑÐ¸Ñ Ð²Ñ?',
+        openInNewWindow: 'Ð¨Ð¸Ð½Ñ ÑÐ¾Ð½ÑÐ¾Ð½Ð´ Ð½ÑÑÑ'
       },
       table: {
-        table: 'Хүснэгт',
+        table: 'Ð¥Ò¯ÑÐ½ÑÐ³Ñ',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -176,55 +176,55 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Хэвтээ шугам оруулах'
+        insert: 'Ð¥ÑÐ²ÑÑÑ ÑÑÐ³Ð°Ð¼ Ð¾ÑÑÑÐ»Ð°Ñ'
       },
       style: {
-        style: 'Хэв маяг',
+        style: 'Ð¥ÑÐ² Ð¼Ð°ÑÐ³',
         p: 'p',
-        blockquote: 'Иш татах',
-        pre: 'Эх сурвалж',
-        h1: 'Гарчиг 1',
-        h2: 'Гарчиг 2',
-        h3: 'Гарчиг 3',
-        h4: 'Гарчиг 4',
-        h5: 'Гарчиг 5',
-        h6: 'Гарчиг 6'
+        blockquote: 'ÐÑ ÑÐ°ÑÐ°Ñ',
+        pre: 'Ð­Ñ ÑÑÑÐ²Ð°Ð»Ð¶',
+        h1: 'ÐÐ°ÑÑÐ¸Ð³ 1',
+        h2: 'ÐÐ°ÑÑÐ¸Ð³ 2',
+        h3: 'ÐÐ°ÑÑÐ¸Ð³ 3',
+        h4: 'ÐÐ°ÑÑÐ¸Ð³ 4',
+        h5: 'ÐÐ°ÑÑÐ¸Ð³ 5',
+        h6: 'ÐÐ°ÑÑÐ¸Ð³ 6'
       },
       lists: {
-        unordered: 'Эрэмбэлэгдээгүй',
-        ordered: 'Эрэмбэлэгдсэн'
+        unordered: 'Ð­ÑÑÐ¼Ð±ÑÐ»ÑÐ³Ð´ÑÑÐ³Ò¯Ð¹',
+        ordered: 'Ð­ÑÑÐ¼Ð±ÑÐ»ÑÐ³Ð´ÑÑÐ½'
       },
       options: {
-        help: 'Тусламж',
-        fullscreen: 'Дэлгэцийг дүүргэх',
-        codeview: 'HTML-Code харуулах'
+        help: 'Ð¢ÑÑÐ»Ð°Ð¼Ð¶',
+        fullscreen: 'ÐÑÐ»Ð³ÑÑÐ¸Ð¹Ð³ Ð´Ò¯Ò¯ÑÐ³ÑÑ',
+        codeview: 'HTML-Code ÑÐ°ÑÑÑÐ»Ð°Ñ'
       },
       paragraph: {
-        paragraph: 'Хэсэг',
-        outdent: 'Догол мөр хасах',
-        indent: 'Догол мөр нэмэх',
-        left: 'Зүүн тийш эгнүүлэх',
-        center: 'Төвд эгнүүлэх',
-        right: 'Баруун тийш эгнүүлэх',
-        justify: 'Мөрийг тэгшлэх'
+        paragraph: 'Ð¥ÑÑÑÐ³',
+        outdent: 'ÐÐ¾Ð³Ð¾Ð» Ð¼Ó©Ñ ÑÐ°ÑÐ°Ñ',
+        indent: 'ÐÐ¾Ð³Ð¾Ð» Ð¼Ó©Ñ Ð½ÑÐ¼ÑÑ',
+        left: 'ÐÒ¯Ò¯Ð½ ÑÐ¸Ð¹Ñ ÑÐ³Ð½Ò¯Ò¯Ð»ÑÑ',
+        center: 'Ð¢Ó©Ð²Ð´ ÑÐ³Ð½Ò¯Ò¯Ð»ÑÑ',
+        right: 'ÐÐ°ÑÑÑÐ½ ÑÐ¸Ð¹Ñ ÑÐ³Ð½Ò¯Ò¯Ð»ÑÑ',
+        justify: 'ÐÓ©ÑÐ¸Ð¹Ð³ ÑÑÐ³ÑÐ»ÑÑ'
       },
       color: {
-        recent: 'Сүүлд хэрэглэсэн өнгө',
-        more: 'Өөр өнгөнүүд',
-        background: 'Дэвсгэр өнгө',
-        foreground: 'Үсгийн өнгө',
-        transparent: 'Тунгалаг',
-        setTransparent: 'Тунгалаг болгох',
-        reset: 'Анхдагч өнгөөр тохируулах',
-        resetToDefault: 'Хэвд нь оруулах'
+        recent: 'Ð¡Ò¯Ò¯Ð»Ð´ ÑÑÑÑÐ³Ð»ÑÑÑÐ½ Ó©Ð½Ð³Ó©',
+        more: 'Ó¨Ó©Ñ Ó©Ð½Ð³Ó©Ð½Ò¯Ò¯Ð´',
+        background: 'ÐÑÐ²ÑÐ³ÑÑ Ó©Ð½Ð³Ó©',
+        foreground: 'Ò®ÑÐ³Ð¸Ð¹Ð½ Ó©Ð½Ð³Ó©',
+        transparent: 'Ð¢ÑÐ½Ð³Ð°Ð»Ð°Ð³',
+        setTransparent: 'Ð¢ÑÐ½Ð³Ð°Ð»Ð°Ð³ Ð±Ð¾Ð»Ð³Ð¾Ñ',
+        reset: 'ÐÐ½ÑÐ´Ð°Ð³Ñ Ó©Ð½Ð³Ó©Ó©Ñ ÑÐ¾ÑÐ¸ÑÑÑÐ»Ð°Ñ',
+        resetToDefault: 'Ð¥ÑÐ²Ð´ Ð½Ñ Ð¾ÑÑÑÐ»Ð°Ñ'
       },
       shortcut: {
-        shortcuts: 'Богино холбоос',
-        close: 'Хаалт',
-        textFormatting: 'Бичвэрийг хэлбэржүүлэх',
-        action: 'Үйлдэл',
-        paragraphFormatting: 'Догол мөрийг хэлбэржүүлэх',
-        documentStyle: 'Бичиг баримтын хэв загвар',
+        shortcuts: 'ÐÐ¾Ð³Ð¸Ð½Ð¾ ÑÐ¾Ð»Ð±Ð¾Ð¾Ñ',
+        close: 'Ð¥Ð°Ð°Ð»Ñ',
+        textFormatting: 'ÐÐ¸ÑÐ²ÑÑÐ¸Ð¹Ð³ ÑÑÐ»Ð±ÑÑÐ¶Ò¯Ò¯Ð»ÑÑ',
+        action: 'Ò®Ð¹Ð»Ð´ÑÐ»',
+        paragraphFormatting: 'ÐÐ¾Ð³Ð¾Ð» Ð¼Ó©ÑÐ¸Ð¹Ð³ ÑÑÐ»Ð±ÑÑÐ¶Ò¯Ò¯Ð»ÑÑ',
+        documentStyle: 'ÐÐ¸ÑÐ¸Ð³ Ð±Ð°ÑÐ¸Ð¼ÑÑÐ½ ÑÑÐ² Ð·Ð°Ð³Ð²Ð°Ñ',
         extraKeys: 'Extra keys'
       },
       help: {
@@ -257,12 +257,12 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Буцаах',
-        redo: 'Дахин хийх'
+        undo: 'ÐÑÑÐ°Ð°Ñ',
+        redo: 'ÐÐ°ÑÐ¸Ð½ ÑÐ¸Ð¹Ñ'
       },
       specialChar: {
-        specialChar: 'Тусгай тэмдэгт',
-        select: 'Тусгай тэмдэгт сонгох'
+        specialChar: 'Ð¢ÑÑÐ³Ð°Ð¹ ÑÑÐ¼Ð´ÑÐ³Ñ',
+        select: 'Ð¢ÑÑÐ³Ð°Ð¹ ÑÑÐ¼Ð´ÑÐ³Ñ ÑÐ¾Ð½Ð³Ð¾Ñ'
       }
     }
   });

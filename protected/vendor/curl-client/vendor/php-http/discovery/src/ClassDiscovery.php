@@ -12,7 +12,7 @@ use Http\Discovery\Strategy\DiscoveryStrategy;
  * Registry that based find results on class existence.
  *
  * @author David de Boer <david@ddeboer.nl>
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  * @author Tobias Nyholm <tobias.nyholm@gmail.com>
  */
 abstract class ClassDiscovery

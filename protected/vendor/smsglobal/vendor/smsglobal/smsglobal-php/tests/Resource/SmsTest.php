@@ -276,7 +276,7 @@ class SmsTest extends TestCase
         try {
             $sms = new Sms();
             // failing with using non UTF8 text.
-            $sms->rawPayload(['message' => utf8_decode("ü")]);
+            $sms->rawPayload(['message' => utf8_decode("Ã¼")]);
         } catch (ResourceNotFoundException $e) {
             $this->fail('This test should not have failed');
         } catch (CredentialsException $e) {

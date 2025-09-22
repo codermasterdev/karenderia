@@ -74,8 +74,8 @@ class PaymentMethodDomainService extends \Stripe\Service\AbstractService
 
     /**
      * Some payment methods such as Apple Pay require additional steps to verify a
-     * domain. If the requirements weren’t satisfied when the domain was created, the
-     * payment method will be inactive on the domain. The payment method doesn’t appear
+     * domain. If the requirements werenât satisfied when the domain was created, the
+     * payment method will be inactive on the domain. The payment method doesnât appear
      * in Elements for this domain until it is active.
      *
      * To activate a payment method on an existing payment method domain, complete the

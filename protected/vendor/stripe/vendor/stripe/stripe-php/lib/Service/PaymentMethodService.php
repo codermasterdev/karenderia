@@ -38,7 +38,7 @@ class PaymentMethodService extends \Stripe\Service\AbstractService
      * To use this PaymentMethod as the default for invoice or subscription payments,
      * set <a
      * href="/docs/api/customers/update#update_customer-invoice_settings-default_payment_method"><code>invoice_settings.default_payment_method</code></a>,
-     * on the Customer to the PaymentMethod’s ID.
+     * on the Customer to the PaymentMethodâs ID.
      *
      * @param string $id
      * @param null|array $params

@@ -10,7 +10,7 @@ namespace Stripe;
  * Plans define the base price, currency, and billing cycle for recurring purchases of products.
  * <a href="https://stripe.com/docs/api#products">Products</a> help you track inventory or provisioning, and plans help you track pricing. Different physical goods or levels of service should be represented by products, and pricing options should be represented by plans. This approach lets you change prices without having to change your provisioning scheme.
  *
- * For example, you might have a single &quot;gold&quot; product that has plans for $10/month, $100/year, €9/month, and €90/year.
+ * For example, you might have a single &quot;gold&quot; product that has plans for $10/month, $100/year, â¬9/month, and â¬90/year.
  *
  * Related guides: <a href="https://stripe.com/docs/billing/subscriptions/set-up-subscription">Set up a subscription</a> and more about <a href="https://stripe.com/docs/products-prices/overview">products and prices</a>.
  *
@@ -86,7 +86,7 @@ class Plan extends ApiResource
     }
 
     /**
-     * Deleting plans means new subscribers can’t be added. Existing subscribers aren’t
+     * Deleting plans means new subscribers canât be added. Existing subscribers arenât
      * affected.
      *
      * @param null|array $params
@@ -146,7 +146,7 @@ class Plan extends ApiResource
     /**
      * Updates the specified plan by setting the values of the parameters passed. Any
      * parameters not provided are left unchanged. By design, you cannot change a
-     * plan’s ID, amount, currency, or billing cycle.
+     * planâs ID, amount, currency, or billing cycle.
      *
      * @param string $id the ID of the resource to update
      * @param null|array $params

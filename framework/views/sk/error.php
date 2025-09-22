@@ -22,13 +22,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Chyba <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Počas zpracovania vašej požiadavky sa vyskytla uvedená chyba.
+PoÄas zpracovania vaÅ¡ej poÅ¾iadavky sa vyskytla uvedenÃ¡ chyba.
 </p>
 <p>
-Ak sa domnievate, že príčinou chyby je webový server, kontaktujte prosím <?php echo $data['admin']; ?>.
+Ak sa domnievate, Å¾e prÃ­Äinou chyby je webovÃ½ server, kontaktujte prosÃ­m <?php echo $data['admin']; ?>.
 </p>
 <p>
-Ďakujeme.
+Äakujeme.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

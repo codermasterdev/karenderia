@@ -12,7 +12,7 @@
 namespace Twig\Extension;
 
 /**
- * @author Grégoire Pineau <lyrixx@lyrixx.info>
+ * @author GrÃ©goire Pineau <lyrixx@lyrixx.info>
  */
 interface RuntimeExtensionInterface
 {

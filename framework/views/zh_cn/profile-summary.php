@@ -2,18 +2,18 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			程序概要分析 - 报告概述
-			(时间: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?> 秒,
-			内存: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			ç¨åºæ¦è¦åæ - æ¥åæ¦è¿°
+			(æ¶é´: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?> ç§,
+			åå­: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>程序</th>
-		<th>数量</th>
-		<th>总计 (秒)</th>
-		<th>平均 (秒)</th>
-		<th>最小 (秒)</th>
-		<th>最大 (秒)</th>
+	    <th>ç¨åº</th>
+		<th>æ°é</th>
+		<th>æ»è®¡ (ç§)</th>
+		<th>å¹³å (ç§)</th>
+		<th>æå° (ç§)</th>
+		<th>æå¤§ (ç§)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

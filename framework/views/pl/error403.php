@@ -20,10 +20,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Zabroniony</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Nie posiadasz odpowiedniego uwierzytelnienia aby mieć dostęp do tej strony.
+Nie posiadasz odpowiedniego uwierzytelnienia aby mieÄ dostÄp do tej strony.
 </p>
 <p>
-Jeśli myślisz, że jest to błąd serwera proszę skontaktuj się z <?php echo $data['admin']; ?>.
+JeÅli myÅlisz, Å¼e jest to bÅÄd serwera proszÄ skontaktuj siÄ z <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

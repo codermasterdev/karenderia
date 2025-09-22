@@ -10,7 +10,7 @@ use Psr\Http\Client\ClientInterface;
 /**
  * Build an instance of a PluginClient with a dynamic list of plugins.
  *
- * @author Baptiste Clavié <clavie.b@gmail.com>
+ * @author Baptiste ClaviÃ© <clavie.b@gmail.com>
  */
 final class PluginClientBuilder
 {

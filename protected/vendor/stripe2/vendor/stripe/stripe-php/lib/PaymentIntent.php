@@ -19,7 +19,7 @@ namespace Stripe;
  *
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property int $amount Amount intended to be collected by this PaymentIntent. A positive integer representing how much to charge in the <a href="https://stripe.com/docs/currencies#zero-decimal">smallest currency unit</a> (e.g., 100 cents to charge $1.00 or 100 to charge ¥100, a zero-decimal currency). The minimum amount is $0.50 US or <a href="https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts">equivalent in charge currency</a>. The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
+ * @property int $amount Amount intended to be collected by this PaymentIntent. A positive integer representing how much to charge in the <a href="https://stripe.com/docs/currencies#zero-decimal">smallest currency unit</a> (e.g., 100 cents to charge $1.00 or 100 to charge Â¥100, a zero-decimal currency). The minimum amount is $0.50 US or <a href="https://stripe.com/docs/currencies#minimum-and-maximum-charge-amounts">equivalent in charge currency</a>. The amount value supports up to eight digits (e.g., a value of 99999999 for a USD charge of $999,999.99).
  * @property int $amount_capturable Amount that can be captured from this PaymentIntent.
  * @property null|\Stripe\StripeObject $amount_details
  * @property int $amount_received Amount that this PaymentIntent collects.
@@ -52,8 +52,8 @@ namespace Stripe;
  * @property null|string $setup_future_usage <p>Indicates that you intend to make future payments with this PaymentIntent's payment method.</p><p>Providing this parameter will <a href="https://stripe.com/docs/payments/save-during-payment">attach the payment method</a> to the PaymentIntent's Customer, if present, after the PaymentIntent is confirmed and any required actions from the user are complete. If no Customer was provided, the payment method can still be <a href="https://stripe.com/docs/api/payment_methods/attach">attached</a> to a Customer after the transaction completes.</p><p>When processing card payments, Stripe also uses <code>setup_future_usage</code> to dynamically optimize your payment flow and comply with regional legislation and network rules, such as <a href="https://stripe.com/docs/strong-customer-authentication">SCA</a>.</p>
  * @property null|\Stripe\StripeObject $shipping Shipping information for this PaymentIntent.
  * @property null|string|\Stripe\Account|\Stripe\BankAccount|\Stripe\Card|\Stripe\Source $source This is a legacy field that will be removed in the future. It is the ID of the Source object that is associated with this PaymentIntent, if one was supplied.
- * @property null|string $statement_descriptor For card charges, use <a href="https://stripe.com/docs/payments/account/statement-descriptors#dynamic">statement_descriptor_suffix</a>. Otherwise, you can use this value as the complete description of a charge on your customers' statements. It must contain at least one letter and be 1–22 characters long.
- * @property null|string $statement_descriptor_suffix Provides information about a card payment that customers see on their statements. Concatenated with the prefix (shortened descriptor) or statement descriptor that’s set on the account to form the complete statement descriptor. Maximum 22 characters for the concatenated descriptor.
+ * @property null|string $statement_descriptor For card charges, use <a href="https://stripe.com/docs/payments/account/statement-descriptors#dynamic">statement_descriptor_suffix</a>. Otherwise, you can use this value as the complete description of a charge on your customers' statements. It must contain at least one letter and be 1â22 characters long.
+ * @property null|string $statement_descriptor_suffix Provides information about a card payment that customers see on their statements. Concatenated with the prefix (shortened descriptor) or statement descriptor thatâs set on the account to form the complete statement descriptor. Maximum 22 characters for the concatenated descriptor.
  * @property string $status Status of this PaymentIntent, one of <code>requires_payment_method</code>, <code>requires_confirmation</code>, <code>requires_action</code>, <code>processing</code>, <code>requires_capture</code>, <code>canceled</code>, or <code>succeeded</code>. Read more about each PaymentIntent <a href="https://stripe.com/docs/payments/intents#intent-statuses">status</a>.
  * @property null|\Stripe\StripeObject $transfer_data The data that automatically creates a Transfer after the payment finalizes. Learn more about the <a href="https://stripe.com/docs/payments/connected-accounts">use case for connected accounts</a>.
  * @property null|string $transfer_group A string that identifies the resulting payment as part of a group. Learn more about the <a href="https://stripe.com/docs/connect/separate-charges-and-transfers">use case for connected accounts</a>.
@@ -98,7 +98,7 @@ class PaymentIntent extends ApiResource
      * Learn more about <a href="/docs/payments/payment-intents">the available payment
      * flows with the Payment Intents API</a>.
      *
-     * When you use <code>confirm=true</code> during creation, it’s equivalent to
+     * When you use <code>confirm=true</code> during creation, itâs equivalent to
      * creating and confirming the PaymentIntent in the same call. You can use any
      * parameters available in the <a href="/docs/api/payment_intents/confirm">confirm
      * API</a> when you supply <code>confirm=true</code>.

@@ -2,13 +2,13 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="6">
-			Profiliavimo suvestinė
-			(užtruko: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
-			užėmė atminties: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
+			Profiliavimo suvestinÄ
+			(uÅ¾truko: <?php echo sprintf('%0.5f',Yii::getLogger()->getExecutionTime()); ?>s,
+			uÅ¾ÄmÄ atminties: <?php echo number_format(Yii::getLogger()->getMemoryUsage()/1024); ?>KB)
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Procedūra</th>
+	    <th>ProcedÅ«ra</th>
 		<th>Kiekis</th>
 		<th>Viso (s)</th>
 		<th>Vid. (s)</th>

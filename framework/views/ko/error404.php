@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>페이지 없음</title>
+<title>íì´ì§ ìì</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>페이지 없음</h1>
+<h1>íì´ì§ ìì</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-서버에서 요청한 URL을 찾을 수 없습니다.
-직접 URL을 입력했다면 스펠링을 확인 후 다시 시도하기 바랍니다.
+ìë²ìì ìì²­í URLì ì°¾ì ì ììµëë¤.
+ì§ì  URLì ìë ¥íë¤ë©´ ì¤í ë§ì íì¸ í ë¤ì ìëíê¸° ë°ëëë¤.
 </p>
 <p>
-서버 에러로 의심되면 <?php echo $data['admin']; ?>에게 문의 바랍니다.
+ìë² ìë¬ë¡ ìì¬ëë©´ <?php echo $data['admin']; ?>ìê² ë¬¸ì ë°ëëë¤.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

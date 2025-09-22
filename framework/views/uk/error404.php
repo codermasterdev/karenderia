@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="uk" lang="uk">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Сторінка не знайдена</title>
+<title>Ð¡ÑÐ¾ÑÑÐ½ÐºÐ° Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð°</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Сторінка не знайдена</h1>
+<h1>Ð¡ÑÐ¾ÑÑÐ½ÐºÐ° Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð°</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Запитана вами сторінка не знайдена на сервері.
-Якщо ви ввели адресу сторінки вручну, будь ласка, перевірте правильність її написання і повторіть спробу.
+ÐÐ°Ð¿Ð¸ÑÐ°Ð½Ð° Ð²Ð°Ð¼Ð¸ ÑÑÐ¾ÑÑÐ½ÐºÐ° Ð½Ðµ Ð·Ð½Ð°Ð¹Ð´ÐµÐ½Ð° Ð½Ð° ÑÐµÑÐ²ÐµÑÑ.
+Ð¯ÐºÑÐ¾ Ð²Ð¸ Ð²Ð²ÐµÐ»Ð¸ Ð°Ð´ÑÐµÑÑ ÑÑÐ¾ÑÑÐ½ÐºÐ¸ Ð²ÑÑÑÐ½Ñ, Ð±ÑÐ´Ñ Ð»Ð°ÑÐºÐ°, Ð¿ÐµÑÐµÐ²ÑÑÑÐµ Ð¿ÑÐ°Ð²Ð¸Ð»ÑÐ½ÑÑÑÑ ÑÑ Ð½Ð°Ð¿Ð¸ÑÐ°Ð½Ð½Ñ Ñ Ð¿Ð¾Ð²ÑÐ¾ÑÑÑÑ ÑÐ¿ÑÐ¾Ð±Ñ.
 </p>
 <p>
-Якщо ви вважаєте, що це помилка налаштування сервера, зверніться за адресою <?php echo $data['admin']; ?>.
+Ð¯ÐºÑÐ¾ Ð²Ð¸ Ð²Ð²Ð°Ð¶Ð°ÑÑÐµ, ÑÐ¾ ÑÐµ Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ ÑÐµÑÐ²ÐµÑÐ°, Ð·Ð²ÐµÑÐ½ÑÑÑÑÑ Ð·Ð° Ð°Ð´ÑÐµÑÐ¾Ñ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Nieprawidłowe zapytanie</title>
+<title>NieprawidÅowe zapytanie</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Nieprawidłowe zapytanie</h1>
+<h1>NieprawidÅowe zapytanie</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Zapytanie nie może być zrozumiane przez serwer ze względu na niepoprawną składnię.
-Proszę nie powtarzaj żądania bez uprzedniej modyfikacji.
+Zapytanie nie moÅ¼e byÄ zrozumiane przez serwer ze wzglÄdu na niepoprawnÄ skÅadniÄ.
+ProszÄ nie powtarzaj Å¼Ädania bez uprzedniej modyfikacji.
 </p>
 <p>
-Jeśli myślisz, że jest to błąd serwera proszę skontaktuj się z <?php echo $data['admin']; ?>.
+JeÅli myÅlisz, Å¼e jest to bÅÄd serwera proszÄ skontaktuj siÄ z <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

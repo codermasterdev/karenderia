@@ -19,7 +19,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <body>
 <h1>Usluga nedostupna!</h1>
 <p>
-Naš sustav je trenutno u procesu održavanja. Molimo vas da navratite kasnije.
+NaÅ¡ sustav je trenutno u procesu odrÅ¾avanja. Molimo vas da navratite kasnije.
 
 </p>
 <p>

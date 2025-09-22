@@ -24,7 +24,7 @@ La solicitud no pudo ser entendida por el servidor por un error de sintaxis.
 Por favor, no intente realizar esta solicitud sin realizar modificaciones.
 </p>
 <p>
-Si piensa que éste es un error del servidor, por favor contacte a <?php echo $data['admin']; ?>.
+Si piensa que Ã©ste es un error del servidor, por favor contacte a <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

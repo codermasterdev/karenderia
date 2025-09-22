@@ -13,12 +13,12 @@ FullCalendar.globalLocales.push(function () {
       today: 'Hoxe',
       month: 'Mes',
       week: 'Semana',
-      day: 'Día',
+      day: 'DÃ­a',
       list: 'Axenda',
     },
     weekText: 'Sm',
-    allDayText: 'Todo o día',
-    moreLinkText: 'máis',
+    allDayText: 'Todo o dÃ­a',
+    moreLinkText: 'mÃ¡is',
     noEventsText: 'Non hai eventos para amosar',
   };
 

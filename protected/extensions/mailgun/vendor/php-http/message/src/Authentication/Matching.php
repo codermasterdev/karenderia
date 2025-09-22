@@ -11,7 +11,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Authenticate a PSR-7 Request if the request is matching.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  *
  * @deprecated since since version 1.2, and will be removed in 2.0. Use {@link RequestConditional} instead.
  */

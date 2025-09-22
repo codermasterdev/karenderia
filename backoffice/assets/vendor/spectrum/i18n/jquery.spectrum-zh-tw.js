@@ -5,12 +5,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["zh-tw"] = {
-        cancelText: "取消",
-        chooseText: "選擇",
-        clearText: "清除",
-        togglePaletteMoreText: "更多選項",
-        togglePaletteLessText: "隱藏",
-        noColorSelectedText: "尚未選擇任何顏色"
+        cancelText: "åæ¶",
+        chooseText: "é¸æ",
+        clearText: "æ¸é¤",
+        togglePaletteMoreText: "æ´å¤é¸é ",
+        togglePaletteLessText: "é±è",
+        noColorSelectedText: "å°æªé¸æä»»ä½é¡è²"
     };
 
 })( jQuery );

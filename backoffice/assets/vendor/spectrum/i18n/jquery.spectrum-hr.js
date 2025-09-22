@@ -7,9 +7,9 @@
     var localization = $.spectrum.localization["hr"] = {
         cancelText: "Odustani",
         chooseText: "Odaberi",
-        clearText: "Poništi odabir",
+        clearText: "PoniÅ¡ti odabir",
         noColorSelectedText: "Niti jedna boja nije odabrana",
-        togglePaletteMoreText: "Više",
+        togglePaletteMoreText: "ViÅ¡e",
         togglePaletteLessText: "Manje"
     };
 

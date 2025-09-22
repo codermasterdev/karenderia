@@ -8,7 +8,7 @@ use Http\Discovery\Exception\DiscoveryFailedException;
 /**
  * Finds an HTTP Client.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  *
  * @deprecated This will be removed in 2.0. Consider using Psr18ClientDiscovery.
  */

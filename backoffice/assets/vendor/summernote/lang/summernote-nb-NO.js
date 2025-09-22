@@ -119,21 +119,21 @@ return /******/ (function(modules) { // webpackBootstrap
         italic: 'Kursiv',
         underline: 'Understrek',
         clear: 'Fjern formatering',
-        height: 'Linjehøyde',
+        height: 'LinjehÃ¸yde',
         name: 'Skrifttype',
         strikethrough: 'Gjennomstrek',
         subscript: 'Subscript',
         superscript: 'Superscript',
-        size: 'Skriftstørrelse'
+        size: 'SkriftstÃ¸rrelse'
       },
       image: {
         image: 'Bilde',
         insert: 'Sett inn bilde',
-        resizeFull: 'Sett full størrelse',
-        resizeHalf: 'Sett halv størrelse',
-        resizeQuarter: 'Sett kvart størrelse',
+        resizeFull: 'Sett full stÃ¸rrelse',
+        resizeHalf: 'Sett halv stÃ¸rrelse',
+        resizeQuarter: 'Sett kvart stÃ¸rrelse',
         floatLeft: 'Flyt til venstre',
-        floatRight: 'Flyt til høyre',
+        floatRight: 'Flyt til hÃ¸yre',
         floatNone: 'Fjern flyt',
         shapeRounded: 'Form: Rundet',
         shapeCircle: 'Form: Sirkel',
@@ -142,8 +142,8 @@ return /******/ (function(modules) { // webpackBootstrap
         dragImageHere: 'Dra et bilde hit',
         dropImage: 'Drop image or Text',
         selectFromFiles: 'Velg fra filer',
-        maximumFileSize: 'Max filstørrelse',
-        maximumFileSizeError: 'Maks filstørrelse overskredet.',
+        maximumFileSize: 'Max filstÃ¸rrelse',
+        maximumFileSizeError: 'Maks filstÃ¸rrelse overskredet.',
         url: 'Bilde-URL',
         remove: 'Fjern bilde',
         original: 'Original'
@@ -162,14 +162,14 @@ return /******/ (function(modules) { // webpackBootstrap
         edit: 'Rediger',
         textToDisplay: 'Visningstekst',
         url: 'Til hvilken URL skal denne lenken peke?',
-        openInNewWindow: 'Åpne i nytt vindu'
+        openInNewWindow: 'Ãpne i nytt vindu'
       },
       table: {
         table: 'Tabell',
         addRowAbove: 'Legg til rad over',
         addRowBelow: 'Legg til rad under',
-        addColLeft: 'Legg til kolonne på venstre side',
-        addColRight: 'Legg til kolonne på høyre side',
+        addColLeft: 'Legg til kolonne pÃ¥ venstre side',
+        addColRight: 'Legg til kolonne pÃ¥ hÃ¸yre side',
         delRow: 'Slett rad',
         delCol: 'Slett kolonne',
         delTable: 'Slett tabell'
@@ -204,7 +204,7 @@ return /******/ (function(modules) { // webpackBootstrap
         indent: 'Innrykk',
         left: 'Venstrejustert',
         center: 'Midtstilt',
-        right: 'Høyrejustert',
+        right: 'HÃ¸yrejustert',
         justify: 'Blokkjustert'
       },
       color: {
@@ -228,22 +228,22 @@ return /******/ (function(modules) { // webpackBootstrap
       help: {
         'insertParagraph': 'Sett inn avsnitt',
         'undo': 'Angre siste handling',
-        'redo': 'Gjør om siste handling',
+        'redo': 'GjÃ¸r om siste handling',
         'tab': 'Tab',
         'untab': 'Untab',
         'bold': 'Angi en fet stil',
         'italic': 'Angi en kursiv stil',
         'underline': 'Sett en understreket stil',
-        'strikethrough': 'Sett en gjennomgående sti',
-        'removeFormat': 'Tøm formattering',
+        'strikethrough': 'Sett en gjennomgÃ¥ende sti',
+        'removeFormat': 'TÃ¸m formattering',
         'justifyLeft': 'Angi venstrejustering',
         'justifyCenter': 'Angi sentrert justering',
-        'justifyRight': 'Angi høyre justering',
+        'justifyRight': 'Angi hÃ¸yre justering',
         'justifyFull': 'Angi full justering',
         'insertUnorderedList': 'Bytt uordnet liste',
         'insertOrderedList': 'Bytt sortert liste',
-        'outdent': 'Utrykk på valgt avsnitt',
-        'indent': 'Innrykk på valgt avsnitt',
+        'outdent': 'Utrykk pÃ¥ valgt avsnitt',
+        'indent': 'Innrykk pÃ¥ valgt avsnitt',
         'formatPara': 'Endre gjeldende blokkformat til et avsnitt (P-kode)',
         'formatH1': 'Endre gjeldende blokkformat til H1',
         'formatH2': 'Endre gjeldende blokkformat til H2',
@@ -256,7 +256,7 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       history: {
         undo: 'Angre',
-        redo: 'Gjør om'
+        redo: 'GjÃ¸r om'
       },
       specialChar: {
         specialChar: 'SPESIELLE TEGN',

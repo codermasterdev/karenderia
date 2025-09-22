@@ -712,7 +712,7 @@ abstract class HttpClientTestCase extends TestCase
 
         $this->assertSame(200, $response->getStatusCode());
 
-        $response = $client->request('GET', 'http://Bücher.example:8057/', [
+        $response = $client->request('GET', 'http://BÃ¼cher.example:8057/', [
             'resolve' => ['xn--bcher-kva.example' => '127.0.0.1'],
         ]);
 

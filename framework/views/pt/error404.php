@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Página Não Encontrada</title>
+<title>PÃ¡gina NÃ£o Encontrada</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Página Não Encontrada</h1>
+<h1>PÃ¡gina NÃ£o Encontrada</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-A URL solicitada não foi encontrada neste servidor.
-Se você digitou a URL manualmente verifique a ortografia e tente novamente.
+A URL solicitada nÃ£o foi encontrada neste servidor.
+Se vocÃª digitou a URL manualmente verifique a ortografia e tente novamente.
 </p>
 <p>
-Se você acha que isso é um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
+Se vocÃª acha que isso Ã© um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

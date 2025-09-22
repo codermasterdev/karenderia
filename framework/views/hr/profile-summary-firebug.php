@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profiliranje - Sažetak izvješća");
+	console.group("Profiliranje - SaÅ¾etak izvjeÅ¡Äa");
 	console.log(" izbrojati   ukupno   prosjek    min      max   ");
 <?php
 foreach($data as $index=>$entry)

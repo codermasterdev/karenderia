@@ -9,7 +9,7 @@ use Psr\Http\Message\RequestInterface;
 /**
  * Authenticate a PSR-7 Request using WSSE.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class Wsse implements Authentication
 {

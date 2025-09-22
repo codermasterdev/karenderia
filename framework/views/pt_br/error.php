@@ -22,10 +22,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Erro <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-O erro acima ocorreu quando o servidor Web processava sua requisição.
+O erro acima ocorreu quando o servidor Web processava sua requisiÃ§Ã£o.
 </p>
 <p>
-Se você acha que isso é um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
+Se vocÃª acha que isso Ã© um erro no servidor, por favor contate <?php echo $data['admin']; ?>.
 </p>
 <p>
 Obrigado.

@@ -8,20 +8,20 @@ FullCalendar.globalLocales.push(function () {
       doy: 6, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'পেছনে',
-      next: 'সামনে',
-      today: 'আজ',
-      month: 'মাস',
-      week: 'সপ্তাহ',
-      day: 'দিন',
-      list: 'তালিকা',
+      prev: 'à¦ªà§à¦à¦¨à§',
+      next: 'à¦¸à¦¾à¦®à¦¨à§',
+      today: 'à¦à¦',
+      month: 'à¦®à¦¾à¦¸',
+      week: 'à¦¸à¦ªà§à¦¤à¦¾à¦¹',
+      day: 'à¦¦à¦¿à¦¨',
+      list: 'à¦¤à¦¾à¦²à¦¿à¦à¦¾',
     },
-    weekText: 'সপ্তাহ',
-    allDayText: 'সারাদিন',
+    weekText: 'à¦¸à¦ªà§à¦¤à¦¾à¦¹',
+    allDayText: 'à¦¸à¦¾à¦°à¦¾à¦¦à¦¿à¦¨',
     moreLinkText: function(n) {
-      return '+অন্যান্য ' + n
+      return '+à¦à¦¨à§à¦¯à¦¾à¦¨à§à¦¯ ' + n
     },
-    noEventsText: 'কোনো ইভেন্ট নেই',
+    noEventsText: 'à¦à§à¦¨à§ à¦à¦­à§à¦¨à§à¦ à¦¨à§à¦',
   };
 
   return bn;

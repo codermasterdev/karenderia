@@ -64,7 +64,7 @@ class Refund extends ApiResource
      * You can optionally refund only part of a charge. You can do so multiple times,
      * until the entire charge has been refunded.
      *
-     * Once entirely refunded, a charge can’t be refunded again. This method will raise
+     * Once entirely refunded, a charge canât be refunded again. This method will raise
      * an error when called on an already-refunded charge, or when trying to refund
      * more money than is left on a charge.
      *
@@ -127,7 +127,7 @@ class Refund extends ApiResource
 
     /**
      * Updates the refund that you specify by setting the values of the passed
-     * parameters. Any parameters that you don’t provide remain unchanged.
+     * parameters. Any parameters that you donât provide remain unchanged.
      *
      * This request only accepts <code>metadata</code> as an argument.
      *

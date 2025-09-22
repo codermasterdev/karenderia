@@ -42,7 +42,7 @@ abstract class SyncMapItemOptions
     }
 
     /**
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      * @return DeleteSyncMapItemOptions Options builder
      */
     public static function delete(
@@ -83,7 +83,7 @@ abstract class SyncMapItemOptions
      * @param int $ttl An alias for `item_ttl`. If both parameters are provided, this value is ignored.
      * @param int $itemTtl How long, [in seconds](https://www.twilio.com/docs/sync/limits#sync-payload-limits), before the Map Item expires (time-to-live) and is deleted.
      * @param int $collectionTtl How long, [in seconds](https://www.twilio.com/docs/sync/limits#sync-payload-limits), before the Map Item's parent Sync Map expires (time-to-live) and is deleted. This parameter can only be used when the Map Item's `data` or `ttl` is updated in the same request.
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      * @return UpdateSyncMapItemOptions Options builder
      */
     public static function update(
@@ -177,7 +177,7 @@ class CreateSyncMapItemOptions extends Options
 class DeleteSyncMapItemOptions extends Options
     {
     /**
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      */
     public function __construct(
         
@@ -188,9 +188,9 @@ class DeleteSyncMapItemOptions extends Options
     }
 
     /**
-     * If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      *
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      * @return $this Fluent Builder
      */
     public function setIfMatch(string $ifMatch): self
@@ -286,7 +286,7 @@ class UpdateSyncMapItemOptions extends Options
      * @param int $ttl An alias for `item_ttl`. If both parameters are provided, this value is ignored.
      * @param int $itemTtl How long, [in seconds](https://www.twilio.com/docs/sync/limits#sync-payload-limits), before the Map Item expires (time-to-live) and is deleted.
      * @param int $collectionTtl How long, [in seconds](https://www.twilio.com/docs/sync/limits#sync-payload-limits), before the Map Item's parent Sync Map expires (time-to-live) and is deleted. This parameter can only be used when the Map Item's `data` or `ttl` is updated in the same request.
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      */
     public function __construct(
         
@@ -353,9 +353,9 @@ class UpdateSyncMapItemOptions extends Options
     }
 
     /**
-     * If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      *
-     * @param string $ifMatch If provided, applies this mutation if (and only if) the “revision” field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
+     * @param string $ifMatch If provided, applies this mutation if (and only if) the ârevisionâ field of this [map item] matches the provided value. This matches the semantics of (and is implemented with) the HTTP [If-Match header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-Match).
      * @return $this Fluent Builder
      */
     public function setIfMatch(string $ifMatch): self

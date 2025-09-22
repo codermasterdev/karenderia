@@ -38,11 +38,11 @@ class InvoiceLineItem extends ApiResource
     use ApiOperations\Update;
 
     /**
-     * Updates an invoice’s line item. Some fields, such as <code>tax_amounts</code>,
+     * Updates an invoiceâs line item. Some fields, such as <code>tax_amounts</code>,
      * only live on the invoice line item, so they can only be updated through this
      * endpoint. Other fields, such as <code>amount</code>, live on both the invoice
      * item and the invoice line item, so updates on this endpoint will propagate to
-     * the invoice item as well. Updating an invoice’s line item is only possible
+     * the invoice item as well. Updating an invoiceâs line item is only possible
      * before the invoice is finalized.
      *
      * @param string $id the ID of the resource to update

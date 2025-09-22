@@ -24,12 +24,12 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: '沒有選取任何項目',
-    noneResultsText: '沒有找到符合的結果',
-    countSelectedText: '已經選取{0}個項目',
-    maxOptionsText: ['超過限制 (最多選擇{n}項)', '超過限制(最多選擇{n}組)'],
-    selectAllText: '選取全部',
-    deselectAllText: '全部取消',
+    noneSelectedText: 'æ²æé¸åä»»ä½é ç®',
+    noneResultsText: 'æ²ææ¾å°ç¬¦åççµæ',
+    countSelectedText: 'å·²ç¶é¸å{0}åé ç®',
+    maxOptionsText: ['è¶ééå¶ (æå¤é¸æ{n}é )', 'è¶ééå¶(æå¤é¸æ{n}çµ)'],
+    selectAllText: 'é¸åå¨é¨',
+    deselectAllText: 'å¨é¨åæ¶',
     multipleSeparator: ', '
   };
 })(jQuery);

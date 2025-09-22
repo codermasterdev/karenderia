@@ -28,7 +28,7 @@ class ApplicationFee extends ApiResource
     use ApiOperations\NestedResource;
 
     /**
-     * Returns a list of application fees you’ve previously collected. The application
+     * Returns a list of application fees youâve previously collected. The application
      * fees are returned in sorted order, with the most recent fees appearing first.
      *
      * @param null|array $params

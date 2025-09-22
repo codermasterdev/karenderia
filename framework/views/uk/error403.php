@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="uk" lang="uk">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Помилка авторизації</title>
+<title>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð°Ð²ÑÐ¾ÑÐ¸Ð·Ð°ÑÑÑ</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Помилка авторизації</h1>
+<h1>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° Ð°Ð²ÑÐ¾ÑÐ¸Ð·Ð°ÑÑÑ</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-У вас недостатньо прав для доступу до запитаної сторінки.
+Ð£ Ð²Ð°Ñ Ð½ÐµÐ´Ð¾ÑÑÐ°ÑÐ½ÑÐ¾ Ð¿ÑÐ°Ð² Ð´Ð»Ñ Ð´Ð¾ÑÑÑÐ¿Ñ Ð´Ð¾ Ð·Ð°Ð¿Ð¸ÑÐ°Ð½Ð¾Ñ ÑÑÐ¾ÑÑÐ½ÐºÐ¸.
 </p>
 <p>
-Якщо ви вважаєте, що це помилка налаштування сервера, зверніться за адресою <?php echo $data['admin']; ?>.
+Ð¯ÐºÑÐ¾ Ð²Ð¸ Ð²Ð²Ð°Ð¶Ð°ÑÑÐµ, ÑÐ¾ ÑÐµ Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ ÑÐµÑÐ²ÐµÑÐ°, Ð·Ð²ÐµÑÐ½ÑÑÑÑÑ Ð·Ð° Ð°Ð´ÑÐµÑÐ¾Ñ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -115,37 +115,37 @@ return /******/ (function(modules) { // webpackBootstrap
   $.extend($.summernote.lang, {
     'lt-LT': {
       font: {
-        bold: 'Paryškintas',
+        bold: 'ParyÅ¡kintas',
         italic: 'Kursyvas',
-        underline: 'Pabrėžtas',
+        underline: 'PabrÄÅ¾tas',
         clear: 'Be formatavimo',
-        height: 'Eilutės aukštis',
-        name: 'Šrifto pavadinimas',
+        height: 'EilutÄs aukÅ¡tis',
+        name: 'Å rifto pavadinimas',
         strikethrough: 'Perbrauktas',
-        superscript: 'Viršutinis',
+        superscript: 'VirÅ¡utinis',
         subscript: 'Indeksas',
-        size: 'Šrifto dydis'
+        size: 'Å rifto dydis'
       },
       image: {
-        image: 'Paveikslėlis',
-        insert: 'Įterpti paveikslėlį',
+        image: 'PaveikslÄlis',
+        insert: 'Ä®terpti paveikslÄlÄ¯',
         resizeFull: 'Pilnas dydis',
-        resizeHalf: 'Sumažinti dydį 50%',
-        resizeQuarter: 'Sumažinti dydį 25%',
+        resizeHalf: 'SumaÅ¾inti dydÄ¯ 50%',
+        resizeQuarter: 'SumaÅ¾inti dydÄ¯ 25%',
         floatLeft: 'Kairinis lygiavimas',
-        floatRight: 'Dešininis lygiavimas',
+        floatRight: 'DeÅ¡ininis lygiavimas',
         floatNone: 'Jokio lygiavimo',
-        shapeRounded: 'Forma: apvalūs kraštai',
+        shapeRounded: 'Forma: apvalÅ«s kraÅ¡tai',
         shapeCircle: 'Forma: apskritimas',
-        shapeThumbnail: 'Forma: miniatiūra',
+        shapeThumbnail: 'Forma: miniatiÅ«ra',
         shapeNone: 'Forma: jokia',
-        dragImageHere: 'Vilkite paveikslėlį čia',
+        dragImageHere: 'Vilkite paveikslÄlÄ¯ Äia',
         dropImage: 'Drop image or Text',
-        selectFromFiles: 'Pasirinkite failą',
+        selectFromFiles: 'Pasirinkite failÄ',
         maximumFileSize: 'Maskimalus failo dydis',
-        maximumFileSizeError: 'Maskimalus failo dydis viršytas!',
-        url: 'Paveikslėlio URL adresas',
-        remove: 'Ištrinti paveikslėlį',
+        maximumFileSizeError: 'Maskimalus failo dydis virÅ¡ytas!',
+        url: 'PaveikslÄlio URL adresas',
+        remove: 'IÅ¡trinti paveikslÄlÄ¯',
         original: 'Original'
       },
       video: {
@@ -157,15 +157,15 @@ return /******/ (function(modules) { // webpackBootstrap
       },
       link: {
         link: 'Nuoroda',
-        insert: 'Įterpti nuorodą',
-        unlink: 'Pašalinti nuorodą',
+        insert: 'Ä®terpti nuorodÄ',
+        unlink: 'PaÅ¡alinti nuorodÄ',
         edit: 'Redaguoti',
         textToDisplay: 'Rodomas tekstas',
         url: 'Koks URL adresas yra susietas?',
         openInNewWindow: 'Atidaryti naujame lange'
       },
       table: {
-        table: 'Lentelė',
+        table: 'LentelÄ',
         addRowAbove: 'Add row above',
         addRowBelow: 'Add row below',
         addColLeft: 'Add column left',
@@ -175,56 +175,56 @@ return /******/ (function(modules) { // webpackBootstrap
         delTable: 'Delete table'
       },
       hr: {
-        insert: 'Įterpti horizontalią liniją'
+        insert: 'Ä®terpti horizontaliÄ linijÄ'
       },
       style: {
         style: 'Stilius',
         p: 'pus',
         blockquote: 'Citata',
         pre: 'Kodas',
-        h1: 'Antraštė 1',
-        h2: 'Antraštė 2',
-        h3: 'Antraštė 3',
-        h4: 'Antraštė 4',
-        h5: 'Antraštė 5',
-        h6: 'Antraštė 6'
+        h1: 'AntraÅ¡tÄ 1',
+        h2: 'AntraÅ¡tÄ 2',
+        h3: 'AntraÅ¡tÄ 3',
+        h4: 'AntraÅ¡tÄ 4',
+        h5: 'AntraÅ¡tÄ 5',
+        h6: 'AntraÅ¡tÄ 6'
       },
       lists: {
-        unordered: 'Suženklintasis sąrašas',
-        ordered: 'Sunumeruotas sąrašas'
+        unordered: 'SuÅ¾enklintasis sÄraÅ¡as',
+        ordered: 'Sunumeruotas sÄraÅ¡as'
       },
       options: {
         help: 'Pagalba',
-        fullscreen: 'Viso ekrano režimas',
-        codeview: 'HTML kodo peržiūra'
+        fullscreen: 'Viso ekrano reÅ¾imas',
+        codeview: 'HTML kodo perÅ¾iÅ«ra'
       },
       paragraph: {
         paragraph: 'Pastraipa',
-        outdent: 'Sumažinti įtrauką',
-        indent: 'Padidinti įtrauką',
-        left: 'Kairinė lygiuotė',
-        center: 'Centrinė lygiuotė',
-        right: 'Dešininė lygiuotė',
-        justify: 'Abipusis išlyginimas'
+        outdent: 'SumaÅ¾inti Ä¯traukÄ',
+        indent: 'Padidinti Ä¯traukÄ',
+        left: 'KairinÄ lygiuotÄ',
+        center: 'CentrinÄ lygiuotÄ',
+        right: 'DeÅ¡ininÄ lygiuotÄ',
+        justify: 'Abipusis iÅ¡lyginimas'
       },
       color: {
-        recent: 'Paskutinė naudota spalva',
-        more: 'Daugiau spalvų',
+        recent: 'PaskutinÄ naudota spalva',
+        more: 'Daugiau spalvÅ³',
         background: 'Fono spalva',
-        foreground: 'Šrifto spalva',
+        foreground: 'Å rifto spalva',
         transparent: 'Permatoma',
-        setTransparent: 'Nustatyti skaidrumo intensyvumą',
+        setTransparent: 'Nustatyti skaidrumo intensyvumÄ',
         reset: 'Atkurti',
-        resetToDefault: 'Atstatyti numatytąją spalvą'
+        resetToDefault: 'Atstatyti numatytÄjÄ spalvÄ'
       },
       shortcut: {
-        shortcuts: 'Spartieji klavišai',
-        close: 'Uždaryti',
+        shortcuts: 'Spartieji klaviÅ¡ai',
+        close: 'UÅ¾daryti',
         textFormatting: 'Teksto formatavimas',
         action: 'Veiksmas',
         paragraphFormatting: 'Pastraipos formatavimas',
         documentStyle: 'Dokumento stilius',
-        extraKeys: 'Papildomi klavišų deriniai'
+        extraKeys: 'Papildomi klaviÅ¡Å³ deriniai'
       },
       help: {
         'insertParagraph': 'Insert Paragraph',
@@ -256,8 +256,8 @@ return /******/ (function(modules) { // webpackBootstrap
         'linkDialog.show': 'Show Link Dialog'
       },
       history: {
-        undo: 'Anuliuoti veiksmą',
-        redo: 'Perdaryti veiksmą'
+        undo: 'Anuliuoti veiksmÄ',
+        redo: 'Perdaryti veiksmÄ'
       },
       specialChar: {
         specialChar: 'SPECIAL CHARACTERS',

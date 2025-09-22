@@ -7,7 +7,7 @@ use Psr\Http\Message\UriInterface;
 /**
  * Factory for PSR-7 URI.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface UriFactory
 {

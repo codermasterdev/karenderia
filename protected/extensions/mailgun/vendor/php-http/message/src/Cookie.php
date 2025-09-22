@@ -5,7 +5,7 @@ namespace Http\Message;
 /**
  * Cookie Value Object.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  *
  * @see http://tools.ietf.org/search/rfc6265
  */

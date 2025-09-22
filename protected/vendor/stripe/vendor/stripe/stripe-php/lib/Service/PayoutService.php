@@ -44,13 +44,13 @@ class PayoutService extends \Stripe\Service\AbstractService
     /**
      * To send funds to your own bank account, you create a new payout object. Your <a
      * href="#balance">Stripe balance</a> must be able to cover the payout amount, or
-     * you’ll receive an “Insufficient Funds” error.
+     * youâll receive an âInsufficient Fundsâ error.
      *
-     * If your API key is in test mode, money won’t actually be sent, though everything
+     * If your API key is in test mode, money wonât actually be sent, though everything
      * else will occur as if in live mode.
      *
      * If you are creating a manual payout on a Stripe account that uses multiple
-     * payment source types, you’ll need to specify the source type balance that the
+     * payment source types, youâll need to specify the source type balance that the
      * payout should draw from. The <a href="#balance_object">balance object</a>
      * details available and pending amounts by source type.
      *

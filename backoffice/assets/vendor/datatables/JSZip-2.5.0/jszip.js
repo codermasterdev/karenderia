@@ -501,7 +501,7 @@ Usage:
  * @param {Object=} options the options for creating this objects (optional).
  */
 function JSZip(data, options) {
-    // if this constructor is used without `new`, it adds `new` before itself:
+    // if this constructor isÂ used withoutÂ `new`, itÂ adds `new` beforeÂ itself:
     if(!(this instanceof JSZip)) return new JSZip(data, options);
 
     // object containing the files :

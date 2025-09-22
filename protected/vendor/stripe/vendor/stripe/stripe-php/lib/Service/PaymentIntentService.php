@@ -28,7 +28,7 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      *
      * Once canceled, no additional charges will be made by the PaymentIntent and any
      * operations on the PaymentIntent will fail with an error. For PaymentIntents with
-     * <code>status=’requires_capture’</code>, the remaining
+     * <code>status=ârequires_captureâ</code>, the remaining
      * <code>amount_capturable</code> will automatically be refunded.
      *
      * @param string $id
@@ -82,7 +82,7 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      * If the <code>confirmation_method</code> is <code>automatic</code>, payment may
      * be attempted using our <a
      * href="/docs/stripe-js/reference#stripe-handle-card-payment">client SDKs</a> and
-     * the PaymentIntent’s <a
+     * the PaymentIntentâs <a
      * href="#payment_intent_object-client_secret">client_secret</a>. After
      * <code>next_action</code>s are handled by the client, no additional confirmation
      * is required to complete the payment.

@@ -19,7 +19,7 @@ use Monolog\Utils;
 /**
  * Stores to PHP error_log() handler.
  *
- * @author Elan Ruusamäe <glen@delfi.ee>
+ * @author Elan RuusamÃ¤e <glen@delfi.ee>
  */
 class ErrorLogHandler extends AbstractProcessingHandler
 {

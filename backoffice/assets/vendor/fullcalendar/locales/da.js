@@ -9,9 +9,9 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Forrige',
-      next: 'Næste',
+      next: 'NÃ¦ste',
       today: 'I dag',
-      month: 'Måned',
+      month: 'MÃ¥ned',
       week: 'Uge',
       day: 'Dag',
       list: 'Agenda',

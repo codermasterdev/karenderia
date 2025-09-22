@@ -10,7 +10,7 @@ use Zend\Diactoros\Stream as ZendStream;
 /**
  * Creates Diactoros streams.
  *
- * @author Михаил Красильников <m.krasilnikov@yandex.ru>
+ * @author ÐÐ¸ÑÐ°Ð¸Ð» ÐÑÐ°ÑÐ¸Ð»ÑÐ½Ð¸ÐºÐ¾Ð² <m.krasilnikov@yandex.ru>
  *
  * @deprecated This will be removed in php-http/message2.0. Consider using the official Diactoros PSR-17 factory
  */

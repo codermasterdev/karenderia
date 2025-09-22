@@ -108,7 +108,7 @@ final class CustomerClientITTest extends TestCase
         $this->assertNotNull($search_result->results);
         $this->assertSame(1, count($search_result->results));
         $this->assertSame($created_customer->id, $search_result->results[0]->id);
-        $this->assertSame("São Paulo", $search_result->results[0]->address->city->name);
+        $this->assertSame("SÃ£o Paulo", $search_result->results[0]->address->city->name);
     }
 
     public function testSearchWithRequestOptionsFailure(): void
@@ -128,7 +128,7 @@ final class CustomerClientITTest extends TestCase
                 'zip_code' => '01001000',
                 'street_name' => 'Rua Exemplo',
                 'street_number' => 123,
-                'city' => ["name" => "São Paulo"]
+                'city' => ["name" => "SÃ£o Paulo"]
             ],
         ];
         return $request;

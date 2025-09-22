@@ -24,17 +24,17 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Nič izbranega',
+    noneSelectedText: 'NiÄ izbranega',
     noneResultsText: 'Ni zadetkov za {0}',
     countSelectedText: '{0} od {1} izbranih',
     maxOptionsText: function (numAll, numGroup) {
       return [
-        'Omejitev dosežena (max. izbranih: {n})',
-        'Omejitev skupine dosežena (max. izbranih: {n})'
+        'Omejitev doseÅ¾ena (max. izbranih: {n})',
+        'Omejitev skupine doseÅ¾ena (max. izbranih: {n})'
       ];
     },
     selectAllText: 'Izberi vse',
-    deselectAllText: 'Počisti izbor',
+    deselectAllText: 'PoÄisti izbor',
     multipleSeparator: ', '
   };
 })(jQuery);

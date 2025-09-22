@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lt" lang="lt">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Klaidinga užklausa</title>
+<title>Klaidinga uÅ¾klausa</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Klaidinga užklausa</h1>
+<h1>Klaidinga uÅ¾klausa</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Serveris negali įvykdyti, tikėtina, neteisingai suformuotos užklausos.
-Prašytume nekartoti šio veiksmo nepakeitus užklausos.
+Serveris negali Ä¯vykdyti, tikÄtina, neteisingai suformuotos uÅ¾klausos.
+PraÅ¡ytume nekartoti Å¡io veiksmo nepakeitus uÅ¾klausos.
 </p>
 <p>
-Jeigu manote, kad tai serverio klaida, prašytume apie ją pranešti <?php echo $data['admin']; ?>.
+Jeigu manote, kad tai serverio klaida, praÅ¡ytume apie jÄ praneÅ¡ti <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

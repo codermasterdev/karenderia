@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profilēšanas kopsavilkums");
-	console.log(" skaits   kopā    vidēji     min      max   ");
+	console.group("ProfilÄÅ¡anas kopsavilkums");
+	console.log(" skaits   kopÄ    vidÄji     min      max   ");
 <?php
 foreach($data as $index=>$entry)
 {

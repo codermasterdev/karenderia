@@ -16,7 +16,7 @@ class Bulkexports extends BulkexportsBase {
 
     /**
      * @deprecated Use v1->exports(\$resourceType) instead.
-     * @param string $resourceType The type of communication – Messages, Calls,
+     * @param string $resourceType The type of communication â Messages, Calls,
      *                             Conferences, and Participants
      */
     protected function contextExports(string $resourceType): \Twilio\Rest\Bulkexports\V1\ExportContext {
@@ -34,7 +34,7 @@ class Bulkexports extends BulkexportsBase {
 
     /**
      * @deprecated Use v1->exportConfiguration(\$resourceType) instead.
-     * @param string $resourceType The type of communication – Messages, Calls,
+     * @param string $resourceType The type of communication â Messages, Calls,
      *                             Conferences, and Participants
      */
     protected function contextExportConfiguration(string $resourceType): \Twilio\Rest\Bulkexports\V1\ExportConfigurationContext {

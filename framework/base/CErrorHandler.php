@@ -592,7 +592,7 @@ class CErrorHandler extends CApplicationComponent
 			415 => 'Unsupported Media Type',
 			416 => 'Requested Range Not Satisfiable',
 			417 => 'Expectation Failed',
-			418 => 'I’m a teapot',
+			418 => 'Iâm a teapot',
 			422 => 'Unprocessable entity',
 			423 => 'Locked',
 			424 => 'Method failure',

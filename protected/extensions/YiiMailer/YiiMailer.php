@@ -21,7 +21,7 @@
  *
  *
  * @package YiiMailer
- * @author Vernes Šiljegović
+ * @author Vernes Å iljegoviÄ
  * @copyright  Copyright (c) 2014 YiiMailer
  * @license    http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
  * @version 1.6, 2014-07-09

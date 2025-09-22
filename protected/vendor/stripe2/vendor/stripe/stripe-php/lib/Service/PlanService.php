@@ -43,7 +43,7 @@ class PlanService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Deleting plans means new subscribers can’t be added. Existing subscribers aren’t
+     * Deleting plans means new subscribers canât be added. Existing subscribers arenât
      * affected.
      *
      * @param string $id
@@ -78,7 +78,7 @@ class PlanService extends \Stripe\Service\AbstractService
     /**
      * Updates the specified plan by setting the values of the parameters passed. Any
      * parameters not provided are left unchanged. By design, you cannot change a
-     * plan’s ID, amount, currency, or billing cycle.
+     * planâs ID, amount, currency, or billing cycle.
      *
      * @param string $id
      * @param null|array $params

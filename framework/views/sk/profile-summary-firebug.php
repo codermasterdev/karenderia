@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Zhrnutie profilovej zprávy");
-	console.log(" počet   celkom   priemer    min      max   ");
+	console.group("Zhrnutie profilovej zprÃ¡vy");
+	console.log(" poÄet   celkom   priemer    min      max   ");
 <?php
 foreach($data as $index=>$entry)
 {

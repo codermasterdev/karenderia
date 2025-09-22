@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Tjänsten ej tillgänglig</title>
+<title>TjÃ¤nsten ej tillgÃ¤nglig</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,9 +17,9 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Tjänsten ej tillgänglig</h1>
+<h1>TjÃ¤nsten ej tillgÃ¤nglig</h1>
 <p>
-Vårt system är för närvarande stängt pga underhåll. Vänligen kom tillbaka senare.
+VÃ¥rt system Ã¤r fÃ¶r nÃ¤rvarande stÃ¤ngt pga underhÃ¥ll. VÃ¤nligen kom tillbaka senare.
 </p>
 <p>
 Tack.

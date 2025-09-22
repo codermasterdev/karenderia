@@ -15,7 +15,7 @@ use Puli\GeneratedPuliFactory;
  * @final
  *
  * @author David de Boer <david@ddeboer.nl>
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 class PuliBetaStrategy implements DiscoveryStrategy
 {

@@ -9,18 +9,18 @@ FullCalendar.globalLocales.push(function () {
     },
     direction: 'rtl',
     buttonText: {
-      prev: 'پێشتر',
-      next: 'دواتر',
-      today: 'ئەمڕو',
-      month: 'مانگ',
-      week: 'هەفتە',
-      day: 'ڕۆژ',
-      list: 'بەرنامە',
+      prev: 'Ù¾ÛØ´ØªØ±',
+      next: 'Ø¯ÙØ§ØªØ±',
+      today: 'Ø¦ÛÙÚÙ',
+      month: 'ÙØ§ÙÚ¯',
+      week: 'ÙÛÙØªÛ',
+      day: 'ÚÛÚ',
+      list: 'Ø¨ÛØ±ÙØ§ÙÛ',
     },
-    weekText: 'هەفتە',
-    allDayText: 'هەموو ڕۆژەکە',
-    moreLinkText: 'زیاتر',
-    noEventsText: 'هیچ ڕووداوێك نیە',
+    weekText: 'ÙÛÙØªÛ',
+    allDayText: 'ÙÛÙÙÙ ÚÛÚÛÚ©Û',
+    moreLinkText: 'Ø²ÛØ§ØªØ±',
+    noEventsText: 'ÙÛÚ ÚÙÙØ¯Ø§ÙÛÙ ÙÛÛ',
   };
 
   return ku;

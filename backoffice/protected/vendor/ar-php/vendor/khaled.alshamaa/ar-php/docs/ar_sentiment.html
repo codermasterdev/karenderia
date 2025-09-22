@@ -61,10 +61,10 @@
                 p = p.toFixed(1);
                 
                 if (type) {
-                    result.innerHTML = "إيجابي بنسبة %" + p;
+                    result.innerHTML = "Ø¥ÙØ¬Ø§Ø¨Ù Ø¨ÙØ³Ø¨Ø© %" + p;
                     result.style.backgroundColor = '#ded';
                 } else {
-                    result.innerHTML = "سلبي بنسبة %" + p;
+                    result.innerHTML = "Ø³ÙØ¨Ù Ø¨ÙØ³Ø¨Ø© %" + p;
                     result.style.backgroundColor = '#fca';
                 }
                 
@@ -75,41 +75,41 @@
     <body>
         <div class="Paragraph" dir="rtl">
             <img src="./images/ar-php_256.png" class ="Logo">
-            <h2>تحليل المشاعر</h2>
+            <h2>ØªØ­ÙÙÙ Ø§ÙÙØ´Ø§Ø¹Ø±</h2>
             
-            <h3>الفكرة:</h3>
+            <h3>Ø§ÙÙÙØ±Ø©:</h3>
             <p>
-                يقوم هذا النموذج بتحليل المشاعر باستخدام خوارزمية إحصائية تعتمد على حساب لوغاريتمات نسبة الأرجحية القائمة على نظرية 
-                <a href="https://repositories.lib.utexas.edu/handle/2152/13246" target="_blank">الأصل الثنائي للجذور العربية</a>.
+                ÙÙÙÙ ÙØ°Ø§ Ø§ÙÙÙÙØ°Ø¬ Ø¨ØªØ­ÙÙÙ Ø§ÙÙØ´Ø§Ø¹Ø± Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù Ø®ÙØ§Ø±Ø²ÙÙØ© Ø¥Ø­ØµØ§Ø¦ÙØ© ØªØ¹ØªÙØ¯ Ø¹ÙÙ Ø­Ø³Ø§Ø¨ ÙÙØºØ§Ø±ÙØªÙØ§Øª ÙØ³Ø¨Ø© Ø§ÙØ£Ø±Ø¬Ø­ÙØ© Ø§ÙÙØ§Ø¦ÙØ© Ø¹ÙÙ ÙØ¸Ø±ÙØ© 
+                <a href="https://repositories.lib.utexas.edu/handle/2152/13246" target="_blank">Ø§ÙØ£ØµÙ Ø§ÙØ«ÙØ§Ø¦Ù ÙÙØ¬Ø°ÙØ± Ø§ÙØ¹Ø±Ø¨ÙØ©</a>.
             </p>
             
-            <h3>البيانات:</h3>
+            <h3>Ø§ÙØ¨ÙØ§ÙØ§Øª:</h3>
             <p>
-                تم تدريب النموذج باستخدام مئة ألف من المراجعات والتقييمات العربية لفنادق وأفلام وكتب ومنتجات
-                <a href="https://www.kaggle.com/abedkhooli/arabic-100k-reviews" target="_blank">منشورة على Kaggle</a>
+                ØªÙ ØªØ¯Ø±ÙØ¨ Ø§ÙÙÙÙØ°Ø¬ Ø¨Ø§Ø³ØªØ®Ø¯Ø§Ù ÙØ¦Ø© Ø£ÙÙ ÙÙ Ø§ÙÙØ±Ø§Ø¬Ø¹Ø§Øª ÙØ§ÙØªÙÙÙÙØ§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© ÙÙÙØ§Ø¯Ù ÙØ£ÙÙØ§Ù ÙÙØªØ¨ ÙÙÙØªØ¬Ø§Øª
+                <a href="https://www.kaggle.com/abedkhooli/arabic-100k-reviews" target="_blank">ÙÙØ´ÙØ±Ø© Ø¹ÙÙ Kaggle</a>
             </p>
             
-            <h3>التجربة:</h3>
+            <h3>Ø§ÙØªØ¬Ø±Ø¨Ø©:</h3>
             <p>
-                أدخل جملة معينة (تقييم على سبيل المثال):
+                Ø£Ø¯Ø®Ù Ø¬ÙÙØ© ÙØ¹ÙÙØ© (ØªÙÙÙÙ Ø¹ÙÙ Ø³Ø¨ÙÙ Ø§ÙÙØ«Ø§Ù):
                 <form onsubmit="return checkSentiment();">
-                    <input id="review" type="text" dir="rtl" placeholder="اكتب جملتك هنا، مثلا: ضعيف، التكييف سيء جدا!" />
-                    <input type="submit" value="صنّف!" />
+                    <input id="review" type="text" dir="rtl" placeholder="Ø§ÙØªØ¨ Ø¬ÙÙØªÙ ÙÙØ§Ø ÙØ«ÙØ§: Ø¶Ø¹ÙÙØ Ø§ÙØªÙÙÙÙ Ø³ÙØ¡ Ø¬Ø¯Ø§!" />
+                    <input type="submit" value="ØµÙÙÙ!" />
                     <span id="result" dir="rtl" style="padding: .1em .5em;"></span>
                 </form>
             </p>
 
-            <h3>الأداء:</h3>
+            <h3>Ø§ÙØ£Ø¯Ø§Ø¡:</h3>
             <p>
-                بحجم لا يتجاوز 18 كيلوبايت للنموذج
-                (الشيفرة البرمجية متاحة <a href="https://github.com/khaled-alshamaa/ar-php/blob/master/examples/ar_sentiment.js" target="_blank">هنا</a>)،
-                استطعنا تحقيق نسبة إجابات صحيحة تبلغ %75 على بيانات التدريب، وكذلك %84 على 
-                <a href="https://github.com/elnagara/HARD-Arabic-Dataset" target="_blank">مجموعة بيانات التقييمات العربية للفنادق</a>
-                (87% Precision و 80% Recall)
-                بإجمالي 105698 تقييما لم يرها النموذج من قبل!
-                لمزيد من المعلومات التقنية يمكنكم الإطلاع على 
-                <a href="https://github.com/ARBML/Research/issues/1" target="_blank">النقاش التالي</a>
-                مع فريق <a href="https://github.com/ARBML/ARBML" target="_blank">ARBML</a> والمشاركة فيه.
+                Ø¨Ø­Ø¬Ù ÙØ§ ÙØªØ¬Ø§ÙØ² 18 ÙÙÙÙØ¨Ø§ÙØª ÙÙÙÙÙØ°Ø¬
+                (Ø§ÙØ´ÙÙØ±Ø© Ø§ÙØ¨Ø±ÙØ¬ÙØ© ÙØªØ§Ø­Ø© <a href="https://github.com/khaled-alshamaa/ar-php/blob/master/examples/ar_sentiment.js" target="_blank">ÙÙØ§</a>)Ø
+                Ø§Ø³ØªØ·Ø¹ÙØ§ ØªØ­ÙÙÙ ÙØ³Ø¨Ø© Ø¥Ø¬Ø§Ø¨Ø§Øª ØµØ­ÙØ­Ø© ØªØ¨ÙØº %75 Ø¹ÙÙ Ø¨ÙØ§ÙØ§Øª Ø§ÙØªØ¯Ø±ÙØ¨Ø ÙÙØ°ÙÙ %84 Ø¹ÙÙ 
+                <a href="https://github.com/elnagara/HARD-Arabic-Dataset" target="_blank">ÙØ¬ÙÙØ¹Ø© Ø¨ÙØ§ÙØ§Øª Ø§ÙØªÙÙÙÙØ§Øª Ø§ÙØ¹Ø±Ø¨ÙØ© ÙÙÙÙØ§Ø¯Ù</a>
+                (87% Precision Ù 80% Recall)
+                Ø¨Ø¥Ø¬ÙØ§ÙÙ 105698 ØªÙÙÙÙØ§ ÙÙ ÙØ±ÙØ§ Ø§ÙÙÙÙØ°Ø¬ ÙÙ ÙØ¨Ù!
+                ÙÙØ²ÙØ¯ ÙÙ Ø§ÙÙØ¹ÙÙÙØ§Øª Ø§ÙØªÙÙÙØ© ÙÙÙÙÙÙ Ø§ÙØ¥Ø·ÙØ§Ø¹ Ø¹ÙÙ 
+                <a href="https://github.com/ARBML/Research/issues/1" target="_blank">Ø§ÙÙÙØ§Ø´ Ø§ÙØªØ§ÙÙ</a>
+                ÙØ¹ ÙØ±ÙÙ <a href="https://github.com/ARBML/ARBML" target="_blank">ARBML</a> ÙØ§ÙÙØ´Ø§Ø±ÙØ© ÙÙÙ.
             </p>
 
             <center>
@@ -120,7 +120,7 @@
         <footer>
             <a href="https://github.com/khaled-alshamaa/ar-php">Ar-PHP</a>, 
             an open-source library for website developers to process Arabic content
-            <br />Copyright © 2022 Khaled Al-Sham'aa
+            <br />Copyright Â© 2022 Khaled Al-Sham'aa
         </footer>
     </body>
 </html>

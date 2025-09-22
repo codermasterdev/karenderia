@@ -42,7 +42,7 @@ abstract class BaseDumper
             } else {
                 $start = $this->formatNonTemplate($profile, $prefix);
             }
-            $prefix .= $sibling ? '│ ' : '  ';
+            $prefix .= $sibling ? 'â ' : '  ';
         }
 
         $percent = $this->root ? $profile->getDuration() / $this->root * 100 : 0;

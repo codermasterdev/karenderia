@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="uk" lang="uk">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Помилка <?php echo $data['code']; ?></title>
+<title>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Помилка <?php echo $data['code']; ?></h1>
+<h1>ÐÐ¾Ð¼Ð¸Ð»ÐºÐ° <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-При опрацюванні веб-сервером вашого запита виникла вказана вище помилка.
+ÐÑÐ¸ Ð¾Ð¿ÑÐ°ÑÑÐ²Ð°Ð½Ð½Ñ Ð²ÐµÐ±-ÑÐµÑÐ²ÐµÑÐ¾Ð¼ Ð²Ð°ÑÐ¾Ð³Ð¾ Ð·Ð°Ð¿Ð¸ÑÐ° Ð²Ð¸Ð½Ð¸ÐºÐ»Ð° Ð²ÐºÐ°Ð·Ð°Ð½Ð° Ð²Ð¸ÑÐµ Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ°.
 </p>
 <p>
-Якщо ви вважаєте, що це помилка налаштування сервера, зверніться за адресою <?php echo $data['admin']; ?>.
+Ð¯ÐºÑÐ¾ Ð²Ð¸ Ð²Ð²Ð°Ð¶Ð°ÑÑÐµ, ÑÐ¾ ÑÐµ Ð¿Ð¾Ð¼Ð¸Ð»ÐºÐ° Ð½Ð°Ð»Ð°ÑÑÑÐ²Ð°Ð½Ð½Ñ ÑÐµÑÐ²ÐµÑÐ°, Ð·Ð²ÐµÑÐ½ÑÑÑÑÑ Ð·Ð° Ð°Ð´ÑÐµÑÐ¾Ñ <?php echo $data['admin']; ?>.
 </p>
 <p>
-Дякуємо.
+ÐÑÐºÑÑÐ¼Ð¾.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

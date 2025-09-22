@@ -8,20 +8,20 @@ FullCalendar.globalLocales.push(function () {
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'precedentă',
-      next: 'următoare',
+      prev: 'precedentÄ',
+      next: 'urmÄtoare',
       today: 'Azi',
-      month: 'Lună',
-      week: 'Săptămână',
+      month: 'LunÄ',
+      week: 'SÄptÄmÃ¢nÄ',
       day: 'Zi',
-      list: 'Agendă',
+      list: 'AgendÄ',
     },
-    weekText: 'Săpt',
-    allDayText: 'Toată ziua',
+    weekText: 'SÄpt',
+    allDayText: 'ToatÄ ziua',
     moreLinkText: function(n) {
       return '+alte ' + n
     },
-    noEventsText: 'Nu există evenimente de afișat',
+    noEventsText: 'Nu existÄ evenimente de afiÈat',
   };
 
   return ro;

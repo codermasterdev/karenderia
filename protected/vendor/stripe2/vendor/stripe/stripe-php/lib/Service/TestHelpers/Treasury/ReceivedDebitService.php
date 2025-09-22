@@ -12,7 +12,7 @@ class ReceivedDebitService extends \Stripe\Service\AbstractService
 {
     /**
      * Use this endpoint to simulate a test mode ReceivedDebit initiated by a third
-     * party. In live mode, you can’t directly create ReceivedDebits initiated by third
+     * party. In live mode, you canât directly create ReceivedDebits initiated by third
      * parties.
      *
      * @param null|array $params

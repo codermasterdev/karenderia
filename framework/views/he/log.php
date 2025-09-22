@@ -2,14 +2,14 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			רשומות האפליקציה
+			×¨×©××××ª ×××¤×××§×¦××
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">זמן</th>
-		<th>רמה</th>
-		<th>קטגוריה</th>
-		<th>הודעה</th>
+	    <th style="width:120px">×××</th>
+		<th>×¨××</th>
+		<th>×§××××¨××</th>
+		<th>××××¢×</th>
 	</tr>
 <?php
 $colors=array(

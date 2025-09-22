@@ -9,17 +9,17 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Fyrri',
-      next: 'Næsti',
-      today: 'Í dag',
-      month: 'Mánuður',
+      next: 'NÃ¦sti',
+      today: 'Ã dag',
+      month: 'MÃ¡nuÃ°ur',
       week: 'Vika',
       day: 'Dagur',
-      list: 'Dagskrá',
+      list: 'DagskrÃ¡',
     },
     weekText: 'Vika',
     allDayText: 'Allan daginn',
     moreLinkText: 'meira',
-    noEventsText: 'Engir viðburðir til að sýna',
+    noEventsText: 'Engir viÃ°burÃ°ir til aÃ° sÃ½na',
   };
 
   return is;

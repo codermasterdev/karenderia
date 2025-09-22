@@ -45,8 +45,8 @@ class QRCodeTest extends QRTestAbstract{
 	}
 
 	public function testIsKanji(){
-		$this->assertTrue($this->qrcode->isKanji('茗荷'));
-		$this->assertFalse($this->qrcode->isKanji('Ã'));
+		$this->assertTrue($this->qrcode->isKanji('èè·'));
+		$this->assertFalse($this->qrcode->isKanji('Ã'));
 	}
 
 	// coverage
@@ -58,7 +58,7 @@ class QRCodeTest extends QRTestAbstract{
 			'jpg'  => [QRCode::OUTPUT_IMAGE_JPG, 'data:image/jpg;base64,'],
 			'svg'  => [QRCode::OUTPUT_MARKUP_SVG, 'data:image/svg+xml;base64,'],
 			'html' => [QRCode::OUTPUT_MARKUP_HTML, '<div><span style="background:'],
-			'text' => [QRCode::OUTPUT_STRING_TEXT, '⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕⭕'.PHP_EOL],
+			'text' => [QRCode::OUTPUT_STRING_TEXT, 'â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­â­'.PHP_EOL],
 			'json' => [QRCode::OUTPUT_STRING_JSON, '[[18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18,18],'],
 		];
 	}

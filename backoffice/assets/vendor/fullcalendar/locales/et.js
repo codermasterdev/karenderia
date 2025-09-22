@@ -9,19 +9,19 @@ FullCalendar.globalLocales.push(function () {
     },
     buttonText: {
       prev: 'Eelnev',
-      next: 'Järgnev',
-      today: 'Täna',
+      next: 'JÃ¤rgnev',
+      today: 'TÃ¤na',
       month: 'Kuu',
-      week: 'Nädal',
-      day: 'Päev',
-      list: 'Päevakord',
+      week: 'NÃ¤dal',
+      day: 'PÃ¤ev',
+      list: 'PÃ¤evakord',
     },
-    weekText: 'näd',
-    allDayText: 'Kogu päev',
+    weekText: 'nÃ¤d',
+    allDayText: 'Kogu pÃ¤ev',
     moreLinkText: function(n) {
       return '+ veel ' + n
     },
-    noEventsText: 'Kuvamiseks puuduvad sündmused',
+    noEventsText: 'Kuvamiseks puuduvad sÃ¼ndmused',
   };
 
   return et;

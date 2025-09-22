@@ -5,12 +5,12 @@
 (function ( $ ) {
 
     var localization = $.spectrum.localization["lt"] = {
-        cancelText: "Atšaukti",
+        cancelText: "AtÅ¡aukti",
         chooseText: "Pasirinkti",
-        clearText: "Išvalyti pasirinkimą",
+        clearText: "IÅ¡valyti pasirinkimÄ",
         noColorSelectedText: "Spalva nepasirinkta",
         togglePaletteMoreText: "Daugiau",
-        togglePaletteLessText: "Mažiau"
+        togglePaletteLessText: "MaÅ¾iau"
     };
 
 })( jQuery );

@@ -9,7 +9,7 @@ use Psr\Http\Message\StreamInterface;
 /**
  * Factory for PSR-7 Request.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 interface RequestFactory
 {

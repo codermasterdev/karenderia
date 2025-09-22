@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Neovlašten pristup!</title>
+<title>NeovlaÅ¡ten pristup!</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Neovlašten pristup!</h1>
+<h1>NeovlaÅ¡ten pristup!</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Nemate odgovarajuće uvjerenje za pristup ovoj stranici.
+Nemate odgovarajuÄe uvjerenje za pristup ovoj stranici.
 
 </p>
 <p>
-Ako mislite da je ovo greška web servera, molimo kontaktirajte <?php echo $data['admin']; ?>.
+Ako mislite da je ovo greÅ¡ka web servera, molimo kontaktirajte <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

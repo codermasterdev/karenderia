@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ar" lang="ar">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>خطأ <?php echo $data['code']; ?></title>
+<title>Ø®Ø·Ø£ <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,16 +19,16 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>خطأ <?php echo $data['code']; ?></h1>
+<h1>Ø®Ø·Ø£ <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-حدث الخطأ أعلاه عندما قام ملقم الويب بمعالجة طلبك.
+Ø­Ø¯Ø« Ø§ÙØ®Ø·Ø£ Ø£Ø¹ÙØ§Ù Ø¹ÙØ¯ÙØ§ ÙØ§Ù ÙÙÙÙ Ø§ÙÙÙØ¨ Ø¨ÙØ¹Ø§ÙØ¬Ø© Ø·ÙØ¨Ù.
 </p>
 <p>
-اذا كنت تعتقد ان هذا الخطأ حدث من ملقم الويب، الرجاء الاتصال <?php echo $data['admin']; ?>.
+Ø§Ø°Ø§ ÙÙØª ØªØ¹ØªÙØ¯ Ø§Ù ÙØ°Ø§ Ø§ÙØ®Ø·Ø£ Ø­Ø¯Ø« ÙÙ ÙÙÙÙ Ø§ÙÙÙØ¨Ø Ø§ÙØ±Ø¬Ø§Ø¡ Ø§ÙØ§ØªØµØ§Ù <?php echo $data['admin']; ?>.
 </p>
 <p>
-شكرا لك.
+Ø´ÙØ±Ø§ ÙÙ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

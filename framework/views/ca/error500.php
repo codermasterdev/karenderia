@@ -23,10 +23,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
 Un error intern ha ocorregut mentre el Servidor Web processava la vostra solcitiud.
-Si creu que aquest error és del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
+Si creu que aquest error Ã©s del servidor, si us plau contacti amb <?php echo $data['admin']; ?>.
 </p>
 <p>
-Gràcies.
+GrÃ cies.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -1,5 +1,5 @@
 /*! DataTables styling integration
- * ©2018 SpryMedia Ltd - datatables.net/license
+ * Â©2018 SpryMedia Ltd - datatables.net/license
  */
 
 (function( factory ){

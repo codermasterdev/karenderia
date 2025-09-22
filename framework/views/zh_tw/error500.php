@@ -19,14 +19,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>內部的伺服器錯誤</h1>
+<h1>å§é¨çä¼ºæå¨é¯èª¤</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-當網頁伺服器正在處理您的請求時, 發生了一個內部錯誤.
-請回報此一問題給 <?php echo $data['admin']; ?>.
+ç¶ç¶²é ä¼ºæå¨æ­£å¨èçæ¨çè«æ±æ, ç¼çäºä¸åå§é¨é¯èª¤.
+è«åå ±æ­¤ä¸åé¡çµ¦ <?php echo $data['admin']; ?>.
 </p>
 <p>
-謝謝.
+è¬è¬.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

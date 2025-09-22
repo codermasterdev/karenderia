@@ -20,7 +20,7 @@ use Symfony\Component\OptionsResolver\OptionsResolver;
  * PSR-18 and HTTPlug Async client based on lib-curl.
  *
  * @license http://opensource.org/licenses/MIT MIT
- * @author  Михаил Красильников <m.krasilnikov@yandex.ru>
+ * @author  ÐÐ¸ÑÐ°Ð¸Ð» ÐÑÐ°ÑÐ¸Ð»ÑÐ½Ð¸ÐºÐ¾Ð² <m.krasilnikov@yandex.ru>
  * @author  Blake Williams <github@shabbyrobe.org>
  *
  * @api
@@ -281,10 +281,10 @@ class Client implements HttpClient, HttpAsyncClient
         /*
          * Some HTTP methods cannot have payload:
          *
-         * - GET — cURL will automatically change method to PUT or POST if we set CURLOPT_UPLOAD or
+         * - GET â cURL will automatically change method to PUT or POST if we set CURLOPT_UPLOAD or
          *   CURLOPT_POSTFIELDS.
-         * - HEAD — cURL treats HEAD as GET request with a same restrictions.
-         * - TRACE — According to RFC7231: a client MUST NOT send a message body in a TRACE request.
+         * - HEAD â cURL treats HEAD as GET request with a same restrictions.
+         * - TRACE â According to RFC7231: a client MUST NOT send a message body in a TRACE request.
          */
         if (!in_array($request->getMethod(), ['GET', 'HEAD', 'TRACE'], true)) {
             $body = $request->getBody();

@@ -48,7 +48,7 @@ class Transfer extends ApiResource
     /**
      * To send funds from your Stripe account to a connected account, you create a new
      * transfer object. Your <a href="#balance">Stripe balance</a> must be able to
-     * cover the transfer amount, or you’ll receive an “Insufficient Funds” error.
+     * cover the transfer amount, or youâll receive an âInsufficient Fundsâ error.
      *
      * @param null|array $params
      * @param null|array|string $options

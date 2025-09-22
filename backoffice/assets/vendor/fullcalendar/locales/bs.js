@@ -8,8 +8,8 @@ FullCalendar.globalLocales.push(function () {
       doy: 7, // The week that contains Jan 1st is the first week of the year.
     },
     buttonText: {
-      prev: 'Prošli',
-      next: 'Sljedeći',
+      prev: 'ProÅ¡li',
+      next: 'SljedeÄi',
       today: 'Danas',
       month: 'Mjesec',
       week: 'Sedmica',
@@ -19,9 +19,9 @@ FullCalendar.globalLocales.push(function () {
     weekText: 'Sed',
     allDayText: 'Cijeli dan',
     moreLinkText: function(n) {
-      return '+ još ' + n
+      return '+ joÅ¡ ' + n
     },
-    noEventsText: 'Nema događaja za prikazivanje',
+    noEventsText: 'Nema dogaÄaja za prikazivanje',
   };
 
   return bs;

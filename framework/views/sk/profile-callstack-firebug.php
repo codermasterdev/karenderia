@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profilová zpráva zásobníka");
+	console.group("ProfilovÃ¡ zprÃ¡va zÃ¡sobnÃ­ka");
 <?php
 foreach($data as $index=>$entry)
 {

@@ -20,10 +20,10 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Ei valtuuksia</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Sinulla ei ole vaadittavia oikeuksia päästäksesi sivulle.
+Sinulla ei ole vaadittavia oikeuksia pÃ¤Ã¤stÃ¤ksesi sivulle.
 </p>
 <p>
-Mikäli uskot tämän olevan palvelimen virhe, ota yhteyttä <?php echo $data['admin']; ?>.
+MikÃ¤li uskot tÃ¤mÃ¤n olevan palvelimen virhe, ota yhteyttÃ¤ <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

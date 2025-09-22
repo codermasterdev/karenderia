@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Звіт профілювання стеку викликів");
+	console.group("ÐÐ²ÑÑ Ð¿ÑÐ¾ÑÑÐ»ÑÐ²Ð°Ð½Ð½Ñ ÑÑÐµÐºÑ Ð²Ð¸ÐºÐ»Ð¸ÐºÑÐ²");
 <?php
 foreach($data as $index=>$entry)
 {

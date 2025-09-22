@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Uautoriseret</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Du har ikke tilstrækkelige rettigheder til at tilgå denne side.
+Du har ikke tilstrÃ¦kkelige rettigheder til at tilgÃ¥ denne side.
 </p>
 <p>
 Hvis du tror at dette er en server-fejl, kontakt venligst <?php echo $data['admin']; ?>.

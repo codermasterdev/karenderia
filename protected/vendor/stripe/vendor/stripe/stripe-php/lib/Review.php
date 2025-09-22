@@ -35,7 +35,7 @@ class Review extends ApiResource
 
     /**
      * Possible string representations of the current, the opening or the closure reason of the review.
-     * Not all of these enumeration apply to all of the ´reason´ fields. Please consult the Review object to
+     * Not all of these enumeration apply to all of the Â´reasonÂ´ fields. Please consult the Review object to
      * determine where these are apply.
      *
      * @see https://stripe.com/docs/api/radar/reviews/object

@@ -2,8 +2,8 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Profilowanie: raport podsumowujący");
-	console.log(" ilość   razem   średnia    min      max   ");
+	console.group("Profilowanie: raport podsumowujÄcy");
+	console.log(" iloÅÄ   razem   Årednia    min      max   ");
 <?php
 foreach($data as $index=>$entry)
 {

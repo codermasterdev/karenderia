@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("Обобщен доклад от профилирането");
+	console.group("ÐÐ±Ð¾Ð±ÑÐµÐ½ Ð´Ð¾ÐºÐ»Ð°Ð´ Ð¾Ñ Ð¿ÑÐ¾ÑÐ¸Ð»Ð¸ÑÐ°Ð½ÐµÑÐ¾");
 <?php
 foreach($data as $index=>$entry)
 {

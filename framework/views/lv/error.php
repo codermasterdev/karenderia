@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Kļūda <?php echo $data['code']; ?></title>
+<title>KÄ¼Å«da <?php echo $data['code']; ?></title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -19,13 +19,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>Kļūda <?php echo $data['code']; ?></h1>
+<h1>KÄ¼Å«da <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Augstāk minētā kļūda notika izpildot Jūsu pieprasījumu.
+AugstÄk minÄtÄ kÄ¼Å«da notika izpildot JÅ«su pieprasÄ«jumu.
 </p>
 <p>
-Ja Jūs uzskatāt, ka šī ir servera kļūda, lūdzu sazinieties ar <?php echo $data['admin']; ?>.
+Ja JÅ«s uzskatÄt, ka Å¡Ä« ir servera kÄ¼Å«da, lÅ«dzu sazinieties ar <?php echo $data['admin']; ?>.
 </p>
 <p>
 Paldies!

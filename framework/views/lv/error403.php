@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="lv" lang="lv">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Nesankcionēta pieeja</title>
+<title>NesankcionÄta pieeja</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,13 +17,13 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Nesankcionēta pieeja</h1>
+<h1>NesankcionÄta pieeja</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Jums nav pietiekošu tiesību, lai piekļūtu šai lapai.
+Jums nav pietiekoÅ¡u tiesÄ«bu, lai piekÄ¼Å«tu Å¡ai lapai.
 </p>
 <p>
-Ja Jūs uzskatāt, ka šī ir servera kļūda, lūdzu sazinieties ar <?php echo $data['admin']; ?>.
+Ja JÅ«s uzskatÄt, ka Å¡Ä« ir servera kÄ¼Å«da, lÅ«dzu sazinieties ar <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('d.m.Y H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Stránka nebola nájdená</title>
+<title>StrÃ¡nka nebola nÃ¡jdenÃ¡</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,14 +17,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Stránka nebola nájdená</h1>
+<h1>StrÃ¡nka nebola nÃ¡jdenÃ¡</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Požadovaná URL stránka nebola nájdená na tomto serveri.
-Ak ste zadali URL manuálne, zkontrolujte prosím jej správnosť a zkúste znovu.
+PoÅ¾adovanÃ¡ URL strÃ¡nka nebola nÃ¡jdenÃ¡ na tomto serveri.
+Ak ste zadali URL manuÃ¡lne, zkontrolujte prosÃ­m jej sprÃ¡vnosÅ¥ a zkÃºste znovu.
 </p>
 <p>
-Ak sa domnievate, že príčinou chyby je webový server, kontaktujte prosím <?php echo $data['admin']; ?>.
+Ak sa domnievate, Å¾e prÃ­Äinou chyby je webovÃ½ server, kontaktujte prosÃ­m <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

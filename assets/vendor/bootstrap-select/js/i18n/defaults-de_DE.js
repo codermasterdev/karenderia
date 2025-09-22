@@ -24,10 +24,10 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Bitte wählen...',
-    noneResultsText: 'Keine Ergebnisse für {0}',
+    noneSelectedText: 'Bitte wÃ¤hlen...',
+    noneResultsText: 'Keine Ergebnisse fÃ¼r {0}',
     countSelectedText: function (numSelected, numTotal) {
-      return (numSelected == 1) ? '{0} Element ausgewählt' : '{0} Elemente ausgewählt';
+      return (numSelected == 1) ? '{0} Element ausgewÃ¤hlt' : '{0} Elemente ausgewÃ¤hlt';
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
@@ -35,8 +35,8 @@
         (numGroup == 1) ? 'Gruppen-Limit erreicht ({n} Element max.)' : 'Gruppen-Limit erreicht ({n} Elemente max.)'
       ];
     },
-    selectAllText: 'Alles auswählen',
-    deselectAllText: 'Nichts auswählen',
+    selectAllText: 'Alles auswÃ¤hlen',
+    deselectAllText: 'Nichts auswÃ¤hlen',
     multipleSeparator: ', '
   };
 })(jQuery);

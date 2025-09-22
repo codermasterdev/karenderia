@@ -20,8 +20,8 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Sidan hittades inte</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Den begärda URL:en hittades inte på denna server.
-Om URL:en matades in manuellt, kontrollera stavningen och försök igen.
+Den begÃ¤rda URL:en hittades inte pÃ¥ denna server.
+Om URL:en matades in manuellt, kontrollera stavningen och fÃ¶rsÃ¶k igen.
 </p>
 <p>
 Vid misstanke om serverfel, kontakta <?php echo $data['admin']; ?>.

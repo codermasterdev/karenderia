@@ -46,14 +46,14 @@ class VerificationSessionService extends \Stripe\Service\AbstractService
      * Creates a VerificationSession object.
      *
      * After the VerificationSession is created, display a verification modal using the
-     * session <code>client_secret</code> or send your users to the session’s
+     * session <code>client_secret</code> or send your users to the sessionâs
      * <code>url</code>.
      *
-     * If your API key is in test mode, verification checks won’t actually process,
+     * If your API key is in test mode, verification checks wonât actually process,
      * though everything else will occur as if in live mode.
      *
      * Related guide: <a href="/docs/identity/verify-identity-documents">Verify your
-     * users’ identity documents</a>.
+     * usersâ identity documents</a>.
      *
      * @param null|array $params
      * @param null|array|\Stripe\Util\RequestOptions $opts
@@ -79,7 +79,7 @@ class VerificationSessionService extends \Stripe\Service\AbstractService
      * cancel it.
      *
      * The redaction process may take up to four days. When the redaction process is in
-     * progress, the VerificationSession’s <code>redaction.status</code> field will be
+     * progress, the VerificationSessionâs <code>redaction.status</code> field will be
      * set to <code>processing</code>; when the process is finished, it will change to
      * <code>redacted</code> and an <code>identity.verification_session.redacted</code>
      * event will be emitted.

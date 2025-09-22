@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>접근 불가</title>
+<title>ì ê·¼ ë¶ê°</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>접근 불가</h1>
+<h1>ì ê·¼ ë¶ê°</h1>
 <p>
-현재 시스템 점검 중입니다. 조만간 다시 찾아뵙겠습니다.
+íì¬ ìì¤í ì ê² ì¤ìëë¤. ì¡°ë§ê° ë¤ì ì°¾ìëµê² ìµëë¤.
 </p>
 <p>
-고맙습니다.
+ê³ ë§ìµëë¤.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

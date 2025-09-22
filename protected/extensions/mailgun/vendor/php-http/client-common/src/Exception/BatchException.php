@@ -12,7 +12,7 @@ use Http\Client\Exception\TransferException;
  *
  * It gives access to a BatchResult with the request-exception and request-response pairs.
  *
- * @author Márk Sági-Kazár <mark.sagikazar@gmail.com>
+ * @author MÃ¡rk SÃ¡gi-KazÃ¡r <mark.sagikazar@gmail.com>
  */
 final class BatchException extends TransferException
 {

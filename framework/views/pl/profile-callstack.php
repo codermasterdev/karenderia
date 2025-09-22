@@ -2,7 +2,7 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Profilowanie: raport stosu wywołań
+			Profilowanie: raport stosu wywoÅaÅ
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">

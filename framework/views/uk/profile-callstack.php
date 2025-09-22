@@ -2,12 +2,12 @@
 <table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="2">
-			Звіт профілювання стеку викликів
+			ÐÐ²ÑÑ Ð¿ÑÐ¾ÑÑÐ»ÑÐ²Ð°Ð½Ð½Ñ ÑÑÐµÐºÑ Ð²Ð¸ÐºÐ»Ð¸ÐºÑÐ²
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th>Процедура</th>
-		<th>Час (с)</th>
+	    <th>ÐÑÐ¾ÑÐµÐ´ÑÑÐ°</th>
+		<th>Ð§Ð°Ñ (Ñ)</th>
 	</tr>
 <?php
 foreach($data as $index=>$entry)

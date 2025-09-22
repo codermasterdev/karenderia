@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fi" lang="fi">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Sisäinen palvelinvirhe</title>
+<title>SisÃ¤inen palvelinvirhe</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,11 +17,11 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Sisäinen palvelinvirhe</h1>
+<h1>SisÃ¤inen palvelinvirhe</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Sisäinen virhe ilmeni palvelimen käsitellessä pyyntöä.
-Voit raportoida ongelman ottamalla yhteyttä <?php echo $data['admin']; ?>.
+SisÃ¤inen virhe ilmeni palvelimen kÃ¤sitellessÃ¤ pyyntÃ¶Ã¤.
+Voit raportoida ongelman ottamalla yhteyttÃ¤ <?php echo $data['admin']; ?>.
 </p>
 <p>
 Kiitos.

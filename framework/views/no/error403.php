@@ -20,7 +20,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Godkjenningsfeil</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-Du har ikke tilstrekkelig rettigheter til å nå denne siden.
+Du har ikke tilstrekkelig rettigheter til Ã¥ nÃ¥ denne siden.
 </p>
 <p>
 Ved mistanke om at dette er en server-feil, vennligst kontakt <?php echo $data['admin']; ?>.

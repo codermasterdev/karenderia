@@ -21,8 +21,8 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Demande Incorrecte</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-La demande n'a pas pu être interprétée par le serveur, due à une mauvaise syntaxe.
-Merci de ne pas répeter la requete sans modifications.
+La demande n'a pas pu Ãªtre interprÃ©tÃ©e par le serveur, due Ã  une mauvaise syntaxe.
+Merci de ne pas rÃ©peter la requete sans modifications.
 </p>
 <p>
 Si vous pensez qu'il s'agit d'une erreur du serveur, veuillez contacter <?php echo $data['admin']; ?>.

@@ -13,7 +13,7 @@ namespace MyCLabs\Enum;
  *
  * @author Matthieu Napoli <matthieu@mnapoli.fr>
  * @author Daniel Costa <danielcosta@gmail.com>
- * @author Mirosław Filip <mirfilip@gmail.com>
+ * @author MirosÅaw Filip <mirfilip@gmail.com>
  *
  * @psalm-template T
  * @psalm-immutable

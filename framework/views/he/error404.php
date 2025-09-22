@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>עמוד לא קיים</title>
+<title>×¢××× ×× ×§×××</title>
 <style type="text/css">
 /*<![CDATA[*/
 html { direction:rtl; text-align:right; }
@@ -18,14 +18,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>עמוד לא קיים</h1>
+<h1>×¢××× ×× ×§×××</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-העמוד שחיפשת לא קיים או לא נמצא.
-אנא וודא שהזנת את הקישור בצורה הנכונה.
+××¢××× ×©×××¤×©×ª ×× ×§××× ×× ×× × ××¦×.
+×× × ×××× ×©××× ×ª ××ª ××§××©××¨ ××¦××¨× ×× ××× ×.
 </p>
 <p>
-אם הינך חושב שזוהי בעיה בשרת אנא צור קשר עם, <?php echo $data['admin']; ?>.
+×× ××× × ×××©× ×©×××× ××¢×× ××©×¨×ª ×× × ×¦××¨ ×§×©×¨ ×¢×, <?php echo $data['admin']; ?>.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

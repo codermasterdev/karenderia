@@ -10445,8 +10445,8 @@
     function isLayoutViewport() {
       // Not Safari
       return !/^((?!chrome|android).)*safari/i.test(getUAString()); // Feature detection for this fails in various ways
-      // • Always-visible scrollbar or not
-      // • Width of <html>, etc.
+      // â¢ Always-visible scrollbar or not
+      // â¢ Width of <html>, etc.
       // const vV = win.visualViewport;
       // return vV ? Math.abs(win.innerWidth / vV.scale - vV.width) < 0.5 : true;
     }

@@ -8,7 +8,7 @@ namespace Stripe\Climate;
  * A supplier of carbon removal.
  *
  * @property string $id Unique identifier for the object.
- * @property string $object String representing the object’s type. Objects of the same type share the same value.
+ * @property string $object String representing the objectâs type. Objects of the same type share the same value.
  * @property string $info_url Link to a webpage to learn more about the supplier.
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
  * @property \Stripe\StripeObject[] $locations The locations in which this supplier operates.

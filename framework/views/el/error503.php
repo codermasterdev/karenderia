@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Μη Διαθέσιμη Υπηρεσία</title>
+<title>ÎÎ· ÎÎ¹Î±Î¸Î­ÏÎ¹Î¼Î· Î¥ÏÎ·ÏÎµÏÎ¯Î±</title>
 <style type="text/css">
 /*<![CDATA[*/
 body {font-family:"Verdana";font-weight:normal;color:black;background-color:white;}
@@ -17,12 +17,12 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </style>
 </head>
 <body>
-<h1>Μη Διαθέσιμη Υπηρεσία</h1>
+<h1>ÎÎ· ÎÎ¹Î±Î¸Î­ÏÎ¹Î¼Î· Î¥ÏÎ·ÏÎµÏÎ¯Î±</h1>
 <p>
-Αυτή τη στιγμή, το σύστημα είναι σε συντήρηση. Παρακαλούμε δοκιμάστε αργότερα.
+ÎÏÏÎ® ÏÎ· ÏÏÎ¹Î³Î¼Î®, ÏÎ¿ ÏÏÏÏÎ·Î¼Î± ÎµÎ¯Î½Î±Î¹ ÏÎµ ÏÏÎ½ÏÎ®ÏÎ·ÏÎ·. Î Î±ÏÎ±ÎºÎ±Î»Î¿ÏÎ¼Îµ Î´Î¿ÎºÎ¹Î¼Î¬ÏÏÎµ Î±ÏÎ³ÏÏÎµÏÎ±.
 </p>
 <p>
-Ευχαριστούμε.
+ÎÏÏÎ±ÏÎ¹ÏÏÎ¿ÏÎ¼Îµ.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

@@ -17,7 +17,7 @@ use chillerlan\QRCode\Data\Byte;
 class ByteTest extends DatainterfaceTestAbstract{
 
 	protected $FQCN = Byte::class;
-	protected $testdata = '[¯\_(ツ)_/¯]';
+	protected $testdata = '[Â¯\_(ã)_/Â¯]';
 	protected $expected = [
 		64, 245, 188, 42, 245, 197, 242, 142,
 		56, 56, 66, 149, 242, 252, 42, 245,

@@ -22,7 +22,7 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 <h1>Error <?php echo $data['code']; ?></h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-El error mencionado ocurrió cuando el Servidor Web estaba procesando su solicitud.
+El error mencionado ocurriÃ³ cuando el Servidor Web estaba procesando su solicitud.
 </p>
 <p>
 Si piensa que este es un error del servidor, por favor contacte a <?php echo $data['admin']; ?>.

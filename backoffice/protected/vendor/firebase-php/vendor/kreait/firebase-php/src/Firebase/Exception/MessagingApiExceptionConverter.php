@@ -141,7 +141,7 @@ class MessagingApiExceptionConverter
             // We can't afford to throw exceptions in an exception handler :)
             // Here, if the Retry-After header doesn't have a numeric value
             // or a date that can be handled by DateTimeImmutable, we just
-            // throw it away, sorry not sorry ¯\_(ツ)_/¯
+            // throw it away, sorry not sorry Â¯\_(ã)_/Â¯
             return null;
         }
     }

@@ -22,7 +22,7 @@
            <q-space class="q-pa-sm"></q-space>
             <p>Thank you for your payment! Your transaction is currently pending. 
                 <br/>
-                We’ll notify you as soon as it is confirmed. Please check your email for updates, or feel free to contact us if you have any questions.
+                Weâll notify you as soon as it is confirmed. Please check your email for updates, or feel free to contact us if you have any questions.
             </p>            
             <q-space class="q-pa-md"></q-space>
             <q-btn color="primary" size="17px" label="Back to home" no-caps unelevated href="<?php echo $redirect_url;?>" ></q-btn>

@@ -56,13 +56,13 @@ table.dataTable thead > tr > th.dt-orderable-asc:before, table.dataTable thead >
 table.dataTable thead > tr > td.dt-orderable-asc:before,
 table.dataTable thead > tr > td.dt-orderable-desc:before {
   bottom: 50%;
-  content: "▴";
+  content: "â´";
 }
 table.dataTable thead > tr > th.dt-orderable-asc:after, table.dataTable thead > tr > th.dt-orderable-desc:after,
 table.dataTable thead > tr > td.dt-orderable-asc:after,
 table.dataTable thead > tr > td.dt-orderable-desc:after {
   top: 50%;
-  content: "▾";
+  content: "â¾";
 }
 table.dataTable thead > tr > th.dt-ordering-asc:before, table.dataTable thead > tr > th.dt-ordering-desc:after,
 table.dataTable thead > tr > td.dt-ordering-asc:before,

@@ -1,15 +1,15 @@
 <!-- start log messages -->
-<table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;background:#EEEEEE;color:#666666;">
+<table class="yiiLog" width="100%" cellpadding="2" style="border-spacing:1px;font:11px Verdana, 'ã¡ã¤ãªãª', Meiryo, 'ï¼­ï¼³ ï¼°ã´ã·ãã¯', 'ãã©ã®ãè§ã´ Pro W3', 'Hiragino Kaku Gothic ProN', sans-serif;background:#EEEEEE;color:#666666;">
 	<tr>
 		<th style="background:black;color:white;" colspan="5">
-			アプリケーションログ
+			ã¢ããªã±ã¼ã·ã§ã³ã­ã°
 		</th>
 	</tr>
 	<tr style="background-color: #ccc;">
-	    <th style="width:120px">タイムスタンプ</th>
-		<th>レベル</th>
-		<th>カテゴリ</th>
-		<th>メッセージ</th>
+	    <th style="width:120px">ã¿ã¤ã ã¹ã¿ã³ã</th>
+		<th>ã¬ãã«</th>
+		<th>ã«ãã´ãª</th>
+		<th>ã¡ãã»ã¼ã¸</th>
 	</tr>
 <?php
 $colors=array(

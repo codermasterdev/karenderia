@@ -63,7 +63,7 @@ class DisputeService extends \Stripe\Service\AbstractService
 
     /**
      * When you get a dispute, contacting your customer is always the best first step.
-     * If that doesn’t work, you can submit evidence to help us resolve the dispute in
+     * If that doesnât work, you can submit evidence to help us resolve the dispute in
      * your favor. You can do this in your <a
      * href="https://dashboard.stripe.com/disputes">dashboard</a>, but if you prefer,
      * you can use the API to submit evidence programmatically.

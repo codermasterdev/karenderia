@@ -24,19 +24,19 @@
 
 (function ($) {
   $.fn.selectpicker.defaults = {
-    noneSelectedText: 'Chưa chọn',
-    noneResultsText: 'Không có kết quả cho {0}',
+    noneSelectedText: 'ChÆ°a chá»n',
+    noneResultsText: 'KhÃ´ng cÃ³ káº¿t quáº£ cho {0}',
     countSelectedText: function (numSelected, numTotal) {
-      return '{0} mục đã chọn';
+      return '{0} má»¥c ÄÃ£ chá»n';
     },
     maxOptionsText: function (numAll, numGroup) {
       return [
-        'Không thể chọn (giới hạn {n} mục)',
-        'Không thể chọn (giới hạn {n} mục)'
+        'KhÃ´ng thá» chá»n (giá»i háº¡n {n} má»¥c)',
+        'KhÃ´ng thá» chá»n (giá»i háº¡n {n} má»¥c)'
       ];
     },
-    selectAllText: 'Chọn tất cả',
-    deselectAllText: 'Bỏ chọn',
+    selectAllText: 'Chá»n táº¥t cáº£',
+    deselectAllText: 'Bá» chá»n',
     multipleSeparator: ', '
   };
 })(jQuery);

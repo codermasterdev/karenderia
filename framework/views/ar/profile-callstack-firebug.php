@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("تقرير تنميط استدعاءات المكدس");
+	console.group("ØªÙØ±ÙØ± ØªÙÙÙØ· Ø§Ø³ØªØ¯Ø¹Ø§Ø¡Ø§Øª Ø§ÙÙÙØ¯Ø³");
 <?php
 foreach($data as $index=>$entry)
 {

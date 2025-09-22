@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>שגיאת שרת פנימית</title>
+<title>×©××××ª ×©×¨×ª ×¤× ××××ª</title>
 
 <style type="text/css">
 /*<![CDATA[*/
@@ -20,14 +20,14 @@ p {font-family:"Verdana";font-weight:normal;color:black;font-size:9pt;margin-top
 </head>
 
 <body>
-<h1>שגיאת שרת פנימית</h1>
+<h1>×©××××ª ×©×¨×ª ×¤× ××××ª</h1>
 <h2><?php echo nl2br(CHtml::encode($data['message'])); ?></h2>
 <p>
-התרחשה שגיאת שרת פנימית בזמן ביצוע הבקשה.
-אנא צור קשר עם <?php echo $data['admin']; ?> כדי לדווח על תקלה זו.
+××ª×¨××©× ×©××××ª ×©×¨×ª ×¤× ××××ª ×××× ×××¦××¢ ×××§×©×.
+×× × ×¦××¨ ×§×©×¨ ×¢× <?php echo $data['admin']; ?> ××× ××××× ×¢× ×ª×§×× ××.
 </p>
 <p>
-תודה.
+×ª×××.
 </p>
 <div class="version">
 <?php echo date('Y-m-d H:i:s',$data['time']) .' '. $data['version']; ?>

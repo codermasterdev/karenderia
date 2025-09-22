@@ -2,7 +2,7 @@
 /*<![CDATA[*/
 if(typeof(console)=='object')
 {
-	console.group("程序概要分析 - 堆栈调用报告");
+	console.group("ç¨åºæ¦è¦åæ - å æ è°ç¨æ¥å");
 <?php
 foreach($data as $index=>$entry)
 {

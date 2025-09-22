@@ -27,14 +27,14 @@ class SubscriptionItemService extends \Stripe\Service\AbstractService
 
     /**
      * For the specified subscription item, returns a list of summary objects. Each
-     * object in the list provides usage information that’s been summarized from
+     * object in the list provides usage information thatâs been summarized from
      * multiple usage records and over a subscription billing period (e.g., 15 usage
      * records in the month of September).
      *
      * The list is sorted in reverse-chronological order (newest first). The first list
-     * item represents the most current usage period that hasn’t ended yet. Since new
+     * item represents the most current usage period that hasnât ended yet. Since new
      * usage records can still be added, the returned summary information for the
-     * subscription item’s ID should be seen as unstable until the subscription billing
+     * subscription itemâs ID should be seen as unstable until the subscription billing
      * period ends.
      *
      * @param string $parentId
@@ -78,7 +78,7 @@ class SubscriptionItemService extends \Stripe\Service\AbstractService
      *
      * The default calculation for usage is to add up all the <code>quantity</code>
      * values of the usage records within a billing period. You can change this default
-     * behavior with the billing plan’s <code>aggregate_usage</code> <a
+     * behavior with the billing planâs <code>aggregate_usage</code> <a
      * href="/docs/api/plans/create#create_plan-aggregate_usage">parameter</a>. When
      * there is more than one usage record with the same timestamp, Stripe adds the
      * <code>quantity</code> values together. In most cases, this is the desired

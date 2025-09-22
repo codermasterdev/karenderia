@@ -13,7 +13,7 @@ namespace Vonage\SMS\Message;
 
 class SMS extends OutboundMessage
 {
-    public const GSM_7_CHARSET = "\n\f\r !\"\#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~ ¡£¤¥§¿ÄÅÆÇÉÑÖØÜßàäåæèéìñòöøùüΓΔΘΛΞΠΣΦΨΩ€";
+    public const GSM_7_CHARSET = "\n\f\r !\"\#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_abcdefghijklmnopqrstuvwxyz{|}~ Â¡Â£Â¤Â¥Â§Â¿ÃÃÃÃÃÃÃÃÃÃÃ Ã¤Ã¥Ã¦Ã¨Ã©Ã¬Ã±Ã²Ã¶Ã¸Ã¹Ã¼ÎÎÎÎÎÎ Î£Î¦Î¨Î©â¬";
 
     protected ?string $contentId;
 

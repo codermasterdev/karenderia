@@ -23,7 +23,7 @@ class SettlementTest extends TestCase
      */
     public function testCreateOndemandSettlement()
     {
-      $data = $this->api->settlement->createOndemandSettlement(array("amount"=> 1221, "settle_full_balance"=> false, "description"=>"Testing","notes" => array("notes_key_1"=> "Tea, Earl Grey, Hot","notes_key_2"=> "Tea, Earl Grey… decaf.")));
+      $data = $this->api->settlement->createOndemandSettlement(array("amount"=> 1221, "settle_full_balance"=> false, "description"=>"Testing","notes" => array("notes_key_1"=> "Tea, Earl Grey, Hot","notes_key_2"=> "Tea, Earl Greyâ¦ decaf.")));
       
       $this->assertTrue(is_array($data->toArray()));
 
